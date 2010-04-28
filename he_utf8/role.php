@@ -135,6 +135,7 @@ $string['resetrole'] = 'אתחל מחדש לברירות המחדל';
 $string['resetrolenolegacy'] = 'נקה את ההרשאות';
 $string['resetrolesure'] = 'האם אתה בטוח שברצונך לאתחל לברירות המחדל את התפקיד \"$a->name ($a->shortname)\" ?<p></p> ברירות המחדל נלקחות מיכולות הירושה הנבחרת ($a->legacytype).';
 $string['resetrolesurenolegacy'] = 'האם אתה בטוח שברצונך לנקות את כל ההרשאות שמוגדרות לתפקיד זה תפקיד \"$a->name ($a->shortname)\"?';
+$string['restore:createuser'] = 'יצירת משתמשים בשחזור';
 $string['restore:rolldates'] = 'מאפשר לגלול תאריכי הגדרת פעילות בשחזור';
 $string['restore:userinfo'] = 'שחזר מידע משתמש';
 $string['risks'] = 'סיכונים';

@@ -24,6 +24,7 @@ $string['nosharedwildcard'] = 'בקטגוריה זו אין תווים כללי�
 $string['possiblehdr'] = 'תווים כללים אפשריים נמצאים רק בטקסט של השאלה';
 $string['tolerance'] = 'מרווח סובלנות &plusmn;';
 $string['trueanswerinsidelimits'] = 'תשובה נכונה: $a->correct בטווח ערכי אמת $a->true';
+$string['trueansweroutsidelimits'] = '<span class=\"error\"> שגיאה בתשובה הנכונה: $a->correct מחוץ לגבולות ערך ה\"אמת\" $a->true</span>';
 $string['updatecategory'] = 'עדכן את הקטגוריה';
 $string['usedinquestion'] = 'משמש בשאלה';
 $string['youmustenteramultiplierhere'] = 'כאן חובה עלייך להכניס מכפיל';

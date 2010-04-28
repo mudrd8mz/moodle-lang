@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.9.4+ (Build: 20090211) (2007101540)
+      // install.php - created with Moodle 1.9.8+ (Build: 20100407) (2007101580)
 
 
 $string['admindirerror'] = 'ספריית מנהל המערכת המצויינת שגויה';
@@ -71,6 +71,12 @@ $string['databasesettingssub_mssql_n'] = '</b> סוג:</b> SQL*server (UTF-8 ena
 $string['databasesettingssub_mysql'] = '<b>סוג:</b> MySQL<br />
 <b>מחשב מארח:</b> לדוגמה localhost או db.isp.com<br />
 <b>שם:</b> database שם מסד הנתונים למשל-moodle<br />
+<b>שם משתמש:</b> שם משתמש מסד הנתונים שלך<br />
+<b>סיסמה:</b> סיסמת מסד הנתונים שלך<br />
+<b>תחילית הטבלאות:</b> תחילית רשות לכל שמות הטבלאות (אפשרי)';
+$string['databasesettingssub_mysqli'] = '<b>סוג:</b> Improved MySQL<br />
+<b>מחשב מארח:</b> לדוגמה localhost או db.isp.com<br />
+<b>שם:</b> שם מסד הנתונים למשל-moodle<br />
 <b>שם משתמש:</b> שם משתמש מסד הנתונים שלך<br />
 <b>סיסמה:</b> סיסמת מסד הנתונים שלך<br />
 <b>תחילית הטבלאות:</b> תחילית רשות לכל שמות הטבלאות (אפשרי)';
@@ -205,6 +211,7 @@ $string['mssql_n'] = 'SQL*Server with UTF-8 support (mssql_n)';
 $string['mssqlextensionisnotpresentinphp'] = 'PHP לא הוגדר כהלכה עם הרחבת MSSQL בכדי שהוא יוכל לתקשר עם SQL*SERVER. אנא בדוק את קובץ הגדרות הPHP שלך- php.ini או הדר את ה-PHP שלך.';
 $string['mysql'] = 'MySQL (mysql)';
 $string['mysqlextensionisnotpresentinphp'] = 'PHP לא הוגדר כהלכה עם הרחבת MySQL בכדי שהוא יוכל לתקשר עם MySQL. אנא בדוק את קובץ הגדרות הPHP שלך- php.ini או הדר את ה-PHP שלך.';
+$string['mysqli'] = 'Improved MySQL (mysqli)';
 $string['mysqliextensionisnotpresentinphp'] = 'PHP לא הוגדר נכון עם הרחבת ה-MYSQLi כך שהוא יוכל להתקשר עם MYSQL. אנא בדוק את הגדרות ה-php.ini שלך או הרץ את תוכנת ה-PHP שוב. MYSQLi לא זמינה עבור PHP4.';
 $string['oci8po'] = 'Oracle (oci8po)';
 $string['ociextensionisnotpresentinphp'] = 'PHP לא הוגדר כהלכה עם הרחבת OCI8 בכדי שהוא יוכל לתקשר עם Oracle. אנא בדוק את קובץ הגדרות הPHP שלך- php.ini או הדר את ה-PHP שלך.';
@@ -240,7 +247,7 @@ Moodle דורש תמיכת מושב ולא יכול לעבוד בלעדיו.
 מושבים (sessions) ניתנים לאיפשור בקובץ php.ini... חפש את פרמטר session.auto_start';
 $string['skipdbencodingtest'] = 'דלג על DB Encoding Test';
 $string['welcomep10'] = '$a->installername ($a->installerversion)';
-$string['welcomep20'] = 'הינך רואה את עמוד זה מפני שהתקנת והפעלת בהלכה את <strong> $a-packname $a->packversion 
+$string['welcomep20'] = 'הינך רואה את עמוד זה מפני שהתקנת והפעלת בהלכה את <strong> \$a-packname $a->packversion 
 </strong>
 חבילה במחשבך. ברכותינו!';
 $string['welcomep30'] = 'גירסת <strong>$a->installername</strong> כוללת את היישומים ליצור סביבה אשר בה <strong> Moodle </strong>

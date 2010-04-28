@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_grading.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
+      // quiz_grading.php - created with Moodle 1.9.8+ (Build: 20100407) (2007101580)
 
 
 $string['essayonly'] = 'לשאלות הבאות צריך לתת ציון באופן ידני.';
@@ -14,5 +14,8 @@ $string['gradingnextungraded'] = 'נסיון מענה מס\' $a הבא שלא נ
 $string['gradingnotallowed'] = 'אין לך היתר לתת ציון לתגובות או תשובות באופן ידני';
 $string['gradingungraded'] = 'נסיון מענה $a שלא נבדק';
 $string['gradinguser'] = 'נסיונות מענה עבור $a';
+$string['questiontitle'] = 'שאלה $a->number : \"$a->name\" ({$a->openspan}$a->gradedattempts{$a->closespan} / $a->totalattempts
+נסיונות
+{$a->openspan}ניתן ציון{$a->closespan}).';
 
 ?>
