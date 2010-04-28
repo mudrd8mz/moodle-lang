@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9.6+ (Build: 20091028) (2007101560)
+      // error.php - created with Moodle 1.9.8+ (Build: 20100407) (2007101580)
 
 
 $string['adminprimarynoedit'] = 'אחרים לא יכולים לערוך את המנהל הראשי';
@@ -29,7 +29,7 @@ $string['coursegroupunknown'] = 'לא מפורט קורס התואם את קבו
 $string['csvcolumnduplicates'] = 'התגלו עמודות כפולות.';
 $string['csvemptyfile'] = 'קובץ ה-CVS ריק.';
 $string['csvfewcolumns'] = 'אין מספיק עמודות, אנא וודא את הגדרת התוחם.';
-$string['csvweirdcolumns'] = 'קובץ CVS פגום מספר העמודות לא קבוע';
+$string['csvweirdcolumns'] = 'פורמט קובץ CVS פגום מספר העמודות לא קבוע';
 $string['dbupdatefailed'] = 'עדכון מסד הנתונים כשל.';
 $string['downloadedfilecheckfailed'] = 'נכשלה בדיקת הקובץ המורד.';
 $string['duplicateusername'] = 'שם משתמש כפול - מדלג על הרשומה';

@@ -2,7 +2,7 @@
       // enrol_flatfile.php - created with Moodle 2.0 dev (Build: 20080327) (2008030700)
 
 
-$string['description'] = 'שיטה זו תבדוק ותעבד באופן שיטתי קובץ טקסט שפורמט באופן מיוחד במיקום אשר אותו אתה תפרט. 
+$string['description'] = 'שיטה זו תבדוק ותעבד באופן שיטתי קובץ טקסט ש באופן מיוחד במיקום אשר אותו אתה תפרט. 
 הקובץ הינו קובץ המופרד על ידי פסיק, ומונח כי יש בו ארבעה או שישה שדות בכל שורה:
 <pre>
 * operation, role, idnumber(user), idnumber(course) [, starttime, endtime]

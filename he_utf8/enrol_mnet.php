@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // enrol_mnet.php - created with Moodle 1.9 Beta 4 (2007101507)
+      // enrol_mnet.php - created with Moodle 1.9.8+ (Build: 20100407) (2007101580)
 
 
 $string['allcategories'] = '$a קטגוריות פוטנציאליות';
 $string['allcourses'] = '$a קורסים פוטנציאליים';
-$string['allow_allcourses'] = 'אפשר הירשמויות בכל הקורסים החיצוניים';
+$string['allow_allcourses'] = 'אפשר הרשמות בכל הקורסים המרוחקים';
+$string['allow_allcourses2'] = 'הרשה הרשמה עבור משתמשים מרוחקיםבכל הקורסים באתר Moodle זה.';
 $string['allowedcategories'] = '$a קטגוריות מורשות';
 $string['allowedcourses'] = '$a קורסים מורשים';
 $string['allowedcourseslinktext'] = 'ערוך את הקורסים והקטגוריות המורשות כאן.';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
+      // glossary.php - created with Moodle 1.9.8+ (Build: 20100407) (2007101580)
 
 
 $string['addcomment'] = 'הוסף הערה';
@@ -41,7 +41,7 @@ $string['cnfdefaultmode'] = 'הגדר את המבנה שיוצג לפי בריר
 $string['cnffullmatch'] = 'הגדר האם לפי ברירת המחדל, מונח, מרגע שקושר, צריך להתאים לאותיות הרישיות של טקסט המטרה.';
 $string['cnflinkentry'] = 'הגדר אם כברירת המחדל יש ליצור קישורים אוטומטיים למונחים.';
 $string['cnflinkglossaries'] = 'הגדר אם כברירת המחדל יש ליצור קישורים אוטומטיים לאגרון המונחים.';
-$string['cnfrelatedview'] = 'הגדר את עיצוב התצוגה שישמש ליצירת קישורים אוטומטיים וצפייה בערכים.';
+$string['cnfrelatedview'] = 'הגדר את מבנה התצוגה שישמש ליצירת קישורים אוטומטיים וצפייה בערכים.';
 $string['cnfshowgroup'] = 'הגדר האם תוצג ההפרדה בין הקבוצות, או לא.';
 $string['cnfsortkey'] = 'בחר את מפתח המיון שישמש כברירת המחדל.';
 $string['cnfsortorder'] = 'הגדר את סדר המיון שישמש כברירת המחדל.';
@@ -71,7 +71,7 @@ $string['deletingcomment'] = 'מוחק את ההערה';
 $string['deletingnoneemptycategory'] = 'מחיקת קטגוריה זו לא תמחוק את המונחים שהיא מכילה - הם יסומנו כללא-קטגוריה.';
 $string['descending'] = '(יורד)';
 $string['destination'] = 'יעד';
-$string['displayformat'] = 'עיצוב תצוגה';
+$string['displayformat'] = 'מבנה התצוגה';
 $string['displayformatcontinuous'] = 'רציף בלי מחבר';
 $string['displayformatdictionary'] = 'פשוט, סגנון מילוני';
 $string['displayformatencyclopedia'] = 'אנציקלופדיה';
@@ -79,7 +79,7 @@ $string['displayformatentrylist'] = 'רשימת מונחים';
 $string['displayformatfaq'] = 'שאלות ותשובות';
 $string['displayformatfullwithauthor'] = 'מלא עם מחבר';
 $string['displayformatfullwithoutauthor'] = 'מלא בלי מחבר';
-$string['displayformats'] = 'עיצובי תצוגה';
+$string['displayformats'] = 'מבני התצוגה';
 $string['displayformatssetup'] = 'הגדרת תצורת עיצובי התצוגה';
 $string['duplicateentry'] = 'מונח כפול';
 $string['editalways'] = 'ערוך תמיד';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
+      // role.php - created with Moodle 1.9.8+ (Build: 20100407) (2007101580)
 
 
 $string['addrole'] = 'הוסף  תפקיד חדש';
@@ -162,8 +162,8 @@ $string['site:import'] = 'ייבא לתוך קורס קורסים אחרים';
 $string['site:langeditlocal'] = 'התאם את התרגום המקומי';
 $string['site:langeditmaster'] = 'ערוך את ערכות השפה הראשיות';
 $string['site:manageblocks'] = 'נהל את הבלוקים ברמת האתר';
-$string['site:mnetloginfromremote'] = 'התחבר למערכת ממוודל חיצוני';
-$string['site:mnetlogintoremote'] = 'שוטט למוודל חיצוני';
+$string['site:mnetloginfromremote'] = 'התחבר למערכת ממוודל מרוחק';
+$string['site:mnetlogintoremote'] = 'שוטט למוודל מרוחק';
 $string['site:readallmessages'] = 'קרא את כל ההודעות באתר';
 $string['site:restore'] = 'שחזר קורסים';
 $string['site:sendmessage'] = 'שלח הודעות לכל משתמש';

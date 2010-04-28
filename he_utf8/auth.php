@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
+      // auth.php - created with Moodle 1.9.8+ (Build: 20100407) (2007101580)
 
 
 $string['CASform'] = 'בחירת אימות';
@@ -73,7 +73,7 @@ $string['auth_dbname'] = 'שם בסיס הנתונים עצמו';
 $string['auth_dbname_key'] = 'שם ה-DB';
 $string['auth_dbpass'] = 'סיסמה המתאימה לשם המשתמש שמופיע לעיל';
 $string['auth_dbpass_key'] = 'סיסמה';
-$string['auth_dbpasstype'] = '<p>הגדירו את המבנה ששדה הסיסמה עושה בו שימוש. קידוד MD5 הוא יעיל לשימוש להתחברות לאפליקציות רשת נפוצות נוספות כמו PostNuke..</p> <p>השתמשו ב\'חיצוני\' אם ברצונכם שה-DB החיצוני ינהל את שמות המשתמשים וכתובות הדוא\"ל, בעוד שמוודל ינהל את הסיסמאות. אם אתם משתמשים ב\'פנימי\' <i>חובה</i> עליכם לספק שדה בעל כתובת דוא\"ל מיושבת ב-DB החיצוני, ולהריץ את admin/cron.php על בסיס קבוע. מוודל ישלח למשתמשים חדשים הודעת דוא\"ל ובה סיסמה זמנית. </p>';
+$string['auth_dbpasstype'] = '<p>ציינו את המבנה כך ששדה הסיסמה עושה בו שימוש. קידוד MD5 הוא יעיל לשימוש להתחברות לאפליקציות רשת נפוצות נוספות כמו PostNuke..</p> <p>השתמשו ב\'חיצוני\' אם ברצונכם שה-DB החיצוני ינהל את שמות המשתמשים וכתובות הדוא\"ל, בעוד שמוודל ינהל את הסיסמאות. אם אתם משתמשים ב\'פנימי\' <i>חובה</i> עליכם לספק שדה בעל כתובת דוא\"ל מיושבת ב-DB החיצוני, ולהריץ את admin/cron.php על בסיס קבוע. מוודל ישלח למשתמשים חדשים הודעת דוא\"ל ובה סיסמה זמנית. </p>';
 $string['auth_dbpasstype_key'] = 'פורמט הסיסמה';
 $string['auth_dbreviveduser'] = 'משתמש שהוקם מחדש $a[0] מספר זיהוי $a[1]';
 $string['auth_dbrevivedusererror'] = 'חלה שגיאה במהלך הקמת המשתמש $a מחדש';
@@ -191,7 +191,7 @@ $string['auth_ldap_opt_deref'] = 'קובע כיצד מתייחסים לכינו�
 \"לא\" (LDAP_DEREF_NEVER) או \"כן\" 
 (LDAP_DEREF_ALWAYS).';
 $string['auth_ldap_opt_deref_key'] = 'התייחסות לשמות נרדפים';
-$string['auth_ldap_passtype'] = 'פרט את הפורמט של סיסמאות חדשות או כאלה ששונו בשרת ה-LDAP.';
+$string['auth_ldap_passtype'] = 'ציין את הפורמט של סיסמאות חדשות או כאלה ששונו בשרת ה-LDAP.';
 $string['auth_ldap_passtype_key'] = 'פורמט סיסמה';
 $string['auth_ldap_passwdexpire_settings'] = 'הגדרות פג-תוקף סיסמאת LDPA.';
 $string['auth_ldap_preventpassindb'] = 'בחרו כן על מנת למנוע מסיסמאות להישמר ב-DB של מוודל.';
@@ -219,7 +219,7 @@ $string['auth_ldapnotinstalled'] = 'לא ניתן להשתמש באימות LDAP
 $string['auth_ldaptitle'] = 'השתמש בשרת LDAP';
 $string['auth_manualdescription'] = 'שיטה זו מסלקת כל דרך למשתמשים ליצירת חשבונות משלהם. כל החשבונות חייבים להיווצר ידנית על ידי משתמש המנהל.';
 $string['auth_manualtitle'] = 'חשבונות ידניים בלבד';
-$string['auth_mnet_auto_add_remote_users'] = 'כשמוגדרת כ-\'כן\', רשומת משתמש מקומית מוצרת באופן אוטומטי כאשר משתמש חיצוני מתחבר בפעם הראשונה.';
+$string['auth_mnet_auto_add_remote_users'] = 'כשמוגדרת כ-\'כן\', רשומת משתמש מקומית מוצרת באופן אוטומטי כאשר משתמש מרוחק מתחבר בפעם הראשונה.';
 $string['auth_mnet_roamin'] = 'משתמשי המחשב המארח יכולים לשוטט לתוך האתר שלך.';
 $string['auth_mnet_roamout'] = 'המשתמשים שלך יכולים לשוטט החוצה לתוך המחשבים המארחים הללו.';
 $string['auth_mnet_rpc_negotiation_timeout'] = 'פסק הזמן לאימות על גבי משלוח ה-XMLRPC';
@@ -239,7 +239,7 @@ $string['auth_nologintitle'] = 'אין התחברות';
 $string['auth_nonedescription'] = 'משתמשים יכולים להתחבר וליצור חשבונות תקפים מידית, ללא כל ואימות כנגד שרת חיצוני וללא אימות דרך דואר אלקטרוני. היה זהיר כאשר אתה משתמש באפשרות זו - חשוב על בעיות האבטחה וההנהלה שזה יכול לגרום.';
 $string['auth_nonetitle'] = 'ללא אימות';
 $string['auth_ntlmsso_enabled_key'] = 'אפשר';
-$string['auth_ntlmsso_subnet'] = 'אם מאופשר, הדבר ינסה SSO עם לקוחות ב-subnet הבא. תבנית: xxx.xxx.xxx.xxx/bitmask';
+$string['auth_ntlmsso_subnet'] = 'אם מאופשר, הדבר ינסה SSO עם לקוחות ב-subnet הבא. פורמט: xxx.xxx.xxx.xxx/bitmask';
 $string['auth_outofnewemailupdateattempts'] = 'תמו מספרי הנסיונות בהם היית רשאי לעדכן את כתובת הדוא\"ל שלך. בקשת עדכון כתובת הדוא\"ל שלך בוטלה.';
 $string['auth_pamdescription'] = 'שיטה זה משתמשת ב-PAM כדי לגשת לשמות המשתמשים המקומיים על שרת זה. עליכם להתקין <a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\" target=\"_blank\">אימות PHP4 PAM </a> על מנת שתוכלו להשתמש במודול זה.';
 $string['auth_pamtitle'] = 'PAM (Pluggable Authentication Modules)';
@@ -271,7 +271,7 @@ $string['auth_remove_delete'] = 'מחיקה פנימית מלאה';
 $string['auth_remove_keep'] = 'שמור פנימי';
 $string['auth_remove_suspend'] = 'השהה פנימי';
 $string['auth_remove_user'] = 'פרט מה יש לעשות עם חשבונות משתמש פנימיים בזמן תאום המוני כאשר המשתמש הוצא ממקור חיצוני. רק משתמשים מושהים מוחזרים לשימוש באופן אוטומטי במידה והם מופיעים מחדש במקור החיצוני.';
-$string['auth_remove_user_key'] = 'משתמש חיצוני שהוסר';
+$string['auth_remove_user_key'] = 'משתמש מרוחק שהוסר';
 $string['auth_shib_changepasswordurl'] = 'תובת URL לשינוי סיסמה';
 $string['auth_shib_convert_data'] = 'התאמת נתוני API';
 $string['auth_shib_convert_data_description'] = 'ניתן להשתמש ב-API זה בכדי להתאים את הנתונים שסופקו על ידי שיבולת. קרא את: <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a> להוראות נוספות.';
@@ -306,7 +306,7 @@ $string['auth_user_creation'] = 'משתמשים חדשים (אנונימיים) 
 $string['auth_usernameexists'] = 'שם משתמש נבחר כבר קיים. אנא בחר שם חדש.';
 $string['authenticationoptions'] = 'אפשרויות אימות';
 $string['authinstructions'] = 'כאן אתה יכול לספק למשתמשים שלך הוראות, כדי שהם ידעו באיזה שם משתמש וסיסמה הם צריכים להשתמש.  הטקסט שתכניס כאן יופיע בעמוד ההתחברות. אם תשאיר ריק, לא יופיעו כל הוראות.';
-$string['auto_add_remote_users'] = 'הוספה אוטומטית של משתמשים חיצוניים';
+$string['auto_add_remote_users'] = 'הוספה אוטומטית של משתמשים מרוחקים';
 $string['changepassword'] = 'כתובת URL לשינוי סיסמה';
 $string['changepasswordhelp'] = 'כאן אתה מפרט מקום בו המשתמשים שלך יכולים להשתמש כדי למצוא או לשנות את שם המשתמש או הסיסמה שלהם אם הם שכחו אותם. זה יסופק למשתמשים ככפתור בעמוד ההתחברות ובעמוד המשתמש שלהם. אם תשאיר ריק, כפתור זה לא יופיע.';
 $string['chooseauthmethod'] = 'בחר צורת אימות:';

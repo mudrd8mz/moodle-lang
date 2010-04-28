@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_imsenterprise.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
+      // enrol_imsenterprise.php - created with Moodle 1.9.8+ (Build: 20100407) (2007101580)
 
 
 $string['aftersaving...'] = 'מרגע ששמרת את ההגדרות שלך, יכול להיות שתרצה ל-';
@@ -11,7 +11,7 @@ $string['createnewcourses'] = 'אם הם לא נמצאים במוודל, צור 
 $string['createnewusers'] = 'צור חשבונות משתמשים עבור משתמשים שעדיין לא נרשמו למוודל.';
 $string['cronfrequency'] = 'התדירות של העיבוד';
 $string['deleteusers'] = 'מחק חשבונות משתמשים כאשר מצוין לעשות כך בנתוני ה-IMS';
-$string['description'] = 'שיטה זו תחפש במיקום שתציין אחר קובץ טקסט שפורמט באופן מיוחד, ולאחר מכן תעבד אותו, כאשר היא תחזור על פעולות אלה שוב ושוב. הקובץ חייב לעקוב אחר <a href=\'../help.php?module=enrol/imsenterprise&file=formatoverview.html\' target=\'_blank\'>פירוט ההוראות של IMS Enterprise </a> ולהכיל אדם, קבוצה ומרכיבי חברות ב-XML.';
+$string['description'] = 'שיטה זו תחפש במיקום שתציין אחר מבנה קובץ טקסט מיוחד, ולאחר מכן תעבד אותו, כאשר היא תחזור על פעולות אלה שוב ושוב. הקובץ חייב לעקוב אחר <a href=\'../help.php?module=enrol/imsenterprise&file=formatoverview.html\' target=\'_blank\'>פירוט ההוראות של IMS Enterprise </a> ולהכיל אדם, קבוצה ומרכיבי חברות ב-XML.';
 $string['doitnow'] = 'בצא ייבוא IMS Enterprise ברגע זה';
 $string['enrolname'] = 'קובץ IMS Enterprise';
 $string['filelockedmail'] = 'לא ניתן היה למחוק באמצעות תהליך ה-cron את קובץ הטקסט בו אתה משתמש בשביל הרשמות המבוססות על קבצי IMS ($a). לרוב הדבר אומר שההיתרים עליו שגויים. 
@@ -30,7 +30,7 @@ $string['processphotowarning'] = 'אזהרה: סביר להניח שתהליך �
 $string['restricttarget'] = 'עבד את הנתונים רק כאשר מפורטת המטרה הבאה';
 $string['sourcedidfallback'] = 'השתמש ב-&quot;sourcedid&quot בשביל מספר הזיהוי של אדם כלשהו במקרה ששדה ה-&quot;userid&quot; לא נמצא.';
 $string['truncatecoursecodes'] = 'קצץ את הקודים של הקורס לאורך הזה';
-$string['usecapitafix'] = 'סמן את קופסא זו אם אתה משתמש ב-&quot;Capita&quot; (פורמט ה-XML שגוי מעט)';
+$string['usecapitafix'] = 'סמן את קופסא זו אם אתה משתמש ב-&quot;Capita&quot; ( פורמט ה-XML שגוי מעט)';
 $string['usersettings'] = 'אפשרויות נתוני משתמשים';
 $string['zeroisnotruncation'] = '0 מראה על כך שאין קיצוץ';
 

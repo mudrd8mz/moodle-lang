@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // gradeimport_xml.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
+      // gradeimport_xml.php - created with Moodle 1.9.8+ (Build: 20100407) (2007101580)
 
 
-$string['errbadxmlformat'] = 'שגיאה - קובץ XML פגום';
+$string['errbadxmlformat'] = 'שגיאה - פורמט קובץ XML פגום';
 $string['errduplicategradeidnumber'] = 'שגיאה - ישנם שני רכיבי ציונים עם מספר ID 
 \'$a\' בקורס זה. הדבר בלתי אפשרי.';
 $string['errduplicateidnumber'] = 'שגיאה - מספר id כפול.';

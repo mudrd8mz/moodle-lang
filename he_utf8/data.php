@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9.6+ (Build: 20091028) (2007101560)
+      // data.php - created with Moodle 1.9.8+ (Build: 20100407) (2007101580)
 
 
 $string['action'] = 'פעולה';
@@ -30,7 +30,7 @@ $string['bynameondate'] = 'על ידי $a->name - $a->date';
 $string['cancel'] = 'בטל';
 $string['checkbox'] = 'תיבת סימון';
 $string['chooseexportfields'] = 'בחר את השדות אותם תרצה לייצא';
-$string['chooseexportformat'] = 'בחר את התבנית אותה תרצה לייצא עבור:';
+$string['chooseexportformat'] = 'בחר את הפורמט אותו תרצה לייצא עבור:';
 $string['chooseorupload'] = 'בחר קובץ';
 $string['columns'] = 'עמודות';
 $string['comment'] = 'הערה';
@@ -46,6 +46,7 @@ $string['csstemplate'] = 'תבנית CSS';
 $string['csvfailed'] = 'לא ניתן לקרוא את מידע השורה מקובץ CSV';
 $string['csvfile'] = 'קובץ CVS';
 $string['csvimport'] = 'ייבוא קובץ CVS';
+$string['csvwithselecteddelimiter'] = '<acronym title=\"Comma Separated Values\">CSV</acronym >טקסט עם תוחם נבחר:';
 $string['data:approve'] = 'אשר את הרשומות המאושרות';
 $string['data:comment'] = 'כתוב הערות';
 $string['data:managecomments'] = 'נהל הערות';
@@ -185,6 +186,7 @@ $string['number'] = 'מספר';
 $string['numberrssarticles'] = 'מאמרי RSS';
 $string['numnotapproved'] = 'עומד להתרחש';
 $string['numrecords'] = '$a רשומות';
+$string['ods'] = '<acronym title=\"OpenDocument Spreadsheet\">ODS</acronym> (OpenOffice)';
 $string['optionaldescription'] = 'תיאור קצר (לבחירתכם)';
 $string['optionalfilename'] = 'שם הקובץ (לבחירתכם)';
 $string['other'] = 'אחר';
@@ -213,6 +215,8 @@ $string['recordsnotsaved'] = 'לא נשמרה כל רשומה. אנא בדוק �
 $string['recordssaved'] = 'רשומות נשמרו';
 $string['requireapproval'] = 'דרוש אישור?';
 $string['requiredentries'] = 'רשומות נדרשות';
+$string['requiredentrieschanged'] = '<p><strong> הודעה חשובה - נא לקרוא </strong></p>בעקבות תיקון באג, התנהגות פעילויות בסיס נתונים עם שימוש בהגדרות \'רשומות נדרשות\' ו\'הרשומות הנדרשות לפני שתתאפשר צפייה\' תשתננה. הסבר נרחב על-כך ניתן לקרוא ב-<a href=\"http://moodle.org/mod/forum/discuss.php?d=110928\" target=\"_blank\">the database module forum</a>.בנוסף ניתן לקרוא עוד על ההתנהגויות הצפויות של הגדרות אלו ב- <a href=\"http://docs.moodle.org/en/Adding/editing_a_database#Required_entries\" target=\"_blank\">Moodle Docs</a>.</p><p>
+שינוי זה משפיע על רשימת מסדי הנתונים במערכת שלך: (אנא שמור את רשימה זו כעת, ולאחר השדרוג בדוק כי פעילויות אלו עובדות באופן תקין בצורה בא המורה אמור לנהל את הפעילות).>/p> <strong style=\"color:red\">$a->text</strong><br/>';
 $string['requiredentriestoview'] = 'הרשומות הנדרשות לפני שתתאפשר צפייה';
 $string['resetsettings'] = 'איפוס שדות';
 $string['resettemplate'] = 'אפס את התבנית';

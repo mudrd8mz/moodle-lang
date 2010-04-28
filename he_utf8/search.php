@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // search.php - created with Moodle 1.9 Beta + (2007081600)
+      // search.php - created with Moodle 1.9.8+ (Build: 20100407) (2007101580)
 
 
 $string['advancedsearch'] = 'חיפוש מתקדם';
@@ -50,7 +50,7 @@ $string['thesewordsmustappear'] = 'חובה על מילים אלו להופיע'
 $string['thesewordsmustnotappear'] = 'אסור למילים אלו להופיע';
 $string['title'] = 'כותרת';
 $string['tofetchtheseresults'] = 'בכדי לקבל תוצאות אלו';
-$string['totalsize'] = 'גודל כללי';
+$string['totalsize'] = 'סה\"כ הגודל';
 $string['type'] = 'סוג';
 $string['uncompleteindexingerror'] = 'האינדוקס לא נגמר בהצלחה, אנא חזור עליו';
 $string['versiontoolow'] = 'אנו מצטערים אולם חיפוש גלובאלי דורש PHP 5.0.0 או גבוה מזה (כרגע האתר משתמש במהדורה)';

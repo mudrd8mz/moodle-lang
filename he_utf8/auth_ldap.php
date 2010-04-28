@@ -51,8 +51,8 @@ $string['auth_ldap_opt_deref'] = 'קובע כיצד מתייחסים לכינו�
 \"לא\" (LDAP_DEREF_NEVER) או \"כן\" 
 (LDAP_DEREF_ALWAYS).';
 $string['auth_ldap_opt_deref_key'] = 'התייחסות לשמות נרדפים';
-$string['auth_ldap_passtype'] = 'פרט את הפורמט של סיסמאות חדשות או כאלה ששונו בשרת ה-LDAP.';
-$string['auth_ldap_passtype_key'] = 'פורמט סיסמה';
+$string['auth_ldap_passtype'] = 'פרט את ה של סיסמאות חדשות או כאלה ששונו בשרת ה-LDAP.';
+$string['auth_ldap_passtype_key'] = ' סיסמה';
 $string['auth_ldap_passwdexpire_settings'] = 'הגדרות פג-תוקף סיסמאת LDPA.';
 $string['auth_ldap_preventpassindb'] = 'בחרו כן על מנת למנוע מסיסמאות להישמר ב-DB של מוודל.';
 $string['auth_ldap_preventpassindb_key'] = 'הסתר סיסמאות';

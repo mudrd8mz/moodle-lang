@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
+      // hotpot.php - created with Moodle 1.9.8+ (Build: 20100407) (2007101580)
 
 
 $string['abandoned'] = 'נטוש';
@@ -30,7 +30,7 @@ $string['displayindexnext'] = 'עכשיו הצג אינדקס של תוכנת Ho
 $string['enterafilename'] = 'אנא הקלד שם קובץ';
 $string['error_couldnotopenfolder'] = 'לא היה ניתן לגשת לתיקייה &quot;$a&quot;';
 $string['error_couldnotopensourcefile'] = 'לא היה ניתן לפתוח את קובץ המקור \"$a\"';
-$string['error_couldnotopentemplate'] = 'לא היה ניתן לפתוח את התבנית לפורמט \"$a\"';
+$string['error_couldnotopentemplate'] = 'לא היה ניתן לפתוח את הפורמט ל \"$a\"';
 $string['error_invalidquiztype'] = 'סוג הקובץ חסר או שגוי';
 $string['error_nocourseorfilename'] = 'לא היה ניתן ליצור עץ XML: חסר שם קובץ או קורס.';
 $string['error_nofeedbackurlformmail'] = 'אנא הקלד את כתובת ה-URL לקובץ האצווה שמעבד טפסים';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
+      // mnet.php - created with Moodle 1.9.8+ (Build: 20100407) (2007101580)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (self-signed)';
@@ -125,7 +125,7 @@ $string['nopubkey'] = 'התרחשה בעיה בעת קבלת המפתח הציב
 $string['nosite'] = 'לא נמצא קורס ברמת האתר.';
 $string['nosuchfile'] = 'פונקצית/קובץ $a לא קיימת';
 $string['nosuchfunction'] = 'לא ניתן למצוא את הפונקציה או שהפונקציה נאסרה עבור RPC.';
-$string['nosuchmodule'] = 'הפונקציה הייתה הופנתה שלא כהלכה ולא ניתן היה למצוא אותה. אנא השתמש בתבנית mod/modulename/lib/functionname.';
+$string['nosuchmodule'] = 'הפונקציה הייתה הופנתה שלא כהלכה ולא ניתן היה למצוא אותה. אנא השתמש בפורמט mod/modulename/lib/functionname.';
 $string['nosuchpublickey'] = 'לא ניתן להשיג את המפתח הציבורי לאישור החתימה';
 $string['nosuchservice'] = 'שירות ה-RCP לא מופעל במחשב מארח זה.';
 $string['nosuchtransport'] = 'אין משלוח עם ה-ID הקיים הזה';

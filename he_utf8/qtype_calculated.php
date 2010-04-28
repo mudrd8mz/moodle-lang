@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_calculated.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
+      // qtype_calculated.php - created with Moodle 1.9.8+ (Build: 20100407) (2007101580)
 
 
 $string['addmoreanswerblanks'] = 'הוסף מרוח נוסף לתשובה.';
