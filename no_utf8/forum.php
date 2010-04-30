@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9.5+ (Build: 20090826) (2007101550)
+      // forum.php - created with Moodle 1.9.8+ (Build: 20100428) (2007101580)
 
 
 $string['addanewdiscussion'] = 'Skriv i dette forumet';
@@ -162,7 +162,7 @@ $string['noguestpost'] = 'Beklager, gjester kan ikke skrive innlegg';
 $string['noguestsubscribe'] = 'Beklager, gjester kan ikke abonnere på foruminnlegg pr. e-post';
 $string['noguesttracking'] = 'Beklager, gjester kan ikke sette sporingsinnstillinger.';
 $string['nomorepostscontaining'] = 'Fant ingen flere innlegg som inneholder \'$a\'';
-$string['nonews'] = 'Ingen beskjeder er skrevet ennnå';
+$string['nonews'] = 'Ingen beskjeder er skrevet ennå';
 $string['nopostforum'] = 'Beklager, du kan ikke poste innlegg i dette forumet';
 $string['noposts'] = 'Ingen innlegg';
 $string['nopostscontaining'] = 'Fant ingen innlegg som inneholdt \'$a\'';
