@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
+      // question.php - created with Moodle 1.9.8+ (Build: 20100407) (2007101580)
 
 
 $string['adminreport'] = 'דווח על בעיות אפשריות במסד הנתונים של שאלותיך';
@@ -21,7 +21,7 @@ $string['cwrqpfsinfo'] = '<p>
 בקטגוריות השאלה הבאות, שמהן נבחרו שאלות \'אקראיות\' מקטגוריות ה\'אבות\', יחול שיוני בסטטוס לאותו סטטוס שיתוף כמו הקטגוריה של השאלה ה\'אקראית\' בעת העידון למהורה 1.9. לקטגוריות הבאות ישתנה סטטוס השיתוף. השאלות שדבר זה יכול עליהן ימשיכו לעבוד בכל הבחנים הקיימים עד שתסירו אותם מבחנים אלו.';
 $string['cwrqpfsnoprob'] = 'שום קטגוריות שאלות באתר שלכם איננה מושפעת על ידי השאלות ה\'אקראיות\' הבוחדרות שאלות מתת-קטגוריות.';
 $string['defaultfor'] = 'ברירת המחדל עבור $a';
-$string['defaultinfofor'] = 'ברירת המחדל לקקטגוריות השאלות במשותפות בהקשר $a';
+$string['defaultinfofor'] = 'קטגוריית ברירת המחדל לשאלות בהקשר משותף \'$a\'.';
 $string['deletecoursecategorywithquestions'] = 'קיימות שאלות בבנק השאלות המשוייכות לקטגוריית קורס זה. אם תמשיך, הן תימחקנה. תוכל להעבירם למקום אחר באמצעות שימוש בבנק השאלות';
 $string['donothing'] = 'אל תעתיק או תזיז קבצים או שנה קישורים';
 $string['editingcategory'] = 'עריכת קטגוריה';
@@ -47,7 +47,7 @@ $string['getcontextfromfile'] = 'קבל הקשר מהקובץ';
 $string['ignorebroken'] = 'התעלם מקישורים שבורים';
 $string['invalidcontextinhasanyquestions'] = 'מועבר הקשר לא חוקי question_context_has_any_questions.';
 $string['linkedfiledoesntexist'] = 'הקובץ המקuשר $a לא קים';
-$string['makechildof'] = 'בנה צאצא של  $a';
+$string['makechildof'] = 'צור תת־קטגוריה  $a';
 $string['maketoplevelitem'] = 'הסט לרמה עליונה';
 $string['missingimportantcode'] = 'לסוג שאלה זה חסר קוד חשוב: $a.';
 $string['modified'] = 'שונה';
@@ -83,7 +83,7 @@ $string['questionsmovedto'] = 'שאלות שבשימוש הועברו ל\"$a\" �
 $string['questionsrescuedfrom'] = 'שאלות נשמרו מקונטקסט $a.';
 $string['questionsrescuedfrominfo'] = 'שאלות אלו (כאלו שכנראה הוסתרו) נשמרו כאשר קונטקסט $a נמחקו מפני שהם עדיין בשימוש ע\"י בחנים ופעילויות מסויימות.';
 $string['questionuse'] = 'השתמש בשאלה בפעילות זאת';
-$string['shareincontext'] = 'השתתף בהקשר עבור $a';
+$string['shareincontext'] = 'העבר לקטגוריה $a';
 $string['tofilecategory'] = 'כתוב את הקטגוריה לקובץ';
 $string['tofilecontext'] = 'כתוב את ההקשר לקובץ';
 $string['unknown'] = 'לא ידוע';

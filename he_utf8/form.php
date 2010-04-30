@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.9 + (Build: 20080326) (2007101509)
+      // form.php - created with Moodle 1.9.8+ (Build: 20100407) (2007101580)
 
 
 $string['addfields'] = 'הוסף $a שדות לטופס';
@@ -21,7 +21,7 @@ $string['hideadvanced'] = 'הסתר מתקדם';
 $string['hour'] = 'שעה';
 $string['minute'] = 'דקה';
 $string['miscellaneoussettings'] = 'הגדרות שונות';
-$string['modstandardels'] = 'הגדרות מודולים מצויות';
+$string['modstandardels'] = 'הגדרות מודולים כלליות';
 $string['month'] = 'חודש';
 $string['nomethodforaddinghelpbutton'] = 'לא קיימת שיטה להוספת כפתור עזרה למרכיב הטופס $a->name (כיתה $a->classname)';
 $string['nonexistentformelements'] = 'מנסה להוסיף כפתורים למרכיבי טופס לא קיימים: $a';

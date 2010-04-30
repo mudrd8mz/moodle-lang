@@ -18,7 +18,7 @@ $string['facilitytitle'] = '%% Correct<br />Facility';
 $string['lowmarkslimit'] = 'לא לנתח אם התוצאה נמוכה מ-';
 $string['pagesize'] = 'שאלות בכל עמוד:';
 $string['qcounttitle'] = 'ספירת שאלות';
-$string['qidtitle'] = 'Q#';
+$string['qidtitle'] = 'מספר שאלה';
 $string['qnametitle'] = 'שם השאלה';
 $string['qtexttitle'] = 'טקסט השאלה';
 $string['qtypetitle'] = 'סוג השאלה';
@@ -28,6 +28,6 @@ $string['reportanalysis'] = 'דוח ניתוח פריט';
 $string['responsestitle'] = 'טקסט התשובה';
 $string['rfractiontitle'] = 'ניקוד<br />חלקי';
 $string['rpercenttitle'] = 'R.%%';
-$string['stddevtitle'] = 'SD';
+$string['stddevtitle'] = 'סטיית&#1470;תקן';
 
 ?>

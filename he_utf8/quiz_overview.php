@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_overview.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
+      // quiz_overview.php - created with Moodle 1.9.8+ (Build: 20100407) (2007101580)
 
 
 $string['allattempts'] = 'הצג את כל ניסיונות המענה';
@@ -26,6 +26,6 @@ $string['preferencesuser'] = 'המאפיינים שלך עבור דוח זה';
 $string['show'] = 'הראה/הורד';
 $string['showdetailedmarks'] = 'הראה/הורד סימונים לכל שאלה';
 $string['showinggraded'] = 'מראה רק את נסיונות המענה שניתן להם הציון עבור כל משתמש.';
-$string['showinggradedandungraded'] = 'מראה את נסיונות המענה שניתן להם הציון ואלו שלא לכל משתמש. נסיון המענה לכל משתמש אשר ניתן לו ציון מודגש. שיטת מתן הציונים עבור בוחן זה הוא $a';
+$string['showinggradedandungraded'] = 'מראה את נסיונות המענה שניתן להם הציון ואלו שלא, לכל משתמש.<br/>נסיון המענה לכל משתמש אשר ניתן לו ציון מודגש.<br/> שיטת מתן הציונים עבור בוחן זה הוא $a';
 
 ?>
