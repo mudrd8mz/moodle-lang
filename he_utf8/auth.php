@@ -292,7 +292,7 @@ $string['auth_shibboleth_select_member'] = 'אני חבר ב...';
 $string['auth_shibboleth_select_organization'] = 'לאימות דרך שיבולת אנא בחר את הארגון לו אתה שייך מהרשימה הגולשת.';
 $string['auth_shibbolethdescription'] = 'באמצעות שיטה זו משתמשים נוצרים ומאומתים על ידי שימוש ב<a ref=\"http://shibboleth.internet2.edu/\" target=\"_blank\">שיבולת</a>.<br>קיראו את קובץ ה<a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a> של שיבולת, שמסביר כיצד עליכם להגדיר את המוודל שלכם עם שיבולת.';
 $string['auth_shibbolethtitle'] = 'שיבולת';
-$string['auth_sync_script'] = 'סקריפט סנכרון ה-corn';
+$string['auth_sync_script'] = 'תסריט (script) סנכרון ה-corn';
 $string['auth_updatelocal'] = 'עדכן מקומית';
 $string['auth_updatelocal_expl'] = '<p><b>עדכן מקומית:</b>אם אפשרות זו מופעלת, השדה יתעדכן (מתוך מקור ווידוי חיצוני) בכל פעם שהמשתמש מתחבר למערכת או כשמתרחש סינכרון משתמשים. 
 את השדות שמוגדרים לעדכון מקומי צריך לנעול. 

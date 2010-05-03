@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
+      // resource.php - created with Moodle 1.9.8+ (Build: 20100407) (2007101580)
 
 
 $string['addresource'] = 'הוסף משאב';
@@ -27,7 +27,7 @@ $string['configpopuplocation'] = 'האם כברירת מחדל על חלונות
 $string['configpopupmenubar'] = 'האם כברירת מחדל על חלונות \'קופצים\' להציג את סרגל התפריטים?';
 $string['configpopupresizable'] = 'האם כברירת המחדל יהיה ניתן לשנות את גודלם של החלונות ה\'קופצים\'?';
 $string['configpopupscrollbars'] = 'האם כברירת המחדל יהיה ניתן לגלול את מסכיהם של החלונות ה\'קופצים\'?';
-$string['configpopupstatus'] = 'האם כברירת מחדל על חלונות \'קופצים\' להציג את סרגל הסטטוס?';
+$string['configpopupstatus'] = 'האם כברירת מחדל על חלונות \'קופצים\' להציג את סרגל המצב?';
 $string['configpopuptoolbar'] = 'האם כברירת מחדל על חלונות \'קופצים\' להציג את סרגל הכלים?';
 $string['configpopupwidth'] = 'מהו הרוחב שצריך לשמש כרוחב ברירת המחדל לחלונות \'קופצים\' חדשים?';
 $string['configsecretphrase'] = 'המשפט הסודי משמש ליצירת ערך קוד מוצפן אותו ניתן  לשלוח כפרמטר למשאבים מסויימים. הקוד המוצפן נוצר על ידי ערך md5 עבור כתובת ה-IP של משתמשים_ נוכחים

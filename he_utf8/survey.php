@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
+      // survey.php - created with Moodle 1.9.8+ (Build: 20100407) (2007101580)
 
 
 $string['actual'] = 'ממשי';
@@ -180,7 +180,7 @@ $string['howlongoptions'] = 'פחות מדקה 1, 1-2 דקות, 2-3 דקות, 3-
 $string['ifoundthat'] = 'מצאתי ש-';
 $string['introtext'] = 'טקסט המבוא';
 $string['ipreferthat'] = 'אני מעדיף ש-';
-$string['modulename'] = 'סקר על מוודל';
+$string['modulename'] = 'תבניות סקרים מובנות';
 $string['modulenameplural'] = 'סקרים';
 $string['name'] = 'שם';
 $string['newsurveyresponses'] = 'תגובות חדשות לסקר';

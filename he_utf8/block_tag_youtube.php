@@ -4,7 +4,7 @@
 
 $string['anycategory'] = 'כל קטדוריה';
 $string['autosvehicles'] = 'מכוניות   וכלי רכב';
-$string['blockname'] = 'Youtube';
+$string['blockname'] = '\"יוטיוב\"';
 $string['category'] = 'קטגוריה';
 $string['comedy'] = 'קומדיה';
 $string['configtitle'] = 'כותרת';

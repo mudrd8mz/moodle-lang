@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
+      // scorm.php - created with Moodle 1.9.8+ (Build: 20100407) (2007101580)
 
 
 $string['activation'] = 'הפעלה';
@@ -148,8 +148,8 @@ $string['skipviewdesc'] = 'מאפיין זה מגדיר את ברירת המחד
 $string['slashargs'] = 'אזהרה: ארגומנטי לוכסנים מנוטרלים באתר זה, לכן אובייקטים מסויימים עלולים שלא לפעול כראוי.';
 $string['stagesize'] = 'גודל הבמה';
 $string['started'] = 'התחיל ב-';
-$string['status'] = 'סטטוס';
-$string['statusbar'] = 'הראה את סרגל הסטטוס';
+$string['status'] = 'מצב';
+$string['statusbar'] = 'הראה את סרגל המצב';
 $string['student_response'] = 'תגובה';
 $string['suspended'] = 'מושהה';
 $string['syntax'] = 'טעות תחבירית';

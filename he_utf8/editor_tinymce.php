@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 //== Custom Moodle strings that are not part of upstream TinyMCE ==
 
@@ -208,7 +208,7 @@ $string['advlink_dlg:popup_resizable'] = 'חלון דינאמי(resizable)';
 $string['advlink_dlg:popup_return'] = 'יש להכניס \'return false\'';
 $string['advlink_dlg:popup_scrollbars'] = 'הצגת פס גלילה';
 $string['advlink_dlg:popup_size'] = 'גודל';
-$string['advlink_dlg:popup_statusbar'] = 'הצגת שורת סטאטוס';
+$string['advlink_dlg:popup_statusbar'] = 'הצגת שורת מצב';
 $string['advlink_dlg:popup_tab'] = 'חלון מוקפץ';
 $string['advlink_dlg:popup_toolbar'] = 'הצגת סרגלי כלים';
 $string['advlink_dlg:popup_url'] = 'חלון מוקפץ URL';
