@@ -5,7 +5,7 @@
 $string['CASform'] = 'בחירת אימות';
 $string['accesCAS'] = 'משתמשי CAS';
 $string['accesNOCAS'] = 'משתמשים אחרים';
-$string['actauthhdr'] = 'התקני תקע מאומתים אקטיבית';
+$string['actauthhdr'] = 'תוספים מאומתים אקטיבית';
 $string['alternatelogin'] = 'אם תכניסו כאן כתובת URL, היא תשמש כעמוד ההתחברות לאתר שלכם. על עמוד זה להכיל טופס בו תכונת הבעלות מכוונת ל <strong>\'$a\'</strong> ושדות חזרה <strong>שם משתמש</strong> ו<strong>סיסמה</strong>.<br />
 היזהרו שלא להקליד כתובת URL שגויה, מכיוון שאתם עלולים לנעול את עצמכם מחוץ לאתר. <br />
 כדי להשתמש בדף ההתחברות שמשמש כברירת מחדל, השאירו את הגדרה זו ריקה.';
@@ -234,7 +234,7 @@ $string['auth_nntpnotinstalled'] = 'לא ניתן להשתמש באימות NNTP
 $string['auth_nntpport'] = 'נמל שרת (119 הינו הכי נפוץ)';
 $string['auth_nntpport_key'] = 'יציאה';
 $string['auth_nntptitle'] = 'השתמש בשרת NNTP';
-$string['auth_nologindescription'] = 'התקן תקן מסייע שמונע ממשתמשים להתחבר לתוך המערכת ובנוסף מבטל כל דואר שנשלח למשתמש. ניתן לשמש כדי <em>להשהות</em> חשבונות משתמש.';
+$string['auth_nologindescription'] = 'תוסף מסייע שמונע ממשתמשים להתחבר לתוך המערכת ובנוסף מבטל כל דואר שנשלח למשתמש. ניתן לשמש כדי <em>להשהות</em> חשבונות משתמש.';
 $string['auth_nologintitle'] = 'אין התחברות';
 $string['auth_nonedescription'] = 'משתמשים יכולים להתחבר וליצור חשבונות תקפים מידית, ללא כל ואימות כנגד שרת חיצוני וללא אימות דרך דואר אלקטרוני. היה זהיר כאשר אתה משתמש באפשרות זו - חשוב על בעיות האבטחה וההנהלה שזה יכול לגרום.';
 $string['auth_nonetitle'] = 'ללא אימות';
@@ -341,12 +341,12 @@ $string['ntlmsso_failed'] = 'התחברות אוטומטית נכשלה, נסה 
 $string['ntlmsso_isdisabled'] = 'NTLM SSO מנוטרל.';
 $string['passwordhandling'] = 'טיפול בשדה סיסמה';
 $string['plaintext'] = 'טקסט פשוט';
-$string['pluginnotenabled'] = 'התקן התקע שמשמש לאימות \'$a\' איננו מופעל';
-$string['pluginnotinstalled'] = 'התקן התקע שמשמש לאימות \'$a\' איננו מותקן';
+$string['pluginnotenabled'] = 'התוסף המשמש לאימות \'$a\' איננו מופעל';
+$string['pluginnotinstalled'] = 'התוסף המשמש לאימות \'$a\' איננו מותקן';
 $string['recaptcha'] = 'reCAPTCHA';
 $string['rpc_negotiation_timeout'] = 'פסק זמן דו השיח של ה-RPC';
 $string['selfregistration'] = 'הרשמה עצמית';
-$string['selfregistration_help'] = 'בחר איזה התקן תקע auth יטפל בהרשמה עצמית של משתמשים';
+$string['selfregistration_help'] = 'בחר איזה התקני auth יטפל בהרשמה עצמית של משתמשים';
 $string['sha1'] = 'SHA-1 hash';
 $string['shib_no_attributes_error'] = 'נראה כי אתה מאומת באמצעות שיבולת, אבל מוודל לא קיבל כל תכונות משתמש שהן. אנא וודא שמספק הזהות שלך משחרר את התכונות הדרושות ($a) למספק השרות שמוודל מריץ או שידע את מנהל הרשת של שרת זה.';
 $string['shib_not_all_attributes_error'] = 'למוודל דרושות תכונות מסויימות של שיבולת, שבמקרה שלך, לא נמצאות. התכונות הן: $a<br />אנא צור קשר על מנהל הרשת של השרת או עם ספק הזהות שלך.';

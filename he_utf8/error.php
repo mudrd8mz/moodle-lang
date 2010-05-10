@@ -71,9 +71,9 @@ $string['iplookupprivate'] = 'לא ניתן להציג כתובת IP פרטית'
 $string['listcantmovedown'] = 'כשלון בהעברת הפריט למטה משום שהוא האחרון בין הפריטים זהי העמדה.';
 $string['listcantmoveleft'] = 'כשלון בתזוזות הפריט שמאלה משום שאין לו הורה.';
 $string['listcantmoveright'] = 'כשלון בתזוזת הפריט ימינה. אין שום
- פריט זהה עמדה שניתן להופכו לצאצא. הזז אותו מתחת לפריט זהה עמדה אחר ואז תוכל להזזיזו ימינה.';
+ פריט זהה עמדה שניתן להופכו לבן. הזז אותו מתחת לפריט זהה עמדה אחר ואז תוכל להזזיזו ימינה.';
 $string['listcantmoveup'] = 'כשלון בהעברת הפריט לממעלה משום שהוא הראשון בין הזהים לו.';
-$string['listnochildren'] = 'לא נמצאו צאצאים לפריט';
+$string['listnochildren'] = 'לא נמצאו הבנים של הפריט';
 $string['listnoitem'] = 'הפריט לא נמצא';
 $string['listnopeers'] = 'לא נמצאו פריטים בעלי מצב זהה';
 $string['listupdatefail'] = 'פעול מסד הנתונים נכשלה בעת עריכת ההירהרכיה.';
@@ -99,7 +99,7 @@ $string['onlyeditingteachers'] = 'רק מורים עורכים יכולים לע
 $string['onlyeditown'] = 'אתה יכול לערוך את המידע שלך בלבד';
 $string['pagenotexist'] = 'חלה שגיאה לא רגילה (ניסה להגיע לעמוד שלא קיים)';
 $string['pleasereport'] = 'אם יש לך זמן, אנא הודע לנו מה ניסית לעשות כאשר חלה השגיאה:';
-$string['pluginrequirementsnotmet'] = 'לא ניתן היה להתקין את התקן התקע \"$a->pluginname\" ($a->pluginversion). התקנתו דורשת גירסה עדכנית יותר של מוודל (כרגע אתה משתמש ב- $a->currentmoodle, אתה צריך את $a->requiremoodle).';
+$string['pluginrequirementsnotmet'] = 'לא ניתן היה להתקין את התוסף \"$a->pluginname\" ($a->pluginversion). התקנתו דורשת גירסה עדכנית יותר של מוודל (כרגע אתה משתמש ב- $a->currentmoodle, אתה צריך את $a->requiremoodle).';
 $string['processingstops'] = 'עיבוד נגמר כאן, תוך התעלמות מהרשומות הנותרות.';
 $string['remotedownloaderror'] = 'הורדת הרכיב לשרת שלך כשלה, אנא וודא את הגדרות ה-proxy שלך. תוספת PHP cURL מומלצת מאוד להתקנה.
 <br /><br />

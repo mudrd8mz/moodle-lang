@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lams.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
+      // lams.php - created with Moodle 1.9.8+ (Build: 20100407) (2007101580)
 
 
 $string['createSequence'] = 'צור רצף חדש';
@@ -28,7 +28,7 @@ $string['serverkey'] = 'הקלד את מפתח השרת שהתקבל מ-<a href=
 $string['serverurl'] = 'הקלד את כתובת ה-URL הבסיסית שמספקת כניסה לשרת של LAMS. לדוגמא: http://localhost:8080/lams';
 $string['useSequence'] = 'השתמש ברצף הנבחר';
 $string['visibletostudents'] = 'הצג פעילות בפני הסטודנטים';
-$string['wikistartederror'] = 'ל-Wiki כבר יש רשומות - לא ניתן לשנותם';
+$string['wikistartederror'] = 'ל-ויקי כבר יש רשומות - לא ניתן לשנותם';
 $string['workspace'] = 'בחר חלל עבודה';
 $string['wrongversionrange'] = '$a הוא לא טווח נכון!';
 
