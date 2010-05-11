@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_search.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
+      // block_search.php - created with Moodle 1.9.8+ (Build: 20100407) (2007101580)
 
 
 $string['asynchronous'] = 'אסינכרוני';
@@ -15,7 +15,7 @@ $string['configpdftotextcmd'] = 'נתיב לפקודת pdftotext';
 $string['configsearchtext'] = 'טקסט חיפוש';
 $string['configtypetotxtcmd'] = 'שורת פקודה של הממיר';
 $string['configtypetotxtenv'] = 'הגדרת סביבה עבור ממיר';
-$string['configusingsoftlock'] = 'שילוב תוכנה (עבור קלסטרים משולבים של NFS)';
+$string['configusingsoftlock'] = 'שילוב תוכנה (עבור אשכולים משולבים של NFS)';
 $string['configutf8transcoding'] = 'המרת כיוון קידוד UTF-8 עבור תוצאות';
 $string['configwordtotextcmd'] = 'נתיב לפקודת doctotext';
 $string['configwordtotextenv'] = 'הגדרות סביבה עבור ממיר MSWord';
