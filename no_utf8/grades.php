@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9.7+ (Build: 20100210) (2007101571.04)
+      // grades.php - created with Moodle 1.9.8+ (Build: 20100512) (2007101580)
 
 
 $string['activities'] = 'Aktiviteter';
@@ -279,7 +279,7 @@ $string['hidegroups'] = 'Skjul grupper';
 $string['hidelocks'] = 'Skjul låser';
 $string['hidenooutcomes'] = 'Vis læringsutbytte';
 $string['hidequickfeedback'] = 'Skjul hurtigtilbakemelding';
-$string['hideranges'] = 'Skjul rangering';
+$string['hideranges'] = 'Skjul skalaer';
 $string['hidetotalifhiddenitems'] = 'Skjule totaler dersom de inneholder skjulte elementer?';
 $string['hidetotalifhiddenitemsdescription'] = 'Skjule totaler dersom de inneholder ett eller flere skjulte elementer?';
 $string['hidetotalshowexhiddenitems'] = 'Vis totaler hvor skjulte elementer er utelatt';
@@ -449,9 +449,9 @@ $string['profilereport'] = 'Brukerprofilrapport';
 $string['publishing'] = 'Publiserer';
 $string['quickfeedback'] = 'Kjapp tilbakemelding';
 $string['quickgrading'] = 'Kjapp karaktersetting';
-$string['range'] = 'Ranger';
-$string['rangesdecimalpoints'] = 'Desimaler vist i rangering';
-$string['rangesdisplaytype'] = 'Ranger visningstype';
+$string['range'] = 'Skala';
+$string['rangesdecimalpoints'] = 'Desimaler vist i skalaer';
+$string['rangesdisplaytype'] = 'Skala visningstype';
 $string['rank'] = 'Rank';
 $string['rawpct'] = 'Rå %%';
 $string['real'] = 'Virkelig';
