@@ -27,6 +27,7 @@ $string['filtersettingsforin'] = 'Réglages du filtre $a->filter dans $a->contex
 $string['filtersettingsin'] = 'Réglages de filtre dans $a';
 $string['firstaccess'] = 'Premier accès';
 $string['globalrolelabel'] = '$a->label est $a->value';
+$string['includenever'] = 'Y compris jamais';
 $string['isactive'] = 'Actif ?';
 $string['isafter'] = 'est postérieur au $a';
 $string['isanyvalue'] = 'est n\'importe quelle valeur';
