@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.8+ (Build: 20100331) (2007101580)
+      // moodle.php - created with Moodle 1.9.8+ (Build: 20100512) (2007101580)
 
 
 $string['abouttobeinstalled'] = 'vil bli installert';
@@ -1489,7 +1489,7 @@ $string['update'] = 'Oppdater';
 $string['updated'] = 'Oppdatert $a';
 $string['updatemymoodleoff'] = 'Normalmodus';
 $string['updatemymoodleon'] = 'Rediger denne siden';
-$string['updatemyprofile'] = 'Lagre endringer i min profil';
+$string['updatemyprofile'] = 'Endre profilen';
 $string['updatesevery'] = 'Oppdaterer hvert $a sekund';
 $string['updatethis'] = 'Oppdater $a';
 $string['updatethiscourse'] = 'Oppdater dette kurset';
