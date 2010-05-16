@@ -41,7 +41,7 @@ $string['editmysubmission'] = 'ערוך את ההגשה שלי';
 $string['emailstudents'] = 'התראות בדוא\"ל לתלמידים';
 $string['emailteachermail'] = 'המשתמש $a->username עדכן את ההגשת התרגיל שלו עבור \'$a->assignment\'
 
-ההגשה זמינה כאן:
+ההגשה אפשרית כאן:
 
 $a->url';
 $string['emailteachermailhtml'] = 'המשתמש $a->username עדכן את הגשת התרגיל עבור <i>\'$a->assignment\'</i><br /><br />
@@ -99,7 +99,7 @@ $string['quickgrade'] = 'אפשר נתינת ציון באופן מהיר';
 $string['responsefiles'] = 'קבצי תגובות';
 $string['reviewed'] = 'נבדק';
 $string['saveallfeedback'] = 'שמור את כל המשובים שלי';
-$string['sendformarking'] = 'שלח לבדיקה וקבלת ציון';
+$string['sendformarking'] = 'שליחה סופית וקבלת ציון';
 $string['showrecentsubmissions'] = 'הראה הגשות אחרונות';
 $string['submission'] = 'הגשה';
 $string['submissiondraft'] = 'טיוטא של הגשה';
@@ -112,7 +112,7 @@ $string['submitedformarking'] = 'המטלה כבר הוגשה להערכה ול�
 $string['submitformarking'] = 'הגשה סופית לבדיקת המטלה';
 $string['submitted'] = 'הוגש';
 $string['submittedfiles'] = 'קבצים שהוגשו';
-$string['trackdrafts'] = 'אפשר מצב ל\"שליחה סופית\"';
+$string['trackdrafts'] = 'אפשר מצב ל\"שליחה סופית וקבלת ציון\"';
 $string['typeoffline'] = 'הגשה לא מקוונת';
 $string['typeonline'] = 'הגשת טקסט מקוון';
 $string['typeupload'] = 'הגשת מספר קבצים';
