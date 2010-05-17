@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // label.php - created with Moodle 1.8 dev (2006120700)
+      // label.php - created with Moodle 1.9.8+ (Build: 20100407) (2007101580)
 
 
-$string['labeltext'] = 'הדבק לטקסט תווית';
-$string['modulename'] = 'תווית';
-$string['modulenameplural'] = 'תוויות';
+$string['labeltext'] = 'תוכן הפיסקה';
+$string['modulename'] = 'פיסקה מעוצבת';
+$string['modulenameplural'] = 'פיסקאות מעוצבות';
 
 ?>

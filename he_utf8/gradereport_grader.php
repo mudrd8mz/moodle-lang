@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // gradereport_grader.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
+      // gradereport_grader.php - created with Moodle 1.9.8+ (Build: 20100407) (2007101580)
 
 
-$string['grader:manage'] = 'נהל את דוח הבודק';
-$string['grader:view'] = 'הצג את דוח הבודק';
-$string['modulename'] = 'דוח הבודק';
-$string['preferences'] = 'מאפייני שוח הבודק';
+$string['grader:manage'] = 'נהל את דוח ההציונים';
+$string['grader:view'] = 'הצג את דוח הציונים';
+$string['modulename'] = 'דוח ציונים בקורס זה';
+$string['preferences'] = 'מאפייני דוח ציונים';
 
 ?>

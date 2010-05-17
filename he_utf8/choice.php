@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.9.5+ (Build: 20090805) (2007101550)
+      // choice.php - created with Moodle 1.9.8+ (Build: 20100407) (2007101580)
 
 
 $string['addmorechoices'] = 'הוסף אפשרויות נוספות';
@@ -13,7 +13,7 @@ $string['choice:readresponses'] = 'קרא את התגובות';
 $string['choiceclose'] = 'עד';
 $string['choicefull'] = 'בחירה זו מלאה ולא קיימים מקומות נוספים';
 $string['choicename'] = 'שם שאלת הסקר';
-$string['choiceopen'] = 'פתח';
+$string['choiceopen'] = 'זמין מ';
 $string['choicesaved'] = 'הבחירה שלך נשמרה';
 $string['choicetext'] = 'טקסט בחירה';
 $string['displayhorizontal'] = 'הצג במאוזן';
@@ -45,7 +45,7 @@ $string['removeresponses'] = 'הסר את כל התגובות';
 $string['responses'] = 'תגובות';
 $string['responsesto'] = 'תגובות ל $a';
 $string['savemychoice'] = 'שמור את הבחירה שלי';
-$string['showunanswered'] = 'הראה עמודה ללא-נענו';
+$string['showunanswered'] = 'הראה עמודה ל: \"לא-נענו\"';
 $string['spaceleft'] = 'מקום זמין';
 $string['spacesleft'] = 'מקומות זמינים';
 $string['taken'] = 'תפוס';
