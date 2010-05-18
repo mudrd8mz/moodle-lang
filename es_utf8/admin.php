@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
+      // admin.php - created with Moodle 1.9.8 (Build: 20100325) (2007101580)
 
 
 $string['accessdenied'] = 'Acceso denegado';
@@ -7,17 +7,12 @@ $string['accounts'] = 'Cuentas';
 $string['adminseesall'] = 'Los administradores ven todo';
 $string['adminseesallevents'] = 'Los administradores ven todos los eventos';
 $string['adminseesownevents'] = 'Los administradores son como los demás usuarios';
-$string['advancedfeatures'] = 'Características avanzadas';
-$string['allowbeforeblock'] = 'La lista autorizada será procesada en primer lugar';
-$string['allowbeforeblockdesc'] = 'Por defecto, se procesará en primer lugar la lista bloqueada; si la opción se activa, la lista de IPs permitidas se procesará entes que la lista bloqueada.';
 $string['allowcategorythemes'] = 'Permitir temas por categoría';
 $string['allowcoursethemes'] = 'Permitir estilos en el curso';
 $string['allowdeletes'] = 'Permitir eliminar';
-$string['allowediplist'] = 'Lista de IP permitidas';
 $string['allowemailaddresses'] = 'Permitir dominios de email';
 $string['allowobjectembed'] = 'Permitir marcas EMBED y OBJECT';
 $string['allowrenames'] = 'Permitir renombrar';
-$string['allowthemechangeonurl'] = 'Permitir cambios de tema en la URL';
 $string['allowuserblockhiding'] = 'Permitir a los usuarios ocultar bloques';
 $string['allowusermailcharset'] = 'Permitir al usuario cambiar el conjunto de caracteres';
 $string['allowuserswitchrolestheycantassign'] = 'Permitir a los usuarios sin roles asignados la posibilidad de cambiar de rol';
@@ -31,13 +26,11 @@ $string['authsettings'] = 'Gestionar autenticación';
 $string['autolang'] = 'Detectar idioma automáticamente';
 $string['autologinguests'] = 'Acceso automático de invitados';
 $string['availablelangs'] = 'Paquetes de idioma disponibles';
-$string['availableto'] = 'Disponible para';
 $string['backgroundcolour'] = 'Color Transparente';
 $string['backups'] = 'Copias de seguridad';
 $string['badwordsconfig'] = 'Escriba su lista de palabras censuradas, separadas por comas';
 $string['badwordsdefault'] = 'Si la lista personalizada está vacía, se usará una lista por defecto contenida en el paquete de idioma.';
 $string['badwordslist'] = 'Lista personalizada de palabras censuradas';
-$string['blockediplist'] = 'Lista de IP bloqueadas';
 $string['blockinstances'] = 'Ejemplos';
 $string['blockmultiple'] = 'Múltiples';
 $string['blocksettings'] = 'Gestionar bloques';
@@ -50,10 +43,6 @@ $string['cachetext'] = 'Tiempo de vida de la caché de texto';
 $string['cachetype'] = 'Tipo de caché';
 $string['calendar_weekend'] = 'Días del fin de semana';
 $string['calendarsettings'] = 'Calendario';
-$string['cannotdeletemissingqtype'] = 'No puede eliminar el tipo de pregunta ausente. El sistema la necesita.';
-$string['cannotdeletemodfilter'] = 'No puede desinstalar \'$a->filter\' porque es parte del módulo \'$a->module\'.';
-$string['cannotdeleteqtypeinuse'] = 'No puede eliminar la pregunta de tipo \'$a\'. Hay preguntas de ese tipo en el banco de preguntas.';
-$string['cannotdeleteqtypeneeded'] = 'No puede eliminar la pregunta de tipo \'$a\'. Hay otros tipos de preguntas que dependen de ella.';
 $string['cfgwwwrootslashwarning'] = 'Ha definido &#36;CFG->wwwroot incorrectamente en su archivo config.php. Ha incluído un carácter \'/\' al final. Por favor, elimínelo. De lo contrario, aparecerán errores extraños tales como <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
 $string['cfgwwwrootwarning'] = 'Ha definido &#36;CFG->wwwroot incorrectamente en su archivo config.php. No se corresponde con la URL que usted está usando para acceder a esta página. Por favor, corríjalo. De lo contrario, aparecerán errores extraños tales como <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
 $string['change'] = 'cambiar';
@@ -63,24 +52,9 @@ $string['checkboxyes'] = 'Sí';
 $string['choosefiletoedit'] = 'Elija un archivo para editar en la caja de abajo';
 $string['clamfailureonupload'] = 'Fallo en clam AV';
 $string['cleanup'] = 'Limpieza';
-$string['clianswerno'] = 'n';
-$string['cliansweryes'] = 's';
-$string['cliincorrectvalueerror'] = 'Error, valor incorrecto  \"$a->value\" para \"$a->option\"';
-$string['cliincorrectvalueretry'] = 'Valor incorrecto, por favor, inténtelo de nuevo';
-$string['clistatusdisabled'] = 'Estado: desactivado';
-$string['clistatusenabled'] = 'Estado: activado';
-$string['clitypevalue'] = 'valor del tipo';
-$string['clitypevaluedefault'] = 'valor del tipo, pulse Enter para utilizar el valor por defecto ($a)';
-$string['cliunknowoption'] = 'Opciones no reconocidas:
-$a
-. Por favor, utilice la opción Ayuda.';
-$string['cliupgradefinished'] = 'Actualización de comando de línea completado con éxito.';
-$string['cliyesnoprompt'] = 'escriba s (sí) o n (no)';
-$string['commonfiltersettings'] = 'Ajustes comunes de filtro';
 $string['commonsettings'] = 'Ajustes comunes';
 $string['componentinstalled'] = 'Componente instalado';
 $string['computedfromlogs'] = 'Calculado a partir de los registros desde $a.';
-$string['condifmodeditdefaults'] = 'Los valores que fije aquí definen los valores por defecto que se usan en el formulario de ajustes de la actividad cuando usted crea una actividad nueva. Puede asimismo configurar qué ajustes de la actividad considera como avanzados.';
 $string['confeditorhidebuttons'] = 'Seleccione los botones que deberían estar ocultos en el editor HTML.';
 $string['configallowassign'] = 'Permitir a los roles de la izquierda asignar los roles de cada columna';
 $string['configallowcategorythemes'] = 'Si activa esta opción, los temas pueden ajustarse al nivel de la categoría. Esto afectará a todas las categorías y cursos de nivel inferior (\'hijos\') a menos que tengan especificado su propio tema. ATENCIÓN: Habilitar esta opción puede afectar al rendimiento.';
@@ -113,11 +87,9 @@ $string['configcronclionly'] = 'Si se activa esta opción, el script del cron s�
 $string['configcronremotepassword'] = 'Esto signififa que el script cron.php no puede ejecutarse desde un navegador web sin suministrar la contraseña usando el siguiente formulario de URL:<pre>
 http://site.example.com/admin/cron.php?password=opensesame
 </pre>Si se deja vacío, no se necesita contraseña.';
-$string['configcurlcache'] = 'Tiempo de vigencia (en segundos) de la caché cURL.';
 $string['configdbsessions'] = 'Si elige esta opción, se usará la base de datos para almacenar información sobre las sesiones actuales. Esto es especialmente útil para sitios grandes u ocupados construídos sobre racimos (\'clusters\') de servidores. En la mayoría de los casos debería dejarse en blanco de modo que se use en su lugar el disco del servidor. Note que la modificación de este ajuste desconectará a todos los usuarios, incluído usted.';
 $string['configdebug'] = 'Si activa esta opción, se incrementará el error_reporting de PHP, de modo que recibirá más advertencias. Sólo resulta útil para los desarrolladores.';
 $string['configdebugdisplay'] = 'Si activa esta opción, el informe de errores irá a la página HTML. Es práctico pero rompe XHTML, JS, cookies y cabeceras HTTP en general. Si deshabilita esta opción, se enviarán las salidas a los registros del servidor, permitiendo una mejor depuración. La opción de configuración de PHP error_log controla a qué registro va.';
-$string['configdebugpageinfo'] = 'Habilítelo si desea que la información de la página aparezca en el pie de página.';
 $string['configdebugsmtp'] = 'Activa la depuración con información detallada durante el envío de correos electrónicos al servidor SMTP.';
 $string['configdefaultallowedmodules'] = 'Para los cursos incluídos en la categoría anterior, ¿qué módulos desea que aparezcan por defecto <b>cuando se crea el curso</b>?';
 $string['configdefaultcourseroleid'] = 'Se asignará automáticamente este rol a los usuarios que se matriculen en un curso.';
@@ -138,6 +110,7 @@ $string['configeditorfontlist'] = 'Seleccione las fuentes que deberían aparecer
 $string['configemailchangeconfirmation'] = 'Exigir un paso de confirmación cuando los usuarios cambian la dirección de correo electrónico en sus perfiles.';
 $string['configemoticons'] = 'Cambie el código de la izquierda relacionado con el nombre del emoticón de la derecha. Para agregar nuevos emoticones, agregue un código y un nombre, y añada una imagen como nombre.gif en /pix/s.';
 $string['configenableajax'] = 'Esta opción le permite controlar el uso de AJAX (advanced client/server interfaces using Javascript -interfaces avanzadas cliente/servidor usando Javascript-) en todo el sitio. Cuando está activada, los usuarios pueden realizar elecciones en su perfil; de otro modo, AJAX está desactivada para todos.';
+$string['configenablecalendarexport'] = 'Habilitar la exportación o suscripción a los calendarios.';
 $string['configenablecourserequests'] = 'Permite que cualquier usuario solicite la creación de un curso.';
 $string['configenableglobalsearch'] = 'Este ajuste posibilita la búsqueda global de texto en los recursos y actividades; no es compatible con PHP 4.';
 $string['configenablegroupings'] = 'Este ajuste posibilita el agrupamiento de grupos (aún no implementado por completo)';
@@ -275,7 +248,6 @@ $string['configteacherassignteachers'] = '¿Pueden los profesores ordinarios inc
 $string['configthemelist'] = 'Deje esta opción en blanco para permitir que se utilice cualquier tema válido. Si quiere acortar el menú de temas, puede especificar una lista de nombres separados por comas. Por ejemplo: standard,orangewhite';
 $string['configtimezone'] = 'Aquí puede decidir la zona horaria por defecto. Ésta es la única zona horaria POR DEFECTO para mostrar fechas -cada usuario puede cambiar esta opción en su perfil-. La \"Hora del Servidor\" aquí hará que Moodle tome por defecto la del sistema operativo, pero esa opción en el perfil del usuario lo ajustará a la correspondiente zona horaria.';
 $string['configunzip'] = 'Indique dónde está el programa de descompresión -\'Unzip\'- (sólo Unix, opcional). Si se especifica, esto puede usarse para descomprimir archivos en el servidor. Si lo deja en blanco, Moodle usará sus rutinas internas.';
-$string['configuseexternalyui'] = 'En lugar de usar archivos locales, usar archivos disponibles en línea en servidores Yahoo&#145;s. ADVERTENCIA: Esto requiere una conexión de internet; de otro modo, AJAX no funcionará en el sitio.';
 $string['configusetags'] = '¿Habilitar la funcionalidad de marcas a través del sitio?';
 $string['configvariables'] = 'Variables';
 $string['configverifychangedemail'] = 'Habilita la verificación de direcciones de email cambiadas usando ajustes de dominios de correo electrónico permitidos y denegados. Si esta opción está deshabilitada, los dominios se fuerzan sólo cuando se crean usuarios nuevos.';
@@ -329,7 +301,6 @@ $string['debugnormal'] = 'NORMAL: Mostrar errores, avisos y noticias';
 $string['debugsmtp'] = 'Depurar envío de emails';
 $string['defaultallowedmodules'] = 'Módulos permitidos por defecto';
 $string['defaultcourseroleid'] = 'Rol por defecto de los usuarios de un curso';
-$string['defaulthtmleditor'] = 'Editor HTML por defecto';
 $string['defaultrequestcategory'] = 'Categoría por defecto de las solicitudes de curso';
 $string['defaultsettinginfo'] = 'Valor por defecto: $a';
 $string['defaultuserroleid'] = 'Rol por defecto de todos los usuarios';
@@ -375,7 +346,6 @@ $string['enablerssfeeds'] = 'Habilitar canales RSS';
 $string['enablestats'] = 'Habilitar estadísticas';
 $string['enabletrusttext'] = 'Habilitar contenido confiable';
 $string['encoding'] = 'Codificación';
-$string['enrolmultipleusers'] = 'Matricular a los usuarios';
 $string['environment'] = 'Entorno';
 $string['environmenterrortodo'] = 'Debe resolver todos los problemas de entorno (errores) encontrados arriba antes de proceder a instalar esta versión de Moodle';
 $string['environmenterrorupgrade'] = 'Advertencia: ¡Debería resolver todos los problemas de entorno (errores) encontrados antes de proceder con la actualización de esta versión de Moodle! Actualizar sin arreglar estos requerimientos podría causar problemas como pérdida de datos. ¿Está seguro que desea continuar con la actualización?';
@@ -391,7 +361,6 @@ $string['errors'] = 'Errores';
 $string['errorsetting'] = 'No pudo guardarse el ajuste:';
 $string['errorwithsettings'] = 'Algunos ajustes no se han cambiado debido a un error:';
 $string['experimental'] = 'Experimental';
-$string['experimentalsettings'] = 'Experimental';
 $string['extendedusernamechars'] = 'Permitir caracteres extendidos en nombres de usuario';
 $string['filecreated'] = 'Creado nuevo archivo';
 $string['filestoredin'] = 'Guardar archivo en la carpeta:';
@@ -441,7 +410,6 @@ $string['hidefromall'] = 'Ocultar a todos los usuarios';
 $string['hidefromnone'] = 'No ocultar a nadie';
 $string['hidefromstudents'] = 'Ocultar a estudiantes';
 $string['htmleditor'] = 'Editor HTML';
-$string['htmleditorsettings'] = 'Ajustes del editor HTML';
 $string['htmlsettings'] = 'Ajustes HTML';
 $string['http'] = 'HTTP';
 $string['httpsecurity'] = 'Seguridad HTTP';
@@ -457,8 +425,6 @@ $string['installedlangs'] = 'Paquetes de idioma instalados';
 $string['intcachemax'] = 'Máx. caché int.';
 $string['invalidsection'] = 'Sección no válida.';
 $string['invaliduserchangeme'] = 'El nombre de usuario \"changeme\" es reservado: no puede crear una cuenta con ese nombre.';
-$string['ipblocked'] = 'Actualmente este sitio no está disponible.';
-$string['ipblocker'] = 'Bloqueador de IP';
 $string['iplookup'] = 'Búsqueda de dirección IP';
 $string['iplookupinfo'] = 'Por defecto Moodle utiliza el servidor gratuito en línea NetGeo (The Internet Geographic Database) para buscar la ubicación de las direcciones IP. Desafortunadamente, ha cesado el mantenimiento de esta base de datos, y puede devolver información <em>totalmente errónea</em>.
 Se recomienda instalar una copia local de la base de datos GeoLite City, desde MaxMind.<br />
@@ -655,8 +621,6 @@ $string['recaptchapublickey'] = 'Clave pública ReCAPTCHA';
 $string['releasenoteslink'] = 'Si desea información sobre esta versión de Moodle, por favor vea <a target=\"_blank\" href=\"$a\">Release Notes</a>';
 $string['remotelangnotavailable'] = 'Debido a que Moodle no puede conectarse a download.moodle.org, no podemos instalar el paquete de idioma automáticamente. Por favor, descargue los archivos apropiados de la lista, cópielos en su directorio $a y descomprímalos manualmente.';
 $string['renameerrors'] = 'Errores al renombrar';
-$string['requiredentrieschanged'] = '<strong>IMPORTANTE - LÉALO, POR FAVOR<br/>(Este mensaje de advertencia sólo aparecerá durante esta actualización)</strong><br/>Debido a la solución de un \'bug\', cambiará el comportamiento de la base de datos que utilizan los ajustes \'Entradas requeridas\' y \'Entradas requeridas antes de ver los ajustes\'. Puede ver una explicación más detallada de estos cambios en <a href=\"http://moodle.org/mod/forum/discuss.php?d=110928\" target=\"_blank\">el foro del módulo base de datos</a>. El funcionamiento esperado de estos ajustes puede consultarse asimismo en <a href=\"http://docs.moodle.org/en/Adding/editing_a_database#Required_entries\" target=\"_blank\">Moodle Docs</a>.
-<br/><br/>Este cambio afecta a las siguientes bases de datos de su sistema: (Por favor, guarde ahora esta lista y, después de la actualización, compruebe que estas actividades siguen funcionando del modo que desea el profesor.)<br/><strong style=\"color:red\">$a->text</strong><br/>';
 $string['requiredtemplate'] = 'Exigido. Puede utilizar sintaxis de plantilla aquí (%%l = lastname, %%f = firstname, %%u = username). Consulte la ayuda para ver detalles y ejemplos.';
 $string['restrictbydefault'] = 'Restringir módulos por defecto';
 $string['restrictmodulesfor'] = 'Restringir módulos para';
@@ -758,7 +722,6 @@ $string['upgradesure'] = 'Sus archivos Moodle han sido modificados, y usted est�
 <p><b>$a</b></p>
 <p>Una vez que haga esto, no podrá volver atrás.</p>
 <p>¿Está seguro de que quiere actualizar este servidor a esta versión?</p>';
-$string['upgradetimedout'] = 'Se acabó el tiempo de actualización; por favor, reinicie la actualización.';
 $string['upgradingdata'] = 'Actualizando los datos';
 $string['upgradinglogs'] = 'Actualizando los registros';
 $string['uploadpicture_baduserfield'] = 'El atributo de usuario especificado no es válido. Por favor, inténtelo de nuevo.';
@@ -776,7 +739,6 @@ $string['uploadpictures'] = 'Subir imágenes de los usuarios';
 $string['uploaduserspreview'] = 'Previsualizar subida de usuarios';
 $string['uploadusersresult'] = 'Resultados de subida de usuarios';
 $string['upwards'] = 'arriba';
-$string['useexternalyui'] = 'Usar librerías YUI en línea';
 $string['usehtmleditor'] = 'Usar editor HTML';
 $string['useraccountupdated'] = 'Usuario actualizado';
 $string['userbulk'] = 'Acciones de usuario masivas';
@@ -822,6 +784,45 @@ $string['webproxyinfo'] = 'Rellene las siguientes opciones si su servidor Moodle
 $string['xmlrpcrecommended'] = 'Instalar la extensión xmlrpc opcional es útil para la funcionalidad de la Red Moodle.';
 $string['xmlstrictheaders'] = 'Cabeceras XML estrictas';
 $string['ziprequired'] = 'Moodle requiere ahora la extensión Zip PHP. Ya no se usan ni las binarias info-ZIP ni la librería PclZip.';
+$string['advancedfeatures'] = 'Características avanzadas'; // ORPHANED
+$string['allowbeforeblock'] = 'La lista autorizada será procesada en primer lugar'; // ORPHANED
+$string['allowbeforeblockdesc'] = 'Por defecto, se procesará en primer lugar la lista bloqueada; si la opción se activa, la lista de IPs permitidas se procesará entes que la lista bloqueada.'; // ORPHANED
+$string['allowediplist'] = 'Lista de IP permitidas'; // ORPHANED
+$string['allowthemechangeonurl'] = 'Permitir cambios de tema en la URL'; // ORPHANED
+$string['availableto'] = 'Disponible para'; // ORPHANED
+$string['blockediplist'] = 'Lista de IP bloqueadas'; // ORPHANED
+$string['cannotdeletemissingqtype'] = 'No puede eliminar el tipo de pregunta ausente. El sistema la necesita.'; // ORPHANED
+$string['cannotdeletemodfilter'] = 'No puede desinstalar \'$a->filter\' porque es parte del módulo \'$a->module\'.'; // ORPHANED
+$string['cannotdeleteqtypeinuse'] = 'No puede eliminar la pregunta de tipo \'$a\'. Hay preguntas de ese tipo en el banco de preguntas.'; // ORPHANED
+$string['cannotdeleteqtypeneeded'] = 'No puede eliminar la pregunta de tipo \'$a\'. Hay otros tipos de preguntas que dependen de ella.'; // ORPHANED
+$string['clianswerno'] = 'n'; // ORPHANED
+$string['cliansweryes'] = 's'; // ORPHANED
+$string['cliincorrectvalueerror'] = 'Error, valor incorrecto  \"$a->value\" para \"$a->option\"'; // ORPHANED
+$string['cliincorrectvalueretry'] = 'Valor incorrecto, por favor, inténtelo de nuevo'; // ORPHANED
+$string['clistatusdisabled'] = 'Estado: desactivado'; // ORPHANED
+$string['clistatusenabled'] = 'Estado: activado'; // ORPHANED
+$string['clitypevalue'] = 'valor del tipo'; // ORPHANED
+$string['clitypevaluedefault'] = 'valor del tipo, pulse Enter para utilizar el valor por defecto ($a)'; // ORPHANED
+$string['cliunknowoption'] = 'Opciones no reconocidas:
+$a
+. Por favor, utilice la opción Ayuda.'; // ORPHANED
+$string['cliupgradefinished'] = 'Actualización de comando de línea completado con éxito.'; // ORPHANED
+$string['cliyesnoprompt'] = 'escriba s (sí) o n (no)'; // ORPHANED
+$string['commonfiltersettings'] = 'Ajustes comunes de filtro'; // ORPHANED
+$string['condifmodeditdefaults'] = 'Los valores que fije aquí definen los valores por defecto que se usan en el formulario de ajustes de la actividad cuando usted crea una actividad nueva. Puede asimismo configurar qué ajustes de la actividad considera como avanzados.'; // ORPHANED
+$string['configcurlcache'] = 'Tiempo de vigencia (en segundos) de la caché cURL.'; // ORPHANED
+$string['configdebugpageinfo'] = 'Habilítelo si desea que la información de la página aparezca en el pie de página.'; // ORPHANED
+$string['configuseexternalyui'] = 'En lugar de usar archivos locales, usar archivos disponibles en línea en servidores Yahoo&#145;s. ADVERTENCIA: Esto requiere una conexión de internet; de otro modo, AJAX no funcionará en el sitio.'; // ORPHANED
+$string['defaulthtmleditor'] = 'Editor HTML por defecto'; // ORPHANED
+$string['enrolmultipleusers'] = 'Matricular a los usuarios'; // ORPHANED
+$string['experimentalsettings'] = 'Experimental'; // ORPHANED
+$string['htmleditorsettings'] = 'Ajustes del editor HTML'; // ORPHANED
+$string['ipblocked'] = 'Actualmente este sitio no está disponible.'; // ORPHANED
+$string['ipblocker'] = 'Bloqueador de IP'; // ORPHANED
+$string['requiredentrieschanged'] = '<strong>IMPORTANTE - LÉALO, POR FAVOR<br/>(Este mensaje de advertencia sólo aparecerá durante esta actualización)</strong><br/>Debido a la solución de un \'bug\', cambiará el comportamiento de la base de datos que utilizan los ajustes \'Entradas requeridas\' y \'Entradas requeridas antes de ver los ajustes\'. Puede ver una explicación más detallada de estos cambios en <a href=\"http://moodle.org/mod/forum/discuss.php?d=110928\" target=\"_blank\">el foro del módulo base de datos</a>. El funcionamiento esperado de estos ajustes puede consultarse asimismo en <a href=\"http://docs.moodle.org/en/Adding/editing_a_database#Required_entries\" target=\"_blank\">Moodle Docs</a>.
+<br/><br/>Este cambio afecta a las siguientes bases de datos de su sistema: (Por favor, guarde ahora esta lista y, después de la actualización, compruebe que estas actividades siguen funcionando del modo que desea el profesor.)<br/><strong style=\"color:red\">$a->text</strong><br/>'; // ORPHANED
+$string['upgradetimedout'] = 'Se acabó el tiempo de actualización; por favor, reinicie la actualización.'; // ORPHANED
+$string['useexternalyui'] = 'Usar librerías YUI en línea'; // ORPHANED
 $string['optionalsubsystems'] = 'Subsistemas opcionales'; // ORPHANED
 $string['addcounter'] = 'Agregar contador'; // ORPHANED
 $string['newusernamehandling'] = 'Gestión de duplicados de nuevo nombre de usuario'; // ORPHANED
