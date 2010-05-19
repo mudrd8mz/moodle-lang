@@ -91,7 +91,7 @@ $string['check_riskadmin_unassign'] = '<a href=\"$a->url\">$a->fullname  ($a->em
 $string['check_riskadmin_warning'] = 'Encontrado $a->admincount administrador(es) do sistema e $a->unsupcount inscrições com função de administrador que não são suportadas.';
 $string['check_riskbackup_details_overriddenroles'] = '<p>Estas sobreposições ativas dão ao usuário a possibilidade de incluir dados de usuários nos backups. Por favor, certifique-se que esta permissão é necessária.</p> $a';
 $string['check_riskbackup_details_systemroles'] = '<p>As seguintes funções do sistema atualmente permitem aos usuários incluir dados de usuários nos backups. Por favor, certifique-se que esta permissão é necessária.</p> $a';
-$string['check_riskbackup_details_users'] = '<p>Em consequência dos papéis ou sobreposições locais acima, as seguintes contas de usuários tem permissão de fazer backups contendo dados pessoais de quaisquer usuários inscritos nos seus cursos. Certifique-se que eles são (a) confiáveis e (b) protegidos por senhas fortes:</p>';
+$string['check_riskbackup_details_users'] = '<p>Em consequência dos papéis ou sobreposições locais acima, as seguintes contas de usuários tem permissão de fazer backups contendo dados pessoais de quaisquer usuários inscritos nos seus cursos. Certifique-se que eles são (a) confiáveis e (b) protegidos por senhas fortes:</p> $a';
 $string['check_riskbackup_detailsok'] = 'Nenhuma função permite explicitamente o backup de dados de usuários. Entretanto, note que administradores com a permissão \"doanything\" ainda podem ser capazes de fazer isso.';
 $string['check_riskbackup_editoverride'] = '<a href=\"$a->url\">$a->name em $a->contextname</a>';
 $string['check_riskbackup_editrole'] = '<a href=\"$a->url\">$a->name</a>';
