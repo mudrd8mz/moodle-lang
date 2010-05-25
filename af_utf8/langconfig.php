@@ -13,4 +13,5 @@ $string['strftimerecentfull'] = '%%a, %%d %%b %%Y, %%I:%%M %%p';
 $string['strftimetime'] = '%%I:%%M %%p';
 $string['thischarset'] = 'UTF-8';
 $string['thislanguage'] = 'Afrikaans';
+$string['thislanguageint'] = 'Afrikaans';
 ?>

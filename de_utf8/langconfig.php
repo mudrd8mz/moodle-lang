@@ -23,4 +23,5 @@ $string['strftimetime'] = '%%H:%%M';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
 $string['thislanguage'] = 'Deutsch';
+$string['thislanguageint'] = 'German';
 ?>

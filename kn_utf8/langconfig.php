@@ -19,4 +19,5 @@ $string['strftimetime'] = '%%I:%%M %%p';
 $string['thischarset'] = 'utf-8';
 $string['thisdirection'] = 'ltr';
 $string['thislanguage'] = 'ಕನ್ನಡ';
+$string['thislanguageint'] = 'Kannada';
 ?>

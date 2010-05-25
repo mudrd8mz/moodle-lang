@@ -20,4 +20,5 @@ $string['strftimetime'] = '%%p %%I:%%M';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
 $string['thislanguage'] = '한국어';
+$string['thislanguageint'] = 'Korean';
 ?>

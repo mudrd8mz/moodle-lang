@@ -20,4 +20,5 @@ $string['strftimetime'] = '%%I:%%M %%p';
 $string['thischarset'] = 'utf-8';
 $string['thisdirection'] = 'ltr';
 $string['thislanguage'] = 'Māori - Waikato';
+$string['thislanguageint'] = 'Maori (Waikato Uni)';
 ?>

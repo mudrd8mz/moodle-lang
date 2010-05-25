@@ -24,6 +24,7 @@ $string['strftimetime'] = '%%H:%%M';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
 $string['thislanguage'] = 'Sloven&#353;&#269;ina';
+$string['thislanguageint'] = 'Slovenian';
 
 
 ?>

@@ -27,6 +27,7 @@ $string['strftimetime'] = '%%H:%%M';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
 $string['thislanguage'] = '日本語';
+$string['thislanguageint'] = 'Japanese';
 $string['thousandssep'] = ',';
 
 ?>

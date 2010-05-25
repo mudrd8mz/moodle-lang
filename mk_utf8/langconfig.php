@@ -21,4 +21,5 @@ $string['strftimerecentfull'] = '%%a, %%b %%d %%Y, %%I:%%M %%p';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
 $string['thislanguage'] = 'Македонски';
+$string['thislanguageint'] = 'Macedonian';
 ?>

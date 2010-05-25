@@ -18,4 +18,5 @@ $string['strftimetime'] = '%%H:%%M %%p';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
 $string['thislanguage'] = 'Lietuvių';
+$string['thislanguageint'] = 'Lithuanian';
 ?>

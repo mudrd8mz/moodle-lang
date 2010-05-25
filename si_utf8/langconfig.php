@@ -42,4 +42,6 @@ $string['thisdirection'] = 'ltr';
 
 $string['thislanguage'] = 'සිංහල ';
 
+$string['thislanguageint'] = 'Sinhala';
+
 ?>

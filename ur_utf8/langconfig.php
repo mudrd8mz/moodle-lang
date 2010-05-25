@@ -20,4 +20,5 @@ $string['strftimetime'] = '%%I:%%M %%p';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'rtl';
 $string['thislanguage'] = 'اردو';
+$string['thislanguageint'] = 'Urdu';
 ?>

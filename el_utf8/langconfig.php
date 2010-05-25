@@ -25,6 +25,7 @@ $string['strftimetime'] = '%%I:%%M %%p';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
 $string['thislanguage'] = 'Ελληνικά';
+$string['thislanguageint'] = 'Greek';
 $string['thousandssep'] = ',';
 
 ?>

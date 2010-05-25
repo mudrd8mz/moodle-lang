@@ -24,4 +24,5 @@ $string['strftimetime'] = '%%p %%I:%%M';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
 $string['thislanguage'] = '正體中文';
+$string['thislanguageint'] = 'Chinese (Traditional/Big5)';
 ?>

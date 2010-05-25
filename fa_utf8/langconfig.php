@@ -26,6 +26,7 @@ $string['strftimetime'] = '%%I:%%M %%p';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'rtl';
 $string['thislanguage'] = 'فارسی';
+$string['thislanguageint'] = 'Farsi';
 $string['thousandssep'] = ','; // thousands separator, for some languages it is '.' or ' '
 
 ?>

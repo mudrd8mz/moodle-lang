@@ -16,4 +16,5 @@ $string['strftimetime'] = '%%I:%%M %%p';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
 $string['thislanguage'] = 'English';
+$string['thislanguageint'] = 'English (US)';
 ?>

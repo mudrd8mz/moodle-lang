@@ -22,4 +22,5 @@ $string['strftimetime'] = '%%I:%%M %%p';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
 $string['thislanguage'] = 'Монгол';
+$string['thislanguageint'] = 'Mongolian';
 ?>

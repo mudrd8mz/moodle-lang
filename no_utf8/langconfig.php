@@ -11,6 +11,7 @@ $string['oldcharset'] = 'ISO-8859-1';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
 $string['thislanguage'] = 'Norsk - bokmål';
+$string['thislanguageint'] = 'Norwegian';
 $string['strftimedate'] = '%%d %%B %%Y';
 $string['strftimedateshort'] = '%%d %%B';
 $string['strftimedatetime'] = '%%d %%B %%Y, %%H:%%M';
