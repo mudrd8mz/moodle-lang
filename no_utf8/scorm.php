@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9.5+ (Build: 20090909) (2007101551)
+      // scorm.php - created with Moodle 1.9.8+ (Build: 20100519) (2007101580)
 
 
 $string['activation'] = 'Aktivisering';
@@ -46,7 +46,7 @@ $string['exitactivity'] = 'Gå ut av aktiviteten';
 $string['expcoll'] = 'Utvid/kollider';
 $string['external'] = 'Oppdater eksterne pakkers timing';
 $string['failed'] = 'Feilet';
-$string['firstaccess'] = 'Første aksess';
+$string['firstaccess'] = 'Etter første visning';
 $string['firstattempt'] = 'Første forsøk';
 $string['found'] = 'Liste funnet';
 $string['frameheight'] = 'Denne innstillingen setter standard høyde for hovedramme eller vindu';
