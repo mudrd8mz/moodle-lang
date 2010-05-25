@@ -10,6 +10,7 @@ $string['locale'] = 'cs_CZ.UTF-8';
 $string['localewin'] = 'Czech_Czech Republic.1250';
 $string['localewincharset'] = 'WINDOWS-1250';
 $string['oldcharset'] = 'ISO-8859-2';
+$string['parentlanguage'] = '';
 $string['strftimedate'] = '%%d. %%B %%Y';
 $string['strftimedateshort'] = '%%d. %%B';
 $string['strftimedatetime'] = '%%d. %%B %%Y, %%H.%%M';

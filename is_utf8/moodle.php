@@ -1426,7 +1426,6 @@ $string['themes'] = 'Þemu';
 $string['themesaved'] = 'Nýtt þema vistað';
 $string['thereareno'] = 'Það er ekkert $a í þessum áfanga';
 $string['thischarset'] = 'UTF-8';
-$string['thisdirection'] = '<< ÞÝÐENDUR: Þessi strengur ákvarðar stefnu textans, þ.e. annað hvort vinstri-til-hægri eða hægri-til-vinstri. Skráðu annað hvort \"ltr\" eða \'rtl\" hér. >>';
 $string['thislanguage'] = 'Íslenska';
 $string['time'] = 'Tími';
 $string['timezone'] = 'Tímabelti';

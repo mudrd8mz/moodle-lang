@@ -1129,7 +1129,6 @@ $string['parentcategory'] = 'Nadřazená kategorie';
 $string['parentcoursenotfound'] = 'Nadřazený kurz nenalezen!';
 $string['parentcoursenotmetacourse'] = 'Nadřazený kurz není metakurz!';
 $string['parentfolder'] = 'Nadřazená složka';
-$string['parentlanguage'] = '<< Pokud chcete definovat sekundární jazyk, který má Moodle používat v případech, kdy řetězce ve vašem jazykovém balíčku chybí, specifikujte jeho kód zde. Příklad: sk_utf8>>';
 $string['participants'] = 'Účastníci';
 $string['participationratio'] = 'Poměr participace';
 $string['participationreport'] = 'Protokol participace';

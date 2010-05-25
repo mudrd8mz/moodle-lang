@@ -1115,7 +1115,6 @@ $string['parentcategory'] = 'Overordnet kategori';
 $string['parentcoursenotfound'] = 'Metakursus ikke fundet!';
 $string['parentcoursenotmetacourse'] = 'Det overordnede kursus er ikke et metakursus';
 $string['parentfolder'] = 'Foregående folder';
-$string['parentlanguage'] = '<< OVERSÆTTERE: Hvis din sprogpakke har en moderpakke som Moodle skal bruge hvor der er uoversatte strenge, kan du angive det her. Hvis ikke du udfylder dette felt vil den tilsvarende engelske streng blive brugt. Eksempel: nl >>';
 $string['participants'] = 'Deltagere';
 $string['participationratio'] = 'Deltagerforhold';
 $string['participationreport'] = 'Deltagerrapport';
