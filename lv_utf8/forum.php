@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9.4 (Build: 20090128) (2007101540)
+      // forum.php - created with Moodle 1.9.8 (Build: 20100325) (2007101580)
 
 
 $string['addanewdiscussion'] = 'Pievienot jaunu diskusijas tēmu';
@@ -8,6 +8,7 @@ $string['addanewtopic'] = 'Pievienot jaunu tēmu';
 $string['advancedsearch'] = 'Detalizēta meklēšana';
 $string['aggregateavg'] = 'Reitingu vidējais';
 $string['aggregatecount'] = 'Reitingu skaits';
+$string['aggregatecountformat'] = '$a->count (vērtējums: $a->grade)';
 $string['aggregatemax'] = 'Maksimālais reitings';
 $string['aggregatemin'] = 'Minimālais reitings';
 $string['aggregatenone'] = 'Nav reitingu';
@@ -166,6 +167,7 @@ $string['nopostforum'] = 'Atvainojiet, jums nav atļauts publicēt ziņas šajā
 $string['noposts'] = 'Nav publicētu ziņu';
 $string['nopostscontaining'] = 'Nav atrasta neviena publicētā ziņa, kur iekļauta virkne “{$a}”';
 $string['noquestions'] = 'Šajā forumā vēl nav neviena jautājuma';
+$string['noratinggiven'] = 'Nav sniegts novērtējums';
 $string['nosubscribers'] = 'Šim forumam vēl nav neviena abonenta';
 $string['nothingnew'] = 'Nav nekā jauna šim: $a';
 $string['notingroup'] = 'Atvainojiet, bet, lai skatītu šo forumu, jums jābūt iekļautam grupā.';

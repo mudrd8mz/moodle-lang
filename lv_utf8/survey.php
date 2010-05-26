@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.8.4 (2007021540)
+      // survey.php - created with Moodle 1.9.8 (Build: 20100325) (2007101580)
 
 
 $string['actual'] = 'Esošais';
@@ -164,6 +164,8 @@ Jūsu rūpīgi apdomātās atbildes mums palīdzēs turpmāk uzlabot šī lekcij
 Liels paldies!';
 $string['collespname'] = 'COLLES (vēlamais)';
 $string['customintro'] = 'Pielāgots ievads';
+$string['deleteallanswers'] = 'Dzēst visas anketas atbildes';
+$string['deleteanalysis'] = 'Dzēst atbilžu analīzi';
 $string['done'] = 'Gatavs';
 $string['download'] = 'Lejupielādēt';
 $string['downloadexcel'] = 'Lejupielādēt datus Excel izklājlapas formātā';

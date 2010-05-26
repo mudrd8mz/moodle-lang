@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9.4 (Build: 20090128) (2007101540)
+      // role.php - created with Moodle 1.9.8 (Build: 20100325) (2007101580)
 
 
 $string['addrole'] = 'Pievienot jaunu lomu';
@@ -10,12 +10,13 @@ $string['allsiteusers'] = 'Visi vietnes lietotāji';
 $string['assignglobalroles'] = 'Piešķirt vispārējās lomas';
 $string['assignroles'] = 'Piešķirt lomas';
 $string['assignrolesin'] = 'Lomu piešķiršana, $a';
+$string['backup:userinfo'] = 'Dublēt lietotāju datus';
 $string['block:view'] = 'Skatīt bloku';
-$string['blog:create'] = 'Izveidot jaunus emuāra ierakstus';
+$string['blog:create'] = 'Izveidot jaunus bloga ierakstus';
 $string['blog:manageentries'] = 'Rediģēt un pārvaldīt ierakstus';
 $string['blog:manageofficialtags'] = 'Pārvaldīt oficiālās atzīmes';
 $string['blog:managepersonaltags'] = 'Pārvaldīt personiskās atzīmes';
-$string['blog:view'] = 'Skatīt emuāru ierakstus';
+$string['blog:view'] = 'Skatīt blogu ierakstus';
 $string['calendar:manageentries'] = 'Pārvaldīt jebkurus kalendāra ierakstus';
 $string['calendar:managegroupentries'] = 'Pārvaldīt grupas kalendāra ierakstus';
 $string['calendar:manageownentries'] = 'Pārvaldīt savus kalendāra ierakstus';
@@ -29,9 +30,11 @@ $string['category:viewhiddencategories'] = 'Skatīt slēptās kategorijas';
 $string['category:visibility'] = 'Skatīt slēptās kategorijas';
 $string['course:activityvisibility'] = 'Paslēpt/rādīt aktivitātes';
 $string['course:bulkmessaging'] = 'Nosūtīt ziņu vairākiem adresātiem';
+$string['course:changecategory'] = 'Mainīt kursa kategoriju';
 $string['course:changefullname'] = 'Nomainīt kursa pilno nosaukumu';
 $string['course:changeidnumber'] = 'Nomainīt kursa ID numuru';
 $string['course:changeshortname'] = 'Nomainīt kursa īso nosaukumu';
+$string['course:changesummary'] = 'Mainīt kursa kopsavilkumu';
 $string['course:create'] = 'Izveidot kursus';
 $string['course:delete'] = 'Dzēst kursus';
 $string['course:manageactivities'] = 'Pārvaldīt aktivitātes';
@@ -132,6 +135,9 @@ $string['resetrole'] = 'Atiestatīt noklusējuma vērtības';
 $string['resetrolenolegacy'] = 'Dzēst atļaujas';
 $string['resetrolesure'] = 'Vai tiešām vēlaties lomai “{$a->name} ($a->shortname)” atiestatīt noklusējuma atļaujas?<p><p>Noklusējuma atļaujas tiek ņemtas no izvēlētās mantotās lomas ($a->legacytype).';
 $string['resetrolesurenolegacy'] = 'Vai tiešām vēlaties dzēst visas lomai “{$a->name} ($a->shortname)” definētās atļaujas?</p>';
+$string['restore:createuser'] = 'Veidot lietotājus atjaunošanas laikā';
+$string['restore:rolldates'] = 'Atjaunošanas laikā ir atļauts pārbīdīt datumus aktivitāšu konfigurācijās';
+$string['restore:userinfo'] = 'Atjaunot lietotāju datus';
 $string['risks'] = 'Riski';
 $string['role:assign'] = 'Piešķirt lomas lietotājiem';
 $string['role:manage'] = 'Izveidot un pārvaldīt lomas';
@@ -177,7 +183,7 @@ $string['user:delete'] = 'Dzēst lietotājus';
 $string['user:editownprofile'] = 'Rediģēt savu lietotāja profilu';
 $string['user:editprofile'] = 'Rediģēt lietotāja profilu';
 $string['user:loginas'] = 'Pieslēgties ar citiem lietotājvārdiem';
-$string['user:readuserblogs'] = 'Skatīt visus lietotāju emuārus';
+$string['user:readuserblogs'] = 'Skatīt visus lietotāju blogus';
 $string['user:readuserposts'] = 'Skatīt visas lietotāju publicētās ziņas';
 $string['user:update'] = 'Atjaunināt lietotāju profilus';
 $string['user:viewdetails'] = 'Skatīt lietotāju profilus';

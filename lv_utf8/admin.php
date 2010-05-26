@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.2+ (Build: 20080924) (2007101522)
+      // admin.php - created with Moodle 1.9.8 (Build: 20100325) (2007101580)
 
 
 $string['accessdenied'] = 'Piekļuve liegta';
@@ -33,7 +33,7 @@ $string['badwordslist'] = 'Pielāgots nevēlamo vārdu saraksts';
 $string['blockinstances'] = 'Kopijas';
 $string['blockmultiple'] = 'Vairāki';
 $string['blocksettings'] = 'Pārvaldīt blokus';
-$string['bloglevel'] = 'Emuāra redzamība';
+$string['bloglevel'] = 'Bloga redzamība';
 $string['bookmarkadded'] = 'Grāmatzīme pievienota.';
 $string['bookmarkalreadyexists'] = 'Šai lapai grāmatzīmi jau esat pievienojuši.';
 $string['bookmarkdeleted'] = 'Grāmatzīme izdzēsta.';
@@ -61,7 +61,7 @@ $string['configallowuserthemes'] = 'Ja iespējosit šo, lietotāji varēs iestat
 $string['configallusersaresitestudents'] = 'Norādiet, vai VISUS lietotājus pielīdzināt studentiem, lai viņi vietnes titullapā varētu veikt aktivitātes. Ja atbilde ir “Jā”, visiem, kam ir apstiprināti lietotāju konti, šajās aktivitātēs tiks ļauts piedalīties kā studentiem. Ja atbilde ir “Nē”, titullapā norādītajās aktivitātēs varēs piedalīties tikai tie lietotāji, kas jau ir vismaz viena kursa dalībnieki. Šajās titullapas aktivitātēs kā pasniedzēji var darboties tikai administratori un īpaši norādīti pasniedzēji.';
 $string['configauthenticationplugins'] = 'Lūdzu, izvēlieties izmantojamos autentifikācijas spraudņus un sakārtojiet tos lietošanas mēģinājumu secībā. Pašreģistrāciju veiks kolonnā “Reģistrācija” izvēlētais spraudnis (parasti “e-pasts”).';
 $string['configautologinguests'] = 'Atzīmējiet, ja vēlaties, lai apmeklētājs, kas kursā ieiet, izmantojot viesa piekļuvi, tiek automātiski pieslēgts kā viesis.';
-$string['configbloglevel'] = 'Šis iestatījums ļauj ierobežot šajā vietnē skatāmo lietotāju emuāru izmantošanas līmeni. Ievērojiet, ka tas nosaka SKATĪTĀJA, nevis publicētāja maksimālās iespējas vai emuārā publicēto ziņu tipus. Ja nevēlaties izmantot emuārus, tos var atspējot pavisam.';
+$string['configbloglevel'] = 'Šis iestatījums ļauj ierobežot šajā vietnē skatāmo lietotāju blogu izmantošanas līmeni. Ievērojiet, ka tas nosaka SKATĪTĀJA, nevis publicētāja maksimālās iespējas vai blogā publicēto ziņu tipus. Ja nevēlaties izmantot blogus, tos var atspējot pavisam.';
 $string['configcachetext'] = 'Lielās vietnēs vai vietnēs, kur tiek izmantoti teksta filtri, šis iestatījums var ievērojami palielināt ātrdarbību. Teksta kopijas šeit norādīto laika periodu tiks saglabātas apstrādātā veidā. Pārāk mazs iestatījums var palēnināt ātrdarbību, bet pārāk liels iestatījums var izraisīt pārāk novēlotu teksta atjaunošanu (piemēram, iekļaujot jaunas saites).';
 $string['configcachetype'] = 'Izvēlieties sistēmā Moodle izmantojamās kešatmiņas tipu. Ar šo kešatmiņa tiek tikai konfigurēta, neaizmirstiet iespējot rcache, lai kešatmiņa tiktu izmantota. Izmantojiet šo iespēju <strong>tikai tad </strong>, ja ir jāsamazina datubāzes sistēmas noslodze, citādi Moodle reāli darbosies lēnāk. Vidēja trafika vietnēs var noderēt opcija “iekšēja”. Atsevišķam tīmekļa serverim, kur instalēts eAccelerator vai Turckmmcache <em>ar iespējotām koplietojamās atmiņas opcijām</em>, jāmēģina izmantot “eaccelerator”. Ja ir uzstādīti vairāki serveri un darbojas viens vai vairāki dēmoni memcached, kā arī paplašinājums PHP-memcached, izvēlieties “memcached” un konfigurējiet norādītās memcached opcijas. <br /><strong>Piezīme.</strong> Pārbaudiet veiktspēju ar slodzi, un atbilstoši pieregulējiet iestatījumu&nbsp;— kešatmiņas var izraisīt lēnāku vietnes darbību. Ja trafiks ir liels, eAccelerator un memcached var uzlabot darbību, bet vietnes servera centrālā procesora noslodze būs lielāka.';
 $string['configclamactlikevirus'] = 'Uzskatīt failus par vīrusiem';
@@ -83,7 +83,7 @@ $string['configdefaultallowedmodules'] = 'Norādiet, kurus moduļus, <b>izveidoj
 $string['configdefaultcourseroleid'] = 'Šī loma automātiski tiek piešķirta lietotājiem, kas reģistrējas kādā kursā.';
 $string['configdefaultrequestcategory'] = 'Lietotāju pieprasītie kursi automātiski tiks iekļauti šajā kategorijā.';
 $string['configdefaultrequestedcategory'] = 'Noklusējuma kategorija, kurā iekļaut pieprasītos kursus, ja tie tiek apstiprināti.';
-$string['configdefaultuserroleid'] = 'Visiem lietotājiem, kuri ir pieslēgušies, PAPILDUS tām lomām, kas tiem jau varētu būt piešķirtas, vietnes līmenī tiks piešķirtas arī šeit norādītās lomas iespējas. Noklusējuma loma ir Autentificēts lietotājs (vai vecākās versijās — Viesis). Ņemiet vērā, ka šī loma nekonfliktē ar citām lietotāja lomām, tā tikai nodrošina, lai visiem lietotājiem būtu iespējas, kuras nevar piešķirt kursu līmenī (piemēram, publicēt emuāra ierakstus, pārvaldīt savu kalendāru u.c.).';
+$string['configdefaultuserroleid'] = 'Visiem lietotājiem, kuri ir pieslēgušies, PAPILDUS tām lomām, kas tiem jau varētu būt piešķirtas, vietnes līmenī tiks piešķirtas arī šeit norādītās lomas iespējas. Noklusējuma loma ir Autentificēts lietotājs (vai vecākās versijās — Viesis). Ņemiet vērā, ka šī loma nekonfliktē ar citām lietotāja lomām, tā tikai nodrošina, lai visiem lietotājiem būtu iespējas, kuras nevar piešķirt kursu līmenī (piemēram, publicēt bloga ierakstus, pārvaldīt savu kalendāru u.c.).';
 $string['configdeleteunconfirmed'] = 'Ja izmantojat e-pasta autentifikāciju, šis būs laika periods, kurā tiks akceptētas lietotāju atbildes. Beidzoties šim periodam, vecie neapstiprinātie konti tiks izdzēsti.';
 $string['configdenyemailaddresses'] = 'Lai aizliegtu e-pasta adreses no noteiktiem domēniem, uzskaitiet tos šeit tādā pašā veidā. Visi pārējie domēni tiks akceptēti. Piemērs: <strong>hotmail.com yahoo.co.uk</strong>';
 $string['configdigestmailtime'] = 'Lietotājiem, kas izvēlēsies, lai e-pasts tiktu nosūtīts īssavilkuma veidā, tas tiks nosūtīts katru dienu. Šis iestatījums nosaka, cikos tiks nosūtīts ikdienas e-pasta ziņojums (to nosūtīs nākamais pēc norādītās stundas palaistais dēmons cron).';

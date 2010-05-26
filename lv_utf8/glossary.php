@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9.4 (Build: 20090128) (2007101540)
+      // glossary.php - created with Moodle 1.9.8 (Build: 20100325) (2007101580)
 
 
 $string['addcomment'] = 'Komentāru pievienošana';
@@ -19,12 +19,14 @@ $string['areyousuredeletecomment'] = 'Vai tiešām vēlaties izdzēst šo koment
 $string['areyousureexport'] = 'Vai tiešām vēlaties eksportēt šo šķirkli uz';
 $string['ascending'] = '(augošā secībā)';
 $string['attachment'] = 'Pielikums';
+$string['author'] = 'autors';
 $string['authorview'] = 'Pārlūkot pēc autora';
 $string['back'] = 'Atpakaļ';
 $string['cantinsertcat'] = 'Nevar ievietot kategoriju';
 $string['cantinsertrec'] = 'Nevar ievietot ierakstu';
 $string['cantinsertrel'] = 'Nevar ievietot saistītās kategorijas šķirkli';
 $string['casesensitive'] = 'Šis šķirklis ir reģistrjutīgs.';
+$string['cat'] = 'cat';
 $string['categories'] = 'Kategorijas';
 $string['category'] = 'Kategorija';
 $string['categorydeleted'] = 'Kategorija ir izdzēsta.';
@@ -54,8 +56,13 @@ $string['concepts'] = 'Jēdzieni';
 $string['configenablerssfeeds'] = 'Šis slēdzis ļaus visām vārdnīcām izmantot RSS plūsmas.  Tomēr katras vārdnīcas iestatījumos plūsmas joprojām būs jāieslēdz manuāli.';
 $string['current'] = 'Šobrīd kārtots $a';
 $string['currentglossary'] = 'Pašreizējā vārdnīca';
+$string['date'] = 'datums';
 $string['dateview'] = 'Pārlūkot pēc datuma';
 $string['defaultapproval'] = 'Apstiprināts pēc noklusējuma';
+$string['defaulthook'] = 'Noklusējuma aizķere';
+$string['defaultmode'] = 'Noklusējuma režīms';
+$string['defaultsortkey'] = 'Noklusējuma kārtošanas atslēga';
+$string['defaultsortorder'] = 'Noklusējuma kārtošanas secība';
 $string['definition'] = 'Definīcija';
 $string['definitions'] = 'Definīcijas';
 $string['deleteentry'] = 'Dzēst šķirkli';
@@ -131,7 +138,10 @@ $string['importedcategories'] = 'Importētās kategorijas';
 $string['importedentries'] = 'Importētie šķirkļi';
 $string['importentries'] = 'Importēt šķirkļus';
 $string['importentriesfromxml'] = 'Importēt šķirkļus no XML faila';
+$string['includegroupbreaks'] = 'Iekļaut grupu pārtraukumus';
+$string['invalidrate'] = 'Nederīgs vārdnīcas vērtējums ($a)';
 $string['isglobal'] = 'Vai šī vārdnīca ir vispārīga?';
+$string['letter'] = 'vēstule';
 $string['linkcategory'] = 'Saistīt šo kategoriju automātiski';
 $string['linking'] = 'Automātiskā saistīšana';
 $string['mainglossary'] = 'Pamatvārdnīca';
@@ -150,6 +160,7 @@ $string['noentry'] = 'Nav atrasts neviens šķirklis.';
 $string['notcategorised'] = 'Bez kategorijas';
 $string['numberofentries'] = 'Šķirkļu skaits';
 $string['onebyline'] = '(katrā rindiņā pa vienam)';
+$string['popupformat'] = 'Uznirstošā loga formāts';
 $string['printerfriendly'] = 'Printerim pielāgota versija';
 $string['printviewnotallowed'] = 'Drukas skata izmantošana nav atļauta.';
 $string['question'] = 'Jautājums';
@@ -188,15 +199,5 @@ $string['withauthor'] = 'Jēdzieni, norādot autoru';
 $string['withoutauthor'] = 'Jēdzieni, nenorādot autoru';
 $string['writtenby'] = 'par';
 $string['youarenottheauthor'] = 'Jūs neesat šī komentāra autors, tādēļ jums nav atļauts to rediģēt.';
-$string['author'] = 'autors'; // ORPHANED
-$string['cat'] = 'cat'; // ORPHANED
-$string['date'] = 'datums'; // ORPHANED
-$string['defaulthook'] = 'Noklusējuma aizķere'; // ORPHANED
-$string['defaultmode'] = 'Noklusējuma režīms'; // ORPHANED
-$string['defaultsortkey'] = 'Noklusējuma kārtošanas atslēga'; // ORPHANED
-$string['defaultsortorder'] = 'Noklusējuma kārtošanas secība'; // ORPHANED
-$string['includegroupbreaks'] = 'Iekļaut grupu pārtraukumus'; // ORPHANED
-$string['letter'] = 'vēstule'; // ORPHANED
-$string['popupformat'] = 'Uznirstošā loga formāts'; // ORPHANED
 
 ?>
