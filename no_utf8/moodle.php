@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.8+ (Build: 20100512) (2007101580)
+      // moodle.php - created with Moodle 1.9.8+ (Build: 20100526) (2007101580)
 
 
 $string['abouttobeinstalled'] = 'vil bli installert';
@@ -1444,6 +1444,9 @@ $string['themes'] = 'Tema';
 $string['themesaved'] = 'Nytt tema lagret';
 $string['thereareno'] = 'Det er ingen $a i dette kurset.';
 $string['thiscategorycontains'] = 'Denne kategorien inneholder';
+$string['thischarset'] = '<< OVERSETTERE: Tegnsett - bruk alltid utf-8 >>';
+$string['thisdirection'] = '<< OVERSETTERE: Denne strengen angir leseretningen, enten venstre-til-høyre, eller høyre-til-venstre. ´Skriv inn enten \'ltr\' eller \'rtl\' her. >>';
+$string['thislanguage'] = '<< OVERSETTERE: Angi språknavnet her. Dersom mulig bruk språkkodene i Unicode Numeric Character References >>';
 $string['time'] = 'Tid';
 $string['timezone'] = 'Tidssone';
 $string['to'] = 'Til';
