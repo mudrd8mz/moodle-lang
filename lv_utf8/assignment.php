@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.9.4 (Build: 20090128) (2007101540)
+      // assignment.php - created with Moodle 1.9.8 (Build: 20100325) (2007101580)
 
 
 $string['allowdeleting'] = 'Atļaut dzēšanu';
@@ -60,12 +60,12 @@ $string['guestnoupload'] = 'Atvainojiet, vieslietotājiem augšupielāde nav at�
 $string['helpoffline'] = '<p>Tas noder, ja uzdevums tiek veikts ārpus sistēmas Moodle. Tas, iespējams, notiek kaut kur citur tīmeklī vai tiekoties.</p><p>Studenti var skatīt uzdevuma aprakstu, bet nevar augšupielādēt failus un citu informāciju. Vērtēšana notiek kā parasti, un studenti saņems paziņojumus par savu vērtējumu.</p>';
 $string['helponline'] = '<p>Šāda tipa uzdevumā lietotājam ir jārediģē teksts, izmantojot parastos rediģēšanas rīkus. Pasniedzēji tos var novērtēt tiešsaistē un pat pievienot komentārus vai iekļaut izmaiņas.</p>
    <p>(Ja esat strādājis ar vecāku sistēmas Moodle versiju, šis uzdevuma tips atbilst vecajam modulim Žurnāls.)</p>';
-$string['helpupload'] = '<p>Šis uzdevuma tips katram dalībniekam ļauj augšupielādēt vienu vai vairākus jebkura formāta failus. 
-   Tie varētu būt tekstapstrādes programmas dokumenti, attēli, tilpsaspiesta tīmekļa vietne vai jebkas cits, ko uzdodat iesniegt.</p>
+$string['helpupload'] = '<p>Šis uzdevuma tips katram dalībniekam ļauj augšupielādēt vienu vai vairākus jebkura formāta failus.
+   Tie varētu būt tekstapstrādes programmas dokumenti, attēli, saarhivēta tīmekļa vietne vai jebkas cits, ko uzdodat iesniegt.</p>
    <p>Šis tips ļauj arī augšupielādēt vairākus atbildes failus. Atbildes failus var augšupielādēt arī pirms uzdevuma iesniegšanas, šo iespēju var izmantot, katram dalībniekam piešķirot savu failu, ar kuru strādāt.</p>
    <p>Dalībnieki var arī pievienot aprakstošas piezīmes par iesniegtajiem failiem, norises gaitu, kā arī jebkuru citu teksta informāciju.</p>
    <p>Šī tipa uzdevumu iesniegšana dalībniekam ir jāpabeidz manuāli. Pašreizējo statusu var pārskatīt jebkurā laikā, nepabeigtie uzdevumi tiek atzīmēti kā melnraksti. Visiem nenovērtētajiem uzdevumiem var atgriezt melnraksta statusu.</p>';
-$string['helpuploadsingle'] = '<p>Šī tipa uzdevums katram dalībniekam ļauj augšupielādēt vienu jebkāda tipa failu.</p> <p>Tas varētu būt tekstapstrādes programmas dokuments, attēls, tilpsaspiesta tīmekļa vietne vai jebkas cits, ko uzdodat iesniegt.</p>';
+$string['helpuploadsingle'] = '<p>Šī tipa uzdevums katram dalībniekam ļauj augšupielādēt vienu jebkāda tipa failu.</p> <p>Tas varētu būt tekstapstrādes programmas dokuments, attēls, saarhivēta tīmekļa vietne vai jebkas cits, ko uzdodat iesniegt.</p>';
 $string['hideintro'] = 'Paslēpt aprakstu līdz datumam, kad tam jākļūst pieejamam';
 $string['itemstocount'] = 'Skaits';
 $string['late'] = '$a kavē';

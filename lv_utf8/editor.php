@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.7 beta + (2006101003)
+      // editor.php - created with Moodle 1.9.8 (Build: 20100325) (2007101580)
 
 
 $string['about'] = 'Par šo redaktoru';
@@ -58,8 +58,8 @@ $string['justifycenter'] = 'Taisnot centrā';
 $string['justifyfull'] = 'Taisnot pilnībā';
 $string['justifyleft'] = 'Taisnot pa kreisi';
 $string['justifyright'] = 'Taisnot pa labi';
-$string['layout'] = 'Izkārtojums';
 $string['lang'] = 'Valoda';
+$string['layout'] = 'Izkārtojums';
 $string['left'] = 'Pa kreisi';
 $string['lefttoright'] = 'Virziens no kreisās puses uz labo pusi';
 $string['linkproperties'] = 'Saites rekvizīti';
@@ -125,6 +125,6 @@ $string['upload'] = 'Augšupielādēt';
 $string['vertical'] = 'Vertikāli';
 $string['width'] = 'Platums';
 $string['wordclean'] = 'Tīrīt Word HTML';
-$string['zip'] = 'Tilpsaspiest';
+$string['zip'] = 'Sazipot';
 
 ?>

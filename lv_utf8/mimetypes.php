@@ -1,12 +1,12 @@
 <?PHP // $Id$ 
-      // mimetypes.php - created with Moodle 1.7 beta + (2006101003)
+      // mimetypes.php - created with Moodle 1.9.8 (Build: 20100325) (2007101580)
 
 
 $string['application/msword'] = 'Word dokuments';
 $string['application/pdf'] = 'PDF dokuments';
 $string['application/vnd.ms-excel'] = 'Excel izklājlapa';
 $string['application/vnd.ms-powerpoint'] = 'Powerpoint prezentācija';
-$string['application/zip'] = 'tilpsaspiedes arhīvs';
+$string['application/zip'] = 'zip arhīvs';
 $string['audio/mp3'] = 'MP3 audiofails';
 $string['audio/wav'] = 'audiofails';
 $string['document/unknown'] = 'fails';

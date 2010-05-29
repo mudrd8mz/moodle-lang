@@ -1,16 +1,16 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.8.4 (2007021540)
+      // error.php - created with Moodle 1.9.8 (Build: 20100325) (2007101580)
 
 
 $string['adminprimarynoedit'] = 'Primāro administratoru citi nevar rediģēt';
-$string['cannotcreatelangdir'] = 'Nevar izveidot valodas direktoriju.';
-$string['cannotcreatetempdir'] = 'Nevar izveidot pagaidu direktoriju.';
-$string['cannotdownloadcomponents'] = 'Nevar lejupielādēt komponentus.';
-$string['cannotdownloadzipfile'] = 'Nevar lejupielādēt ZIP failu.';
-$string['cannotfindcomponent'] = 'Nevar atrast komponentu.';
-$string['cannotsavemd5file'] = 'Nevar saglabāt md5 failu.';
-$string['cannotsavezipfile'] = 'Nevar saglabāt ZIP failu.';
-$string['cannotunzipfile'] = 'Nevar tilpatspiest failu.';
+$string['cannotcreatelangdir'] = 'Nevar izveidot valodas direktoriju';
+$string['cannotcreatetempdir'] = 'Nevar izveidot pagaidu direktoriju';
+$string['cannotdownloadcomponents'] = 'Nevar lejupielādēt komponentus';
+$string['cannotdownloadzipfile'] = 'Nevar lejupielādēt ZIP failu';
+$string['cannotfindcomponent'] = 'Nevar atrast komponentu';
+$string['cannotsavemd5file'] = 'Nevar saglabāt md5 failu';
+$string['cannotsavezipfile'] = 'Nevar saglabāt ZIP failu';
+$string['cannotunzipfile'] = 'Nevar atzipot failu';
 $string['cannotviewprofile'] = 'Jūs nevarat apskatīt šī lietotāja profilu.';
 $string['cantunenrollfrommetacourse'] = 'Jūs nevarat atcelt savu reģistrāciju šajā metakursā.';
 $string['cantunenrollinthisrole'] = 'Jūs nevarat atcelt savu reģistrāciju šajā kursā, kamēr izmantojat pašreizējo lomu.';
@@ -26,7 +26,7 @@ $string['errorcreatingdirectory'] = 'Veidojot direktoriju “{$a}”, radās kļ
 $string['errorcreatingfile'] = 'Veidojot failu “{$a}”, radās kļūda';
 $string['erroronline'] = 'Kļūda rindiņā $a';
 $string['errorreadingfile'] = 'Lasot failu “{$a}”, radās kļūda';
-$string['errorunzippingfiles'] = 'Veicot failu tilpatspiedi, radās kļūda';
+$string['errorunzippingfiles'] = 'Kļūda, atzipojot failus';
 $string['fieldrequired'] = 'Lauks “{$a}” ir nepieciešams';
 $string['filenotfound'] = 'Atvainojiet, norādīto failu nevarēja atrast';
 $string['forumblockingtoomanyposts'] = 'Esat pārsniedzis šim forumam iestatīto publicēšanas slieksni.';
@@ -64,7 +64,7 @@ $string['pagenotexist'] = 'Radusies neparasta kļūda (mēģinājums sasniegt la
 $string['pleasereport'] = 'Ja jums ir brīvs brīdis, lūdzu, informējiet mūs, ko mēģinājāt darīt, kad radās šī kļūda:';
 $string['pluginrequirementsnotmet'] = 'Spraudni “{$a->pluginname}” ($a->pluginversion) nevarēja instalēt. Tam nepieciešama jaunāka sistēmas Moodle versija (pašlaik izmantojat $a->currentmoodle, nepieciešama $a->requiremoodle).';
 $string['processingstops'] = 'Apstrāde šeit tiek pārtraukta. Atlikušie ieraksti ignorēti.';
-$string['remotedownloadnotallowed'] = 'Komponentu lejupielāde jūsu serverī nav atļauta (iestatījums allow_url_fopen ir atspējots).<br /><br />Lejupielādējiet šo <a href=\"$a->url\">$a->url</a> failu manuāli, kopējiet to sava servera atrašanās vietā “{$a->dest}” un veiciet tā tilpatspiešanu.';
+$string['remotedownloadnotallowed'] = 'Komponentu lejupielāde jūsu serverī nav atļauta (iestatījums allow_url_fopen ir atspējots).<br /><br />Lejupielādējiet šo <a href=\"$a->url\">$a->url</a> failu manuāli, kopējiet to sava servera atrašanās vietā \"{$a->dest}\" un atzipojiet to tur.';
 $string['restricteduser'] = 'Atvainojiet, bet jūsu pašreizējam kontam “{$a}” ir aizliegts to darīt.';
 $string['scheduledbackupsdisabled'] = 'Servera administrators ir atslēdzis ieplānoto rezerves kopiju veidošanu';
 $string['sendmessage'] = 'Nosūtīt ziņojumu';

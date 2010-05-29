@@ -196,11 +196,11 @@ $string['configteacherassignteachers'] = 'Norādiet, vai parastajiem pasniedzēj
 $string['configthemelist'] = 'Atstājiet šo iestatījumu tukšu, lai atļautu izmantot jebkuru derīgu dizainu. Ja vēlaties saīsināt dizainu izvēlni, šeit varat norādīt ar komatu atdalītu nosaukumu sarakstu (nelietojiet atstarpes!).
 Piemēram: standarta,LU_krāsas.';
 $string['configtimezone'] = 'Šeit var iestatīt noklusējuma laika joslu. Šī ir vienīgā NOKLUSĒJUMA laika josla, kas paredzēta datumu attēlošanai&nbsp;— ikviens lietotājs savā profilā šo iestatījumu var aizvietot ar savu. Norādot vērtību “Servera laiks” šeit, sistēmas Moodle noklusējums būs servera operētājsistēmas iestatījums, bet, norādot vērtību “Servera laiks” lietotāja profilā, lietotāja noklusējums būs šeit norādītais laika joslas iestatījums. Cronjob, kura izpilde notiek noteiktā laikā, izmantos šo laika joslu.';
-$string['configunzip'] = 'Norādiet atrašanās vietu savai tilpsaspiešanas programmai (tikai sistēmā Unix, nav obligāti). Ja norādīta, tā tiek izmantota tilpsaspiedes arhīvu izpakošanai serverī. Ja šo iestatījumu atstājat tukšu, sistēma Moodle izmanto iekšējās rutīnas.';
+$string['configunzip'] = 'Norādiet savas atzipošanas programmas atrašanās vietu (tikai sistēmā Unix, nav obligāti). Ja norādīta, tā tiek izmantota zip arhīvu izpakošanai serverī. Ja šo iestatījumu atstājat tukšu, sistēma Moodle izmanto iekšējās rutīnprogrammas.';
 $string['configvariables'] = 'Mainīgie';
 $string['configvisiblecourses'] = 'Paslēptajās kategorijās iekļautos kursus rādīt kā parasti';
 $string['configwarning'] = 'Modificējot šos iestatījumus, uzmanieties&nbsp;— dīvainas vērtības var izraisīt problēmas.';
-$string['configzip'] = 'Norādiet atrašanās vietu savai tilpsaspiešanas programmai (tikai sistēmā Unix, nav obligāti). Ja norādīta, tā tiek izmantota tilpsaspiedes arhīvu izveidei serverī. Ja šo iestatījumu atstājat tukšu, sistēma Moodle izmanto iekšējās rutīnas.';
+$string['configzip'] = 'Norādiet savas sazipošans programmas atrašanās vietu (tikai sistēmā Unix, nav obligāti). Ja norādīta, tā tiek izmantota zip arhīvu izveidei serverī. Ja šo iestatījumu atstājat tukšu, sistēma Moodle izmanto iekšējās rutīnprogrammas.';
 $string['confirmation'] = 'Apstiprināšana';
 $string['confirminstall'] = 'Tūlīt instalēsit valodas pakotni ($a), vai tiešām to vēlaties?';
 $string['country'] = 'Noklusējuma valsts';
@@ -502,7 +502,7 @@ $string['questioncwqpfsok'] = 'Labi. Nav nejaušās izvēles jautājumu, kas ir 
 $string['rcache'] = 'Ierakstu kešatmiņa';
 $string['rcachettl'] = 'Ierakstu kešatmiņas TTL';
 $string['releasenoteslink'] = 'Lai iegūtu informāciju par šo sistēmas Moodle versiju, skatiet tiešsaistes <a target=\"_new\" href=\"$a\">Piezīmes par laidienu</a>';
-$string['remotelangnotavailable'] = 'Tā kā sistēma Moodle nevar izveidot savienojumu ar download.moodle.org, nav iespējams veikt automātisku valodas pakotnes instalēšanu. Lūdzu, izmantojot norādīto sarakstu, lejupielādējiet atbilstošos tilpsaspiedes failus, kopējiet tos savā direktorijā $a un tilpatspiediet manuāli.';
+$string['remotelangnotavailable'] = 'Tā kā sistēma Moodle nevar izveidot savienojumu ar download.moodle.org, nav iespējams veikt automātisku valodas pakotnes instalēšanu. Lūdzu, izmantojot norādīto sarakstu, lejupielādējiet atbilstošos zip failus, kopējiet tos savā direktorijā $a un atzipojiet manuāli.';
 $string['renameerrors'] = 'Veicot pārdēvēšanu, radās kļūdas';
 $string['restrictbydefault'] = 'Ierobežot moduļus pēc noklusējuma';
 $string['restrictmodulesfor'] = 'Ierobežot moduļus šim:';

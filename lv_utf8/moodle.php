@@ -258,7 +258,7 @@ $string['copyasnoun'] = 'kopija';
 $string['copyingcoursefiles'] = 'Kursa failu kopēšana';
 $string['copyingsitefiles'] = 'Kursā izmantoto vietnes failu kopēšana';
 $string['copyinguserfiles'] = 'Lietotāja failu kopēšana';
-$string['copyingzipfile'] = 'Tilpsaspiedes faila kopēšana';
+$string['copyingzipfile'] = 'Zip faila kopēšana';
 $string['copyrightnotice'] = 'Paziņojums par autortiesībām';
 $string['coresystem'] = 'Pamatsistēma';
 $string['cost'] = 'Cena';
@@ -331,7 +331,7 @@ $string['createaccount'] = 'Izveidot manu jauno kontu';
 $string['createcategory'] = 'Izveidot kategoriju';
 $string['createfolder'] = 'Izveidot mapi šeit: $a';
 $string['createuserandpass'] = 'Izvēlēties savu lietotājvārdu un paroli';
-$string['createziparchive'] = 'Izveidot tilpsaspiedes arhīvu';
+$string['createziparchive'] = 'Izveidot zip arhīvu';
 $string['creatingblocks'] = 'Bloku izveide';
 $string['creatingblocksroles'] = 'Bloku līmeņa lomu piešķires un aizvietošanas izveide';
 $string['creatingblogsinfo'] = 'Tiek veidota blogu informācija';
@@ -1566,8 +1566,8 @@ $string['unpacking'] = '$a izpakošana';
 $string['unsafepassword'] = 'Nedroša parole — mēģiniet izmantot citu.';
 $string['untilcomplete'] = 'Līdz pabeigts';
 $string['unusedaccounts'] = 'Kontiem, kas nav izmantoti vairāk par $a dienām, tiek automātiski veikta reģistrācijas atcelšana.';
-$string['unzip'] = 'Tilpatspiest';
-$string['unzippingbackup'] = 'Dublējuma tilpatspiešana';
+$string['unzip'] = 'Atzipot';
+$string['unzippingbackup'] = 'Dublējuma atzipošana';
 $string['up'] = 'Augšup';
 $string['update'] = 'Atjaunināt';
 $string['updated'] = 'Atjaunināts $a';
@@ -1666,7 +1666,7 @@ Ja vēl neesat to izdarījis, rediģējiet savu profila lapu,
 kas pieejama šajā kursā, lai mēs varētu uzzināt par jums:
 
   $a->profileurl';
-$string['whattocallzip'] = 'Kā vēlaties nosaukt šo tilpsaspiedes failu?';
+$string['whattocallzip'] = 'Kā vēlaties nosaukt šo zip failu?';
 $string['whattodo'] = 'Ko darīt';
 $string['withchosenfiles'] = 'Ar izvēlētajiem failiem';
 $string['withoutuserdata'] = 'bez lietotāju datiem';
@@ -1701,13 +1701,13 @@ $string['yahooid'] = 'Yahoo ID';
 $string['year'] = 'gads';
 $string['years'] = 'gadi';
 $string['yes'] = 'Jā';
-$string['youareabouttocreatezip'] = 'Tūlīt izveidosit tilpsaspiedes failu, kurā iekļauts';
+$string['youareabouttocreatezip'] = 'Tūlīt izveidosit zip failu, kurā iekļauts';
 $string['youaregoingtorestorefrom'] = 'Tūlīt sāksit atjaunošanu šim:';
 $string['youneedtoenrol'] = 'Lai veiktu šo darbību, jums ir jāreģistrējas šajā kursā.';
 $string['yourlastlogin'] = 'Jūsu pēdējā pieslēgšanās notika';
 $string['yourself'] = 'pats';
 $string['yourteacher'] = 'jūsu $a';
-$string['zippingbackup'] = 'Dublējuma tilpsaspiešana';
+$string['zippingbackup'] = 'Dublējuma sazipošana';
 $string['remotemaharauser'] = 'Attālinātais Mahara lietotājs'; // ORPHANED
 
 ?>

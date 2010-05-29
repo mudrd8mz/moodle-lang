@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.7 beta + (2006101003)
+      // scorm.php - created with Moodle 1.9.8 (Build: 20100325) (2007101580)
 
 
 $string['activation'] = 'Aktivizēšana';
@@ -24,7 +24,6 @@ $string['completed'] = 'Pabeigts';
 $string['confirmloosetracks'] = 'BRĪDINĀJUMS. Šķiet, ka pakotne ir mainīta vai modificēta. Ja pakotnes struktūra ir mainīta, atjaunināšanas laikā daži lietotāju sekojuma dati var tikt zaudēti.';
 $string['contents'] = 'Saturs';
 $string['coursepacket'] = 'Kursa pakotne';
-$string['package'] = 'Pakotnes fails';
 $string['coursestruct'] = 'Kursa struktūra';
 $string['datadir'] = 'Failu sistēmas kļūda: nevar izveidot kursa datu direktoriju';
 $string['details'] = 'Sekojuma dati';
@@ -32,15 +31,15 @@ $string['directories'] = 'Rādīt saites uz direktorijiem';
 $string['display'] = 'Rādīt pakotni';
 $string['domxml'] = 'DOMXML ārējā bibliotēka';
 $string['element'] = 'Elements';
-$string['entercourse'] = 'Atvērt kursu';
 $string['enter'] = 'Atvērt';
+$string['entercourse'] = 'Atvērt kursu';
 $string['errorlogs'] = 'Kļūdu žurnāls';
-$string['everyday']= 'Katru dienu';
-$string['everytime']= 'Katrā lietošanas reizē';
+$string['everyday'] = 'Katru dienu';
+$string['everytime'] = 'Katrā lietošanas reizē';
 $string['exit'] = 'Aizvērt kursu';
 $string['exitactivity'] = 'Aizvērt aktivitāti';
 $string['expcoll'] = 'Izvērst/sakļaut';
-$string['external']= 'Atjaunināt ārējo pakotņu sinhronizāciju';
+$string['external'] = 'Atjaunināt ārējo pakotņu sinhronizāciju';
 $string['failed'] = 'Neizdevās';
 $string['firstaccess'] = 'Pirmā piekļuves reize';
 $string['firstattempt'] = 'Pirmais mēģinājums';
@@ -95,10 +94,13 @@ $string['noscriptnoscorm'] = 'Jūsu pārlūkprogramma neatbalsta JavaScript izma
 $string['not_corr_type'] = 'Tipa nesakritība tagam $a->tag';
 $string['notattempted'] = 'Nav mēģināts';
 $string['objectives'] = 'Mērķi';
-$string['onchanges']= 'Ja notikušas izmaiņas';
+$string['onchanges'] = 'Ja notikušas izmaiņas';
+$string['options'] = 'Opcijas';
 $string['organization'] = 'Iestāde';
 $string['organizations'] = 'Iestādes';
+$string['othersettings'] = 'Papildu iestatījumi';
 $string['othertracks'] = 'Citi sekojuma dati';
+$string['package'] = 'Pakotnes fails';
 $string['packagedir'] = 'Failu sistēmas kļūda: nevar izveidot pakotnes direktoriju';
 $string['packagefile'] = 'Nav norādīts pakotnes fails';
 $string['passed'] = 'Nokārtots';
@@ -141,6 +143,8 @@ $string['toolbar'] = 'Rādīt rīkjoslu';
 $string['totaltime'] = 'Laiks';
 $string['trackingloose'] = 'BRĪDINĀJUMS. Šīs pakotnes sekojuma dati tiks zaudēti.';
 $string['type'] = 'Tips';
+$string['unziperror'] = 'Pakotnes atzipošanas laikā radās kļūda';
+$string['updatefreq'] = 'Automātiskās atjaunināšanas biežums';
 $string['validateascorm'] = 'Validēt pakotni';
 $string['validation'] = 'Validēšanas rezultāts';
 $string['validationtype'] = 'Ar šo iestatījumu iestata DOMXML bibliotēku, kas tiek lietota SCORM manifesta validēšanai. Ja nezināt, kā rīkoties, atstājiet atlasītos iestatījumus.';
@@ -150,9 +154,5 @@ $string['viewallreports'] = 'Skatīt atskaites par $a mēģinājumiem';
 $string['whatgrade'] = 'Mēģinājumu vērtēšana';
 $string['width'] = 'Platums';
 $string['window'] = 'Logs';
-$string['unziperror'] = 'Pakotnes tilpatspiešanas laikā radās kļūda';
-$string['othersettings'] = 'Papildu iestatījumi';
-$string['updatefreq'] = 'Automātiskās atjaunināšanas biežums';
-$string['options'] = 'Opcijas';
 
 ?>
