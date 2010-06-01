@@ -20,7 +20,7 @@ $string['auth_ldap_create_context_key'] = 'הקשרים עבור משתמשים 
 $string['auth_ldap_create_error'] = 'שגיאה ביצירת משתמש ב-LDAP';
 $string['auth_ldap_creators'] = 'רשימת קבוצות או קונטקסטים אשר חבריהם רשאים ליצור קורסים חדשים. הפרד קבוצות מרובות באמצעות \';\'. בדרך כלל משהו כגון \'cn=teachers,ou=staff,o=myorg\'';
 $string['auth_ldap_creators_key'] = 'יוצרים';
-$string['auth_ldap_expiration_desc'] = 'בחר ב\'לא\' כדי לנטרל בדיקת סיסמאות שפג תוקפן או כדי למנוע מה-LDAP לקרוא את זמן תפוגת התפוקה ישירות מה-LDAP';
+$string['auth_ldap_expiration_desc'] = 'בחר ב\'לא\' כדי למנוע בדיקת סיסמאות שפג תוקפן או כדי למנוע מה-LDAP לקרוא את זמן תפוגת התפוקה ישירות מה-LDAP';
 $string['auth_ldap_expiration_key'] = 'תאריך תפוגה';
 $string['auth_ldap_expiration_warning_desc'] = 'מספר הימים לפני שנמסרת אזהרת תפוגת סיסמה.';
 $string['auth_ldap_expiration_warning_key'] = 'אזהרה על תאריך תפוגה';

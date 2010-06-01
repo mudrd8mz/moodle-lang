@@ -3,7 +3,7 @@
 
 
 $string['allowdeleting'] = 'אפשר מחיקה';
-$string['allowmaxfiles'] = 'מספר הקבצים המקסימלי שניתן להעלות';
+$string['allowmaxfiles'] = 'מספר הקבצים המירבי שניתן להעלות';
 $string['allownotes'] = 'אפשר הערות תלמידים';
 $string['allowresubmit'] = 'הרשה הגשה מחדש';
 $string['alreadygraded'] = 'למטלה שלך כבר ניתן ציון והגשה מחדש איננה אפשרית.';
