@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_database.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
+      // enrol_database.php - created with Moodle 1.9.8 (Build: 20100325) (2007101580)
 
 
 $string['autocreate'] = 'Kursus var izveidot automātiski, ja sistēmā Moodle veiktas reģistrācijas uz kursiem, kas vēl nepastāv.';
@@ -24,15 +24,15 @@ $string['general_options'] = 'Vispārīgās opcijas';
 $string['host'] = 'Datubāzes servera resursdatora nosaukums.';
 $string['ignorehiddencourse'] = 'Ja iestatīta apstiprinoša vērtība, lietotāji netiks reģistrēti kursos, kas iestatīti kā studentiem nepieejami.';
 $string['local_fields_mapping'] = 'Moodle (lokālās) datubāzes lauki';
-$string['localcoursefield'] = 'Kursu tabulas tā lauka nosaukums, ko izmanto attālās datubāzes ievadņu saskaņošanai (piemēram, id_numurs).';
-$string['localrolefield'] = 'Lomu tabulas tā lauka nosaukums, ko izmanto attālās datubāzes ievadņu saskaņošanai (piemēram, īsais_nosaukums).';
-$string['localuserfield'] = 'Lietotāju tabulas tā lauka nosaukums, ko izmanto attālās datubāzes ievadņu saskaņošanai (piemēram, id_numurs).';
+$string['localcoursefield'] = 'Kursu tabulas tā lauka nosaukums, ko izmanto attālās datubāzes ierakstu saskaņošanai (piemēram, id_numurs).';
+$string['localrolefield'] = 'Lomu tabulas tā lauka nosaukums, ko izmanto attālās datubāzes ierakstu saskaņošanai (piemēram, īsais_nosaukums).';
+$string['localuserfield'] = 'Lietotāju tabulas tā lauka nosaukums, ko izmanto attālās datubāzes ierakstu saskaņošanai (piemēram, id_numurs).';
 $string['name'] = 'Konkrētā izmantojamā datubāze.';
 $string['pass'] = 'Parole, lai piekļūtu serverim.';
 $string['remote_fields_mapping'] = 'Reģistrācijas (attālās) datubāzes lauki.';
-$string['remotecoursefield'] = 'Attālās tabulas tā lauka nosaukums, ko izmanto kursu tabulas ievadņu saskaņošanai.';
-$string['remoterolefield'] = 'Attālās tabulas tā lauka nosaukums, ko izmanto lomu tabulas ievadņu saskaņošanai.';
-$string['remoteuserfield'] = 'Attālās tabulas tā lauka nosaukums, ko izmanto lietotāju tabulas ievadņu saskaņošanai.';
+$string['remotecoursefield'] = 'Attālās tabulas tā lauka nosaukums, ko izmanto kursu tabulas ierakstu saskaņošanai.';
+$string['remoterolefield'] = 'Attālās tabulas tā lauka nosaukums, ko izmanto lomu tabulas ierakstu saskaņošanai.';
+$string['remoteuserfield'] = 'Attālās tabulas tā lauka nosaukums, ko izmanto lietotāju tabulas ierakstu saskaņošanai.';
 $string['server_settings'] = 'Ārējās datubāzes servera iestatījumi';
 $string['student_coursefield'] = 'Studentu reģistrācijas tabulas tā lauka nosaukums, kurā jābūt norādītam kursa ID.';
 $string['student_l_userfield'] = 'Lokālās lietotāju tabulas tā lauka nosaukums, ko izmanto lietotāju un attālo studentu ierakstu atbilstības atrašanai (piemēram, id_numurs).';
