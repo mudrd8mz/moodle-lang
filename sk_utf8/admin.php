@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.8+ (Build: 20100414) (2007101580)
+      // admin.php - created with Moodle 1.9.8+ (Build: 20100512) (2007101580)
 
 
 $string['accessdenied'] = 'Prístup zamietnutý';
@@ -540,7 +540,7 @@ $string['mustenablestats'] = 'Na týchto stránkach nie sú štatistiky povolen�
 $string['mycoursesperpage'] = 'Maximálny počet kurzov';
 $string['mymoodle'] = 'Môj Moodle';
 $string['mymoodleredirect'] = 'Vnútiť používateľom použitie stránky Môj Moodle';
-$string['mysql416bypassed'] = 'Ak ale vo vašej inštalácii Moodle používate IBA jazyky založené na latinke (iso-8859-1), môžete aj ďalej používať súčasne nainštalovanú verziu MySQL 4.1.12 (alebo vyšší).';
+$string['mysql416bypassed'] = 'Ak ale vo vašej inštalácii Moodle používate IBA jazyky založené na latinke (iso-8859-1), môžete aj ďalej používať súčasne nainštalovanú verziu MySQL 4.1.12 (alebo vyššiu).';
 $string['mysql416required'] = 'Minimálnou verziou potrebnou pre Moodle 1.6 -- a pre neskorší bezpečný prevod všetkých údajov do UTF-8 -- je MySQL 4.1.16.';
 $string['nobookmarksforuser'] = 'Nemáte žiadne záložky';
 $string['nochanges'] = 'Žiadne zmeny';
@@ -778,7 +778,7 @@ $string['uploadpicture_userupdated'] = 'Obrázok aktualizovaný pre používate�
 $string['uploadpictures'] = 'Nahrať obrázky používateľov';
 $string['uploaduserspreview'] = 'Náhľad na nahranie používateľov';
 $string['uploadusersresult'] = 'Výsledky nahrania používateľov';
-$string['upwards'] = 'a vyšší';
+$string['upwards'] = 'a vyššie';
 $string['usehtmleditor'] = 'Použiť HTML editor';
 $string['user'] = 'Používateľ';
 $string['useraccountupdated'] = 'Aktualizovaný používateľský účet';
