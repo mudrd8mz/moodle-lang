@@ -6,6 +6,7 @@ $string['areabackup'] = 'Pakete-biltegia';
 $string['areacontent'] = 'Edukia';
 $string['contentheader'] = 'Edukia';
 $string['deploymenterror'] = 'Errorea eduki-paketea egitean!';
+$string['imscpadministration'] = 'IMSCP kudeaketa';
 $string['keepold'] = 'Paketeak gorde';
 $string['keepoldexplain'] = 'Zenbat pakete gorde  behar dira?';
 $string['modulename'] = 'IMS eduki-paketea';
