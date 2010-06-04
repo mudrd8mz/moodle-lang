@@ -1,7 +1,12 @@
 <?PHP // $Id$ 
-      // my.php - created with Moodle 1.6 (2006050506)
+      // my.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
+$string['addpage'] = 'Gehitu orria';
+$string['defaultpage'] = 'Bereko Nire Moodle orria';
+$string['defaultprofilepage'] = 'Berezko profil-orria';
+$string['delpage'] = 'Ezabatu orria';
+$string['managepages'] = 'Orriak kudeatu';
 $string['mymoodle'] = 'Nire Moodle';
 $string['nocourses'] = 'Ez dago ikastaroei buruzko informaziorik';
 $string['noguest'] = 'Nire Moodle orria ezin dute erabiltzaile bisitariek ikusi';
