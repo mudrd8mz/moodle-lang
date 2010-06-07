@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // notes.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
+      // notes.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['addnewnote'] = 'Gehitu beste ohar bat';
@@ -28,6 +28,11 @@ $string['nouser'] = 'Erabiltzaile bat aukeratu behar duzu';
 $string['personal'] = 'pertsonala';
 $string['personalnotes'] = 'Norberaren oharrak';
 $string['publishstate'] = 'Egoera';
+$string['publishstate_help'] = 'Oharren estatusak zeinek ikus ditzakeen zehazten du:
+
+* Pertsonalak - Ohar hauek zeuk baino ezin dituzu ikusi
+* Ikastaroa - Ohar hauek ikastaroko irakasleek ikus ditzakete
+* Gunea - Ohar hauek guneko ikastaro guztietako irakasleek ikus ditzakete';
 $string['site'] = 'gunea';
 $string['sitenotes'] = 'Guneko oharrak';
 $string['unknown'] = 'ezezaguna';
