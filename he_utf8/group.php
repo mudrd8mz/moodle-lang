@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.9.5+ (Build: 20090805) (2007101550)
+      // group.php - created with Moodle 1.9.8+ (Build: 20100407) (2007101580)
 
 
 $string['addgroupstogrouping'] = 'הוסף קבוצות לאוסף הקבוצות';
@@ -45,7 +45,7 @@ $string['existingmembers'] = 'חברים קיימים: $a';
 $string['filtergroups'] = 'סנן קבוצות על-ידי:';
 $string['group'] = 'קבוצה';
 $string['groupaddedsuccesfully'] = 'קבוצה $a נוספה בהצלחה';
-$string['groupby'] = 'פרוט';
+$string['groupby'] = 'אופן החלוקה';
 $string['groupdescription'] = 'תיאור הקבוצה';
 $string['groupinfo'] = 'מידע על הקבוצה שנבחרה';
 $string['groupinfomembers'] = 'מידע על חברי הקבוצה שנבחרו';
@@ -76,14 +76,14 @@ $string['groupsinselectedgrouping'] = 'קבוצות באוסף הקבוצות ה
 $string['groupsnone'] = 'אין קבוצות';
 $string['groupsonly'] = 'קבוצות בלבד';
 $string['groupspreview'] = 'תצוגה מקדימה של הקבוצות';
-$string['groupsseparate'] = 'הפרד את הקבוצות';
+$string['groupsseparate'] = 'קבוצות נפרדות';
 $string['groupsvisible'] = 'קבוצות נראות';
 $string['grouptemplate'] = 'קבוצה @';
 $string['hidepicture'] = 'הסתר את התמונה';
 $string['javascriptrequired'] = 'עמוד זה דורש הפעלה של Javascript.';
 $string['members'] = 'חברים לכל קבוצה';
 $string['membersofselectedgroup'] = 'חברי הקבוצה שנבחרה';
-$string['namingscheme'] = 'סכמת השמות';
+$string['namingscheme'] = 'תבנית שמות הקבוצות';
 $string['namingschemehelp'] = 'השתמש בתו @ בכדי לייצג את או הקבוצה (א-ת) או # לייצג את מספר הקבוצה.';
 $string['newgrouping'] = 'אוסף קבוצות חדש';
 $string['newpicture'] = 'תמונה חדשה';
@@ -94,8 +94,8 @@ $string['nopermissionforcreation'] = 'לא ניתן ליצור את קבוצה \
 $string['nosmallgroups'] = 'מנע קבוצה קטנה אחרונה';
 $string['notingrouping'] = '[לא נמצא באוסף קבוצות]';
 $string['nousersinrole'] = 'לא קיימים משתמשים מתאימים בתפקיד הנבחר';
-$string['number'] = 'ספירת קבוצהחבר';
-$string['numgroups'] = 'מספר בקבוצות';
+$string['number'] = 'כמות חברים או כמות קבוצות';
+$string['numgroups'] = 'כמות הקבוצות';
 $string['nummembers'] = 'חברים בכל קבוצה';
 $string['overview'] = 'סקירה כללית';
 $string['potentialmembers'] = 'חברים אפשריים: $a';
