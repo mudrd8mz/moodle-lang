@@ -630,7 +630,7 @@ Este é um aviso automático que indica a proximidade da data de expiração da 
 Por favor, contate o seu tutor ou professor para eventuais esclarecimentos.';
 $string['expirythreshold'] = 'Limite';
 $string['explanation'] = 'Explicação';
-$string['extendenrol'] = 'Estender inscrição';
+$string['extendenrol'] = 'Estender inscrição (individual)';
 $string['extendperiod'] = 'Período estendido';
 $string['failedloginattempts'] = '$a->attempts erros de login desde o seu último acesso';
 $string['failedloginattemptsall'] = '$a->attempts erros de login relativos a $a->accounts contas de usuários';
@@ -724,7 +724,7 @@ $string['grades'] = 'Notas';
 $string['group'] = 'Grupo';
 $string['groupadd'] = 'Adicionar novo grupo';
 $string['groupaddusers'] = 'Adicionar grupo selecionado';
-$string['groupextendenrol'] = 'Extender inscrição (comum)';
+$string['groupextendenrol'] = 'Estender inscrição (comum)';
 $string['groupfor'] = 'por grupo';
 $string['groupinfo'] = 'Informações sobre o grupo selecionado';
 $string['groupinfoedit'] = 'Editar configurações de grupos';
