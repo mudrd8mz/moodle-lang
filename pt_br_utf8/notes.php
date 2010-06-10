@@ -1,6 +1,6 @@
 <?PHP
 
-$string['addnewnote'] = 'Escrever uma novo anotação';
+$string['addnewnote'] = 'Escrever uma nova anotação';
 $string['addnewnoteselect'] = 'Escolher os usuários que serão objeto de anotações';
 $string['bynameondate'] = 'por $a->name - $a->date';
 $string['cannotdeletepost'] = 'Erro na exclusão da anotação';
@@ -25,7 +25,7 @@ $string['notesnotvisible'] = 'Você não tem permissão para ler as anotações'
 $string['nouser'] = 'Você deve selecionar um usuário';
 $string['personal'] = 'individual';
 $string['personalnotes'] = 'Anotações individuais';
-$string['publishstate'] = 'Status';
+$string['publishstate'] = 'Estado';
 $string['site'] = 'site';
 $string['sitenotes'] = 'Anotações do site';
 $string['unknown'] = 'desconhecido';
