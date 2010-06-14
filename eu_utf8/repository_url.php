@@ -4,7 +4,9 @@
 
 $string['download'] = 'Jaitsi';
 $string['rename'] = 'Izena';
-$string['repositoryname'] = 'URL bidez jaitsi';
+$string['repositoryname'] = 'URLak jaisteko gailua';
 $string['url'] = 'URLa';
+$string['url:view'] = 'URLak jaisteko gailua erabili fitxategiak aukeratzeko gunean';
+$string['validname'] = 'Fitxategirako izen egokia eman behar duzu';
 
 ?>
