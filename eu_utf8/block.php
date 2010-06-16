@@ -2,7 +2,7 @@
       // block.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
-$string['addtodock'] = 'Mugitu hau blokera';
+$string['addtodock'] = 'Mugitu hau ertzera';
 $string['anypagematchingtheabove'] = 'Gainetik dagoen edozein orri';
 $string['appearsinsubcontexts'] = 'Azpi-testuingurutan agertzen da';
 $string['blocksettings'] = 'Blokearen ezarpenak';
