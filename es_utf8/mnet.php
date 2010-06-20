@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
+      // mnet.php - created with Moodle 1.9.8 (Build: 20100325) (2007101580)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (auto-firmado)';
@@ -12,6 +12,7 @@ $string['accesslevel'] = 'Nivel de acceso';
 $string['addhost'] = 'Agregar servidor';
 $string['addnewhost'] = 'Agregar un nuevo servidor';
 $string['addtoacl'] = 'Agregar a Control de Acceso';
+$string['allhosts_no_options'] = 'No hay opciones disponibles cuando se ven múltiples hosts.';
 $string['allow'] = 'Permitir';
 $string['authfail_nosessionexists'] = 'Autorización fallida: la sesión mnet no existe.';
 $string['authfail_sessiontimedout'] = 'Autorización fallida: la sesión mnet ha sobrepasado el límite de tiempo.';
@@ -19,8 +20,6 @@ $string['authfail_usermismatch'] = 'Autorización fallida: el usuario no concuer
 $string['authmnetautoadddisabled'] = '<em>Añadir automáticamente usuarios</em> en el conector (\'plugin\') de autenticación de la Red de Trabajo Moodle(\'Moodle Networking\') está <strong>deshabilitado</strong>.';
 $string['authmnetdisabled'] = '<em>El conector (\'plugin\') de autenticación</em>de la Red de Trabajo Moodle(\'Moodle Networking\') está <strong>deshabilitado</strong>.';
 $string['badcert'] = 'Este no es un certificado válido.';
-$string['certdetails'] = 'Detalles del certificado';
-$string['configmnet'] = 'La red Moodle permite la comunicación de este servidor con otros servidores o servicios.';
 $string['couldnotgetcert'] = 'Ningún certificado fue encontrado en <br />$a. <br />El host puede estar caído o incorrectamente configurado.';
 $string['couldnotmatchcert'] = 'Esto no concuerda con el certificado actualmente publicado por el servidor web.';
 $string['courses'] = 'cursos';
@@ -55,6 +54,7 @@ $string['expires'] = 'Válida hasta';
 $string['expireyourkey'] = 'Eliminar esta clave';
 $string['expireyourkeyexplain'] = 'Moodle automáticamente rota sus claves cada 28 días (por defecto) pero usted tiene la opción de <em>manualmente</em> hacer expirar esta clave en cualquier momento. Lo anterior sería útil únicamente si usted cree que esta clave ha sido comprometida (siendo utilizada por quien no debería). Un reemplazo será automáticamente generado.<br />Eliminando esta clave le hará imposible a otros Moodles comunicarse con usted, hasta que manualmente contacte cada administrador y les de la nueva clave.';
 $string['failedaclwrite'] = 'Hubo una falla al escribir a la lista de control de acceso MNET para el usuario \'$a\'.';
+$string['findlogin'] = 'Encontrar acceso';
 $string['forbidden-function'] = 'Esa función no ha sido abilitada para RPC.';
 $string['forbidden-transport'] = 'El método de transporte que está intentando utilizar no es permitido.';
 $string['forcesavechanges'] = 'Forzar guardar los cambios';
@@ -98,6 +98,10 @@ $string['mnet_concatenate_strings'] = 'Concatenar (hasta) 3 cadenas de texto y r
 $string['mnet_session_prohibited'] = 'Usuarios de su servidor inicial no tienen actualmente permitido divagar por $a.';
 $string['mnetdisabled'] = 'La Red Moodle está <strong>deshabilitada</strong>.';
 $string['mnetenrol'] = 'Matriculaciones';
+$string['mnetidprovider'] = 'Provisor de ID MNET';
+$string['mnetidproviderdesc'] = 'Puede usar esta opción para recuperar un enlace en el que autentificarse, en el caso de que proporcione la dirección email correcta que corresponda al nombre de usuario con el que trató de entrar.';
+$string['mnetidprovidermsg'] = 'Usted debería poder identificarse a su proveedor $a.';
+$string['mnetidprovidernotfound'] = 'Lo sentimos, no se ha podido encontrar más información.';
 $string['mnetlog'] = 'Registros';
 $string['mnetpeers'] = 'Iguales';
 $string['mnetservices'] = 'Servicios';
@@ -113,6 +117,7 @@ $string['nocurl'] = 'La librería Curl de PHP no está instalada';
 $string['nohostid'] = 'Esta página requiere un ID de host, la cual debe ser un entero.';
 $string['noipmatch'] = 'La dirección de la máguina remota: <br /><em>$a[0]</em><br />no concuerda con la del registro:<br /><em>$a[1]</em>.';
 $string['nolocaluser'] = 'Ningún registro local existe para el usuario remoto.';
+$string['nolocaluser2'] = 'No existen registros locales para el usuario remoto, y podría no ser creado, puesto que este host no crea usuarios automáticamente. Por favor, contacte con su administrador.';
 $string['nomodifyacl'] = 'Usted no tiene permitido modificar la lista de control de acceso MNET.';
 $string['nonmatchingcert'] = 'El asunto del certificado: <br /><em>$a[0]</em><br />no concuerda con el host de donde provino:<br /><em>$a[1]</em>.';
 $string['nopubkey'] = 'Hubo un problema obteniendo la clave pública.<br />Quizás el host no permite Red de Trabajo Moodle(\'Moodle Networking\') o la clave es inválida.';
@@ -187,5 +192,7 @@ $string['wrong-ip'] = 'Su dirección IP no concuerda con la que tenemos registra
 $string['xmlrpc-missing'] = 'Debe tener XML-RPC instalado en su construcción PHP para poder usar esta característica.';
 $string['yourhost'] = 'Su Host';
 $string['yourpeers'] = 'Sus iguales';
+$string['certdetails'] = 'Detalles del certificado'; // ORPHANED
+$string['configmnet'] = 'La red Moodle permite la comunicación de este servidor con otros servidores o servicios.'; // ORPHANED
 
 ?>

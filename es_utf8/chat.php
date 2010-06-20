@@ -1,18 +1,13 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
+      // chat.php - created with Moodle 1.9.8 (Build: 20100325) (2007101580)
 
 
-$string['ajax'] = 'Versión usando Ajax';
 $string['autoscroll'] = 'Desplazamiento automático';
 $string['beep'] = 'beep';
-$string['cantlogin'] = 'No se pudo ingresar en la sala de chat';
 $string['chat:chat'] = 'Charlar';
 $string['chat:deletelog'] = 'Eliminar registros de chat';
-$string['chat:exportparticipatedsession'] = 'Exportar participaciones en sesión de chat';
-$string['chat:exportsession'] = 'Exportar sesión de chat';
 $string['chat:readlog'] = 'Leer registros de chat';
 $string['chat:talk'] = 'Hablar en un chat';
-$string['chatadministration'] = 'Administración del chat';
 $string['chatintro'] = 'Texto introductorio';
 $string['chatname'] = 'Nombre de la sala';
 $string['chatreport'] = 'Sesiones';
@@ -40,8 +35,9 @@ $string['explainmethodnormal'] = 'Estos ajustes actúan <strong>solamente</stron
 $string['generalconfig'] = 'Configuración general';
 $string['helpchatting'] = 'Ayuda del chat';
 $string['idle'] = 'Inactivo';
-$string['inputarea'] = 'Área de entrada';
-$string['invalidid'] = 'No se encontró esa sala de chat';
+$string['list_all_sessions'] = 'Listar todas las sesiones.';
+$string['list_complete_sessions'] = 'Listar sólo las sesiones completas.';
+$string['listing_all_sessions'] = 'Listando todas las sesiones.';
 $string['messagebeepseveryone'] = '$a envía un beep a todos';
 $string['messagebeepsyou'] = '$a le acaba de enviar un beep';
 $string['messageenter'] = '$a entró a la sala';
@@ -54,14 +50,13 @@ $string['modulename'] = 'Chat';
 $string['modulenameplural'] = 'Chats';
 $string['neverdeletemessages'] = 'Nunca borrar mensajes';
 $string['nextsession'] = 'Próxima sesión programada';
-$string['nochat'] = 'No se encontró chat';
+$string['no_complete_sessions_found'] = 'No se han encontrado sesiones completas.';
 $string['noguests'] = 'El chat no está abierto a invitados';
 $string['nomessages'] = 'Aún no hay mensajes';
 $string['normalkeepalive'] = 'KeepAlive';
 $string['normalstream'] = 'Stream';
 $string['noscheduledsession'] = 'No hay sesión programada';
 $string['notallowenter'] = 'No tiene permiso para entrar en la sala de chat';
-$string['notlogged'] = 'No se ha autentificado';
 $string['oldping'] = 'Desconectar tiempo de espera';
 $string['pastchats'] = 'Sesiones de chat pasadas';
 $string['refreshroom'] = 'Refrescar sala';
@@ -71,11 +66,8 @@ $string['repeatdaily'] = 'A la misma hora todos los días';
 $string['repeatnone'] = 'Sin repeticiones, publicar sólo la hora especificada';
 $string['repeattimes'] = 'Repetir sesiones';
 $string['repeatweekly'] = 'A la misma hora todas las semanas';
-$string['saidto'] = '<b>dicho a</b>';
 $string['savemessages'] = 'Guardar sesiones pasadas';
 $string['seesession'] = 'Ver esta sesión';
-$string['send'] = 'Enviar';
-$string['sending'] = 'Enviando';
 $string['serverhost'] = 'Nombre del servidor';
 $string['serverip'] = 'IP del servidor';
 $string['servermax'] = 'Número máximo de usuarios';
@@ -83,11 +75,23 @@ $string['serverport'] = 'Puerto del servidor';
 $string['sessions'] = 'Sesiones';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Todos pueden ver las sesiones pasadas';
-$string['talk'] = 'Charla';
 $string['updatemethod'] = 'Actualizar método';
-$string['updaterate'] = 'Tasa de Actualización:';
-$string['userlist'] = 'Lista de usuarios';
 $string['viewreport'] = 'Ver las sesiones anteriores';
+$string['ajax'] = 'Versión usando Ajax'; // ORPHANED
+$string['cantlogin'] = 'No se pudo ingresar en la sala de chat'; // ORPHANED
+$string['chat:exportparticipatedsession'] = 'Exportar participaciones en sesión de chat'; // ORPHANED
+$string['chat:exportsession'] = 'Exportar sesión de chat'; // ORPHANED
+$string['chatadministration'] = 'Administración del chat'; // ORPHANED
+$string['inputarea'] = 'Área de entrada'; // ORPHANED
+$string['invalidid'] = 'No se encontró esa sala de chat'; // ORPHANED
+$string['nochat'] = 'No se encontró chat'; // ORPHANED
+$string['notlogged'] = 'No se ha autentificado'; // ORPHANED
+$string['saidto'] = '<b>dicho a</b>'; // ORPHANED
+$string['send'] = 'Enviar'; // ORPHANED
+$string['sending'] = 'Enviando'; // ORPHANED
+$string['talk'] = 'Charla'; // ORPHANED
+$string['updaterate'] = 'Tasa de Actualización:'; // ORPHANED
+$string['userlist'] = 'Lista de usuarios'; // ORPHANED
 $string['cantinsert'] = 'No se pudo insertar un mensaje de chat'; // ORPHANED
 
 ?>
