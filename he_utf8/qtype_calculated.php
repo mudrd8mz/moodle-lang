@@ -3,7 +3,7 @@
 
 
 $string['addmoreanswerblanks'] = 'הוסף מרוח נוסף לתשובה.';
-$string['addmoreunitblanks'] = 'מרווחים עבור $a יחידות נוספות';
+$string['addmoreunitblanks'] = 'הוספת $a יחידות משתנים נוספות';
 $string['answerhdr'] = 'תשובה';
 $string['atleastoneanswer'] = 'עליך לספק לפחות תשובה אחת';
 $string['correctanswershows'] = 'התשובה הנכונה מראה';

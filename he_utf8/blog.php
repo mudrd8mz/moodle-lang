@@ -1,16 +1,16 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
+      // blog.php - created with Moodle 1.9.8+ (Build: 20100407) (2007101580)
 
 
 $string['addnewentry'] = 'הוסף רשומה חדשה';
 $string['backupblogshelp'] = 'אם מאופשר, בלוגים יכללו בגיבויים האוטומטים של האתר';
-$string['blockmenutitle'] = 'בלוג';
+$string['blockmenutitle'] = 'תפריט בלוג אישי';
 $string['blocktagstitle'] = 'תגי בלוג';
 $string['blocktitle'] = 'כותרת תגי הבלוג';
-$string['blog'] = 'בלוג';
+$string['blog'] = 'בלוג אישי';
 $string['blogdeleteconfirm'] = 'למחוק בלוג זה?';
 $string['blogpreferences'] = 'קביעת העדפות הבלוג';
-$string['blogs'] = 'בלוגים';
+$string['blogs'] = 'בלוגים אישיים';
 $string['blogtags'] = 'תגי בלוגים';
 $string['courseblog'] = 'בלוג הקורס: $a';
 $string['courseblogs'] = 'משתמשים יכולים לראות את הבלוגים של חבריהם לקורס בלבד';

@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
+      // qtype_multichoice.php - created with Moodle 1.9.8+ (Build: 20100407) (2007101580)
 
 
 $string['addingmultichoice'] = 'הוספת שאלה מסוג בחירה מרובה';
-$string['addmorechoiceblanks'] = 'מרווחים עבור {no} בחירות נוספות';
+$string['addmorechoiceblanks'] = 'הוספת {no} אפשרויות נוספות';
 $string['answerhowmany'] = 'תשובה אחת או תשובות מרובות?';
 $string['answernumbering'] = 'למספר את האפשרויות?';
 $string['answernumbering123'] = '1, 2, 3, ...';
