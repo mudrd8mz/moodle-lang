@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+<?PHP // $Id$
       // grades.php - created with Moodle 2.0 dev (Build: 20100214) (2010020701)
 
 
