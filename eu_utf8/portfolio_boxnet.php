@@ -6,6 +6,7 @@ $string['apikey'] = 'API giltza';
 $string['password'] = 'Zure box.net-eko pasahitza (ez da gordetzen)';
 $string['sharefile'] = 'Fitxategi hau partekatu nahi al duzu?';
 $string['sharefolder'] = 'Direktorio berri hau partekatu nahi al duzu?';
+$string['targetfolder'] = 'Helburu-direktorioa';
 $string['username'] = 'Zure box.net-eko erabiltzaile-izena (ez da gordetzen)';
 
 ?>

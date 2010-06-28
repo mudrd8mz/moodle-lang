@@ -2,7 +2,6 @@
       // install.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
-$string['aborting'] = 'Instalazioa bertan behera uzten';
 $string['admindirerror'] = 'Kudeaketarako zehaztu den direktorioa ez da zuzena';
 $string['admindirname'] = 'Admin direktorioa';
 $string['admindirsetting'] = '<p>Oso web zerbitzari gutxik erabiltzen dute /admin kontrol-panel edo antzekora era sartzeko URL berezi gisa. Zoritxorrez, hau ez dator bat Moodlen lehenetsitako administrazio-orrien kokapenarekin. Nahi izanez gero, zure instalazioko admin direktorioaren izena alda dezakezu, hemen izen berria idatziz. Adibidez: <blockquote> moodleadmin</blockquote>.
@@ -10,33 +9,21 @@ Horrela Moodle-ko admin loturak berrezarriko dira.</p>';
 $string['admindirsettinghead'] = 'Ezarri Admin direktorioa...';
 $string['admindirsettingsub'] = '<p>Oso web zerbitzari gutxik erabiltzen dute /admin kontrol-panel edo antzekora era sartzeko URL berezi gisa. Zoritxorrez, hau ez dator bat Moodlen lehenetsitako administrazio-orrien kokapenarekin. Nahi izanez gero, zure instalazioko admin direktorioaren izena alda dezakezu, hemen izen berria idatziz. Adibidez: <blockquote> moodleadmin</blockquote>.
 Horrela Moodle-ko admin loturak berrezarriko dira.</p>';
-$string['adminemail'] = 'E-posta:';
-$string['adminfirstname'] = 'Izena:';
-$string['admininfo'] = 'Kudeatzailearen xehetasunak';
-$string['adminlastname'] = 'Deitura:';
-$string['adminpassword'] = 'Pasahitza:';
-$string['adminusername'] = 'Erabiltzaile-izena:';
-$string['askcontinue'] = 'Jarraitu (bai/ez):';
-$string['availabledbtypes'] = 'db mota eskuragarriak';
 $string['availablelangs'] = 'Hizkuntza eskuragarrien zerrenda';
-$string['cannotconnecttodb'] = 'Ezin da datu-basera konektatu';
 $string['caution'] = 'Kontuz';
-$string['checkingphpsettings'] = 'PHPren ezarpenak egiaztatzen';
 $string['chooselanguage'] = 'Aukeratu hizkuntza bat';
 $string['chooselanguagehead'] = 'Aukeratu hizkuntza bat';
 $string['chooselanguagesub'] = 'Instalazio-prozesurako hizkuntza aukeratu, mesedez.';
+$string['cliadminpassword'] = 'Kudeatzaile berriaren pasahitza';
+$string['cliadminusername'] = 'Kudeatzaile kontuaren erabiltzaile-izena';
 $string['compatibilitysettings'] = 'zuren PHPren ezarpenak egiaztatzen...';
 $string['compatibilitysettingshead'] = 'zure PHPren ezarpenak egiaztatzen...';
 $string['compatibilitysettingssub'] = 'Zure zerbitzariak baldintza hauek guztiak bete beharko ditu Moodle bertan egokiro funtzionatzeko.';
-$string['configfilecreated'] = 'Ezarpenen fitxategia ondo sortu da';
-$string['configfiledoesnotexist'] = 'Ezarpenen fitxategia ez da existitzen';
 $string['configfilenotwritten'] = 'Instalazioaren scriptak ezin izan du aukeratutako zehaztapen guztiak beteko dituen config.php fitxategia automatikoki sortu. Mesedez, kode hau config.php izeneko fitxategi batean kopiatu eta Moodle-ren sustraiko direktorioan itsatsi.';
 $string['configfilewritten'] = 'config.php arrakastaz sortu da';
 $string['configurationcomplete'] = 'Ezarpen osatua';
 $string['configurationcompletehead'] = 'Ezarpen osatua';
 $string['configurationcompletesub'] = 'Moodle-k ezarpen-fitxategia sortu du';
-$string['configurationfileexist'] = 'Ezarpenen fitxategia bada lehenik!';
-$string['creatingconfigfile'] = 'Ezarpenen fitxategia sortzen...';
 $string['database'] = 'Datu-basea';
 $string['databasecreationsettings'] = 'Orain Moodle-ren datu gehienak bilduko dituen datu-basearen ezarpenak zehaztu behar dituzu. Instalatzaileak, beherago zehaztutako ezarpenen arabera, datu-basea sortuko du.<br />
 <br /> <br />
@@ -71,7 +58,6 @@ $string['databasesettings'] = 'Orain Moodle-ren datu gehienak bilduko dituen dat
 <b>Erabiltzailea:</b> datu-basearen erabiltzaile-izena<br />
 <b>Pasahitza:</b> datu-basearen pasahitza<br />
 <b>Taulen aurrizkia:</b> taula-izen guztietan erabiliko den aurrizkia';
-$string['databasesettingsformoodle'] = 'Datu-basearen ezarpenak Moodle-rako';
 $string['databasesettingshead'] = 'Orain Moodle-ren datu gehienak bilduko dituen datu-basearen ezarpenak zehaztu behar dituzu. Datu-base hori aldez aurretik sortu behar zen eta erabiltzaile-izena eta sarbide-pasahitza izan beharko lituzke.';
 $string['databasesettingssub'] = '<b>Mota:</b> mysql edo postgres7<br />
 <b>Ostalaria:</b> adib. localhost edo db.zuredomeinua.com<br />
@@ -108,7 +94,6 @@ $string['databasesettingssub_oci8po'] = '<b>Mota:</b> Oracle<br />
 <b>Erabiltzailea:</b> zure datu-basearen erabiltzaile-izena<br />
 <b>Pasahitza:</b> zure datu-basearen pasahitza<br/>
 <b>Taulen aurrizkia:</b> taulen izen guztietarako erabilitako aurrizkia (derrigorrezkoa, gehienez, 2cc.)';
-$string['databasetype'] = 'Datu-base mota:';
 $string['databaseuser'] = 'Datu-basearen erabiltzailea';
 $string['dataroot'] = 'Datu-direktorioa';
 $string['datarooterror'] = '\'Datu-direktorioa\' ezin izan da sortu edo aurkitu. Bidea zuzendu edo direktorioa eskuz sortu.';
@@ -148,9 +133,7 @@ $string['download'] = 'Jaitsi';
 $string['downloadlanguagebutton'] = '\"$a\" hizkuntza-paketea jaitsi';
 $string['downloadlanguagehead'] = 'Jaitsi hizkuntza-paketea';
 $string['downloadlanguagenotneeded'] = 'Instalazio-prozesua lehenetsitako hizkuntzaz jarrai dezakezu, \"$a\".';
-$string['downloadlanguagepack'] = 'Hizkuntza-paketea orain jaitsi nahi al duzu? (bai/ez):';
 $string['downloadlanguagesub'] = 'Orain zure hizkuntza-paketea jaisteko eta hizkuntza horretan instalazioarekin jarraitzeko aukera daukazu.<br /><br />Jaitsiera eskuragarri ez balitz, prozesuak ingelesez jarraituko luke (instalazioa burututakoan, beste hizkuntzak jaitsi eta instalatu ahal izango dituzu).';
-$string['downloadsuccess'] = 'Hizkuntza-paketea ondo jaitsi da';
 $string['doyouagree'] = 'Ados al zaude? (bai/ez):';
 $string['environmenthead'] = 'Zure ingurunea egiaztatzen...';
 $string['environmentsub'] = 'Zure zerbitzariaren osagai ezberdinak sistemaren betebeharrekin bat datozen egiaztatzen ari gara';
@@ -186,14 +169,8 @@ $string['inputdatadirectory'] = 'Datu-direktorioa:';
 $string['inputwebadress'] = 'Web helbidea:';
 $string['inputwebdirectory'] = 'Moodle direktorioa:';
 $string['installation'] = 'Instalazioa';
-$string['installationiscomplete'] = 'Instalazioa burutu egin da!';
-$string['invalidemail'] = 'E-posta ez da baliozkoa';
-$string['invalidhost'] = 'Ostalaria ez da baliozkoa';
-$string['invalidpath'] = 'Bidea ez da baliozkoa';
-$string['invalidurl'] = 'URLa ez da baliozkoa';
 $string['langdownloaderror'] = '\"$a\" hizkuntza ezin izan da instalatu. Instalazio-prozesuak ingelesez jarraituko du.';
 $string['langdownloadok'] = '\"$a\" hizkuntza zuzen instalatu da. Instalazio-prozesuak hizkuntza horretan jarraituko du.';
-$string['locationanddirectories'] = 'Kokapena eta direktorioak';
 $string['magicquotesruntime'] = 'Magic Quotes Run Time';
 $string['magicquotesruntimeerror'] = 'Aktibatuta egon behar du';
 $string['magicquotesruntimehelp'] = '<p>Magic quotes runtime desaktibatu behar da Moodle-k ongi funtzionatzeko.</p>
@@ -228,8 +205,10 @@ $string['nativeoci'] = 'Oracle (native/oci)';
 $string['nativepgsql'] = 'PostgreSQL (native/pgsql)';
 $string['oci8po'] = 'Oracle (oci8po)';
 $string['pass'] = 'Zuzena';
+$string['paths'] = 'Bideak';
 $string['pathserrcreatedataroot'] = 'Instalatzaileak ezin du datu-direktorioa ($a->dataroot) sortu.';
-$string['pathsrodataroot'] = 'Dataroot direktorioa ez idazteko modukoa';
+$string['pathshead'] = 'Egiaztatu bideak';
+$string['pathsrodataroot'] = 'Dataroot direktorioa ez da idazteko modukoa.';
 $string['pathsroparentdataroot'] = 'Goragoko direktorioa ($a->parent) ez da idazteko modukoa. Instalatzaileak ezin du datu-direktorioa ($a->dataroot) sortu.';
 $string['pathsunsecuredataroot'] = 'Dataroot-en kokapena ez da segurua';
 $string['pathswrongadmindir'] = 'Kudeaketa direktorioa ez da existitzen';
@@ -248,29 +227,13 @@ $string['safemodehelp'] = '<p>Moodle-k arazo ezberdinak izan ditzake \'modu segu
 <p>Normalean \'modu segurua\' web zerbitzari publiko paranoideek soilik aktibatzen dute. Hori dela eta, zure Moodle webgunerako beste enpresa bilatu beharko duzu.</p>
 
 <p>Nahi izanez gero, zure instalazioarekin jarrai dezakezu, baina aurrerago arazoak izango dituzu.</p>';
-$string['selectlanguage'] = 'Aukeratu hizkuntza bat instalaziorako';
 $string['sessionautostart'] = 'Saioaren hasiera automatikoa';
 $string['sessionautostarterror'] = 'Indargabetuta egon behar du';
 $string['sessionautostarthelp'] = '<p>Moodle-k saioko laguntza behar du eta horren ezean ez du funtzionatuko.</p>
 
 <p>Saioak php.ini fitxategian aktibatu behar dira session.auto_start parametroari dagokionez.</p>';
-$string['sitefullname'] = 'Gunearen izen osoa:';
-$string['siteinfo'] = 'Gunearen xehetasunak:';
-$string['sitenewsitems'] = 'Albisteak Elementuak:';
-$string['siteshortname'] = 'Gunearen izen laburra:';
-$string['sitesummary'] = 'Gunearen deskribapena:';
 $string['skipdbencodingtest'] = 'Datu-basearen dekodifikazio-testa ez kontuan hartu';
-$string['tableprefix'] = 'Taularen aurrizkia:';
-$string['upgradingactivitymodule'] = 'Jarduera-modulua eguneratzen';
-$string['upgradingblocksplugin'] = 'Blokeen plugina eguneratzen';
-$string['upgradingcompleted'] = 'Eguneratuta...';
-$string['upgradingenrolplugin'] = 'Matrikulazio-plugina eguneratzen';
-$string['upgradinggradeexportplugin'] = 'Kalifikazioak esportatzeko plugina eguneratzen';
-$string['upgradinggradeimportplugin'] = 'Kalifikazioak inportatzeko plugina eguneratzen';
-$string['upgradinggradereportplugin'] = 'Kalifikazioen txostena plugina eguneratzen';
-$string['upgradinglocaldb'] = 'Datu-base lokala eguneratzen';
 $string['upgradingqtypeplugin'] = 'Galdera/mota plugina eguneratzen';
-$string['upgradingrpcfunctions'] = 'RPC funtzioak eguneratzen';
 $string['welcomep10'] = '$a->installername ($a->installerversion)';
 $string['welcomep20'] = 'Orri hau ikusten baduzu <strong>$a->packname $a->packversion</strong> paketea
     zure ordenadorean instalatu ahal izan duzu. Zorionak!';
@@ -288,7 +251,48 @@ $string['welcomep60'] = 'Datozen orriek urrats erraz batzuen bidez gidatuko zait
 $string['welcomep70'] = '\"Hurrengoa\" botoia sakatu <strong>Moodle</strong>ren konfigurazioarekin jarraitzeko.';
 $string['wwwroot'] = 'Web helbidea';
 $string['wwwrooterror'] = '\'Web helbidea\' zuzena ez dela dirudi. Ezin izan da Moodle-ren instalazioa aurkitu. Jatorrizko balorea berrezarri da.';
-$string['yourchoice'] = 'Zure aukera:';
+$string['aborting'] = 'Instalazioa bertan behera uzten'; // ORPHANED
+$string['adminemail'] = 'E-posta:'; // ORPHANED
+$string['adminfirstname'] = 'Izena:'; // ORPHANED
+$string['admininfo'] = 'Kudeatzailearen xehetasunak'; // ORPHANED
+$string['adminlastname'] = 'Deitura:'; // ORPHANED
+$string['adminpassword'] = 'Pasahitza:'; // ORPHANED
+$string['adminusername'] = 'Erabiltzaile-izena:'; // ORPHANED
+$string['askcontinue'] = 'Jarraitu (bai/ez):'; // ORPHANED
+$string['availabledbtypes'] = 'db mota eskuragarriak'; // ORPHANED
+$string['cannotconnecttodb'] = 'Ezin da datu-basera konektatu'; // ORPHANED
+$string['checkingphpsettings'] = 'PHPren ezarpenak egiaztatzen'; // ORPHANED
+$string['configfilecreated'] = 'Ezarpenen fitxategia ondo sortu da'; // ORPHANED
+$string['configfiledoesnotexist'] = 'Ezarpenen fitxategia ez da existitzen'; // ORPHANED
+$string['configurationfileexist'] = 'Ezarpenen fitxategia bada lehenik!'; // ORPHANED
+$string['creatingconfigfile'] = 'Ezarpenen fitxategia sortzen...'; // ORPHANED
+$string['databasesettingsformoodle'] = 'Datu-basearen ezarpenak Moodle-rako'; // ORPHANED
+$string['databasetype'] = 'Datu-base mota:'; // ORPHANED
+$string['downloadlanguagepack'] = 'Hizkuntza-paketea orain jaitsi nahi al duzu? (bai/ez):'; // ORPHANED
+$string['downloadsuccess'] = 'Hizkuntza-paketea ondo jaitsi da'; // ORPHANED
+$string['installationiscomplete'] = 'Instalazioa burutu egin da!'; // ORPHANED
+$string['invalidemail'] = 'E-posta ez da baliozkoa'; // ORPHANED
+$string['invalidhost'] = 'Ostalaria ez da baliozkoa'; // ORPHANED
+$string['invalidpath'] = 'Bidea ez da baliozkoa'; // ORPHANED
+$string['invalidurl'] = 'URLa ez da baliozkoa'; // ORPHANED
+$string['locationanddirectories'] = 'Kokapena eta direktorioak'; // ORPHANED
+$string['selectlanguage'] = 'Aukeratu hizkuntza bat instalaziorako'; // ORPHANED
+$string['sitefullname'] = 'Gunearen izen osoa:'; // ORPHANED
+$string['siteinfo'] = 'Gunearen xehetasunak:'; // ORPHANED
+$string['sitenewsitems'] = 'Albisteak Elementuak:'; // ORPHANED
+$string['siteshortname'] = 'Gunearen izen laburra:'; // ORPHANED
+$string['sitesummary'] = 'Gunearen deskribapena:'; // ORPHANED
+$string['tableprefix'] = 'Taularen aurrizkia:'; // ORPHANED
+$string['upgradingactivitymodule'] = 'Jarduera-modulua eguneratzen'; // ORPHANED
+$string['upgradingblocksplugin'] = 'Blokeen plugina eguneratzen'; // ORPHANED
+$string['upgradingcompleted'] = 'Eguneratuta...'; // ORPHANED
+$string['upgradingenrolplugin'] = 'Matrikulazio-plugina eguneratzen'; // ORPHANED
+$string['upgradinggradeexportplugin'] = 'Kalifikazioak esportatzeko plugina eguneratzen'; // ORPHANED
+$string['upgradinggradeimportplugin'] = 'Kalifikazioak inportatzeko plugina eguneratzen'; // ORPHANED
+$string['upgradinggradereportplugin'] = 'Kalifikazioen txostena plugina eguneratzen'; // ORPHANED
+$string['upgradinglocaldb'] = 'Datu-base lokala eguneratzen'; // ORPHANED
+$string['upgradingrpcfunctions'] = 'RPC funtzioak eguneratzen'; // ORPHANED
+$string['yourchoice'] = 'Zure aukera:'; // ORPHANED
 $string['phpversionerror'] = 'PHP bertsioak 4.1.0 edo geroagokoa izan behar du'; // ORPHANED
 
 ?>
