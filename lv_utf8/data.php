@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9.8 (Build: 20100325) (2007101580)
+      // data.php - created with Moodle 1.9.9+ (Build: 20100707) (2007101590)
 
 
 $string['action'] = 'Darbība';
@@ -82,7 +82,7 @@ $string['editorenable'] = 'Iespējot redaktoru';
 $string['emptyadd'] = 'Pievienošanas veidne ir tukša, tiek ģenerēta noklusējuma veidlapa...';
 $string['emptyaddform'] = 'Jūs neaizpildījāt nevienu lauku!';
 $string['entries'] = 'Ieraksti';
-$string['entrieslefttoadd'] = 'Pirms apskatīt pārējo dalībnieku ierakstus, jums vēl jāpievieno $a ieraksts/ieraksti.';
+$string['entrieslefttoadd'] = 'Pirms apskatīt pārējo dalībnieku ierakstus, jums vēl jāpievieno $a->entriesleft ieraksts/ieraksti.';
 $string['entrieslefttoaddtoview'] = 'Jums ir jāpievieno $a->entrieslefttoview jaunus ierakstus, pirms jūs varēsiet apskatīt citu dalībnieku ierakstus.';
 $string['entry'] = 'Ieraksts';
 $string['entrysaved'] = 'Jūsu ieraksts tika saglabāts';
