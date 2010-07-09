@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9.3+ (Build: 20090114) (2007101533.01)
+      // scorm.php - created with Moodle 1.9.9+ (Build: 20100707) (2007101590)
 
 
 $string['activation'] = 'Aktivácia';
@@ -46,6 +46,8 @@ $string['exitactivity'] = 'Ukončiť aktivitu';
 $string['expcoll'] = 'Rozbaliť/Zabaliť';
 $string['external'] = 'Aktualizovať časovanie externých balíčkov';
 $string['failed'] = 'Zlyhalo';
+$string['finishscorm'] = 'Ak ste ukončili prehliadanie tohto zdroja, $a';
+$string['finishscormlinkname'] = 'kliknite sem pre návrat na hlavnú stránku kurzu';
 $string['firstaccess'] = 'Prvý prístup';
 $string['firstattempt'] = 'Prvý pokus';
 $string['found'] = 'Manifest bol nájdený';

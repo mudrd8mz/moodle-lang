@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.8+ (Build: 20100512) (2007101580)
+      // admin.php - created with Moodle 1.9.9+ (Build: 20100707) (2007101590)
 
 
 $string['accessdenied'] = 'Prístup zamietnutý';
@@ -822,9 +822,10 @@ $string['verifychangedemail'] = 'Obmedziť domény pri zmene mailu';
 $string['warningcurrentsetting'] = 'Nesprávna súčasná hodnota: $a';
 $string['webproxy'] = 'Web proxy';
 $string['webproxyinfo'] = 'Vyplňte nasledujúce nastavenia, ak váš Moodle server nemôže priamo pristupovať na Internet. Internetový prístup je potrebný pre sťahovanie informácií o prostredí, jazykové balíčky, RSS údaje, časové pásma a podobne. <br /><em>Doporučuje sa PHP rozšírenie cURL.</em>';
-$string['xmlrpcrecommended'] = 'Pre beh sieťových funkcionalít (\"Moodle Networking\") je treba nainštalovať voliteľnú knižnicu xlmrpc.';
+$string['xmlrpcrequired'] = 'Zásuvný modul xmlrpc je potrebný pre komunikáciu medzi hub servermi a je užitočný pre web služby a Moodle siete.';
 $string['xmlstrictheaders'] = 'XML striktné hlavičky';
 $string['ziprequired'] = 'Moodle v súčasnosti vyžaduje PHP zásuvný modul ZIP. Knižnice info-ZIP alebo PclZip už nie sú používané.';
+$string['xmlrpcrecommended'] = 'Pre beh sieťových funkcionalít (\"Moodle Networking\") je treba nainštalovať voliteľnú knižnicu xlmrpc.'; // ORPHANED
 $string['requiredentrieschanged'] = '<strong>DÔLEŽITÉ - PROSÍM ČÍTAJTE<br/>(Toto upozornenie je zobrazované iba počas tejto aktualizácie)</strong><br/>Vzhľadom k oprave chyby sa zmenilo správanie aktivity databáza, konkrétne nastavení \'Required entries\' a \'Required entries before viewing settings\'. Viac informácií sa dozviete na <a href=\"http://moodle.org/mod/forum/discuss.php?d=110928\" target=\"_blank\">fóre o databázovom module</a>. Očakávané správanie týchto nastavení je vysvetlené aj na <a href=\"http://docs.moodle.org/en/Adding/editing_a_database#Required_entries\" target=\"_blank\">Moodle Docs</a>.
 <br/><br/>Táto zmena ovplyvní nasledovné databázy vo vašom systéme: (Tento zoznam si uložte a po aktualizácii skontrolujte, či sú nastavené tak, ako učitelia očakávajú.)<br/><strong style=\"color:red\">$a->text</strong><br/>'; // ORPHANED
 
