@@ -11,12 +11,12 @@ University of Novi Sad
 Tel: + 381 21 485 2877
 Fax: + 381 21 6 350 458
 
-E-mail: komlenov@im.ns.ac.yu
-URL:    http://perun.im.ns.ac.yu/komlenov/
+E-mail: komlenov@dmi.uns.ac.rs
+URL:    http://perun.pmf.uns.ac.rs/komlenov/
 
 * Special thanks to
 
- - students of Computer Science, Dept. of Mathematics and Informatics, Faculty of Science, University of Novi Sad
+ - students of Computer Science, Department of Mathematics and Informatics, Faculty of Science, University of Novi Sad
 
    Branka Ignjić
    Nikolina Lacković
