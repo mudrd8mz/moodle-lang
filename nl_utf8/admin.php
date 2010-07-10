@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.7+ (Build: 20100208) (2007101571.04)
+      // admin.php - created with Moodle 1.9.9+ (Build: 20100710) (2007101590)
 
 
 $string['accessdenied'] = 'Toegang geweigerd';
@@ -82,6 +82,7 @@ $string['configcalendarexportsalt'] = 'Deze willekeurige tekst wordt gebruikt om
 $string['configclamactlikevirus'] = 'Behandel bestanden als virussen';
 $string['configclamdonothing'] = 'Behandel bestanden als OK';
 $string['configclamfailureonupload'] = 'Als je clam geconfigureerd hebt om geüploade bestanden op virussen te scannen, maar het is slecht geconfigureerd of loopt niet om één of andere reden, hoe moet Moodle zich dan gedragen? Als je kiest voor \"Behandel alle bestanden als virussen\", dan zullen alle bestanden naar de quarantainezone  verplaatst worden of verwijderd worden. Als je kiest voor \"Behandel bestanden als OK\", dan zullen de bestanden naar de bedoelde map verplaatst worden zoals normaal. In beide gevallen wordt de beheerder op de hoogte gebracht van het slecht werken van clam. Als je kiest voor \"Behandel bestanden als virussen\" en om één of andere reden werkt clam niet (gewoonlijk omdat je een verkeerd pad naar clam gegeven hebt), dan zullen ALLE geüploade bestanden naar de quarantainezone verplaatst worden of verwijderd worden. Wees voorzichtig met deze instelling.';
+$string['configconvertformat'] = 'Indien <i>latex</i>, <i>dvips</i> en <i>convert</i> beschikbaar zijn, zullen de afbeeldingen in het opgegeven formaat gegenereerd worden. Indien ze niet beschikbaar zin, dan zal mimeTex gebruikt worden en GIF-bestanden gegenereerd worden.';
 $string['configcookiehttponly'] = 'Schakelt nieuwe PHP 5.2.0-mogelijkheid in - browsers moeten cookies alleen met echte http-requests verzenden, cookies zouden niet toegankelijk mogen zijn voor script-talen. Dit wordt niet in alle browsers ondersteund en het is mogelijk dat het nog niet compatibel is met alle huidige code. Het helpt sommige types van XSS-aanvallen te voorkomen.';
 $string['configcookiesecure'] = 'Als de server alleen https-verbindingen aanvaardt, dan is het aangeraden om het versturen van secure cookies in te schakelen. Als dit ingeschakeld is, zorg er dan voor dat de webserver geen http:// toelaat of zet een permanente redirectie op naar een https://-adres. Wanneer het <em>wwwroot</em> niet begint met https://, dan wordt deze instelling automatisch uitgeschakeld.';
 $string['configcountry'] = 'Als je hier een land invult, wordt dit land als standaard geselecteerd bij nieuwe gebruikersaccounts. Laat dit veld gewoon leeg om gebruikers te dwingen een land te kiezen.';
@@ -276,6 +277,7 @@ $string['configzip'] = 'Geef de locatie van je ZIP-programma (alleen voor UNIX).
 $string['confirmation'] = 'Bevestiging';
 $string['confirmed'] = 'Bevestigd';
 $string['confirminstall'] = 'Je gaat het taalpakket ($a) installeren. Verder gaan?';
+$string['convertformat'] = '<i>convert</i> output formaat';
 $string['cookiehttponly'] = 'Enkel http cookies';
 $string['cookiesecure'] = 'Enkel secure cookies';
 $string['country'] = 'Standaard landinstelling';

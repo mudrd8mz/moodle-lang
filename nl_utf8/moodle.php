@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.7+ (Build: 20100208) (2007101571.04)
+      // moodle.php - created with Moodle 1.9.9+ (Build: 20100710) (2007101590)
 
 
 $string['abouttobeinstalled'] = 'zal geïnstalleerd worden';
@@ -1259,7 +1259,10 @@ $string['resource'] = 'Bron';
 $string['resources'] = 'Bronnen';
 $string['restore'] = 'Terugzetten';
 $string['restorecancelled'] = 'Backup terugzetten geannuleerd';
+$string['restorecannotassignroles'] = 'Het terugzetten van de backup moet rollen toewijzen en je hebt niet het recht om dat te doen.';
+$string['restorecannotcreateorassignroles'] = 'Het terugzetten van de backup moet rollen aanmaken of toewijzen en je hebt niet het recht om dat te doen.';
 $string['restorecannotcreateuser'] = 'Het terugzetten van de backup vereist het aanmaken van gebruiker \'$a\' uit het backupbestand en jij het het recht niet om dat te doen';
+$string['restorecannotoverrideperms'] = 'Het terugzetten van de backup moet rechten overschrijven en je hebt niet het recht om dat te doen.';
 $string['restorecoursenow'] = 'Deze cursus nu terugzetten!';
 $string['restoredaccount'] = 'Teruggezette account';
 $string['restoredaccountinfo'] = 'Deze account is geïmporteerd uit een andere server en het wachtwoord ervan is verloren gegaan. Om eeen nieuw wachtwoord via e-mail in te stellen, klik op \"Ga verder\"';
