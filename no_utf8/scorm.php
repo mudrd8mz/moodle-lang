@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9.8+ (Build: 20100519) (2007101580)
+      // scorm.php - created with Moodle 1.9.9+ (Build: 20100714) (2007101590)
 
 
 $string['activation'] = 'Aktivisering';
@@ -46,6 +46,8 @@ $string['exitactivity'] = 'Gå ut av aktiviteten';
 $string['expcoll'] = 'Utvid/kollider';
 $string['external'] = 'Oppdater eksterne pakkers timing';
 $string['failed'] = 'Feilet';
+$string['finishscorm'] = 'Dersom du er ferdig med denne ressursen, $a';
+$string['finishscormlinkname'] = 'klikk her for å gå tilbake til kurssiden';
 $string['firstaccess'] = 'Etter første visning';
 $string['firstattempt'] = 'Første forsøk';
 $string['found'] = 'Liste funnet';

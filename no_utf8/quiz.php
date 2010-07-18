@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9.7+ (Build: 20100317) (2007101571.04)
+      // quiz.php - created with Moodle 1.9.8+ (Build: 20100526) (2007101580)
 
 
 $string['1day'] = '1 dag';
@@ -524,7 +524,7 @@ $string['select'] = 'Velg';
 $string['selectall'] = 'Velg alle';
 $string['selectcategoryabove'] = 'Velg en av kategoriene over';
 $string['selectedattempts'] = 'Valgte forsøk';
-$string['selectnone'] = 'Omgjør alle valgte';
+$string['selectnone'] = 'Avbryt valgte';
 $string['serveradded'] = 'La til tjener';
 $string['serveridentifier'] = 'Identfiser';
 $string['serverinfo'] = 'Tjenerinformasjon';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // report_security.php - created with Moodle 1.9.7+ (Build: 20100210) (2007101571.04)
+      // report_security.php - created with Moodle 1.9.9+ (Build: 20100616) (2007101590)
 
 
 $string['check_configrw_details'] = '<p>Det anbefales at fil-rettighetene til config.php endres etter installasjonen slik at webserveren ikke kan gjøre endringer. Vennligst merk at denne sjekken ikke forbedrer serverens generelle sikkerhet, selv om den forsinker og eventuelt begrenser generelle sikkerhetshull.</p>';
@@ -111,7 +111,7 @@ $string['check_riskbackup_ok'] = 'Ingen roller har eksplisitt rett til å ta sik
 $string['check_riskbackup_unassign'] = '<a href=\"$a->url\">$a->fullname ($a->email) in $a->contextname</a>';
 $string['check_riskbackup_warning'] = 'Fant $a->rolecount roller, $a->overridecount overstyringer og $a->usercount brukere med rett til å ta sikkerhetskopi av brukerdata.';
 $string['check_riskxss_details'] = '<p>RISK_XSS viser deg alle risikable rettigheter bare klarerte brukere kan benytte.</p>
-<p>Vennligst bekreft følgende liste av brukere og sikre at disse er klarerte for denne serveren:</p><p>$a</p>';
+<p>Vennligst bekreft følgende liste av brukere og sikre at disse er klarerte for denne serveren:</p><p></p><p>$a</p>';
 $string['check_riskxss_name'] = 'XSS klarerte brukere';
 $string['check_riskxss_warning'] = 'RISK_XSS - fant $a brukere som ikke er klarert.';
 $string['check_unsecuredataroot_details'] = '<p>Datakatalogen må ikke kunne nås direkte fra web. Beste måten å sikre dette på er å plassere datakatalogen utenfor webområdet på serveren.</p>
