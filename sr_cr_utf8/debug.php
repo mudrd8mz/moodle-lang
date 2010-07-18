@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
+      // debug.php - created with Moodle 1.9.9 (Build: 20100609) (2007101590)
 
 
 $string['authpluginnotfound'] = 'Додатак за проверу идентитета $a није пронађен.';
@@ -15,7 +15,9 @@ $string['erroroccur'] = 'Дошло је до грешке у току овог 
 $string['fixsetting'] = 'Молимо да исправите подешавања у config.php: <p>Ви имате:</p> <p>\$CFG->dirroot = \"$a[0]\";</p> <p>а треба да буде:</p> <p>\$CFG->dirroot = \"$a[1]\"</p>';
 $string['invalidarraysize'] = 'Неисправна величина низова у параметрима $a';
 $string['invalideventdata'] = 'Прослеђени су неисправни подаци о догађању: $a';
-$string['missingconfigversion'] = 'Конфигурациона табела не садржи податак о верзији, није могуће насатавити.';
+$string['invalidparameter'] = 'Откривена је неисправна вредност параметра, извршавање се не може наставити.';
+$string['invalidresponse'] = 'Откривена је неисправна вредност одзива, извршавање се не може наставити.';
+$string['missingconfigversion'] = 'Конфигурациона табела не садржи податак о верзији, није могуће наставити.';
 $string['modulenotexist'] = 'Модул $a не постоји';
 $string['morethanonerecordinfetch'] = 'Пронађено више од једног записа у fetch() !';
 $string['mustbeoveride'] = 'Апстрактни метод $a мора бити замењен.';
@@ -30,10 +32,10 @@ $string['notables'] = 'Нема табела!';
 $string['phpvaroff'] = 'PHP променљива сервера \'$a[0]\' треба да буде Off - $a[1]';
 $string['phpvaron'] = 'PHP променљива сервера \'$a[0]\' није укључено On - $a[1]';
 $string['sessionmissing'] = 'Објекат $a недостаје у сесији';
-$string['siteisnotdefined'] = 'Сајт није дефинисан!';
 $string['sqlrelyonobsoletetable'] = 'Овај SQL се заснива на застарелој(им) табели(ама)! Ваш кôд мора поправити програмер.';
 $string['withoutversion'] = 'Главна датотека version.php није читљива или није наведена';
 $string['xmlizeunavailable'] = 'xmlize функције нису на располагању';
+$string['siteisnotdefined'] = 'Сајт није дефинисан!'; // ORPHANED
 $string['cannotcreateadminuser'] = 'ОЗБИЉНА ГРЕШКА: Није могуће креирати запис о администраторском кориснику!!!'; // ORPHANED
 $string['cannotsetupsite'] = 'Озбиљна грешка! Не може се поставити сајт!'; // ORPHANED
 $string['cannotupdaterelease'] = 'ГРЕШКА: Не може се ажурирати верзија у бази података!!'; // ORPHANED
