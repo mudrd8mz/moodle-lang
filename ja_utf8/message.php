@@ -3,8 +3,8 @@
 
 
 $string['addcontact'] = 'コンタクトリストに追加する';
-$string['addsomecontacts'] = '誰かにメッセージを送信する場合や、このページにショートカットを作成する場合は、上にある<a href=\"$a\">検索タブ</a>を使用してください。';
-$string['addsomecontactsincoming'] = 'これらのメッセージは、あなたのコンタクトリストに登録されていない人から送信されています。コンタクトリストに人を追加したい場合、名前の隣にある「コンタクトリストに追加する」アイコンをクリックしてください。';
+$string['addsomecontacts'] = '誰かにメッセージを送信する場合や、このページにショートカットを作成する場合は上にある<a href=\"$a\">検索タブ</a>を使用してください。';
+$string['addsomecontactsincoming'] = 'これらのメッセージはあなたのコンタクトリストに登録されていない人から送信されています。コンタクトリストに人を追加したい場合、名前の隣にある「コンタクトリストに追加する」アイコンをクリックしてください。';
 $string['ago'] = '$a 前';
 $string['ajax_gui'] = 'AJAXチャットルーム';
 $string['allmine'] = 'すべての送受信メッセージ';
@@ -20,7 +20,7 @@ $string['contactlistempty'] = 'あなたのコンタクトリストは空です�
 $string['contacts'] = 'コンタクト';
 $string['context'] = 'コンテクスト';
 $string['deletemessagesdays'] = '古いメッセージを自動削除する経過日数';
-$string['disabled'] = 'このサイトでは、メッセージングが無効にされています。';
+$string['disabled'] = 'このサイトではメッセージングが無効にされています。';
 $string['discussion'] = 'ディスカッション';
 $string['editmymessage'] = 'メッセージング';
 $string['emailmessages'] = 'オフライン時は下記メールアドレス宛にメッセージを転送する。';
@@ -28,8 +28,8 @@ $string['emailtagline'] = 'このメールは $a にあなた宛に送信され�
 $string['emptysearchstring'] = 'キーワードを入力してください。';
 $string['errorcallingprocessor'] = '定義されたプロセッサのコールにエラーが発生しました。';
 $string['formorethan'] = '経過後';
-$string['guestnoeditmessage'] = 'ゲストユーザは、メッセージングオプションを編集できません。';
-$string['guestnoeditmessageother'] = 'ゲストユーザは、他のユーザのメッセージングオプションを編集できません。';
+$string['guestnoeditmessage'] = 'ゲストユーザはメッセージングオプションを編集できません。';
+$string['guestnoeditmessageother'] = 'ゲストユーザは他のユーザのメッセージングオプションを編集できません。';
 $string['includeblockedusers'] = '拒否したユーザも含む';
 $string['incomingcontacts'] = '受信したコンタクト ($a)';
 $string['keywords'] = 'キーワード';
@@ -43,7 +43,7 @@ $string['messagehistory'] = 'メッセージ履歴';
 $string['messageprovider:instantmessage'] = 'ユーザ相互のパーソナルメッセージ';
 $string['messages'] = 'メッセージ';
 $string['messaging'] = 'メッセージング';
-$string['messagingdisabled'] = 'このサイトでは、メッセージングが無効にされています。代わりにメールが送信されます。';
+$string['messagingdisabled'] = 'このサイトではメッセージングが無効にされています。代わりにメールが送信されます。';
 $string['mycontacts'] = 'マイ コンタクト';
 $string['newonlymsg'] = '新しいメッセージのみ表示する';
 $string['newsearch'] = '新しい検索';

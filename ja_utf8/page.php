@@ -2,7 +2,7 @@
       // page.php - created with Moodle 2.0 dev (Build: 20090816) (2009080700)
 
 
-$string['configdisplayoptions'] = '利用可能にしたいオプションすべてを選択してください。既存の設定は、変更されません。複数のフィールドを選択するには、CTRLキーを押したままにしてください。';
+$string['configdisplayoptions'] = '利用可能にしたいオプションすべてを選択してください。既存の設定は変更されません。複数のフィールドを選択するには、CTRLキーを押したままにしてください。';
 $string['content'] = 'ページコンテンツ';
 $string['contentheader'] = 'コンテンツ';
 $string['displaynew'] = '新しいウィンドウ';

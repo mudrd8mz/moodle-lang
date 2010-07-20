@@ -4,6 +4,6 @@
 
 $string['editingmissingtype'] = 'タイプ不明問題の編集';
 $string['missingtype'] = 'タイプ不明';
-$string['warningmissingtype'] = '<b>この問題タイプは、あなたのMoodleにインストールされていません。<br />Moodle管理者にご連絡ください。</b>';
+$string['warningmissingtype'] = '<b>この問題タイプはあなたのMoodleにインストールされていません。<br />Moodle管理者にご連絡ください。</b>';
 
 ?>

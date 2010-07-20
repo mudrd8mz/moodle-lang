@@ -16,7 +16,7 @@ $string['remoterep_description'] = 'サービスが検索されることを許�
 $string['remoterep_name'] = 'Mahara';
 $string['repositorydesc'] = 'リモートMoodleサーバのファイル';
 $string['repositoryname'] = 'Mahara';
-$string['usercannotaccess'] = 'あなた ($a) は、このファイルにアクセスできません。';
-$string['usernotfound'] = 'ユーザ $a は、Maharaに登録されていません。';
+$string['usercannotaccess'] = 'あなた ($a) はこのファイルにアクセスできません。';
+$string['usernotfound'] = 'ユーザ $a はMaharaに登録されていません。';
 
 ?>

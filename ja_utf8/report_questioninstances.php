@@ -5,7 +5,7 @@
 $string['editquestionshere'] = 'このコンテクストの問題を編集する';
 $string['getreport'] = 'レポートを取得する';
 $string['hiddenquestions'] = '非表示';
-$string['intro'] = 'このレポートでは、特定の問題タイプを含むシステムのコンテクストを一覧表示します。';
+$string['intro'] = 'このレポートでは特定の問題タイプを含むシステムのコンテクストを一覧表示します。';
 $string['questioninstances'] = '問題インスタンス';
 $string['questioninstances:view'] = '問題インスタンスレポートを表示する';
 $string['reportforallqtypes'] = 'すべての問題タイプのレポート';

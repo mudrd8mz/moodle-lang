@@ -3,16 +3,16 @@
 
 
 $string['apikey'] = 'APIキー';
-$string['apikeyhelp'] = 'あなたは、enabled.box.netでサインアップした後、アプリケーションを追加する必要があります。コールバックURIは、yourwwwroot/portfolio/add.php?postcontrol=1のように設定してください。';
-$string['apikeyinlinehelp'] = '<p>Box.netを設定するには、<a href=\"http://enabled.box.net/my-projects\">enabled.box.net</a>にアクセス後、ログインしてください。</p><p>それぞれのMoodleサイトのために、あなたはMy Projects以下に新しいプロジェクトを作成する必要があります。</p><p>重要な設定項目は、コールバックURI ($a) のみです。他の設定は、あなたの好きな値を入力することができます。内容を保存して完了です!';
-$string['err_noapikey'] = 'このプラグインに設定されたAPIキーがありません。あなたは、http://enabled.box.netからAPIキーを取得することができます。';
+$string['apikeyhelp'] = 'あなたはenabled.box.netでサインアップした後、アプリケーションを追加する必要があります。コールバックURIはyourwwwroot/portfolio/add.php?postcontrol=1のように設定してください。';
+$string['apikeyinlinehelp'] = '<p>Box.netを設定するには、<a href=\"http://enabled.box.net/my-projects\">enabled.box.net</a>にアクセス後、ログインしてください。</p><p>それぞれのMoodleサイトのために、あなたはMy Projects以下に新しいプロジェクトを作成する必要があります。</p><p>重要な設定項目はコールバックURI ($a) のみです。他の設定はあなたの好きな値を入力することができます。内容を保存して完了です!';
+$string['err_noapikey'] = 'このプラグインに設定されたAPIキーがありません。あなたはhttp://enabled.box.netからAPIキーを取得することができます。';
 $string['existingfolder'] = 'ファイルを保存する既存のフォルダ';
-$string['folderclash'] = 'あなたが作成を依頼したフォルダは、すでに登録されています!';
+$string['folderclash'] = 'あなたが作成を依頼したフォルダはすでに登録されています!';
 $string['foldercreatefailed'] = 'あなたのターゲットフォルダをbox.netに作成できませんでした。';
 $string['folderlistfailed'] = 'box.netからフォルダ一覧を取得できませんでした。';
 $string['newfolder'] = 'ファイルを保存する新しいフォルダ';
 $string['noauthtoken'] = 'このセッションで使用する認証トークンを取得できませんでした。';
-$string['notarget'] = 'あなたは、ファイルをアップロードする既存のフォルダ、または新しいフォルダを選択する必要があります。';
+$string['notarget'] = 'あなたはファイルをアップロードする既存のフォルダ、または新しいフォルダを選択する必要があります。';
 $string['noticket'] = '認証を開始するためのチケットをbox.netから取得できませんでした。';
 $string['password'] = 'あなたのbox.netパスワード (保存されません)';
 $string['pluginname'] = 'Box.netインターネットストレージ';

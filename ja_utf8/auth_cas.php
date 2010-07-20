@@ -33,7 +33,7 @@ $string['auth_cas_server_settings'] = 'CASサーバ設定';
 $string['auth_cas_text'] = 'セキュアコネクション';
 $string['auth_cas_use_cas'] = 'CASを使用する';
 $string['auth_cas_version'] = 'CASのバージョン';
-$string['auth_casdescription'] = 'この認証方法では、単一ログイン環境 (Single Sign On environment: SSO) にて、CASサーバ (Central Authentication Service) をユーザ認証に使用します。シンプルLDAP認証を使用することもできます。ユーザ名とパスワードがCASで認証された場合、Moodleは新しいユーザエントリをデータベースに作成します。また、必要であれば、LDAPよりユーザ属性を取得します。次回からは、ユーザ名およびパスワードのみ確認されます。';
+$string['auth_casdescription'] = 'この認証方法では単一ログイン環境 (Single Sign On environment: SSO) にて、CASサーバ (Central Authentication Service) をユーザ認証に使用します。シンプルLDAP認証を使用することもできます。ユーザ名とパスワードがCASで認証された場合、Moodleは新しいユーザエントリをデータベースに作成します。また、必要であれば、LDAPよりユーザ属性を取得します。次回からはユーザ名およびパスワードのみ確認されます。';
 $string['auth_casnotinstalled'] = 'CAS認証を使用できません。PHP LDAPモジュールがインストールされていません。';
 $string['auth_castitle'] = 'CASサーバ (SSO)';
 

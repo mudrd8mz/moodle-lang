@@ -8,7 +8,7 @@ $string['addmoreunitblanks'] = 'さらに $a 個の単位を追加する';
 $string['answerhdr'] = '答え';
 $string['atleastoneanswer'] = '少なくとも1つの答えを入力してください。';
 $string['calculated'] = '計算';
-$string['calculatedsummary'] = '計算問題は、数値問題に似ていますが、小テスト受験時、設定された数値がランダムに使用されます。';
+$string['calculatedsummary'] = '計算問題は数値問題に似ていますが、小テスト受験時、設定された数値がランダムに使用されます。';
 $string['correctanswershows'] = '正解の表示';
 $string['correctanswershowsformat'] = 'フォーマット';
 $string['editingcalculated'] = '計算問題の編集';
@@ -31,6 +31,6 @@ $string['trueanswerinsidelimits'] = '正解 : $a->correct - 範囲内の真の�
 $string['trueansweroutsidelimits'] = '<span class=\"error\">エラー 正解 : $a->correct - 範囲外の真の値: $a->true</span>';
 $string['updatecategory'] = 'カテゴリを更新する';
 $string['usedinquestion'] = '使用されている問題';
-$string['youmustenteramultiplierhere'] = 'あなたは、ここに乗数を入力する必要があります。';
+$string['youmustenteramultiplierhere'] = 'あなたはここに乗数を入力する必要があります。';
 
 ?>

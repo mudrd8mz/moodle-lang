@@ -4,7 +4,7 @@
 
 $string['apikey'] = 'APIキー (http://flickr.com/services/api/keys/apply から取得してください)';
 $string['contenttype'] = 'コンテンツタイプ';
-$string['err_noapikey'] = 'このプラグインに設定されたAPIキーはありません。あなたは、APIキーを http://flickr.com/services/api/keys/apply から取得することができます。';
+$string['err_noapikey'] = 'このプラグインに設定されたAPIキーはありません。あなたはAPIキーを http://flickr.com/services/api/keys/apply から取得することができます。';
 $string['hidefrompublicsearches'] = 'これらのイメージを公開検索から隠しますか?';
 $string['isfamily'] = 'ファミリーに表示する';
 $string['isfriend'] = 'フレンドに表示する';

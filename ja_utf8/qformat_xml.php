@@ -3,6 +3,6 @@
 
 
 $string['invalidxml'] = '無効なxmlファイルです - ストリングが必要です (CDATAを使用しますか?)';
-$string['unsupportedexport'] = 'xmlエクスポートでは、問題タイプ $a はサポートされていません。';
+$string['unsupportedexport'] = 'xmlエクスポートでは問題タイプ $a はサポートされていません。';
 
 ?>

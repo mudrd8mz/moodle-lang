@@ -19,14 +19,14 @@ $string['checkdefaults'] = 'デフォルトのチェック';
 $string['checkforeignkeys'] = '外部キーのチェック';
 $string['checkindexes'] = 'インデックスのチェック';
 $string['completelogbelow'] = '(検索結果に関する下記の完全なログをご覧ください。)';
-$string['confirmcheckbigints'] = 'この機能は、あなたのMoodleサーバで<a href=\"http://tracker.moodle.org/browse/MDL-11038\">潜在的に不正なインテジャフィールド</a>を調査し、DB内のインテジャを適切に定義するためのSQL文を自動的に生成します (実行ではありません!)。<br /><br />SQL文の生成後、あなたはSQL文をコピーして、自分の好きなSQLインターフェースで安全に実行することができます (実行前にあなたのデータを忘れずにバックアップしてください)。<br /><br />不正なインテジャの調査を実行する前に、あなたのMoodleリリース (1.8, 1.9, 2.x ...) を最新のもの (+ バージョン)  にバージョンアップすることを強くお勧めします。<br /><br />
-この機能は、DBに対していかなる処理も実行しません (読むだけです)。ですから、いつでも安全に実行することが可能です。';
-$string['confirmcheckdefaults'] = 'この機能は、あなたのMoodleサーバで矛盾したデフォルト値を調査し、DB内のすべてのデフォルト値を適切に定義するためのSQL文を自動的に生成します (実行ではありません!)。<br /><br />SQL文の生成後、あなたはSQL文をコピーして、自分の好きなSQLインターフェースで安全に実行することができます (実行前にあなたのデータを忘れずにバックアップしてください)。<br /><br />矛盾したデフォルト値の調査を実行する前に、あなたのMoodleリリース (1.8, 1.9, 2.x ...) を最新のもの (+ バージョン)  にバージョンアップすることを強くお勧めします。<br /><br />
-この機能は、DBに対していかなる処理も実行しません (読むだけです)。ですから、いつでも安全に実行することが可能です。';
-$string['confirmcheckforeignkeys'] = 'この機能は、install.xml定義で定義された外部キーに関して、潜在的な違反を調査します (現在、Moodleはデータベースに制約された外部キーを生成しないため、無効なデータが存在する可能性があります)。<br /><br />不明なインデックス調査を実行する前に、あなたのMoodleリリース (1.8, 1.9, 2.x ...) を最新のもの (+ バージョン)  にバージョンアップすることを強くお勧めします。<br /><br />
-この機能は、DBに対していかなる処理も実行しません (読むだけです)。ですから、いつでも安全に実行することが可能です。';
-$string['confirmcheckindexes'] = 'この機能は、あなたのMoodleサーバで潜在的に不明なインデックスを調査し、すべてを最新の状態にするためのSQL文を自動的に生成します (実行ではありません!)。SQL文の生成後、あなたはSQL文をコピーして、自分の好きなSQLインターフェースで安全に実行することができます (実行前にあなたのデータを忘れずにバックアップしてください)。<br /><br />不明なインデックス調査を実行する前に、あなたのMoodleリリース (1.8, 1.9, 2.x ...) を最新のもの (+ バージョン)  にバージョンアップすることを強くお勧めします。<br /><br />
-この機能は、DBに対していかなる処理も実行しません (読むだけです)。ですから、いつでも安全に実行することが可能です。';
+$string['confirmcheckbigints'] = 'この機能はあなたのMoodleサーバで<a href=\"http://tracker.moodle.org/browse/MDL-11038\">潜在的に不正なインテジャフィールド</a>を調査し、DB内のインテジャを適切に定義するためのSQL文を自動的に生成します (実行ではありません!)。<br /><br />SQL文の生成後、あなたはSQL文をコピーして、自分の好きなSQLインターフェースで安全に実行することができます (実行前にあなたのデータを忘れずにバックアップしてください)。<br /><br />不正なインテジャの調査を実行する前に、あなたのMoodleリリース (1.8, 1.9, 2.x ...) を最新のもの (+ バージョン)  にバージョンアップすることを強くお勧めします。<br /><br />
+この機能はDBに対していかなる処理も実行しません (読むだけです)。ですから、いつでも安全に実行することが可能です。';
+$string['confirmcheckdefaults'] = 'この機能はあなたのMoodleサーバで矛盾したデフォルト値を調査し、DB内のすべてのデフォルト値を適切に定義するためのSQL文を自動的に生成します (実行ではありません!)。<br /><br />SQL文の生成後、あなたはSQL文をコピーして、自分の好きなSQLインターフェースで安全に実行することができます (実行前にあなたのデータを忘れずにバックアップしてください)。<br /><br />矛盾したデフォルト値の調査を実行する前に、あなたのMoodleリリース (1.8, 1.9, 2.x ...) を最新のもの (+ バージョン)  にバージョンアップすることを強くお勧めします。<br /><br />
+この機能はDBに対していかなる処理も実行しません (読むだけです)。ですから、いつでも安全に実行することが可能です。';
+$string['confirmcheckforeignkeys'] = 'この機能はinstall.xml定義で定義された外部キーに関して、潜在的な違反を調査します (現在、Moodleはデータベースに制約された外部キーを生成しないため、無効なデータが存在する可能性があります)。<br /><br />不明なインデックス調査を実行する前に、あなたのMoodleリリース (1.8, 1.9, 2.x ...) を最新のもの (+ バージョン)  にバージョンアップすることを強くお勧めします。<br /><br />
+この機能はDBに対していかなる処理も実行しません (読むだけです)。ですから、いつでも安全に実行することが可能です。';
+$string['confirmcheckindexes'] = 'この機能はあなたのMoodleサーバで潜在的に不明なインデックスを調査し、すべてを最新の状態にするためのSQL文を自動的に生成します (実行ではありません!)。SQL文の生成後、あなたはSQL文をコピーして、自分の好きなSQLインターフェースで安全に実行することができます (実行前にあなたのデータを忘れずにバックアップしてください)。<br /><br />不明なインデックス調査を実行する前に、あなたのMoodleリリース (1.8, 1.9, 2.x ...) を最新のもの (+ バージョン)  にバージョンアップすることを強くお勧めします。<br /><br />
+この機能はDBに対していかなる処理も実行しません (読むだけです)。ですから、いつでも安全に実行することが可能です。';
 $string['confirmdeletefield'] = '本当にフィールドを完全に削除してもよろしいですか:';
 $string['confirmdeleteindex'] = '本当にインデックスを完全に削除してもよろしいですか:';
 $string['confirmdeletekey'] = '本当にキーを完全に削除してもよろしいですか:';
@@ -48,7 +48,7 @@ $string['delete_table'] = 'テーブルの削除';
 $string['delete_xml_file'] = 'XMLファイルの削除';
 $string['doc'] = 'Doc';
 $string['docindex'] = 'ドキュメンテーションインデックス:';
-$string['documentationintro'] = 'このドキュメンテーションは、XMLDBデータベース定義より自動的に生成されたものです。英語のみ利用できます。';
+$string['documentationintro'] = 'このドキュメンテーションはXMLDBデータベース定義より自動的に生成されたものです。英語のみ利用できます。';
 $string['down'] = '下へ';
 $string['duplicate'] = '複製';
 $string['duplicatefieldname'] = '同じ名称のフィールドが登録されています。';
@@ -67,10 +67,10 @@ $string['extensionrequired'] = '申し訳ございません - この処理を実
 $string['field'] = 'フィールド';
 $string['fieldnameempty'] = 'フィールド名が空です。';
 $string['fields'] = 'フィールド';
-$string['fieldsusedinkey'] = 'このフィールドは、キーとして使用されています。';
+$string['fieldsusedinkey'] = 'このフィールドはキーとして使用されています。';
 $string['filenotwriteable'] = 'ファイルに書き込み権がありません。';
 $string['fkviolationdetails'] = 'テーブル $a->tablename の外部キー $a->keyname に関して、$a->numrows 行中 $a->numviolations 行が違反しています。';
-$string['float2numbernote'] = '注意: XMLDBにおいて、「浮動小数」フィールドは、100%%サポートされますが、代わりに「数値」フィールドへの移行をお勧めします。';
+$string['float2numbernote'] = '注意: XMLDBにおいて、「浮動小数」フィールドは100%%サポートされますが、代わりに「数値」フィールドへの移行をお勧めします。';
 $string['floatincorrectdecimals'] = 'floatフィールドの小数点以下桁数が正しくありません。';
 $string['floatincorrectlength'] = 'floatフィールドの長さが正しくありません。';
 $string['generate_all_documentation'] = 'ドキュメンテーションすべて';
@@ -85,14 +85,14 @@ $string['keys'] = 'キー';
 $string['listreservedwords'] = '予約語一覧<br />(<a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a> を更新するため使用されます。)';
 $string['load'] = 'ロード';
 $string['main_view'] = 'メインビュー';
-$string['masterprimaryuniqueordernomatch'] = 'あなたの外部キーのフィールドは、参照テーブルのユニークキーと同じ順番で記述する必要があります。';
+$string['masterprimaryuniqueordernomatch'] = 'あなたの外部キーのフィールドは参照テーブルのユニークキーと同じ順番で記述する必要があります。';
 $string['missing'] = '不明';
 $string['missingfieldsinsentence'] = 'センテンスのフィールドが見つかりません。';
 $string['missingindexes'] = 'インデックスが見つかりません。';
 $string['missingvaluesinsentence'] = 'センテンスの値が見つかりません。';
-$string['mustselectonefield'] = 'フィールドに関連した処理を見るには、フィールドを選択してください!';
-$string['mustselectoneindex'] = 'インデックスに関連した処理を見るには、インデックスを選択してください!';
-$string['mustselectonekey'] = 'キーに関連した処理を見るには、キーを選択してください!';
+$string['mustselectonefield'] = 'フィールドに関連した処理を見るにはフィールドを選択してください!';
+$string['mustselectoneindex'] = 'インデックスに関連した処理を見るにはインデックスを選択してください!';
+$string['mustselectonekey'] = 'キーに関連した処理を見るにはキーを選択してください!';
 $string['mysqlextracheckbigints'] = 'MySQL配下では同様に正しくない符号ありbigintを探して、すべてを修正するため実行する必要のあるSQLを生成します。';
 $string['new_statement'] = '新しいステートメント';
 $string['new_table_from_mysql'] = 'MySQLから新しいテーブル';
@@ -103,14 +103,14 @@ $string['newsentence'] = '新しいセンテンス';
 $string['newstatement'] = '新しいステートメント';
 $string['newtable'] = '新しいテーブル';
 $string['newtablefrommysql'] = 'MySQLから新しいテーブル';
-$string['nomasterprimaryuniquefound'] = 'あなたの外部キーが参照するカラムは、参照テーブルのプライマリーまたはユニークキーに含まれている必要があります。ユニークインデックスに含まれているカラムでは、十分ではありませんので留意してください。';
+$string['nomasterprimaryuniquefound'] = 'あなたの外部キーが参照するカラムは参照テーブルのプライマリーまたはユニークキーに含まれている必要があります。ユニークインデックスに含まれているカラムでは十分ではありませんので留意してください。';
 $string['nomissingindexesfound'] = '不明なインデックスは見つかりませんでした。あなたのDBに関して、さらなる処置は不要です。';
 $string['noviolatedforeignkeysfound'] = '外部キー違反は見つかりませんでした。';
 $string['nowrongdefaultsfound'] = '矛盾したデフォルト値は見つかりませんでした。あなたのDBに関して、さらなる処置は不要です。';
 $string['nowrongintsfound'] = '間違ったインテジャは見つかりませんでした。あなたのDBに関して、さらなる処置は不要です。';
 $string['numberincorrectdecimals'] = 'numberフィールドの小数点以下桁数が正しくありません。';
 $string['numberincorrectlength'] = 'numberフィールドの長さが正しくありません。';
-$string['pendingchanges'] = 'メモ: あなたは、このファイルを変更しました。ファイルは、いつでも保存することができます。';
+$string['pendingchanges'] = 'メモ: あなたはこのファイルを変更しました。ファイルはいつでも保存することができます。';
 $string['pendingchangescannotbesaved'] = 'このファイルに変更が加えられましたが、保存できませんでした! ディレクトリおよび「install.xml」にウェブサーバからの書込み権があるかどうか確認してください。';
 $string['pendingchangescannotbesavedreload'] = 'このファイルに変更が加えられましたが、保存できませんでした! ディレクトリおよび「install.xml」にウェブサーバからの書込み権があるかどうか確認してください。確認後、このページをリロードすることで、あなたは変更を保存することができます。';
 $string['reserved'] = '予約済み';

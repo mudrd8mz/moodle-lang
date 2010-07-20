@@ -4,7 +4,7 @@
 
 $string['alfresco:view'] = 'Afrescoリポジトリを表示する';
 $string['alfresco_url'] = 'Alfresco URI';
-$string['alfrescourltext'] = 'Afresco APIのURIは、次のように入力してください: http://yoursite.com/alfresco/api';
+$string['alfrescourltext'] = 'Afresco APIのURIは次のように入力してください: http://yoursite.com/alfresco/api';
 $string['configplugin'] = 'Alfresco設定';
 $string['notitle'] = 'タイトルなし';
 $string['password'] = 'パスワード';

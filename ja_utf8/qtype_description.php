@@ -4,7 +4,7 @@
 
 $string['addingdescription'] = '説明の追加';
 $string['description'] = '説明';
-$string['descriptionsummary'] = 'これは、実際の問題とは異なります。代わりに、インストラクション、説明文または他のコンテンツを小テストに追加します。これは、コースページにコンテンツとしてラベルを追加する方法に似ています。';
+$string['descriptionsummary'] = 'これは実際の問題とは異なります。代わりに、インストラクション、説明文または他のコンテンツを小テストに追加します。これはコースページにコンテンツとしてラベルを追加する方法に似ています。';
 $string['editingdescription'] = '説明の編集';
 
 ?>

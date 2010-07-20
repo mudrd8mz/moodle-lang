@@ -6,12 +6,12 @@ $string['auth_shib_auth_method'] = '認証メソッド名';
 $string['auth_shib_auth_method_description'] = 'Shibboleth認証メソッドに関して、あなたのユーザに知られている名称を入力してください。あなたのシボレス連盟の名称を使用することもできます 例) <tt>SWITCHaai Login</tt>または<tt>InCommon Login</tt>または同様の名称。';
 $string['auth_shib_changepasswordurl'] = 'パスワード変更URI';
 $string['auth_shib_convert_data'] = 'データ修正API';
-$string['auth_shib_convert_data_description'] = 'あなたがShibbolethから提供されるデータを修正したい場合、このAPIを使用することができます。詳細は、<a href=\"../auth/shibboleth/README.txt\">README</a>をご覧ください。';
+$string['auth_shib_convert_data_description'] = 'あなたがShibbolethから提供されるデータを修正したい場合、このAPIを使用することができます。詳細は<a href=\"../auth/shibboleth/README.txt\">README</a>をご覧ください。';
 $string['auth_shib_convert_data_warning'] = 'ファイルが存在しないか、ウェブサーバプロセスで読み取れません!';
 $string['auth_shib_idp_list'] = 'アイデンティティプロバイダ';
-$string['auth_shib_idp_list_description'] = 'ログインページでユーザが選択できるよう、アイデンティティプロバイダのエンティティIDリストを入力してください。<br />それぞれの行では、アイデンティティプロバイダのエンティティIDにカンマ区切りのタプル (tuple) を追加してください (詳細は、Shibbolethメタデータファイルをご覧ください)。アイデンティティプロバイダ名がドロップダウンリストに表示されます。<br />あなたのMoodleが複数連盟設定の一部にある場合、任意の第3パラメータとして、Shibbolethセッションイニシエータのロケーションを追加することができます。';
-$string['auth_shib_instructions'] = 'あなたの機関がShibbolethをサポートしている場合、Shibboleth経由のアクセスには、<a href=\"$a\">Shibbolethログイン</a>を使用してください。 <br />Shibbolethをサポートしていない場合、ここに表示される通常ログインを使用してください。';
-$string['auth_shib_instructions_help'] = 'Shibbolethに関して、あなたのユーザに提示する説明文です。 これは、ログインページの説明セクションに表示されます。Shibbolethユーザが簡単にログインできるよう、「<b>$a</b>」 のようなリンクを入れてください。';
+$string['auth_shib_idp_list_description'] = 'ログインページでユーザが選択できるよう、アイデンティティプロバイダのエンティティIDリストを入力してください。<br />それぞれの行ではアイデンティティプロバイダのエンティティIDにカンマ区切りのタプル (tuple) を追加してください (詳細はShibbolethメタデータファイルをご覧ください)。アイデンティティプロバイダ名がドロップダウンリストに表示されます。<br />あなたのMoodleが複数連盟設定の一部にある場合、任意の第3パラメータとして、Shibbolethセッションイニシエータのロケーションを追加することができます。';
+$string['auth_shib_instructions'] = 'あなたの機関がShibbolethをサポートしている場合、Shibboleth経由のアクセスには<a href=\"$a\">Shibbolethログイン</a>を使用してください。 <br />Shibbolethをサポートしていない場合、ここに表示される通常ログインを使用してください。';
+$string['auth_shib_instructions_help'] = 'Shibbolethに関して、あなたのユーザに提示する説明文です。 これはログインページの説明セクションに表示されます。Shibbolethユーザが簡単にログインできるよう、「<b>$a</b>」 のようなリンクを入れてください。';
 $string['auth_shib_integrated_wayf'] = 'Moodle WAYFサービス';
 $string['auth_shib_integrated_wayf_description'] = 'チェックした場合、Shibbolethで設定されたWAYFサービスを使用するのではなく、Moodleは独自のWAYFサービスを使用します。この代替ログインページのため、Moodleはユーザがアイデンティティプロバイダを選択できるドロップダウンリストを表示します。';
 $string['auth_shib_logout_return_url'] = '代替ログアウト戻りURI';
@@ -33,6 +33,6 @@ $string['auth_shibbolethdescription'] = 'この方法を使用することで、
 $string['auth_shibbolethtitle'] = 'Shibboleth';
 $string['shib_no_attributes_error'] = 'あなたはShibbolethによりユーザ認証したようですが、Moodleはユーザ属性を受信していません。Moodleが稼動しているサービスプロバイダに対して必要な属性 ($a) をアイデンティティプロバイダが発行しているか確認、またはこのサーバの管理者に連絡してください。';
 $string['shib_not_all_attributes_error'] = 'あなたの場合、存在していないShibboleth属性をMoodleが必要としているようです。属性は次のとおりです: $a<br />このサーバの管理者またはアイデンティティプロバイダにご連絡ください。';
-$string['shib_not_set_up_error'] = 'Shibboleth環境変数がこのページに存在していないため、Shibboleth認証が正しく設定されていないようです。Shibboleth認証の設定に関する更なる情報は、<a href=\"README.txt\">README</a>を参照、またはこのMoodleをインストールした管理者に連絡してください。';
+$string['shib_not_set_up_error'] = 'Shibboleth環境変数がこのページに存在していないため、Shibboleth認証が正しく設定されていないようです。Shibboleth認証の設定に関する更なる情報は<a href=\"README.txt\">README</a>を参照、またはこのMoodleをインストールした管理者に連絡してください。';
 
 ?>

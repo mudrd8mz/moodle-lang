@@ -12,14 +12,14 @@
       <p><code class="example1">username, password, firstname, lastname, email</code></p>
       <p><strong>デフォルトフィールド名:</strong> これらは任意です - レコードに記述されない場合、管理者による初期値が使用されます。</p>
       <p><code class="example1">institution, department, city, country, lang, auth, timezone</code> </p>
-      <p><strong>オプション・フィールド名: </strong>これらはすべて完全に任意です。courseは、コースの「コース省略名」です - 記述されている場合、学生はこれらのコースに自動的に登録されます。groupは、対応する courseのグループに関連付ける必要があります。例 group1 >> course1</p>
+      <p><strong>オプション・フィールド名: </strong>これらはすべて完全に任意です。courseはコースの「コース省略名」です - 記述されている場合、学生はこれらのコースに自動的に登録されます。groupは対応する courseのグループに関連付ける必要があります。例 group1 >> course1</p>
       <p> <code class="example1">idnumber, icq, phone1, phone2, address, url, description, mailformat, maildisplay, htmleditor, autosubscribe, course1, course2, course3, course4, course5, group1, group2, group3, group4, group5, type1, type2, type3, type4, type5, role1, role2, role3, role4, role5, emailstop</code></p>
     </blockquote>
     </li>
   <li>データ中のカンマは &amp;#44 にエンコードしてください - エンコードされたものをスクリプトが自動的にカンマにデコードします。</li>
-  <li>論理型フィールドには、falseの場合「0」を、trueの場合「1」を設定してください。</li>
+  <li>論理型フィールドにはfalseの場合「0」を、trueの場合「1」を設定してください。</li>
   <li>一致するコースが存在する場合、typeはユーザが学生か教師か通知するために使用されます (例 type2はコース2に一致)。1 = 学生、2 = 編集権限のある教師、そして 3 = 編集権限のない教師です。type が空白のまま、またはコースが指定されていない場合、ユーザはデフォルトで学生に割り当てられます。</li>
-  <li>courseには、コースの省略名を使用してください。groupにはグループ名を使用してください。roleには、idを使用してください。</li>
+  <li>courseにはコースの省略名を使用してください。groupにはグループ名を使用してください。roleにはidを使用してください。</li>
   <li>注意: ユーザがすでにMoodleデータベースに登録されている場合、このスクリプトはユーザID (データベースインデックス) を返し、他のフィールドを更新せずに、ユーザを指定されたコースに学生として登録します。</li>
 </ul>
 
@@ -31,8 +31,8 @@ reznort, somesecret, Trent, Reznor, reznort@someplace.edu, ja_utf8, 6736733, 0, 
 
 <h2>既存のアカウントを更新する</h2>
 
-<p>デフォルトでは、あなたが新しいアカウントを作成するとMoodleは想定して、既存のアカウントとユーザ名が合致するレコードはスキップします。しかし、「既存のアカウントを更新する」オプションを<b>Yes</b>にした場合、既存のユーザアカウントは更新されます。</p>
+<p>デフォルトではあなたが新しいアカウントを作成するとMoodleは想定して、既存のアカウントとユーザ名が合致するレコードはスキップします。しかし、「既存のアカウントを更新する」オプションを<b>Yes</b>にした場合、既存のユーザアカウントは更新されます。</p>
 
 <p>既存のアカウントを更新する場合、ユーザ名を更新することもできます。「リネームを許可する」を<b>Yes</b>に設定して、ファイルに<code class="example1">oldusername</code>フィールドを入れてください。</p>
 
-<p><b>警告:</b> 既存のアカウント更新時に発生したエラーは、ユーザに悪い影響を及ぼします。既存のアカウントを更新するオプションを使用するときは注意してください。</p>
+<p><b>警告:</b> 既存のアカウント更新時に発生したエラーはユーザに悪い影響を及ぼします。既存のアカウントを更新するオプションを使用するときは注意してください。</p>
