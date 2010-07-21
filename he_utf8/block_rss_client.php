@@ -23,7 +23,7 @@ $string['feed'] = 'הזנה';
 $string['feedadded'] = 'נוספה הזנת חדשות';
 $string['feeddeleted'] = 'נמחקה הזנת חדשות';
 $string['feeds'] = 'הזנות חדשות';
-$string['feedsaddedit'] = 'הוסף/ערוך הזנות';
+$string['feedsaddedit'] = 'ניהול הזנות RSS';
 $string['feedsconfigurenewinstance'] = 'לחץ כאן להגדרת בלוק זה להציג הזנות RSS.';
 $string['feedstitle'] = 'הזנות RSS חיצוניות';
 $string['feedupdated'] = 'הזנת החדשות עודכנה';
@@ -46,6 +46,6 @@ $string['timeout'] = 'תפוגת זמן בלוק RSS';
 $string['timeout2'] = 'פסק-זמן';
 $string['timeoutdesc'] = 'משך הזמן בדקות שבו הזנת RSS תשמר במטמון.';
 $string['updatefeed'] = 'עדכן את כתובת ה-URL של הזנת חדשות:';
-$string['validatefeed'] = 'תן תוקף להזנה';
+$string['validatefeed'] = 'בדיקת תקינות תוכן הזנת ה-RSS';
 
 ?>
