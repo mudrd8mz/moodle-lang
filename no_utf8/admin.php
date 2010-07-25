@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.9+ (Build: 20100616) (2007101590)
+      // admin.php - created with Moodle 1.9.9+ (Build: 20100721) (2007101590)
 
 
 $string['accessdenied'] = 'Ingen tilgang';
@@ -714,6 +714,7 @@ $string['smtppass'] = 'SMTP passord';
 $string['smtpuser'] = 'SMTP  brukernavn';
 $string['soaprecommended'] = 'SOAP-tillegget anbefales installert siden dette er nyttig for webservices og noen tilleggsmoduler.';
 $string['spamcleaner'] = 'Søppelfilter';
+$string['splrequired'] = 'PHP-tillegget \"SPL\" kreves heretter installert.';
 $string['stats'] = 'Statistikk';
 $string['statscatdepth'] = 'Maksimum overkategorier';
 $string['statsfirstrun'] = 'Hvor langt tilbake skal statistikk-kjøringen starte?';
