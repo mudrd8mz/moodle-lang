@@ -1,15 +1,11 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
+      // chat.php - created with Moodle 1.9.9 (Build: 20100609) (2007101590)
 
 
-$string['ajax'] = 'Verzija koja koristi Ajax';
 $string['autoscroll'] = 'Automatski skrol';
 $string['beep'] = 'zvučni signal';
-$string['cantlogin'] = 'Nije bilo moguće prijaviti se u pričaonicu!!';
 $string['chat:chat'] = 'Učestvuj u razgovoru';
 $string['chat:deletelog'] = 'Obriši zapise razgovora';
-$string['chat:exportparticipatedsession'] = 'Izvezi listu učesnika sesije';
-$string['chat:exportsession'] = 'Izvezi sesiju';
 $string['chat:readlog'] = 'Pročitaj zapise razgovora';
 $string['chat:talk'] = 'Razgovarajte u pričaonici';
 $string['chatintro'] = 'Uvodni tekst';
@@ -38,8 +34,9 @@ $string['explainmethodnormal'] = 'Ova podešavanja su aktivna <strong>samo</stro
 $string['generalconfig'] = 'Opšta konfiguracija';
 $string['helpchatting'] = 'Pomoć pri razgovoru';
 $string['idle'] = 'Neaktivan';
-$string['inputarea'] = 'Područje za unos teksta';
-$string['invalidid'] = 'Nije bilo moguće pronaći tu pričaonicu!';
+$string['list_all_sessions'] = 'Prikaz svih sesija.';
+$string['list_complete_sessions'] = 'Prikaz samo potpunih sesija.';
+$string['listing_all_sessions'] = 'Prikazivanje svih sesija.';
 $string['messagebeepseveryone'] = 'Učesnik $a signalizira svima!';
 $string['messagebeepsyou'] = 'Učesnik $a Vam upravo šalje zvučni signal!';
 $string['messageenter'] = 'Učesnik $a upravo ulazi u pričaonicu';
@@ -52,14 +49,13 @@ $string['modulename'] = 'Pričaonica';
 $string['modulenameplural'] = 'Pričaonice';
 $string['neverdeletemessages'] = 'Nikad ne briši poruke';
 $string['nextsession'] = 'Naredna planirana sesija';
-$string['nochat'] = 'Nije pronađena nijedna pričaonica';
+$string['no_complete_sessions_found'] = 'Nisu pronađene potpune sesije';
 $string['noguests'] = 'Ova pričaonica nije otvorena za goste';
 $string['nomessages'] = 'Još nema poruka';
 $string['normalkeepalive'] = 'KeepAlive';
 $string['normalstream'] = 'Tok (Stream)';
 $string['noscheduledsession'] = 'Nema zakazanih sesija';
-$string['notallowenter'] = 'Nije van dozvoljen ulazak u pričaonicu';
-$string['notlogged'] = 'Niko nije prijavljen!';
+$string['notallowenter'] = 'Nije Vam dozvoljen ulazak u pričaonicu';
 $string['oldping'] = 'Vreme čekanja na raskid konekcije';
 $string['pastchats'] = 'Prethodne sesije';
 $string['refreshroom'] = 'Osveži sobu';
@@ -69,11 +65,8 @@ $string['repeatdaily'] = 'Svaki dan u isto vreme';
 $string['repeatnone'] = 'Nema ponavljanja - objaviti samo određeno vreme';
 $string['repeattimes'] = 'Ponovne sesije';
 $string['repeatweekly'] = 'Svake sedmice u isto vreme';
-$string['saidto'] = '<b>rečeno učesniku</b>';
 $string['savemessages'] = 'Sačuvaj prethodne sesije';
 $string['seesession'] = 'Pogledaj ovu sesiju';
-$string['send'] = 'Pošalji';
-$string['sending'] = 'Šalje se';
 $string['serverhost'] = 'Ime servera';
 $string['serverip'] = 'IP adresa servera';
 $string['servermax'] = 'Maksimalan broj korisnika';
@@ -82,9 +75,20 @@ $string['sessions'] = 'Razgovori';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Svako može videti prethodne sesije';
 $string['updatemethod'] = 'Način ažuriranja';
-$string['updaterate'] = 'Brzina ažuriranja:';
-$string['userlist'] = 'Spisak korisnika';
 $string['viewreport'] = 'Pogledaj prethodne sesije';
+$string['ajax'] = 'Verzija koja koristi Ajax'; // ORPHANED
 $string['cantinsert'] = 'Nije bilo moguće uneti poruku u razgovor!'; // ORPHANED
+$string['cantlogin'] = 'Nije bilo moguće prijaviti se u pričaonicu!!'; // ORPHANED
+$string['chat:exportparticipatedsession'] = 'Izvezi listu učesnika sesije'; // ORPHANED
+$string['chat:exportsession'] = 'Izvezi sesiju'; // ORPHANED
+$string['inputarea'] = 'Područje za unos teksta'; // ORPHANED
+$string['invalidid'] = 'Nije bilo moguće pronaći tu pričaonicu!'; // ORPHANED
+$string['nochat'] = 'Nije pronađena nijedna pričaonica'; // ORPHANED
+$string['notlogged'] = 'Niko nije prijavljen!'; // ORPHANED
+$string['saidto'] = '<b>rečeno učesniku</b>'; // ORPHANED
+$string['send'] = 'Pošalji'; // ORPHANED
+$string['sending'] = 'Šalje se'; // ORPHANED
+$string['updaterate'] = 'Brzina ažuriranja:'; // ORPHANED
+$string['userlist'] = 'Spisak korisnika'; // ORPHANED
 
 ?>

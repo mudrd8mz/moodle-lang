@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // moodle.org.php - created with Moodle 1.9.9 (Build: 20100609) (2007101590)
 
 
@@ -6,6 +6,8 @@ $string['aboutdemositetitle'] = 'Demonstracioni sajt';
 $string['aboutintro'] = 'Moodle je Sistem za upravljanje kursevima (Course Management System-CMS)otvorenog koda, poznat i kao Sistem za upravljanje učenjem (Learning Management System-LMS) ili Virtuelno okruženje za učenje (Virtual Learning Environment-VLE). Sistem je postao vrlo popularan među predavačima širom sveta kao alat za kreiranje onlajn dinamičnih Web sajtova za njihoev studente. Da bi mogao da radi potrebno je da Moodle bude instaliran na jednom od vaših računara ili na serveru kompanije koja pruža Web hosting uslugu.';
 $string['aboutoverviewtitle'] = 'Šta je Moodle?';
 $string['aboutstatisticstitle'] = 'Statistika';
+$string['browsecvstitle'] = 'Pretražite naš izvorni kod';
+$string['communityintro'] = 'Moodle ima veliku i raznoliku zajednicu korisnika sa preko <a href=\"http://moodle.org/userpics\">$a->usercount  registrovanih korisnika</a> samo na ovom Moodle sajtu, koji govore preko <a href=\"http://download.moodle.org/lang16/\">$a->langcount  jezika</a> u <a href=\"http://moodle.org/sites\">$a->countrycount  zemalja</a> (pogledajte <a href=\"http://moodle.org/stats\">još statističkih podataka</a>).';
 $string['conferencecenter'] = 'Moodle konferencijski centar';
 $string['connectedsitestitle'] = 'Povezani sajtovi';
 $string['contactintro'] = 'Odaberite, molim vas, jednu od sledećih opcija za kontakt';
@@ -47,9 +49,11 @@ $string['namesupport'] = 'Podrška';
 $string['newscalendar'] = 'Kalendara';
 $string['newsofficial'] = 'Zvanične vesti o Moodleu';
 $string['newsplanet'] = 'Planeta Moodle';
+$string['supportdocstitle'] = 'Dokumentacija';
+$string['supportforumsenglishname'] = 'Korišćenje Moodlea';
 $string['supportforumslangurl'] = 'http://moodle.org/course/view.php?id=55';
 $string['supportforumslistname'] = 'Spisak svih foruma';
 $string['supportforumstitle'] = 'Forumi';
+$string['supportintro'] = 'Niste sami! Postoji bezbroj načina kako dobijete pomoć u vezi sa korišćenjem Moodlea, ukoliko vam je potrebna.';
 
 ?>
-

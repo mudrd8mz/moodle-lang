@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
+      // mnet.php - created with Moodle 1.9.9 (Build: 20100609) (2007101590)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (self-signed)';
@@ -12,6 +12,7 @@ $string['accesslevel'] = 'Nivo pristupa';
 $string['addhost'] = 'Dodaj računar';
 $string['addnewhost'] = 'Dodaj novi računar';
 $string['addtoacl'] = 'Dodaj kontroli pristupa';
+$string['allhosts_no_options'] = 'Nema raspoloživih opcija kada se gleda više hostova';
 $string['allow'] = 'Dozvoli';
 $string['authfail_nosessionexists'] = 'Neuspešna autorizacija: mnet sesija ne postoji.';
 $string['authfail_sessiontimedout'] = 'Neuspešna autorizacija: mnet sesija je istekla.';
@@ -19,8 +20,6 @@ $string['authfail_usermismatch'] = 'Neuspešna autorizacija: korisnik se ne podu
 $string['authmnetautoadddisabled'] = '<em>Automatsko dodavanje korisnika</em> u Plugin-u za potvrdu identiteta na Moodle umrežavanju je <strong>onemogućeno</strong>.';
 $string['authmnetdisabled'] = '<em>Plugin za potvrdu identiteta</em> na Moodle umrežavanju je <strong>onemogućen</strong>.';
 $string['badcert'] = 'Sertifikat nije ispravan.';
-$string['certdetails'] = 'Detalji sertifikata';
-$string['configmnet'] = 'Moodle umrežavanje dozvoljava komunikaciju ovog servera sa drugim serverima ili servisima.';
 $string['couldnotgetcert'] = 'Nije nađen sertifikat na <br />$a. <br />Računar je možda isključen ili neispravno podešen.';
 $string['couldnotmatchcert'] = 'Ovo se ne podudara sa sertifikatom koji trenutno izdaje web server.';
 $string['courses'] = 'kursevi';
@@ -55,6 +54,7 @@ $string['expires'] = 'Važi do';
 $string['expireyourkey'] = 'Obriši ovaj ključ';
 $string['expireyourkeyexplain'] = 'Moodle automatski rotira Vaše ključeve svakih 28 dana (podrazumevano), ali imate opciju da bilo kada <em>ručno</em> poništite ovaj ključ. Ovo će biti korisno jedino ako verujete da je ovaj ključ kompromitovan. Zamena će odmah biti automatski stvorena.<br /> Brisanje ovog ključa će onemogućiti ostale Moodle-ove da komuniciraju sa Vama, dok sami ne kontaktirate svakog administratora i date im svoj novi ključ.';
 $string['failedaclwrite'] = 'Upisivanje u MNET listu kontrole pristupa za korisnika \'$a\' nije bilo moguće.';
+$string['findlogin'] = 'Pronađi prijavu';
 $string['forbidden-function'] = 'Ta fukcija nije omogućena za RPC.';
 $string['forbidden-transport'] = 'Metoda transporta koju pokušavate da koristite nije dozvoljena.';
 $string['forcesavechanges'] = 'Prinudno snimanje promena';
@@ -98,6 +98,10 @@ $string['mnet_concatenate_strings'] = 'Spoji (do) 3 znakovna niza i vrati rezult
 $string['mnet_session_prohibited'] = 'Korisnicima na Vašem serveru trenutno nije dozvoljeno da lutaju do $a.';
 $string['mnetdisabled'] = 'Moodle umrežavanje je <strong>onemogućeno</strong>.';
 $string['mnetenrol'] = 'Upisivanja';
+$string['mnetidprovider'] = 'MNET ID provajder';
+$string['mnetidproviderdesc'] = 'Možete koristiti ovu funkcionalnost da dobijete link na koji se možete prijaviti, ako možete dati tačnu adresu e-pošte koja odgovara korisničkom imenu sa kojim ste prethodno pokušali da se prijavite.';
+$string['mnetidprovidermsg'] = 'Trebalo bi da se možete prijaviti kod svog provajdera $a.';
+$string['mnetidprovidernotfound'] = 'Izvinite, ali nema dodatnih informacija.';
 $string['mnetlog'] = 'Evidencije';
 $string['mnetpeers'] = 'Ravnopravni uređaji';
 $string['mnetservices'] = 'Usluge';
@@ -113,13 +117,14 @@ $string['nocurl'] = 'PHP Curl biblioteka nije instalirana';
 $string['nohostid'] = 'Ova stranica zahteva ID računara, koji treba da je ceo broj.';
 $string['noipmatch'] = 'Adresa udaljenog računara: <br /><em>$a[0]</em><br /> se ne podudara sa onom u zapisu: <br /><em>$a[1]</em>.';
 $string['nolocaluser'] = 'Nema lokalnog zapisa za udaljenog korisnika.';
+$string['nolocaluser2'] = 'Ne postoji lokalni zapis za udaljenog korisnika, i ne može biti napravljen, jer ovaj host neće automatski kreirati korisnike. Molimo da kontaktirate svog administratora!';
 $string['nomodifyacl'] = 'Nije vam dozvoljeno menjanje liste kontrole pristupa MNET.';
 $string['nonmatchingcert'] = 'Predmet sertifikata: <br /><em>$a[0]</em><br />se ne podudara sa računarom sa kojeg je došao: <br /><em>$a[1]</em>.';
 $string['nopubkey'] = 'Bilo je problema sa preuzimanjem javnog ključa.<br />Možda računar ne dozvoljava Moodle umrežavanje, ili je ključ neispravan.';
 $string['nosite'] = 'Nije pronađen kurs na nivou sajta';
 $string['nosuchfile'] = 'Datoteka/fukcija $a ne postoji.';
-$string['nosuchfunction'] = 'Fukcija nije pronađena, ili je zabranjena za RPC.';
-$string['nosuchmodule'] = 'Funcija je neispravno adresirana i nije nađena. Molimo Vas da koristite format mod/modulename/lib/functionname.';
+$string['nosuchfunction'] = 'Funkcija nije pronađena, ili je zabranjena za RPC.';
+$string['nosuchmodule'] = 'Funkcija je neispravno adresirana i nije nađena. Molimo Vas da koristite format mod/modulename/lib/functionname.';
 $string['nosuchpublickey'] = 'Nije pronađen javni ključ za verifikaciju potpisa.';
 $string['nosuchservice'] = 'RPC usluga nije uključena na ovom računaru.';
 $string['nosuchtransport'] = 'Ne postoji transport koji ima taj ID';
@@ -191,5 +196,7 @@ $string['wrong-ip'] = 'Vaša IP adresa se ne podudara sa adresom koju imamo u za
 $string['xmlrpc-missing'] = 'XML-RPC mora biti instaliran na Vašoj verziji PHP-a kako biste mogli da koristite ovu funkciju.';
 $string['yourhost'] = 'Vaš računar';
 $string['yourpeers'] = 'Vaši ravnopravni uređaji';
+$string['certdetails'] = 'Detalji sertifikata'; // ORPHANED
+$string['configmnet'] = 'Moodle umrežavanje dozvoljava komunikaciju ovog servera sa drugim serverima ili servisima.'; // ORPHANED
 
 ?>

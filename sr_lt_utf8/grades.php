@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
+      // grades.php - created with Moodle 1.9.9 (Build: 20100609) (2007101590)
 
 
 $string['activities'] = 'Aktivnosti';
@@ -178,11 +178,6 @@ $string['errornocategorisedid'] = 'Nije moguće dobiti nekategorisan id!';
 $string['errornocourse'] = 'Nije moguće dobiti informacije o kursu';
 $string['errorreprintheadersnonnumeric'] = 'Dobijena je nenumerička vrednost za ponovni ispis zaglavlja';
 $string['errorsavegrade'] = 'Oprostite, nije moguće sačuvati ocenu.';
-$string['errorupdatinggradecategoryaggregateonlygraded'] = 'Greška pri ažuriranju podešavanja \"Sumiraj samo ocenjene stavke\" za kategoriju ocena sa ID $a->id';
-$string['errorupdatinggradecategoryaggregateoutcomes'] = 'Greška pri ažuriranju podešavanja \"Sumiraj ishode\" za kategoriju ocena sa ID $a->id';
-$string['errorupdatinggradecategoryaggregatesubcats'] = 'Greška pri ažuriranju podešavanja \"Sumiraj pod-kategorije\" za kategoriju ocena sa ID $a->id';
-$string['errorupdatinggradecategoryaggregation'] = 'Greška pri ažuriranju tipa sumiranja za kategoriju ocena sa ID $a->id';
-$string['errorupdatinggradeitemaggregationcoef'] = 'Greška pri ažuriranju koeficijenta sumiranja (težinskog ili dodatnog kredita) za kategoriju ocena sa ID $a->id';
 $string['exceptions'] = 'Izuzeci';
 $string['excluded'] = 'Isključeno';
 $string['excludedhelp'] = 'Ako je aktivirana opcija -isključeno-, ova ocena se isključuje iz svakog grupisanja koje se vrši za neku nadređenu stavku ili kategoriju ocenjivanja.';
@@ -262,6 +257,7 @@ $string['gradepreferenceshelp'] = 'Pomoć za svojstva ocene';
 $string['gradepublishing'] = 'Omogući objavljivanje';
 $string['graderreport'] = 'Izveštaj ocenjivača';
 $string['grades'] = 'Ocene';
+$string['gradesforuser'] = 'Ocene za korisnika: $a->user';
 $string['gradesonly'] = 'Samo ocene';
 $string['gradessettings'] = 'Podešavanja ocena';
 $string['gradetype'] = 'Tip ocene';
@@ -285,6 +281,10 @@ $string['hidelocks'] = 'Sakrij zaključavanja';
 $string['hidenooutcomes'] = 'Prikaži ishode';
 $string['hidequickfeedback'] = 'Sakrij Brzu povratnu informaciju';
 $string['hideranges'] = 'Sakrij opsege';
+$string['hidetotalifhiddenitems'] = 'Sakrij ukupne vrednosti ako sadrže skrivene stavke';
+$string['hidetotalifhiddenitemsdescription'] = 'Da li su prikazane studentima ili zamenjene crticom ukupne vrednosti koje sadrže skrivene stavke ocena (izračunate bilo isključujući ili uključujući skrivene stavke).';
+$string['hidetotalshowexhiddenitems'] = 'Prikaži ukupne vrednosti isključujući skrivene stavke';
+$string['hidetotalshowinchiddenitems'] = 'Prikaži ukupne vrednosti uključujući skrivene stavke';
 $string['hideverbose'] = 'Sakrij $a->category$a->itemmodule $a->itemname';
 $string['highgradeascending'] = 'Sortiraj po visini ocene, rastuće';
 $string['highgradedescending'] = 'Sortiraj po visini ocene, opadajuće';
@@ -388,12 +388,10 @@ $string['nonweightedpct'] = 'neponderisani %%';
 $string['nooutcome'] = 'Bez ishoda';
 $string['nooutcomes'] = 'Stavke ishoda moraju biti povezane sa ishodom kursa, ali nema ishoda za ovaj kurs. Da li biste želeli da dodate neki ishod?';
 $string['nopublish'] = 'Ne objavljivati';
-$string['norolesdefined'] = 'Nisu definisane uloge u Administracija > Ocene > Opšta podešavanja > Uloge koje se ocenjuju';
 $string['noscales'] = 'Ishodi moraju biti povezani sa skalom kursa ili globalnom skalom';
 $string['noselectedcategories'] = 'nije izabrana nijedna kategorija.';
 $string['noselecteditems'] = 'nije izabrana nijedna stavka.';
 $string['notteachererror'] = 'Morate biti predavač da biste koristili ovu opciju.';
-$string['nousersloaded'] = 'Nisu učitani korisnici';
 $string['numberofgrades'] = 'Broj ocena';
 $string['onascaleof'] = 'na skali od $a->grademin do $a->grademax';
 $string['operations'] = 'Operacije';
@@ -577,6 +575,13 @@ $string['writinggradebookinfo'] = 'Zapisivanje podešavanja knjige sa ocenama';
 $string['xml'] = 'XML';
 $string['yes'] = 'Da';
 $string['yourgrade'] = 'Vaša ocena';
+$string['errorupdatinggradecategoryaggregateonlygraded'] = 'Greška pri ažuriranju podešavanja \"Sumiraj samo ocenjene stavke\" za kategoriju ocena sa ID $a->id'; // ORPHANED
+$string['errorupdatinggradecategoryaggregateoutcomes'] = 'Greška pri ažuriranju podešavanja \"Sumiraj ishode\" za kategoriju ocena sa ID $a->id'; // ORPHANED
+$string['errorupdatinggradecategoryaggregatesubcats'] = 'Greška pri ažuriranju podešavanja \"Sumiraj pod-kategorije\" za kategoriju ocena sa ID $a->id'; // ORPHANED
+$string['errorupdatinggradecategoryaggregation'] = 'Greška pri ažuriranju tipa sumiranja za kategoriju ocena sa ID $a->id'; // ORPHANED
+$string['errorupdatinggradeitemaggregationcoef'] = 'Greška pri ažuriranju koeficijenta sumiranja (težinskog ili dodatnog kredita) za kategoriju ocena sa ID $a->id'; // ORPHANED
+$string['norolesdefined'] = 'Nisu definisane uloge u Administracija > Ocene > Opšta podešavanja > Uloge koje se ocenjuju'; // ORPHANED
+$string['nousersloaded'] = 'Nisu učitani korisnici'; // ORPHANED
 $string['configbulkcheckboxes'] = 'Polja za potvrdu pored svake ocene za obimne operacije sa ocenama.'; // ORPHANED
 $string['configquickfeedback'] = 'Brza Povratna Informacija dodaje polje za unos teksta uz svaku ocenu na izveštaju ocenjivača, čime omogućuje uređivanje više ocena odjednom. Klikom na duge Ažuriraj primenjujete sve promene odjednom, umesto jednu po jednu.'; // ORPHANED
 $string['errornocategorizedid'] = 'Nije moguće dobiti nekategorizovani identifikator!'; // ORPHANED
