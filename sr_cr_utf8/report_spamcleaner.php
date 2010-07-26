@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // report_spamcleaner.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
+      // report_spamcleaner.php - created with Moodle 1.9.6 (Build: 20091021) (2007101560)
 
 
+$string['spamauto'] = 'Аутоматски откривати шаблоне нежељених порука';
 $string['spamcannotdelete'] = 'Није могуће обрисати овог корисника';
 $string['spamcannotfinduser'] = 'Ниједан корисник се не поклапа са Вашом претрагом';
 $string['spamcleaner'] = 'Чистач спама';
@@ -12,6 +13,7 @@ $string['spamdeleteconfirm'] = 'Да ли сте сигурни да желит�
 $string['spamdesc'] = 'Опис';
 $string['spameg'] = 'нпр: casino, porn, xxx';
 $string['spamfromblog'] = 'У блог постовима:';
+$string['spaminvalidresult'] = 'Непознат али неисправан податак';
 $string['spamoperation'] = 'Операција';
 $string['spamresult'] = 'Резултати претраге корисничких профила који садрже:';
 $string['spamsearch'] = 'Претражи ове кључне речи';

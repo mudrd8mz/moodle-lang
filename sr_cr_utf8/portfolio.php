@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
+      // portfolio.php - created with Moodle 1.9.9 (Build: 20100609) (2007101590)
 
 
 $string['activeportfolios'] = 'Активни портфолио';
@@ -31,11 +31,16 @@ $string['failedtopackage'] = 'Није било могуће наћи датот
 $string['failedtosendpackage'] = 'Покушај да се пошаљу Ваши подаци у изабрани портфолио систем није успео: оригинална грешка је била $a';
 $string['filedenied'] = 'Приступ овој датотеци је одбијен';
 $string['filenotfound'] = 'Датотека није пронађена';
+$string['format_document'] = 'Документ';
 $string['format_file'] = 'Датотека';
 $string['format_image'] = 'Слика';
+$string['format_leap2a'] = 'Leap2A портфолио формат';
 $string['format_mbkp'] = 'Moodle формат резервне копије';
+$string['format_pdf'] = 'PDF';
 $string['format_plainhtml'] = 'HTML';
+$string['format_presentation'] = 'Презентација';
 $string['format_richhtml'] = 'HTML са прилозима';
+$string['format_spreadsheet'] = 'Табеле';
 $string['format_text'] = 'Обичан текст';
 $string['format_video'] = 'Видео';
 $string['hidden'] = 'Скривено';
@@ -43,7 +48,9 @@ $string['highfilesizethresholddesc'] = 'Ако величина датотеке
 $string['insanebodyhtml'] = '<p>Здраво!! Ову протуку сте примили као администратор $a->sitename.</p>
 $a->htmllist
 <p>Ово можете исправити тако што ћете посетити <a href=\"$a->fixurl\">страницу за конфигурацију портфолија</a></p>';
+$string['insanesubject'] = 'Неке инстанце портфолија су аутоматски онемогућене.';
 $string['instancedeleted'] = 'Портфолио је успешно обрисан';
+$string['instanceismisconfigured'] = 'Инстанца портфолија је погрешног конфигурисана. Грешка је била: $a';
 $string['instancenotdelete'] = 'Брисање портфолија није успело';
 $string['instancenotsaved'] = 'Покушај да се сачува портфолио није успео';
 $string['instancesaved'] = 'Портфолио је успешно сачуван';
