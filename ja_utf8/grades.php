@@ -3,15 +3,15 @@
 
 
 $string['activities'] = '活動';
-$string['addcategory'] = 'カテゴリの追加';
+$string['addcategory'] = 'カテゴリを追加する';
 $string['addcategoryerror'] = 'カテゴリを追加できませんでした。';
 $string['addexceptionerror'] = 'ユーザID:評定項目への例外追加中にエラーが発生しました。';
 $string['addfeedback'] = 'フィードバックの追加';
 $string['addgradeletter'] = '評定文字の追加';
 $string['addidnumbers'] = 'IDナンバーの追加';
-$string['additem'] = '評定項目の追加';
+$string['additem'] = '評定項目を追加する';
 $string['addoutcome'] = 'アウトカムの追加';
-$string['addoutcomeitem'] = 'アウトカム項目の追加';
+$string['addoutcomeitem'] = 'アウトカム項目を追加する';
 $string['addscale'] = '評価尺度の追加';
 $string['aggregateextracreditmean'] = '評点の平均値 (追加点を含む)';
 $string['aggregatemax'] = '評点の最大値';
