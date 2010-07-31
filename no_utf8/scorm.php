@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9.9+ (Build: 20100714) (2007101590)
+      // scorm.php - created with Moodle 1.9.9+ (Build: 20100728) (2007101590)
 
 
 $string['activation'] = 'Aktivisering';
@@ -119,8 +119,7 @@ $string['packagefile'] = 'Ingen pakke spesifisert';
 $string['passed'] = 'Bestått';
 $string['php5'] = 'PHP 5 (DOMXML native library)';
 $string['popup'] = 'Nytt vindu';
-$string['popupblocked'] = 'Hvis ikke et nytt åpner seg klikk $a for å starte aktiviteten';
-$string['popupblockedlinkname'] = 'Klikk her for å starte aktiviteten';
+$string['popupblockmessage'] = 'Dersom det ikke åpner seg et popup-vindu må du slå på/tillate popup-vinduer fra dette nettstedet.';
 $string['popupmenu'] = 'I en rullegardinmeny';
 $string['popupopen'] = 'Åpne pakken i nytt vindu';
 $string['position_error'] = '$a->tag taggen kan ikke være en undertag av $a->parent taggen';
@@ -178,5 +177,7 @@ $string['whatgrade'] = 'Karaktersetting av forsøk';
 $string['whatgradedesc'] = 'Denne innstillingen setter standardverdi for antall forsøk på karaktersetting';
 $string['width'] = 'Bredde';
 $string['window'] = 'Vindu';
+$string['popupblocked'] = 'Hvis ikke et nytt åpner seg klikk $a for å starte aktiviteten'; // ORPHANED
+$string['popupblockedlinkname'] = 'Klikk her for å starte aktiviteten'; // ORPHANED
 
 ?>
