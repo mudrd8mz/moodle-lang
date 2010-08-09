@@ -742,5 +742,6 @@ $string['webproxy'] = 'Proxy Web';
 $string['webproxyinfo'] = 'Preencha as seguintes definições se o seu servidor Moodle não poder aceder à Internet directamente. O acesso à Internet é necessário para descarregar dados do ambiente, pacotes linguísticos, fusos horários, etc.<br /><em>Recomenda-se vivamente usar a extensão cURL do PHP.</em>';
 $string['xmlrpcrecommended'] = 'A instalação da extensão opcional xmlrpc é útil para a Rede Moodle.';
 $string['xmlstrictheaders'] = 'Cabeçalhos XML estritos';
+$string['allowuserswitchrolestheycantassign'] = 'Permitir que utilizadores que não tenham a permissão para atribuir papéis possam mudar de papel';
 
 ?>
