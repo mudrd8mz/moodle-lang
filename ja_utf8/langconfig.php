@@ -10,6 +10,7 @@ $string['listsep'] = ',';
 $string['locale'] = 'ja_JP.UTF-8';
 $string['localewin'] = 'Japanese_Japan.932';
 $string['localewincharset'] = 'CP932';
+$string['maintainer'] = 'Mitsuhiro Yoshida <mits@mitstek.com>';
 $string['oldcharset'] = 'EUC-JP';
 $string['strftimedate'] = '%%Y年 %%m月 %%d日 ';
 $string['strftimedatefullshort'] = '%%y/%%m/%%d';
