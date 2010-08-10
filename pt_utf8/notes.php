@@ -25,5 +25,7 @@ $string['publishstate'] = 'Estado';
 $string['site'] = 'sítio';
 $string['sitenotes'] = 'Observações do sítio';
 $string['unknown'] = 'desconhecido';
+$string['enablenotes'] = 'Activar notas';
+$string['configenablenotes'] = 'Activar o armazenamento de notas individuais sobre os utilizadores.';
 
 ?>
