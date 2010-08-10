@@ -15,8 +15,8 @@ $string['chooselanguagehead'] = 'בחר שפה';
 $string['chooselanguagesub'] = 'אנא בחר שפה עבור ההתקנה בלבד. תוכל לבחור בשפה שונה לאתר ולמשתמש באחד מהמסכים הבאים.';
 $string['compatibilitysettings'] = 'בדיקת הגדרות ה-PHP שלך...';
 $string['compatibilitysettingshead'] = 'בדיקת הגדרות ה-PHP שלך...';
-$string['compatibilitysettingssub'] = 'השרת שלך צריך לעבור את כל בדיקות אלו כדי להפעיל את Moodle כהלכה.';
-$string['configfilenotwritten'] = 'תסריט (script) ההתקנה לא הצליח ליצור באופן אוטומטי את קובץ config.php המכיל את בחירת ההגדרות שלך, ייתכן שהדבר קרה בגלל שספריית ה-Moodle שלך איננה ניתנת לכתיבה. תוכל באופן ידני להעתיק את הקוד הבא לתוך קובץ config.php בספריית האם של Moodle.';
+$string['compatibilitysettingssub'] = 'השרת שלך צריך לעבור סדרת בדיקות זו כדי להפעיל את Moodle כהלכה.';
+$string['configfilenotwritten'] = 'תסריט (script) ההתקנה לא הצליח ליצור באופן אוטומטי את קובץ config.php המכיל את ההגדרות שבחרת, ייתכן שהדבר קרה בגלל שספריית ה-Moodle שלך איננה ניתנת לכתיבה. תוכל להעתיק באופן ידני את הקוד הבא לתוך קובץ config.php בספריית האם של Moodle.';
 $string['configfilewritten'] = 'קובץ config.php נוצר בהצלחה';
 $string['configurationcomplete'] = 'הגדרות התצורה הושלמו';
 $string['configurationcompletehead'] = 'הגדרות התצורה הושלמו';
@@ -32,7 +32,7 @@ $string['databasecreationsettings'] = 'כעת נותר לך לעצב את הגד
 <b>שם משתמש מסד הנתונים:</b> תוקן ל\"root\" ע\"י קובץ ההתקנה<br />
 <b>סיסמה:</b> סיסמת מסד הנתונים שלך<br />
 <b>תחילית הטבלאות:</b> תחילית רשות לכל שמות הטבלאות';
-$string['databasecreationsettingshead'] = 'כעת נותר לך לעצב את הגדרות מסד הנתונים שלך היכן שרוב נתוני Moodle יאוחסנו. מסד נתונים זה ייווצר באופן אוטומטי ע\"י ההתקנה
+$string['databasecreationsettingshead'] = 'כעת יש לעצב את הגדרות מסד הנתונים שלך, בו יאוחסנו רוב נתוני Moodle. מסד נתונים זה ייווצר באופן אוטומטי בזמן ההתקנה
 עם ההגדרות המצויינות להלן.';
 $string['databasecreationsettingssub'] = '<b>סוג:</b> תוקן ל\"mysql\" ע\"י קובץ ההתקנה<br />
 <b>מחשב מארח:</b> תוקן ל\"localhost\" ע\"י קובץ ההתקנה<br />
@@ -40,7 +40,7 @@ $string['databasecreationsettingssub'] = '<b>סוג:</b> תוקן ל\"mysql\" ע
 <b>שם משתמש מסד הנתונים:</b> תוקן ל\"root\" ע\"י קובץ ההתקנה<br />
 <b>סיסמה:</b> סיסמת מסד הנתונים שלך<br />
 <b>תחילית הטבלאות:</b> תחילית רשות לכל שמות הטבלאות';
-$string['databasesettings'] = 'כעת נותר לך לעצב את הגדרות מסד הנתונים שלך היכן שרוב נתוני Moodle יאוחסנו. מסד נתונים זה חייב כבר להיות קיים בנוסף שם משתמש וסיסמה לשם גישה אליו. 
+$string['databasesettings'] = 'כעת יש לעצב את הגדרות מסד הנתונים שלך, בו יאוחסנו רוב נתוני Moodle. מסד נתונים זה חייב כבר להיות קיים בנוסף שם משתמש וסיסמה לשם גישה אליו. 
 .<br />
 <br /> <br />
 <b>סוג:</b> mysql או postgres7<br />
@@ -49,7 +49,7 @@ $string['databasesettings'] = 'כעת נותר לך לעצב את הגדרות �
 <b>שם משתמש:</b> שם משתמש מסד הנתונים שלך<br />
 <b>סיסמה:</b> סיסמת מסד הנתונים שלך<br />
 <b>תחילית הטבלאות:</b> תחילית רשות לכל שמות הטבלאות';
-$string['databasesettingshead'] = 'כעת נותר לך לעצב את הגדרות מסד הנתונים שלך היכן שרוב נתוני Moodle יאוחסנו. מסד נתונים זה חייב כבר להיות קיים בנוסף שם משתמש וסיסמה לשם גישה אליו.';
+$string['databasesettingshead'] = 'כעת יש לעצב את הגדרות מסד הנתונים שלך, בו יאוחסנו רוב נתוני Moodle. מסד נתונים זה חייב כבר להיות קיים בנוסף שם משתמש וסיסמה לשם גישה אליו.';
 $string['databasesettingssub'] = '<b>סוג:</b> mysql או postgres7<br />
 <b>מחשב מארח:</b> לדוגמה localhost או db.isp.com<br />
 <b>שם:</b> database שם מסד הנתונים למשל-moodle<br />
@@ -97,7 +97,7 @@ $string['databasesettingssub_postgres7'] = '<b>סוג:</b> PostgreSQL<br />
 <b>שם משתמש:</b> שם משתמש מסד הנתונים שלך<br />
 <b>סיסמה:</b> סיסמת מסד הנתונים שלך<br />
 <b>תחילית הטבלאות:</b> תחילית רשות לכל שמות הטבלאות (אפשרי)';
-$string['databasesettingswillbecreated'] = '<b>הערה: </b> ההתקנה תנסה ליצור את מסד הנתונים אוטומטית אם הוא לא קיים.';
+$string['databasesettingswillbecreated'] = '<b>הערה: </b> ההתקנה תנסה ליצור את מסד הנתונים באופן אוטומטי אם אינו קיים.';
 $string['dataroot'] = 'ספריית הנתונים';
 $string['datarooterror'] = 'ספריית \"נתוני Moodle\" שציינת לא נמצאה או יכלה להיווצר. אנא תקן את נתיב זה או צור את ספרייה זו באופן ידני.';
 $string['datarootpublicerror'] = 'ספריית ה-\'Data Directory\' שציינת ניתנת לגישה ישירות מהרשת. אתה מוכרח להשתמש בספרייה אחרת.';
