@@ -418,7 +418,7 @@ $string['removeallcourseitems'] = 'Apagar todas as provas e categorias';
 $string['report'] = 'Relatório';
 $string['reportdefault'] = 'Valor por omissão do relatório ($a)';
 $string['reportplugins'] = 'Plugins de relatório';
-$string['reportsettings'] = 'Definições do realtório';
+$string['reportsettings'] = 'Definições do relatório';
 $string['reprintheaders'] = 'Cabeçalho de impressão';
 $string['respectingcurrentdata'] = 'deixando a configuração actual sem alterações';
 $string['rowpreviewnum'] = 'Linhas para a vista prévia';
@@ -521,5 +521,15 @@ $string['configquickfeedback'] = 'Comentários rápidos adicionam um elemento de
 $string['errornocategorizedid'] = 'Não foi possível obter um identificador que não esteja numa categoria!'; // ORPHANED
 $string['exportselectedoutcomes'] = 'Exportar os resultados seleccionados'; // ORPHANED
 $string['overallavg'] = 'Média global'; // ORPHANED
+$string['unlimitedgrades'] = 'Retirar limitação de notas';
+$string['configunlimitedgrades'] = 'Por omissão as notas estão limitadas pelos valores mínimo e máximo do elemento de avaliação. Activando este parâmetro estes limites deixam de ser considerados e é permitida a atribuição de notas acima de 100&#37; no Gradebook. A activação deste parâmetro apenas deve ser feita em períodos de baixa actividade da plataforma porque faz com que todas as notas tenham que ser novamente calculadas, o que sobrecarrega o servidor.';
+$string['hidetotalifhiddenitems'] = 'Ocultar totais se contiverem elementos ocultos';
+$string['hidetotalifhiddenitemsdescription'] = 'Este parâmetro define se os totais devem ser mostrados aos alunos quando contêm elementos ocultos (nos totais calculados, são considerados os elementos incluídos e os excluídos). Se a opção for ocultar, é apresentado um hífen.';
+$string['showpercentage'] = 'Mostrar percentagem';
+$string['configshowpercentage'] = 'Mostrar o valor da percentagem de cada elemento de avaliação.';
+$string['fixedstudents'] = 'Coluna de estudantes estática';
+$string['configfixedstudents'] = 'Permite o deslizamento horizontal das notas sem ocultar a coluna de alunos, fixando esta coluna.';
+$string['aggregationsvisible'] = 'Tipos de agregação disponíveis';
+$string['aggregationsvisiblehelp'] = 'Escolha todos os tipo de agragação que devem ser disponibilizados. Pressione a tecla Ctrl para seleccionar vários elementos.';
 
 ?>
