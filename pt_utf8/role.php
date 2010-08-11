@@ -181,4 +181,21 @@ $string['question:export'] = 'Exportar perguntas'; // ORPHANED
 $string['question:import'] = 'Importar perguntas'; // ORPHANED
 $string['question:manage'] = 'Gerir perguntas'; // ORPHANED
 
+$string['allsiteusers'] = 'Todos os utilizadores da plataforma';
+$string['backup:userinfo'] = 'Backup da informação de utilizador';
+$string['category:manage'] = 'Gerir categorias';
+$string['category:viewhiddencategories'] = 'Ver categorias ocultas';
+$string['course:changecategory'] = 'Mudar categoria de disciplina';
+$string['course:changefullname'] = 'Mudar nome completo da disciplina';
+$string['course:changeidnumber'] = 'Mudar ID da disciplina';
+$string['course:changeshortname'] = 'Mudar nome curto da disciplina';
+$string['course:changesummary'] = 'Mudar sumário da disciplina';
+$string['course:request'] = 'Pedir novas disciplinas';
+$string['restore:createuser'] = 'Criar utilizadores no restauro';
+$string['restore:rolldates'] = 'Allowed to roll activity configuration dates on restore';
+$string['restore:userinfo'] = 'Restaurar informação de utilizador';
+$string['role:safeoverride'] = 'Override safe permissions for others';
+$string['userswithrole'] = 'Todos os utilizadores com um cargo';
+
+
 ?>

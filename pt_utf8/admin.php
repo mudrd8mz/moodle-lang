@@ -778,5 +778,8 @@ $string['experimentalsplitrestore'] = 'Restauro parcial experimental';
 $string['enablesafebrowserintegration'] = 'Activar integração <i>Safe Exam Browser</i>';
 $string['configexperimentalsplitrestore'] = 'A activação deste parâmetro leva à verifcação do código XML dos ficheiros de backup e à divisão destes ficheiros em partes menores para posterior utilização no processo de restauro. Este procedimento melhora o processo de restauro em termos de solidez e tempos de execução, principalmente para disciplinas de média e grande dimensão.';
 $string['configenablesafebrowserintegration'] = 'A activação deste parâmetro adiciona a opção \'Usa Safe Exam Browser\' ao campo \'Segurança de Browser\' nas definições dos testes. Ver http://www.safeexambrowser.org/ para mais informações.';
+$string['mediapluginyoutube'] = 'Activar filtro YouTube';
+$string['reverseproxy'] = '<i>Reverse proxy</i>';
+
 
 ?>

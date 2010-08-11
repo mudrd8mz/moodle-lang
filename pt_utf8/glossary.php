@@ -197,5 +197,8 @@ $string['withauthor'] = 'Conceitos com autor';
 $string['withoutauthor'] = 'Conceitos sem autor';
 $string['writtenby'] = 'por';
 $string['youarenottheauthor'] = 'Este comentário não é da sua autoria e, por tanto, não o pode editar.';
+$string['exportentriestoxml'] = 'Exportar entradas para ficheiro XML';
+$string['invalidrate'] = 'Classificação de glossário inválida (\$a)';
+
 
 ?>

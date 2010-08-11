@@ -122,5 +122,6 @@ $string['wrongsourcebase'] = 'URL errado para a fonte.';
 $string['wrongzipfilename'] = 'Nome de ficheiro ZIP errado.';
 $string['cmunknown'] = 'Não foi encontrado esse módulo de disciplina'; // ORPHANED
 $string['modulerequirementsnotmet'] = 'O módulo \"$a->modulename\" ($a->moduleversion) não pode ser instalado. Para a sua instalação é necessária uma versão mais recente do Moodle (actualmente está a usar a versão $a->currentmoodle e precisa da versão $a->requiremoodle).'; // ORPHANED
+$string['nostatstodisplay'] = 'Pedimos desculpa, mas não existe informação disponível para mostrar';
 
 ?>

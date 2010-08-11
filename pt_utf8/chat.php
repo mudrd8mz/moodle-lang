@@ -69,5 +69,12 @@ $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Toda a gente poderá visualizar sessões passadas';
 $string['updatemethod'] = 'Método de actualização';
 $string['viewreport'] = 'Visualizar sessões passadas';
+$string['autoscroll'] = 'Scroll automático';
+$string['chat:talk'] = 'Talk in a chat';
+$string['list_all_sessions'] = 'Mostrar todas as sessões.';
+$string['no_complete_sessions_found'] = 'Não forem encontradas sessões completas.';
+$string['listing_all_sessions'] = 'Mostrar todas as sessões.';
+$string['list_complete_sessions'] = 'Mostrar apenas sessões completas.';
+$string['notallowenter'] = 'Não está a autorizado(a) a entrar nesta sala de chat.';
 
 ?>

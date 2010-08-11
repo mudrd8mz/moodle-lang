@@ -321,6 +321,7 @@ $string['update_never'] = 'Nunca';
 $string['update_oncreate'] = 'Em criação';
 $string['update_onlogin'] = 'Em cada entrada';
 $string['update_onupdate'] = 'Em actualização';
+$string['auth_emailrecaptcha_key'] = 'Activar reCAPTCHA';
 
 
 // Strings below here are module specific and will be duplicated in auth_* files

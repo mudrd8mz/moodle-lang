@@ -51,5 +51,6 @@ $string['taken'] = 'Lotação completa';
 $string['timerestrict'] = 'Restringir respostas a este período';
 $string['viewallresponses'] = 'Ver $a respostas';
 $string['yourselection'] = 'A sua escolha';
+$string['choicesaved'] = 'A sua escolha foi gravada';
 
 ?>

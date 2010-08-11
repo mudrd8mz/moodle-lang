@@ -126,5 +126,11 @@ $string['wrongnumberoffieldsorvalues'] = 'Incorrecto número de campos ou valore
 $string['wrongreservedwords'] = 'Palavras Reservadas Usadas Actualmente<br />(verifique que nomes de tabelas não são importantes se usar \$CFG->prefix)';
 $string['yesmissingindexesfound'] = 'Foram encontrados alguns índices em falta na sua Base de Dados. Aqui seguem os pormenores e os comandos SQL que deverão ser executados com a sua interface favorita do SQL, para criar os índices em falta.<br /><br / >Após executar os comandos SQL, recomenda-se que execute novamente esta função, para verificar que não sejam encontrados mais índices em falta.';
 $string['yeswrongintsfound'] = 'Foram encontrados alguns inteiros errados na sua Base de Dados. Aqui seguem os pormenores e os comandos SQL que deverão ser executados com a sua interface favorita do SQL, para os corrigir.<br /><br / >Após executar os comandos SQL, recomenda-se que execute novamente esta função, para verificar que não sejam encontrados mais inteiros errados.';
+$string['butis'] = 'mas é';
+$string['check_defaults'] = 'Procurar por valor por omissão inconsistentes';
+$string['checkdefaults'] = 'Verificar valores por omissão';
+$string['shouldbe'] = 'deve ser';
+$string['wrongdefaults'] = 'Foram encontrados valores por omissão errados';
+
 
 ?>
