@@ -780,6 +780,6 @@ $string['configexperimentalsplitrestore'] = 'A activação deste parâmetro leva
 $string['configenablesafebrowserintegration'] = 'A activação deste parâmetro adiciona a opção \'Usa Safe Exam Browser\' ao campo \'Segurança de Browser\' nas definições dos testes. Ver http://www.safeexambrowser.org/ para mais informações.';
 $string['mediapluginyoutube'] = 'Activar filtro YouTube';
 $string['reverseproxy'] = '<i>Reverse proxy</i>';
-
+$string['displayerrorswarning'] = 'Não é aconselhável activar o parâmetro <em>display_errors</em> na configuração do PHP em plataformas em produção porque algumas mensagens de erro podem revelar informação sensíveis sobre o servidor.';
 
 ?>
