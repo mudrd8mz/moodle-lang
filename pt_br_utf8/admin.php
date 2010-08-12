@@ -284,7 +284,7 @@ $string['coursemanager'] = 'Administradores de curso';
 $string['coursemgmt'] = 'Acrescentar/modificar cursos';
 $string['courseoverview'] = 'Sumário do curso';
 $string['courserequestnotify'] = 'Aviso de solicitação de curso';
-$string['courserequestnotifyemail'] = 'O usuário \$a->user solicitou um novo curso em \$a->link';
+$string['courserequestnotifyemail'] = 'O usuário $a->user solicitou um novo curso em $a->link';
 $string['courserequests'] = 'Solicitações de cursos';
 $string['courserequestspending'] = 'Solicitações de cursos pendentes';
 $string['courses'] = 'Cursos';
@@ -301,7 +301,7 @@ $string['ctyperequired'] = 'A extensão ctype do PHP é necessária para melhora
 $string['curlrecommended'] = 'Instalar a biblioteca opcional cURL é altamente recomendável para permitir a ativação de Redes Moodle';
 $string['customcheck'] = 'Outros controles';
 $string['datarootsecurityerror'] = '<p><strong>AVISO DE SEGURANÇA!</strong></p><p>O seu diretório raiz dataroot está em uma posição errada acessível via web. Todo mundo pode acessar os arquivos e crackers podem obter acessos como administradores do site!</p>
-<p><em>Mude</em> o diretório raiz dataroot ($a) para uma posição protegida e atualize a configuração de <code>\$CFG->dataroot</code> no config.php .</p>';
+<p><em>Mude</em> o diretório raiz dataroot ($a) para uma posição protegida e atualize a configuração de <code>$CFG->dataroot</code> no config.php .</p>';
 $string['datarootsecuritywarning'] = 'A configuração do seu site pode não ser segura. Por favor, certifique-se de que o seu diretório dataroot ($a) não é diretamente acessível via web.';
 $string['dbmigrate'] = 'Migração de Banco de Dados';
 $string['dbmigrateconnecerror'] = 'Não foi possível fazer a conexão com a base de dados especificada.';
