@@ -54,7 +54,7 @@ $string['check_passwordpolicy_name'] = 'Pasahitzen politika';
 $string['check_passwordpolicy_ok'] = 'Pasahitzen politika gaituta.';
 $string['check_riskadmin_detailsok'] = '<p>Mesedez, egiazta ezazu sistemako kudeatzaileen ondoko zerrenda hau: </p>$a';
 $string['check_riskadmin_detailswarning'] = '<p>Mesedez, egiazta ezazu sistemako kudeatzaileen zerrenda hau:</p>$a->admins
-<p>Gomendagarria da kudeatzaile-rola sistemaren testuinguruan baino ez esleitzea. Ondoko erabiltzaileek izan dute kudeatzaile-rola esleituta:</p>$a->unsupporte';
+<p>Gomendagarria da kudeatzaile-rola sistemaren testuinguruan baino ez esleitzea. Ondoko erabiltzaileek izan dute kudeatzaile-rola esleituta:</p>$a->unsupport';
 $string['check_riskadmin_name'] = 'Kudeatzaileak';
 $string['check_riskadmin_ok'] = 'Zerbitzariko $a kudeatzaile aurkituta.';
 $string['check_unsecuredataroot_name'] = 'dataroot ez da segurua';
