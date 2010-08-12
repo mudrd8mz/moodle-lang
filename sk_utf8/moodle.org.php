@@ -15,7 +15,7 @@ $string['aboutoverviewtitle'] = 'Čo je to Moodle?';
 $string['aboutstatistics'] = 'Moodle je voľne k stiahnutiu a registrácia je dobrovoľná, takže nemáme kompletné informácie o všetkých, ktorý ho používajú.  Avšak, s použitím toho, čo vieme, môžeme automaticky generovať niekoľko zaujímavých grafov a čísel na našej stránke Štatistiky.';
 $string['aboutstatisticstitle'] = 'Štatistiky';
 $string['browsecvstitle'] = 'Prechádzať zdrojový kód';
-$string['communityintro'] = 'Moodle je veľká a rozmanitá používateľská komunita s viac ako <a href=\"http://moodle.org/userpics\">$a->userCount registrovaných užívateľov</a> len na tomto Moodle portáli. Hovoríme <a href=\"http://download.moodle.org/lang16/\">$a->langcount jazykmi</a>, <a href=\"http://moodle. org / sites  \">$a->countrycount krajinách</a> (máme aj <a href=\"http://moodle.org/stats\">viac štatistík</a>).';
+$string['communityintro'] = 'Moodle je veľká a rozmanitá používateľská komunita s viac ako <a href=\"http://moodle.org/userpics\">$a->usercount registrovaných užívateľov</a> len na tomto Moodle portáli. Hovoríme <a href=\"http://download.moodle.org/lang16/\">$a->langcount jazykmi</a>, <a href=\"http://moodle. org / sites  \">$a->countrycount krajinách</a> (máme aj <a href=\"http://moodle.org/stats\">viac štatistík</a>).';
 $string['conferencecenter'] = 'Moodle konferenčné centrum';
 $string['connectedsites'] = 'Niektoré Moodle sídla sú pripojené na moodle.org pomocou Siete Moodle  takže sa môžete na ne dostať priamo, keď ste už overení tu.';
 $string['connectedsitestitle'] = 'Pripojené sídla';
