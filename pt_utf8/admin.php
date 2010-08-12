@@ -781,5 +781,20 @@ $string['configenablesafebrowserintegration'] = 'A activação deste parâmetro 
 $string['mediapluginyoutube'] = 'Activar filtro YouTube';
 $string['reverseproxy'] = '<i>Reverse proxy</i>';
 $string['displayerrorswarning'] = 'Não é aconselhável activar o parâmetro <em>display_errors</em> na configuração do PHP em plataformas em produção porque algumas mensagens de erro podem revelar informação sensíveis sobre o servidor.';
+$string['deleteincompleteusers'] = 'Apagar utilizadores com perfil incompleto depois de ';
+$string['configdeleteincompleteusers'] = 'Depois deste período são apagados os perfis que estejam incompletos.';
+$string['ignore'] = 'Ignorar';
+$string['maintenancemode'] = "Em modo de manutenção";
+$string['usersweakpassword'] = "Utilizadores com uma palavra-chave fraca";
+$string['user'] = "Utilizador";
+$string['profilefieldtypecheckbox'] = "Checkbox";
+$string['htmlsettings'] = "Definições HTML";
+$string['everyonewhocan'] = "Todos que tenham permissão para '\$a'";
+$string['confirmed'] = "Confirmado(a)";
+$string['profiledefaultchecked'] = "Seleccionado(a) por omissão";
+$string['profilesforenrolledusersonly'] = "Perfis apenas para utilizadores registados";
+$string['simplexmlrequired'] = "A extensão PHP <b>SimpleXML</b> é agora um requisito obrigatório do Moodle.";
+$string['statsruntimedays'] = "Dias a processar";
+$string['upgrade197noticesubject'] = "Avisos de seguranaça da actualização do Moodle 1.9.7";
 
 ?>

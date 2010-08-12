@@ -338,4 +338,9 @@ $string['sso_sp_description'] = 'Publicar este serviço para permitir que utiliz
 <ul><li><em> Dependência </em>: Também que <strong> publicar </strong> o serviço SSO (Fornecedor de Identidade) $a. </li></ul><br />.';
 $string['sso_sp_name'] = 'SSO (Fornecedor de SErviço)';
 
+$string['auth_emailupdate'] = "Actualização de endereço de email";
+$string['auth_emailsettings'] = "Definições";
+
+
+
 ?>
