@@ -74,7 +74,7 @@ $string['modulename'] = 'Trabalho';
 $string['modulenameplural'] = 'Trabalhos';
 $string['newsubmissions'] = 'Trabalhos enviados';
 $string['noassignments'] = 'Ainda não existem trabalhos';
-$string['noattempts'] = 'Não têm sido feita nenhuma tentativa neste trabalho';
+$string['noattempts'] = 'Não foi submetido nenhum trabalho';
 $string['nofiles'] = 'Nenhum ficheiro enviado';
 $string['nofilesyet'] = 'Ainda nenhum ficheiro foi enviado';
 $string['nomoresubmissions'] = 'Não são permitidos mais envios.';
@@ -106,7 +106,7 @@ $string['submitedformarking'] = 'O trabalho já foi enviado para avaliação e n
 $string['submitformarking'] = 'Enviar trabalho para ser avaliado';
 $string['submitted'] = 'Enviado';
 $string['submittedfiles'] = 'Ficheiros enviados';
-$string['trackdrafts'] = 'Habilitar Enviar para Avaliação';
+$string['trackdrafts'] = 'Activar Enviar para Avaliação';
 $string['typeoffline'] = 'Trabalho de casa';
 $string['typeonline'] = 'Texto em-linha';
 $string['typeupload'] = 'Envio de ficheiros avançado';
@@ -124,6 +124,6 @@ $string['uploadsuccess'] = '\'$a\' enviado com sucesso!';
 $string['viewfeedback'] = 'Ver a nota e comentários ao seu trabalho';
 $string['viewsubmissions'] = 'Ver $a trabalhos enviados';
 $string['yoursubmission'] = 'O seu envio';
-$string['disableemailnotification'] = 'Desabilitar notificações pelo correio electrónico'; // ORPHANED
+$string['disableemailnotification'] = 'Desactivar notificações pelo correio electrónico'; // ORPHANED
 
 ?>

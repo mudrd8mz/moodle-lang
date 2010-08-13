@@ -154,7 +154,7 @@ $string['newattachment'] = 'Novo anexo';
 $string['newgradings'] = 'Novas notas';
 $string['newsubmissions'] = 'Novos envios';
 $string['noassessments'] = 'Nenhuma apreciação';
-$string['noassessmentsdone'] = 'Não têm sido feitas apreciações';
+$string['noassessmentsdone'] = 'Não foram feitas apreciações';
 $string['noattachments'] = 'Sem anexos';
 $string['nosubmission'] = 'Nenhum envio';
 $string['nosubmissionsavailableforassessment'] = 'Não há envios disponíveis para esta apreciação';
@@ -233,7 +233,7 @@ $string['savemyassessment'] = 'Grave as minhas apreciações';
 $string['savemycomment'] = 'Grave o meu comentário';
 $string['savemygrading'] = 'Grave a minha nota';
 $string['savemysubmission'] = 'Gravar o meu envio';
-$string['saveoverallocation'] = 'Grave nivel de para além do alocado';
+$string['saveoverallocation'] = 'Grave nível para além do alocado';
 $string['scale10'] = 'Nota sobre 10';
 $string['scale100'] = 'Nota sobre 100';
 $string['scale20'] = 'Nota sobre 20';
@@ -324,5 +324,7 @@ $string['yourassessments'] = 'As suas apreciações';
 $string['yourassessmentsofexamplesfromtheteacher'] = 'As suas apreciações dos exemplos de $a';
 $string['yourfeedbackgoeshere'] = 'Os seus comentários aqui';
 $string['yoursubmissions'] = 'O seu envio';
+$string['resetworkshopall'] = 'Apagar submissões, notas e avaliações';
+
 
 ?>
