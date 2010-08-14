@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // repository_draft.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
+      // repository_draft.php - created with Moodle 1.9.9 (Build: 20100609) (2007101590)
 
 
-$string['repositorydesc'] = 'Dodatak za preraživanje tekućih radnih verzija datoteka';
+$string['draft:view'] = 'Pregled datoteka skica u izboru datoteka';
+$string['repositorydesc'] = 'Dodatak za pretraživanje tekućih radnih verzija datoteka';
 $string['repositoryname'] = 'Tekuće datoteke';
 
 ?>

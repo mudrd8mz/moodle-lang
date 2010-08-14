@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // repository_alfresco.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
+      // repository_alfresco.php - created with Moodle 1.9.9 (Build: 20100609) (2007101590)
 
 
+$string['alfresco:view'] = 'Pregled repozitorijuma Alfresco';
 $string['alfresco_url'] = 'Alfresco URL';
 $string['alfrescourltext'] = 'Alfresco API url treba da bude http://yoursite.com/alfresco/api';
 $string['configplugin'] = 'Alfresco konfiguracija';

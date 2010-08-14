@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
+      // portfolio.php - created with Moodle 1.9.9 (Build: 20100609) (2007101590)
 
 
 $string['activeportfolios'] = 'Aktivni portfolio';
@@ -31,11 +31,16 @@ $string['failedtopackage'] = 'Nije bilo moguće naći datoteke za pakovanje';
 $string['failedtosendpackage'] = 'Pokušaj da se pošalju Vaši podaci u izabrani portfolio sistem nije uspeo: originalna greška je bila $a';
 $string['filedenied'] = 'Pristup ovoj datoteci je odbijen';
 $string['filenotfound'] = 'Datoteka nije pronađena';
+$string['format_document'] = 'Dokument';
 $string['format_file'] = 'Datoteka';
 $string['format_image'] = 'Slika';
+$string['format_leap2a'] = 'Leap2A portfolio format';
 $string['format_mbkp'] = 'Moodle format rezervne kopije';
+$string['format_pdf'] = 'PDF';
 $string['format_plainhtml'] = 'HTML';
+$string['format_presentation'] = 'Prezentacija';
 $string['format_richhtml'] = 'HTML sa prilozima';
+$string['format_spreadsheet'] = 'Tabele';
 $string['format_text'] = 'Običan tekst';
 $string['format_video'] = 'Video';
 $string['hidden'] = 'Skriveno';
@@ -43,7 +48,9 @@ $string['highfilesizethresholddesc'] = 'Ako veličina datoteke prelazi ovde nave
 $string['insanebodyhtml'] = '<p>Zdravo!! Ovu protuku ste primili kao administrator $a->sitename.</p>
 $a->htmllist
 <p>Ovo možete ispraviti tako što ćete posetiti <a href=\"$a->fixurl\">stranicu za konfiguraciju portfolija</a></p>';
+$string['insanesubject'] = 'Neke instance portfolija su automatski onemogućene.';
 $string['instancedeleted'] = 'Portfolio je uspešno obrisan';
+$string['instanceismisconfigured'] = 'Instanca portfolija je pogrešnog konfigurisana. Greška je bila: $a';
 $string['instancenotdelete'] = 'Brisanje portfolija nije uspelo';
 $string['instancenotsaved'] = 'Pokušaj da se sačuva portfolio nije uspeo';
 $string['instancesaved'] = 'Portfolio je uspešno sačuvan';

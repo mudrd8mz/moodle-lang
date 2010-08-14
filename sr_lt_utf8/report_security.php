@@ -1,7 +1,9 @@
 <?PHP // $Id$ 
-      // report_security.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
+      // report_security.php - created with Moodle 1.9.9 (Build: 20100609) (2007101590)
 
 
+$string['check_configrw_details'] = '<p>Preporučuje se da se ovlašćenja za datoteku config.php promene posle instalacije tako da se ona ne može promeniti od strane Web servera.
+Molimo zapazite da ova mera ne poboljšava značajno bezbednost servera, mada može usporiti ili ograničiti opšte propuste.</p>';
 $string['check_configrw_name'] = 'Upisiva config.php datoteka';
 $string['check_configrw_ok'] = 'PHP skriptovi ne mogu da izmene config.php datoteku.';
 $string['check_configrw_warning'] = 'PHP skriptovi mogu da izmene config.php.';
@@ -81,16 +83,28 @@ $string['check_openprofiles_details'] = '<p>Otvorene korisničke profile mogu da
 $string['check_openprofiles_error'] = 'Svako može da vidi korisničke profile bez prijavljivanja na sistem';
 $string['check_openprofiles_name'] = 'Otvoreni korisnički profili';
 $string['check_openprofiles_ok'] = 'Za gledanje korisničkih profila neophodna je prethodna prijava na sistem.';
+$string['check_passwordpolicy_details'] = 'Preporučuje se postavljanje polise za lozinku, jer je pogađanje lozinke vrlo često najlakši način za sticanje neovlašćenog pristupa.
+Ipak ne činite zahteve previše strogim, jer to može dovesti do nemogućnosti da korisnici zapamte svoje lozinke, ili ih zaboravljaju, ili zapisuju.</p>';
+$string['check_passwordpolicy_error'] = 'Polisa za lozinke nije postavljena.';
+$string['check_passwordpolicy_name'] = 'Polisa za lozinke';
+$string['check_passwordpolicy_ok'] = 'Omogućena polisa za lozinke.';
 $string['check_riskadmin_detailsok'] = '<p>Molimo Vas da potvrdite sledeći spisak administratorea sistema:</p>$a';
-$string['check_riskadmin_detailswarning'] = '<p>Molimo Vas da potvrdite sledeći spisak administratorea sistema:</p>$a->admins
+$string['check_riskadmin_detailswarning'] = '<p>Molimo Vas da potvrdite sledeći spisak administratorea sistema:</p>a->admins
 <p>Preporučuje da se da ulogu administraotra dodeljujete samo u kontekstu sistema. Sledeći korisnici imaju dodeljene administratorske uloge koje nisu podržane:</p>$a->unsupported';
 $string['check_riskadmin_name'] = 'Administratori';
 $string['check_riskadmin_ok'] = 'Pronađen/o je $a server administrator/a.';
 $string['check_riskadmin_unassign'] = '<a href=\"$a->url\">$a->fullname ($a->email) pregledaj dodeljene uloge</a>';
 $string['check_riskadmin_warning'] = 'Pronađeno je $a->admincount administratora servera i $a->unsupcount dodeljenih administratorskih uloga koje nisu podržane.';
+$string['check_riskxss_details'] = '<p>RISK_XSS označava sve opasne mogućnosti (capability) koje mogu koristiti samo korisnici od poverenja.</p>
+<p>Molimo da proverite sledeći spisak korisnika i uverite se da im možete potpuno verovati na ovom serveru:</p><p>$a</p>';
+$string['check_riskxss_name'] = 'XSS korisnici od poverenja';
+$string['check_riskxss_warning'] = 'RISK_XSS - pronađeno korisnika kojima se mora verovati: $a';
+$string['check_unsecuredataroot_details'] = '<p>Koreni direktorijum za podatke ne sme biti dostupan sa Weba. Najbolji način da se osigura da direktorijum nije dostupan sa Weba je koristiti direktorijum izvan javnog Web direktorijuma.</p>
+<p>Ako pomerite direktorijum, potrebno je da shodno tome ažurirate podešavanje <code>\$CFG->dataroot</code> u <code>config.php</code>.</p>';
 $string['check_unsecuredataroot_error'] = 'Baš direktorijum podataka <code>$a</code> je na pogrešnoj lokaciji i dostupan je preko Weba!';
 $string['check_unsecuredataroot_name'] = 'Nebezbedni direktorijum podataka';
 $string['check_unsecuredataroot_ok'] = 'Direktorijum podataka ne sme biti dostupan preko Weba';
+$string['check_unsecuredataroot_warning'] = 'Vaš koreni direktorijum za podatke <code>$a</code> je na pogrešnoj lokaciji i može biti izložen pristupu sa Weba';
 $string['configuration'] = 'Konfiguracija';
 $string['description'] = 'Opis';
 $string['details'] = 'Detalji';

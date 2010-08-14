@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_statistics.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
+      // quiz_statistics.php - created with Moodle 1.9.9 (Build: 20100609) (2007101590)
 
 
 $string['allattempts'] = 'svi pokušaji';
@@ -17,17 +17,26 @@ $string['count'] = 'Broj';
 $string['coursename'] = 'Ime kursa';
 $string['detailedanalysis'] = 'Detaljnija analiza odgovora na ovo pitanje';
 $string['discrimination_index'] = 'Indeks diskriminativnosti';
+$string['discriminative_efficiency'] = 'Diskriminativna efikasnost';
 $string['downloadeverything'] = 'Preuzmi potpuni izveštaj';
 $string['duration'] = 'Otvori za';
 $string['effective_weight'] = 'Efektivna težinska vrednost';
 $string['errordeleting'] = 'Greška prilikom brisanja $a starih zapisa';
 $string['erroritemappearsmorethanoncewithdifferentweight'] = 'Pitanje ($a) se pojavljuje više nego jednom sa različitim težinskim vrednostima ma različitim mestima u testu. Statistički izveštaj to trenutnos ne podržava te statistika za ovo pitanje može biti nepouzdana.';
+$string['errormedian'] = 'Greška medijane';
+$string['errorpowerquestions'] = 'Podaci o grešci izračunavanja varijanse ocene za pitanja';
+$string['errorpowers'] = 'Podaci o grešci izračunavanja varijanse ocene testa';
+$string['errorrandom'] = 'Greška dobijanja podataka podstavki';
+$string['errorratio'] = 'Odnos greške (za $a)';
+$string['errorstatisticsquestions'] = 'Podaci o grešci izračunavanja statistike ocena za pitanja';
 $string['facility'] = 'Indeks lakoće';
 $string['firstattempts'] = 'prvi pokušaj';
 $string['firstattemptsavg'] = 'Prosečna ocena prvih pokušaja';
 $string['firstattemptscount'] = 'Broj prvih pokušaja';
 $string['frequency'] = 'Učestalost';
+$string['intended_weight'] = 'Ciljana težina';
 $string['kurtosis'] = 'Kriva raspodele rezultata (za $a)';
+$string['lastcalculated'] = 'Poslednje izračunato pre $a->lastcalculated bilo je $a->count pokušaja od tada.';
 $string['median'] = 'Medijana (za $a)';
 $string['negcovar'] = 'Negativna kovarijansa ocena sa ocenom svih pokušaja';
 $string['nostudentsingroup'] = 'Još uvek nema studentata u ovoj grupi';
@@ -43,8 +52,10 @@ $string['quizinformation'] = 'Informacija o testu';
 $string['quizname'] = 'Nazin testa';
 $string['quizoverallstatistics'] = 'Sveukupna statistika testa';
 $string['quizstructureanalysis'] = 'Analiza strukture testa';
+$string['random_guess_score'] = 'Rezultat slučajnog pogotka';
 $string['recalculatenow'] = 'Ponovo izračunaj sada';
 $string['response'] = 'Odgovor';
+$string['skewness'] = 'Asimetrija raspodele rezultata (za $a)';
 $string['standarddeviation'] = 'Standardna devijacija (za $a)';
 $string['standarddeviationq'] = 'Standardna devijacija';
 $string['standarderror'] = 'Standardna grešla ($a)';

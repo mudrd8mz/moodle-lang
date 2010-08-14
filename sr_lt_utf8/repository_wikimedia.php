@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // repository_wikimedia.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
+      // repository_wikimedia.php - created with Moodle 1.9.9 (Build: 20100609) (2007101590)
 
 
 $string['keyword'] = 'Ime slike';
-$string['repositoryname'] = 'Wikimedia';
+$string['repositoryname'] = 'Vikimedija';
+$string['wikimedia:view'] = 'Pregled repozitorijuma Vikimedija';
 
 ?>
