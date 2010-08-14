@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // report_courseoverview.php - created with Moodle 1.9.6 (Build: 20091021) (2007101560)
+      // report_courseoverview.php - created with Moodle 1.9.9 (Build: 20100609) (2007101590)
 
 
 $string['courseoverview:view'] = 'Приказ извештаја прегледа курса';
