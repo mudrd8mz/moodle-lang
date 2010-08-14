@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
+      // resource.php - created with Moodle 1.9.9 (Build: 20100609) (2007101590)
 
 
 $string['addresource'] = 'Dodaj resurs';
@@ -11,7 +11,6 @@ $string['blockdeletingfile'] = 'Blokiraj brisanje referenciranih datoteka';
 $string['browserepository'] = 'Pretraži repozitorijum';
 $string['choose'] = 'Odaberi';
 $string['chooseafile'] = 'Odaberi ili postavi datoteku';
-$string['chooseaparameter'] = 'Odaberi paramaetar...';
 $string['chooseparameter'] = 'Odaberi parametar';
 $string['clicktoopen'] = 'Da biste otvorili ovaj dokument, kliknite na sledeći link:';
 $string['configallowlocalfiles'] = 'Kada kreirate novi resurs, dozvolite umetanje linkova ka lokalni sistem datoteka, npr. CD-ROM ili čvrsti disk. Ovo bi moglo biti korisno u učionici gde svi studenti imaju pristup zajedničkom mrežnom disku ili kod potrebe za pristupom većim datotekama koje su na CD mediju. Korišćenje ove opcije može zahtevati promenu sigurnosnih podešavanja Vašeg Web čitača.';
@@ -55,10 +54,9 @@ $string['framesize'] = 'Veličina okvira';
 $string['fulltext'] = 'Kompletan tekst';
 $string['htmlfragment'] = 'HTML fragment';
 $string['imspackageloaded'] = 'Paket je učitan';
-$string['invalidassignment'] = 'neispravan zadatak';
-$string['invalidid'] = 'ID resursa je bio netačan';
 $string['keepnavigationvisible'] = 'Neka navigacija bude vidljiva na istoj stranici';
 $string['keepnavigationvisibleno'] = 'Ne';
+$string['keepnavigationvisiblewarning'] = 'Napomena: neke medijalne datoteke mogu ignorisati ovo podešavanje';
 $string['keepnavigationvisibleyesframe'] = 'Da, sa okvirom';
 $string['keepnavigationvisibleyesobject'] = 'Da, bez okvira';
 $string['localfile'] = 'Lokalna datoteka';
@@ -102,12 +100,10 @@ $string['parameter'] = 'Parametar';
 $string['parameters'] = 'Parametri';
 $string['popupresource'] = 'Ovaj resurs treba da se pojavi u iskačućem prozoru.';
 $string['popupresourcelink'] = 'Ako nije, kliknite ovde: $a';
-$string['portfolionotimplemented'] = 'Pokušavate da izvezete sadržaj iz tipa resursa koji to ne podržava!';
 $string['preview'] = 'Prikaz';
 $string['previous'] = 'Prethodno';
 $string['redeploy'] = 'Ponovo rasporedi';
 $string['repository'] = 'IMS repozitorijum';
-$string['resource:exportresource'] = 'Izvezi resurs';
 $string['resource:view'] = 'Prikaz resursa';
 $string['resourcedefaulturl'] = 'Podrazumevana URL adresa';
 $string['resourcetype'] = 'Tip resursa';
@@ -141,5 +137,10 @@ $string['warningblockingdelete'] = 'Upozorenje: Operacija brisanja je blokirana 
 $string['warningdisabledrename'] = 'Upozorenje: Automatsko preimenovanje referenci u resursima je onemogućeno. Molimo ažurirajte pogođene resurse ručno ukoliko je to potrebno. Administrator može i da omogući automatsko preimenovanje u delu za globalnu konfiguraciju resursa.';
 $string['websearchdefault'] = 'Podrazumevana pretraga Weba';
 $string['cannotupdate'] = 'Ne mogu se zabeležiti promene resursa.'; // ORPHANED
+$string['chooseaparameter'] = 'Odaberi paramaetar...'; // ORPHANED
+$string['invalidassignment'] = 'neispravan zadatak'; // ORPHANED
+$string['invalidid'] = 'ID resursa je bio netačan'; // ORPHANED
+$string['portfolionotimplemented'] = 'Pokušavate da izvezete sadržaj iz tipa resursa koji to ne podržava!'; // ORPHANED
+$string['resource:exportresource'] = 'Izvezi resurs'; // ORPHANED
 
 ?>

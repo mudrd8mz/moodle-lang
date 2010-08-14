@@ -1,14 +1,13 @@
-<?php
+<?PHP // $Id$ 
+      // auth_ldap.php - created with Moodle 1.9.9 (Build: 20100609) (2007101590)
 
-// All of the language strings in this file should also exist in
-// auth.php to ensure compatibility in all versions of Moodle.
 
 $string['auth_ldap_ad_create_req'] = 'Nije moguće kreirati novi nalog u Aktivnom direktorijumu. Proverite da li su ispunjeni svi neophodni preduslovi (LDAP konekcija, vezani korisnici sa odgovarajućim pravima itd.)';
 $string['auth_ldap_attrcreators'] = 'Spisak grupa ili koneksta čijim članovima je dozvonjeno da kreiraju atribute. Razdvojite višestruke grupe sa  \';\'. Obično nešto poput \'cn=teachers,ou=staff,o=myorg\'';
 $string['auth_ldap_attrcreators_key'] = 'Kreatori atributa';
 $string['auth_ldap_auth_user_create_key'] = 'Kreiraj korisnike eksterno';
-$string['auth_ldap_bind_dn'] = 'Ako želite da koristite veznog korisnika za pretragu korisnika, odredite to ovde. Nešto nalik na \'cn=ldapuser,ou=public,o=org\'';
-$string['auth_ldap_bind_dn_key'] = 'Karakteristično ime';
+$string['auth_ldap_bind_dn'] = 'Ako hoćete koristiti vezanog korisnika za traženje korisnika, navedite ga ovde. Nešto nalik \'cn=ldapuser,ou=public,o=org\'';
+$string['auth_ldap_bind_dn_key'] = 'Istaknuto ime';
 $string['auth_ldap_bind_pw'] = 'Lozinka za vezanog korisnika';
 $string['auth_ldap_bind_pw_key'] = 'Lozinka';
 $string['auth_ldap_bind_settings'] = 'Podešavanja za vezivanje';
@@ -26,10 +25,10 @@ $string['auth_ldap_expiration_warning_desc'] = 'Koliko dana pre isteka lozinke �
 $string['auth_ldap_expiration_warning_key'] = 'Upozorenje o isteku lozinke';
 $string['auth_ldap_expireattr_desc'] = 'Opciono: izmenite ldap-atribut koji pohranjuje vreme isteka lozinke';
 $string['auth_ldap_expireattr_key'] = 'Atribut isteka lozinke';
-$string['auth_ldap_graceattr_desc'] = 'Opciono: Mimoiđite poček unosa atributa';
-$string['auth_ldap_gracelogin_key'] = 'Atribut odložene prijave';
-$string['auth_ldap_gracelogins_desc'] = 'Omogućite LDAP podršku za poček unosa. Nakom isteka lozinke korisnik može pristupati sistemu sve dok je iznos počeka unosa 0. Ako je lozinka istekla omogućite ova podešavanja za prikazivanje poruke počeka unosa.';
-$string['auth_ldap_gracelogins_key'] = 'Odložene prijave';
+$string['auth_ldap_graceattr_desc'] = 'Opciono: Poništava atribut gracelogin';
+$string['auth_ldap_gracelogin_key'] = 'Atribut gracelogin';
+$string['auth_ldap_gracelogins_desc'] = 'Omogućiti podršku za LDAP gracelogin (povlašćena prijava). Nakon isteka lozinke korisnik se može prijavljivati sve dok ne bude 0 vrednost brojača gracelogin. Omogućavanje ovog podešavanja prikazuje poruku za povlašćenu prijavu ako je lozinka istekla.';
+$string['auth_ldap_gracelogins_key'] = 'Povlašćene prijave (Grace login)';
 $string['auth_ldap_groupecreators'] = 'Spisak grupa ili konteksta čijim članovima je dozvonjeno kreiranje grupa. Razdvojite višestruke grupe sa \';\'. Obično, nešto poput \'cn=teachers,ou=staff,o=myorg\'';
 $string['auth_ldap_groupecreators_key'] = 'Kreatori grupa';
 $string['auth_ldap_host_url'] = 'Navedite LDAP server u obliku URL adrese, kao npr. \'ldap://ldap.myorg.com/\' ili \'ldaps://ldap.myorg.com/\' Razdvojite multiple servere sa \';\' kako biste moglu da obezbedite automatske prebacivanje  drugi server ukoliko bude problen sa aktivnim serverom.';
@@ -37,51 +36,52 @@ $string['auth_ldap_host_url_key'] = 'URL LDAP računara';
 $string['auth_ldap_ldap_encoding'] = 'Navedite kodni raspored koji će koristiti LDAP server. Najverovatnije utf-8. MS AD v2 koristi podrazumevani kodni raspored platforme kao što je cp1252, cp1250 itd.';
 $string['auth_ldap_ldap_encoding_key'] = 'LDAP kodniu raspored';
 $string['auth_ldap_login_settings'] = 'Podešavanja za prijavljivanje na sistem';
-$string['auth_ldap_memberattribute'] = '\'';
-$string['auth_ldap_memberattribute_isdn'] = 'Opciono: Redefiniše rukovanje vrednostima atributa članova, ili 0 ili 1';
+$string['auth_ldap_memberattribute'] = 'Opciono: Poništava atribut člana korisnika, kada korisnik pripada grupi.Obično \'member\', \'član\'';
+$string['auth_ldap_memberattribute_isdn'] = 'Opciono: Poništava tretiranje vrednosti atributa članova, ili 0 ili 1';
 $string['auth_ldap_memberattribute_isdn_key'] = 'Atributi člana koristi dn';
 $string['auth_ldap_memberattribute_key'] = 'Atributi člana';
 $string['auth_ldap_no_mbstring'] = 'Da biste kreirali korisnike u Aktivnom direktorijumu potrebna Vam je mbstring ekstenzija.';
 $string['auth_ldap_noconnect'] = 'LDAP-modul nije moguće povezati sa  serverom: $a';
 $string['auth_ldap_noconnect_all'] = 'LDAP-modul nije moguće povezati sa bilo kojim serverom: $a';
 $string['auth_ldap_noextension'] = 'Upozorenje: Izgleda da PHP LDAP modul nije prisutan. Molimo Bas da proverite da li je instaliran i omogućen.';
-$string['auth_ldap_objectclass'] = 'Opciono: Određuje objectClass koristeći ime/tražeći korisnika na ldap_user_type. Obično nema potrebe da ovo menjate.';
-$string['auth_ldap_objectclass_key'] = 'Klase objekata';
-$string['auth_ldap_opt_deref'] = 'Ustanovite kako upravljati usvojenim imenima u toku traženja. Izaberite jednu od pratećih vrednosti: 
-\"Ne\" (LDAP_DEREF_NEVER) ili \"Da\" (LDAP_DEREF_ALWAYS)';
-$string['auth_ldap_opt_deref_key'] = 'Opozovi usvojena imena';
+$string['auth_ldap_objectclass'] = 'Opciono: Poništava objectClass koji se koristi da imenuje/traži korisnike u ldap_user_type. Obično ne treba menjati.';
+$string['auth_ldap_objectclass_key'] = 'Klasa objekta (objectClass)';
+$string['auth_ldap_opt_deref'] = 'Određuje kako se tretiraju aliasi u toku pretrage. Izaberite jednu od sledećih vrednosti: \"Ne\" (LDAP_DEREF_NEVER) ili \"Da\" (LDAP_DEREF_ALWAYS)';
+$string['auth_ldap_opt_deref_key'] = 'Aliasi za dereferenciranje';
 $string['auth_ldap_passtype'] = 'Navedite format novr ili promenjene lozinke na LDAP serveru.';
 $string['auth_ldap_passtype_key'] = 'Format lozinke';
-$string['auth_ldap_passwdexpire_settings'] = 'Podešavanja LDAP isteka lozinke';
+$string['auth_ldap_passwdexpire_settings'] = 'Podešavanja isteka LDAP lozinke';
 $string['auth_ldap_preventpassindb'] = 'Izaberite Da kako bi sprečili da se lozinke pohranjuju u bazi podataka Moodlea.';
 $string['auth_ldap_preventpassindb_key'] = 'Sakrij lozinke';
 $string['auth_ldap_search_sub'] = 'Pretraži korisnike iz podkonteksta.';
 $string['auth_ldap_search_sub_key'] = 'Pretraži podkontekst';
 $string['auth_ldap_server_settings'] = 'Podešavanja LDAP servera';
 $string['auth_ldap_unsupportedusertype'] = 'auth: ldap user_create() ne podržava izabrani tip korisnika: $a (..još)';
-$string['auth_ldap_update_userinfo'] = 'Ažurirajte informacije korisnika (ime, prezime, adrese...) iz LDAP-a u Moodle. Specificirajte podešavanja za mapiranje podataka prema sopstvenim potrebama.';
-$string['auth_ldap_user_attribute'] = 'Atribut koji se koristi za ime/pretragu korisnika. Uglavnom je \'cn\'.';
+$string['auth_ldap_update_userinfo'] = 'Ažurirati informacije o korisniku (ime, prezime, adresa...) iz LDAP u Moodle. Odredite podešavanja \"Preslikavanje podataka\" kako Vam je potrebno.';
+$string['auth_ldap_user_attribute'] = 'Opciono: Poništava atribut koji je korišćen za imenovanje/pretragu korisnika. Obično \'cn\'.';
 $string['auth_ldap_user_attribute_key'] = 'Atributi korisnika';
 $string['auth_ldap_user_exists'] = 'LDAP korisničko ime već postoji.';
 $string['auth_ldap_user_settings'] = 'Podešavanja za pretraživanje korisnika';
-$string['auth_ldap_user_type'] = 'Izaberite kako se korisnik čuva u LDAP. Ovo podešavanje takođe određuje kako će funkcionisati istek upisa, poček unosa i kreiranje korisnika.';
+$string['auth_ldap_user_type'] = 'Izabrati kako se korisnici čuvaju u LDAP. Ovo podešavanje takođe određuje kako će raditi istek prijave, povlašćena prijavljivanja i kreiranje korisnika.';
 $string['auth_ldap_user_type_key'] = 'Tip korisnika';
 $string['auth_ldap_usertypeundefined'] = 'config.user_type nije definisan ili funkcija ldap_expirationtime2unix ne podržava izabrani tip!';
 $string['auth_ldap_usertypeundefined2'] = 'config.user_type nije definisan ili funkcija ldap_unixi2expirationtime ne podržava izabrani tip!';
 $string['auth_ldap_version'] = 'Verzija LDAP protokola koju koristi Vaš server';
 $string['auth_ldap_version_key'] = 'Verzija';
-$string['auth_ldapdescription'] = 'Ovaj metod služi za proveru identiteta od strane spoljašnjeg LDAP servera.
-Ako su dodeljeno korisničko ime i lozinka ispravni, Moodle kreira novu instancu korisnika u svojoj bazi podataka.
-Ovaj modul može čitati korisničke atribute sa LDAP-a i postaviti tražena polja u Moodle. Za sledeće upise samo se proveravaju korisničko ime i lozinka.';
-$string['auth_ldapextrafields'] = 'Ova polja nisu obavezna. Možete izabrati da ispunite neka Moodle korisnička polja sa informacijama iz <b>LDAP polja</b> koja ovde odredite. <br />Ako polja ostavite prazna, onda se ništa neće prebaciti sa LDAP-a, tako da će biti korišćene podrazumevane Moodle vrednosti.<br />U svakom slučaju, korisnici mogu da uređuju ova polja nakon pristupa sistemu.';
+$string['auth_ldapdescription'] = 'Ovaj postupak daje proveru identiteta prema spoljnom LDAP serveru.
+Ako su dato korisničko ime i lozinka ispravni, Moodle kreira novog korisnika u svojoj bazi podataka. Ovaj modul može pročitati atribute korisnika iz LDAP i unapred popuniti željena polja u Moodle-u. Za naredna prijavljivanja samo se proveravaju korisničko ime i lozinka.';
+$string['auth_ldapextrafields'] = 'Ova polja su opciona. Možete izabrati da unapred popunite neka polja podataka o korisnicima Moodle-a informacijama iz <b>LDAP polja</b> koja ovde navedete.<p>IAko ostavite ova polja prazna, onda se ništa neće preneti iz LDAP i umesto toga koristiće se podrazumevane vrednosti iz Moodle-a .</p><p>U oba slučaja, korisnik nikada neće moći da izmeni nijedno od ovih polja nakon prijave.</p>';
 $string['auth_ldapnotinstalled'] = 'Nije moguće koristiti LDAP proveru identiteta.PHP LDAP modul nije instaliran.';
 $string['auth_ldaptitle'] = 'LDAP server';
 $string['auth_ntlmsso'] = 'NTLM SSO';
-$string['auth_ntlmsso_enabled'] = 'Postavite na Da za pokušaj jedne prijave sa NTLM domenom. <strong>Napomena:</strong> da bi ovo radilo, zahtevaju se dodatna podešavanja Web-servera, videti <a href=\"http://docs.moodle.org/en/NTLM_authentication\">http://docs.moodle.org/en/NTLM_authentication</a>';
+$string['auth_ntlmsso_enabled'] = 'Postaviti na Da da bi se pokušalo jedno prijavljivanje sa NTLM domenom. <strong>Napomena:</strong> da bi radilo, ovo zahteva dodatne postavke na Web serveru, videti <a href=\"http://docs.moodle.org/en/NTLM_authentication\">http://docs.moodle.org/en/NTLM_authentication</a>';
 $string['auth_ntlmsso_enabled_key'] = 'Omogući';
+$string['auth_ntlmsso_ie_fastpath'] = 'Postaviti na Da da bi se omogućila brza putanja NTLM SSO (premošćava određene korake i radi samo ako je klijentski Web čitač MS Internet Explorer).';
 $string['auth_ntlmsso_ie_fastpath_key'] = 'MS IE brza putanja?';
 $string['auth_ntlmsso_subnet'] = 'Ukoliko je podešeno, pokušaće samo SSO saklijentima u ovoj podmreži. Format: xxx.xxx.xxx.xxx/bitmask';
 $string['auth_ntlmsso_subnet_key'] = 'Podmreža';
 $string['ntlmsso_attempting'] = 'Pokušava Single Sign On preko NTLM...';
 $string['ntlmsso_failed'] = 'Automatska prijava na sistem nije uspela. Pokušajte sa normalnom stranicom za prijavu...';
 $string['ntlmsso_isdisabled'] = 'NTLM SSO je onemogućen.';
+
+?>

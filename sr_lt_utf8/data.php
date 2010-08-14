@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
+      // data.php - created with Moodle 1.9.9 (Build: 20100609) (2007101590)
 
 
 $string['action'] = 'Akcija';
@@ -28,11 +28,6 @@ $string['blank'] = 'Prazno';
 $string['buttons'] = 'Dugmad';
 $string['bynameondate'] = 'uneo/la $a->name dana $a->date';
 $string['cancel'] = 'Odustani';
-$string['cannotaccesspresentsother'] = 'Nije Vam dozvoljen pristup početnim podešavanjima drugih korisnika';
-$string['cannotadd'] = 'Ne mogu se dodati unosi!';
-$string['cannotdeletepreset'] = 'Greška u brisanju početnih podešavanja!';
-$string['cannotrate'] = 'Ocenjivanje stavki nije dopušteno!';
-$string['cannotunziptopreset'] = 'Ne može se raspakovati direktorijum početnih podešavanja';
 $string['checkbox'] = 'Polje za potvrdu';
 $string['chooseexportfields'] = 'Izaberite polja koja želite izvoziti:';
 $string['chooseexportformat'] = 'Izaberite format u koji želite izvoziti:';
@@ -54,9 +49,6 @@ $string['csvimport'] = 'Uvoz CSV datoteke';
 $string['csvwithselecteddelimiter'] = '<acronym title=\"Comma Separated Values\">CSV</acronym> tekst sa izabranim znakom razdvajanja';
 $string['data:approve'] = 'Odobravanje neodobrenih unosa';
 $string['data:comment'] = 'Piši komentare';
-$string['data:exportallentries'] = 'Izveti sve stavke iz baze podataka';
-$string['data:exportentry'] = 'Izvezi stavku iz baze podataka';
-$string['data:exportownentry'] = 'Izvezi sopstvenu stavku iz baze podataka';
 $string['data:managecomments'] = 'Upravljanje komentarima';
 $string['data:manageentries'] = 'Upravljaj unosima';
 $string['data:managetemplates'] = 'Upravljaj šablonima';
@@ -129,8 +121,6 @@ $string['forcelinkname'] = 'Obavezan naziv za linkovanje';
 $string['foundnorecords'] = 'Nisu pronađeni zapisi(<a href=\"$a->reseturl\">Vrati stara podešavanja filtera</a>)';
 $string['foundrecords'] = 'Pronađeni zapisi: $a->num/$a->max(<a href=\"$a->reseturl\">Vrati stara podešavanja filtera</a>)';
 $string['fromfile'] = 'iz arhive';
-$string['generateerror'] = 'Nisu sve datoteke generisane!';
-$string['guestrate'] = 'Gostima nije dopušteno da ocenjuju unose';
 $string['header'] = 'Zaglavlje';
 $string['headeraddtemplate'] = 'Definiše interfejs pri uređivanju unosa';
 $string['headerasearchtemplate'] = 'Definiše interfejs za napredna pretraživanja';
@@ -142,14 +132,8 @@ $string['headersingletemplate'] = 'Definiše interfejs pregledanja pojedinačnog
 $string['importsuccess'] = 'Definisani skup podešavanja je uspešno primenjen.';
 $string['insufficiententries'] = 'potrebno je više unosa za pregled ove baze podataka';
 $string['intro'] = 'Uvod';
-$string['invalidaccess'] = 'Stranici nije ispravno pristupljeno';
-$string['invalidfieldid'] = 'ID polja nije ispravan';
 $string['invalidfieldname'] = 'Molimo izaberite neko drugo ime za ovo polje';
-$string['invalidfieldtype'] = 'Tip polja nije ispravan';
-$string['invalidid'] = 'ID podataka nije ispravan';
-$string['invalidpreset'] = '$a nije postojeće podešavanje.';
-$string['invalidratedata'] = 'Neispravni su prosleđeni podaci o ocenjivanju';
-$string['invalidrecord'] = 'Neispravan zapis';
+$string['invalidrate'] = 'Neispravni nivo baze podataka ($a)';
 $string['invalidurl'] = 'URL koji ste upravo uneli nije ispravan';
 $string['jstemplate'] = 'Javascript šablon';
 $string['latitude'] = 'Širina';
@@ -166,8 +150,6 @@ $string['maxentries'] = 'Maksimalno unosa';
 $string['maxsize'] = 'Maksimalna veličina';
 $string['menu'] = 'Meni';
 $string['menuchoose'] = 'Izaberite...';
-$string['missingdata'] = 'id podataka ili objekt mora se proslediti klasi polja';
-$string['missingfield'] = 'Greška programera: Morate odrediti polje i/ili podatke kada definišete klasu polja.';
 $string['modulename'] = 'Baza podataka';
 $string['modulenameplural'] = 'Baze podataka';
 $string['more'] = 'Još';
@@ -192,14 +174,13 @@ $string['newentry'] = 'Novi unos';
 $string['newfield'] = 'Kreiranje novog polja';
 $string['noaccess'] = 'Nemate pristup ovoj stranici';
 $string['nodefinedfields'] = 'Novo postojeći skup podešavanja nema definisanih polja!';
-$string['nofieldcontent'] = 'Sadržaj polja nije pronađen';
 $string['nofieldindatabase'] = 'Nema polja definisanih za ovu bazu podataka.';
 $string['nolisttemplate'] = 'Šablon liste još nije definisan';
 $string['nomatch'] = 'Nema unosa koji se poklapaju!';
 $string['nomaximum'] = 'Nema maksimuma';
-$string['norating'] = 'Ova aktivnost ne koristi ocenjivanja';
 $string['norecords'] = 'Nema unosa u bazi podataka';
 $string['nosingletemplate'] = 'Još nije definisan pojedinačni šablon';
+$string['notapproved'] = 'Unos još uvek nije odobren';
 $string['notinjectivemap'] = 'Mapa ne može da se ubaci';
 $string['number'] = 'Broj';
 $string['numberrssarticles'] = 'RSS članci';
@@ -215,7 +196,6 @@ $string['pagesize'] = 'Unosa po stranici';
 $string['participants'] = 'Učesnici';
 $string['picture'] = 'Slika';
 $string['pleaseaddsome'] = 'Molimo kreirajte neke ispod ili <a href=\"$a\">izaberite već definisan skup</a> za početak.';
-$string['portfolionotfile'] = 'Izvezi u portfolio a ne u datoteku (samo za .csv)';
 $string['presetinfo'] = 'Čuvanje u vidu skupa podešavanja će objaviti ovaj šablon. Drugi korisnici će možda moći da ga koriste u svojim bazama podataka.';
 $string['presets'] = 'Postojeći skupovi podešavanja';
 $string['radiobutton'] = 'Dugmad za pojedinačni izbor';
@@ -235,6 +215,7 @@ $string['recordsnotsaved'] = 'Nije sačuvan nijedan unos. Molimo proverite forma
 $string['recordssaved'] = 'unosi sačuvani';
 $string['requireapproval'] = 'Zahtevati odobrenje?';
 $string['requiredentries'] = 'Potrebni unosi';
+$string['requiredentrieschanged'] = '<p><strong>VAŽNO - MOLIMO PROČITAJTE</strong></p><p>Usled popravke greške u kôdu, biće izmenjeno ponašanje aktivnosti u bazi podataka korišćenjem \'Obavezni entiteti\' i \'Obavezni unosi pre pregleda podešavanja\'. Detaljnije objašnjenje promena može se pročitati na <a href=\"http://moodle.org/mod/forum/discuss.php?d=110928\" target=\"_blank\">forumu za modul baze podataka</a>. Očekivano ponašanje ovih podešavanja može se pročitati takođe u <a href=\"http://docs.moodle.org/en/Adding/editing_a_database#Required_entries\" target=\"_blank\">Moodle Docs</a>.</p><p>Ova promena utiče na sledeće baze podataka u Vašem sistemu: (Molimo da sačuvate sada ovaj spisak i posle unapređenja proverite da li ove aktivnosti još uvek rade na način koji nastavnik želi.)</p><strong style=\"color:red\">$a->text</strong><br/>';
 $string['requiredentriestoview'] = 'Unosi potrebni pre pregledanja';
 $string['resetsettings'] = 'Resetuj polje';
 $string['resettemplate'] = 'Resetuj šablon';
@@ -276,7 +257,29 @@ $string['usestandard'] = 'koristiti postojeći skup podešavanja';
 $string['viewfromdate'] = 'Može se pregledati od';
 $string['viewtodate'] = 'Može se pregledati do';
 $string['wrongdataid'] = 'Pogrešna ID podataka je obezbeđena';
+$string['cannotaccesspresentsother'] = 'Nije Vam dozvoljen pristup početnim podešavanjima drugih korisnika'; // ORPHANED
+$string['cannotadd'] = 'Ne mogu se dodati unosi!'; // ORPHANED
+$string['cannotdeletepreset'] = 'Greška u brisanju početnih podešavanja!'; // ORPHANED
 $string['cannotinsertempty'] = 'Nije moguće kreirati prazan zapis!'; // ORPHANED
+$string['cannotrate'] = 'Ocenjivanje stavki nije dopušteno!'; // ORPHANED
+$string['cannotunziptopreset'] = 'Ne može se raspakovati direktorijum početnih podešavanja'; // ORPHANED
+$string['data:exportallentries'] = 'Izveti sve stavke iz baze podataka'; // ORPHANED
+$string['data:exportentry'] = 'Izvezi stavku iz baze podataka'; // ORPHANED
+$string['data:exportownentry'] = 'Izvezi sopstvenu stavku iz baze podataka'; // ORPHANED
+$string['generateerror'] = 'Nisu sve datoteke generisane!'; // ORPHANED
+$string['guestrate'] = 'Gostima nije dopušteno da ocenjuju unose'; // ORPHANED
+$string['invalidaccess'] = 'Stranici nije ispravno pristupljeno'; // ORPHANED
+$string['invalidfieldid'] = 'ID polja nije ispravan'; // ORPHANED
+$string['invalidfieldtype'] = 'Tip polja nije ispravan'; // ORPHANED
+$string['invalidid'] = 'ID podataka nije ispravan'; // ORPHANED
+$string['invalidpreset'] = '$a nije postojeće podešavanje.'; // ORPHANED
+$string['invalidratedata'] = 'Neispravni su prosleđeni podaci o ocenjivanju'; // ORPHANED
+$string['invalidrecord'] = 'Neispravan zapis'; // ORPHANED
+$string['missingdata'] = 'id podataka ili objekt mora se proslediti klasi polja'; // ORPHANED
+$string['missingfield'] = 'Greška programera: Morate odrediti polje i/ili podatke kada definišete klasu polja.'; // ORPHANED
+$string['nofieldcontent'] = 'Sadržaj polja nije pronađen'; // ORPHANED
+$string['norating'] = 'Ova aktivnost ne koristi ocenjivanja'; // ORPHANED
+$string['portfolionotfile'] = 'Izvezi u portfolio a ne u datoteku (samo za .csv)'; // ORPHANED
 $string['updatingerror'] = 'Postojala je greška pri ažuriranju baze podataka.'; // ORPHANED
 $string['cannotinsertrate'] = 'Nije moguće umetnuti novo ocenjivanje($a[0] = $a[1])'; // ORPHANED
 $string['cannotupdaterate'] = 'Nije moguće izmeniti staro ocenjivanje($a[0] = $a[1])'; // ORPHANED
