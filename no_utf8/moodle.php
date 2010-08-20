@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.9+ (Build: 20100804) (2007101590)
+      // moodle.php - created with Moodle 1.9.9+ (Build: 20100818) (2007101590)
 
 
 $string['abouttobeinstalled'] = 'vil bli installert';
@@ -191,7 +191,7 @@ $string['cachecontrols'] = 'Kontroll av mellomlager';
 $string['cancel'] = 'Avbryt';
 $string['cancelled'] = 'Avbrutt';
 $string['categories'] = 'Studiekategorier';
-$string['category'] = 'Kategori';
+$string['category'] = 'Kategorinivå';
 $string['categoryadded'] = 'Kategorien \'$a\' ble lagt til';
 $string['categorycontents'] = 'Underkategorier og kurs';
 $string['categorycurrentcontents'] = 'Innhold av $a';
@@ -259,7 +259,7 @@ $string['copyingsitefiles'] = 'Kopierer nettstedsfiler som brukes i kurs';
 $string['copyinguserfiles'] = 'Kopierer brukerfiler';
 $string['copyingzipfile'] = 'Kopierer zip-fil';
 $string['copyrightnotice'] = 'Kopibeskyttelse';
-$string['coresystem'] = 'Kjernesystem';
+$string['coresystem'] = 'Globalt nivå';
 $string['cost'] = 'Pris';
 $string['costdefault'] = 'Standardpris';
 $string['counteditems'] = '$a->count $a->items';

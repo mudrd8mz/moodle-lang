@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.9+ (Build: 20100721) (2007101590)
+      // admin.php - created with Moodle 1.9.9+ (Build: 20100818) (2007101590)
 
 
 $string['accessdenied'] = 'Ingen tilgang';
@@ -407,7 +407,7 @@ $string['frontpage'] = 'Hovedside';
 $string['frontpagebackup'] = 'Hovedside backup';
 $string['frontpagedefaultrole'] = 'Standard forsiderolle';
 $string['frontpageloggedin'] = 'Hovedsidens elementer når innlogget';
-$string['frontpagequestions'] = 'Forsidespørsmål';
+$string['frontpagequestions'] = 'Testbank';
 $string['frontpagerestore'] = 'Hovedside restore';
 $string['frontpageroles'] = 'Hovedside roller';
 $string['frontpagesettings'] = 'Hovedside innstillinger';
