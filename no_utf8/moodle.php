@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.8+ (Build: 20100526) (2007101580)
+      // moodle.php - created with Moodle 1.9.9+ (Build: 20100804) (2007101590)
 
 
 $string['abouttobeinstalled'] = 'vil bli installert';
@@ -550,7 +550,7 @@ $string['enrolledincoursenotrole'] = 'Feil ved innlegging i \"$a->course\" som \
 $string['enrolledincourserole'] = 'Lagt inn i \"$a->course\" som \"$a->role\"';
 $string['enrollfirst'] = 'Du må melde deg på et av kursene før du kan bruke aktivitetene på nettstedet.';
 $string['enrolme'] = 'Meld meg på dette kurset';
-$string['enrolmentconfirmation'] = 'Du holder på å melde deg på som deltaker på dette kurset.<br /> Er du sikker på at det er det du vil?';
+$string['enrolmentconfirmation'] = 'Du holder på å melde deg på som deltaker på dette kurset.<br /> Vennligst bekreft påmeldingen din.';
 $string['enrolmentend'] = 'Påmelding avsluttes';
 $string['enrolmentkey'] = 'Påmeldingsnøkkel';
 $string['enrolmentkeyfrom'] = 'Dette kurset krever en \'påmeldingsnøkkel\'<br />

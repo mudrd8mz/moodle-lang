@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9.6+ (Build: 20091121) (2007101563)
+      // question.php - created with Moodle 1.9.9+ (Build: 20100818) (2007101590)
 
 
 $string['adminreport'] = 'Rapport over mulige problemer i din spørsmålsdatabase.';
@@ -35,6 +35,8 @@ $string['errorprocessingresponses'] = 'Det oppstod en feil under behandlingen av
 $string['errorsavingcomment'] = 'Feil ved lagring av kommentarer for spørsmål $a->name i databasen.';
 $string['errorupdatingattempt'] = 'Feil ved oppdatering av forsøk $a->id i databasen.';
 $string['exportcategory'] = 'Eksportkategori';
+$string['filecantmovefrom'] = 'Spørsmålsfilene kan ikke flyttes siden du ikke har tillatelse til å lagre der du forsøker å flytte filene til.';
+$string['filecantmoveto'] = 'Spørsmålsfilene kan ikke flyttes eller kopieres siden du ikke har tillatelse til å lagre der du forsøker å flytte/kopiere filene til.';
 $string['filesareacourse'] = 'Kursets filområde';
 $string['filesareasite'] = 'Sitens filområde';
 $string['filestomove'] = 'Flytt / kopier filer til $a?';

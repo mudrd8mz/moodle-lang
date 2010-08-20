@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9.8+ (Build: 20100512) (2007101580)
+      // grades.php - created with Moodle 1.9.9+ (Build: 20100818) (2007101590)
 
 
 $string['activities'] = 'Aktiviteter';
@@ -71,6 +71,7 @@ $string['categoryedit'] = 'Rediger kategori';
 $string['categoryname'] = 'Kategorinavn';
 $string['categorytotal'] = 'Kategoritotal';
 $string['categorytotalfull'] = '$a->category totalt';
+$string['categorytotalname'] = 'Navn på kategoritotal';
 $string['changedefaults'] = 'Endre standarder';
 $string['changereportdefaults'] = 'Rediger rapportstandarder';
 $string['chooseaction'] = 'Velg en handling...';
