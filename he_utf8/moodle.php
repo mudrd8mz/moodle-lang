@@ -166,7 +166,7 @@ $string['backupnoneusersinfo'] = 'הודעה: בחרת לגבות \"אף אחד\
 $string['backupnonisowarning'] = 'אזהרה: גיבוי זה הוא מגירסת non-Unicode ל-Moodle pre 1.6. אם גיבוי זה מכיל טקסטים שהם non-ISO כלשהם הם עלולים להיות פגומים כאשר תנסה את 1-8859 בכדי לשחזר אותם לגירסת ה-Unicode הזו של Moodle. ראה ב- <a href=\"http://docs.moodle.org/en/Backup_FAQ\">Backup FAQ</a> למידע נוסף על-מנת לשחזר גיבוי זה בצורה נכונה.';
 $string['backuporiginalname'] = 'שם גיבוי';
 $string['backuproleassignments'] = 'זכויות תפקיד גיבוי עבור תפקידים אלו';
-$string['backupsavetohelp'] = 'דרך מלאה לתיקיה בה אתה רוצה לשמור את קבצי הגיבוי <br /> (השאר ריק בכדי לשמור תיקיית ברירת מחדל של הקורס)';
+$string['backupsavetohelp'] = 'הנתיב המלא לתיקיה בה אתה רוצה לשמור את קבצי הגיבוי <br /> (השאר ריק בכדי לשמור תיקיית ברירת מחדל של הקורס)';
 $string['backupschedulehelp'] = 'בחר באיזה יום בשבוע תרצה להפעיל את הגיבוי הממוכן';
 $string['backupsitefileshelp'] = 'באם יאושר אזי קבצי באתר שמשתמשים בהם בקורס יהיו כלולים אוטומטית בגיבויים';
 $string['backuptakealook'] = 'אנא בדוק את רישומי הגיבוי שלך ב:

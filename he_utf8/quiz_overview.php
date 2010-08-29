@@ -24,7 +24,7 @@ $string['preferencespage'] = 'מאפיינים עבור עמוד זה בלבד';
 $string['preferencessave'] = 'שמור מאפיינים';
 $string['preferencesuser'] = 'המאפיינים שלך עבור דוח זה';
 $string['show'] = 'הראה/הורד';
-$string['showdetailedmarks'] = 'הראה/הורד סימונים לכל שאלה';
+$string['showdetailedmarks'] = 'הראה/הורד ציונים לכל שאלה';
 $string['showinggraded'] = 'מראה רק את נסיונות המענה שניתן להם הציון עבור כל משתמש.';
 $string['showinggradedandungraded'] = 'מראה את נסיונות המענה שניתן להם הציון ואלו שלא, לכל משתמש.<br/>נסיון המענה לכל משתמש אשר ניתן לו ציון מודגש.<br/> שיטת מתן הציונים עבור בוחן זה הוא $a';
 
