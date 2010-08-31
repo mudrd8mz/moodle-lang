@@ -11,7 +11,7 @@ $string['auth_cas_baseuri'] = 'URI של השרת (אל תמלא כלום אם ל
  <br />לדוגמא, אם שרת ה-CAS מגיב ל: host.domaine.fr/CAS/ אז: <br />cas_baseuri = CAS/';
 $string['auth_cas_baseuri_key'] = 'בסיס ה- URI';
 $string['auth_cas_broken_password'] = 'אין באפשרותך להמשיך ללא שינוי הסיסמה שלך, אך נכון לעכשיו אין עמוד בו ניתן לשנות אותה. אנא צור קשר עם מנהל המוודל שלך.';
-$string['auth_cas_cantconnect'] = 'חלק ה-LDAP של מודול ה-CAS לא יכול להתחבר לשרת: $a';
+$string['auth_cas_cantconnect'] = 'חלק ה-LDAP של רכיב ה-CAS לא יכול להתחבר לשרת: $a';
 $string['auth_cas_casversion'] = 'גירסה';
 $string['auth_cas_changepasswordurl'] = 'כתובת URL לשינוי הסיסמה';
 $string['auth_cas_create_user'] = 'השתמשו בזה אם אתם מעוניינים להכניס משתמשים שעברו אימות באמצעות CAS (שירות אימות מרכזי) לתוך בסיס הנתונים שלכם במוודל. אם לא, רק משתמשים שכבר קיימים בבסיס הנתונים של מוודל יוכלו להתחבר.';
@@ -37,5 +37,5 @@ $string['auth_cas_use_cas'] = 'השתמש ב-CAS';
 $string['auth_cas_version'] = 'גירסה של CAS (שירות אימות מרכזי)';
 $string['auth_casdescription'] = 'שיטה זו עושה שימוש בשרת CAS (שירות אימות מרכזי - Central Authentication Service) על מנת לאמת משתמשים בסביבת התחברות יחידה (Single Sign On - SSO). אתם יכולים להשתמש גם באימות LDAP פשוט. 
 אם שם המשתמש והסיסמה הנתונים תקפים לפי CAS, מוודל יוצר כניסת משתמש חדשה בבסיס הנתונים, כאשר הוא לוקח תכונות משתמש מ-LDAP, אם הדבר נדרש. בהתחברויות עתידיות נבדקים רק שם המשתמש והסיסמה.';
-$string['auth_casnotinstalled'] = 'לא ניתן להשתמש באימות CAS. מודול ה-PHP LDAP אינו מותקן';
+$string['auth_casnotinstalled'] = 'לא ניתן להשתמש באימות CAS. רכיב ה-PHP LDAP אינו מותקן';
 $string['auth_castitle'] = 'השתמש בשרת CAS (שרת אימות מרכזי), SSO (התחברות יחידה)';

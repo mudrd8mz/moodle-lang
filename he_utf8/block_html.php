@@ -3,9 +3,9 @@
 
 
 $string['configcontent'] = 'תוכן';
-$string['configtitle'] = 'כותרת הבלוק';
+$string['configtitle'] = 'כותרת המשבצת';
 $string['html'] = 'תוכן מעוצב';
 $string['leaveblanktohide'] = 'השאר ריק להסתרת הכותרת';
-$string['newhtmlblock'] = '(בלוק תוכן מעוצב חדש)';
+$string['newhtmlblock'] = '(משבצת תוכן מעוצב חדש)';
 
 ?>

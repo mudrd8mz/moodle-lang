@@ -3,8 +3,8 @@
 
 
 $string['blockname'] = 'בני חסותי';
-$string['configtitle'] = 'כותרת בלוק';
+$string['configtitle'] = 'כותרת משבצת־ניהול';
 $string['leaveblanktohide'] = 'כדי להסתיר את הכותרת השאר ריק';
-$string['newmenteesblock'] = '(בלוק \"בני חסותי\" חדש)';
+$string['newmenteesblock'] = '(משבצת־ניהול \"בני חסותי\" חדש)';
 
 ?>

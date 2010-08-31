@@ -54,7 +54,7 @@ $string['totalsize'] = 'סה\"כ הגודל';
 $string['type'] = 'סוג';
 $string['uncompleteindexingerror'] = 'האינדוקס לא נגמר בהצלחה, אנא חזור עליו';
 $string['versiontoolow'] = 'אנו מצטערים אולם חיפוש גלובאלי דורש PHP 5.0.0 או גבוה מזה (כרגע האתר משתמש במהדורה)';
-$string['whichmodulestosearch?'] = 'באילו מודולים לחפש?';
+$string['whichmodulestosearch?'] = 'באילו רכיבים לחפש?';
 $string['wordsintitle'] = 'מילים בכותרת';
 
 ?>

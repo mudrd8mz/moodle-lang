@@ -42,9 +42,9 @@ $string['auth_ldap_memberattribute_isdn'] = 'לבחירתכם: עוקף את ה�
 $string['auth_ldap_memberattribute_isdn_key'] = 'תכונת החבר משתמשת ב-dn';
 $string['auth_ldap_memberattribute_key'] = 'תכונת החבר';
 $string['auth_ldap_no_mbstring'] = 'הינך זקוק ל-mbstring בכדי ליצור משתמשים ב-Active Directory.';
-$string['auth_ldap_noconnect'] = 'מודול ה-LDAP לא יכול להתחבר לשרת: $a';
-$string['auth_ldap_noconnect_all'] = 'מודול ה-LDAP לא יכול לאף שרת: $a';
-$string['auth_ldap_noextension'] = 'אזהרה: לא נראה כי מודול ה-PHP LDAP נוכח. אנא וודא שהוא מותקן ונוכח.';
+$string['auth_ldap_noconnect'] = 'רכיב ה-LDAP לא יכול להתחבר לשרת: $a';
+$string['auth_ldap_noconnect_all'] = 'רכיב ה-LDAP לא יכול לאף שרת: $a';
+$string['auth_ldap_noextension'] = 'אזהרה: לא נראה כי רכיב ה-PHP LDAP נוכח. אנא וודא שהוא מותקן ונוכח.';
 $string['auth_ldap_objectclass'] = 'לבחירתכם: עוקף את objectClass  שמשמש לתת שםלערוך חיפוש משתמשים ב-LDAP_user_type. לרוב, אין צורך לשנות את הגדרה זו.';
 $string['auth_ldap_objectclass_key'] = 'מחלקת Object';
 $string['auth_ldap_opt_deref'] = 'קובע כיצד מתייחסים לכינויים בזמן עריכת חיפוש. בחרו באחד מהערכים הבאים: 
@@ -71,11 +71,11 @@ $string['auth_ldap_usertypeundefined'] = 'config.user_type לא מוגדר או 
 $string['auth_ldap_usertypeundefined2'] = 'config.user_type לא מוגדר או שפונקצייתldap_unixi2expirationtime לא תומכת בסוג הנבחר';
 $string['auth_ldap_version'] = 'גרסת פרוטוקול ה-LDPA שהשרת שלך משתמש בה.';
 $string['auth_ldap_version_key'] = 'גירסה';
-$string['auth_ldapdescription'] = 'שיטה זו מספקת אימות כנגד שרת LDAP חיצוני. אם שם משתמש וסיסמה הם תקפים, Moodle יוצר כניסת משתמש חדשה בבסיס הנתונים. מודול זה יכול לקרוא מאפייני משתמשים מ-LDAP ולמלא מראש שדות רצויים ב-Moodle. בהתחברות עתידית יבדקו רק שם המשתמש והסיסמה.';
+$string['auth_ldapdescription'] = 'שיטה זו מספקת אימות כנגד שרת LDAP חיצוני. אם שם משתמש וסיסמה הם תקפים, Moodle יוצר כניסת משתמש חדשה בבסיס הנתונים. רכיב זה יכול לקרוא מאפייני משתמשים מ-LDAP ולמלא מראש שדות רצויים ב-Moodle. בהתחברות עתידית יבדקו רק שם המשתמש והסיסמה.';
 $string['auth_ldapextrafields'] = 'שדות אלו הם אופציונליים. אתה יכול לבחור למלא מראש שדות משתמש שתפרט פה עם מידע מה<b>LDAP שדות</b>. <br /> אם תשאיר שדות אלו ריקים אז דבר לא יעבור מ-LDAP ובמקומם ישתמשו בברירות המחדל של Moodle .<br />
 </p><p>
 בכל מקרה, המשתמש יוכל לערוך את כל השדות הללו לאחר התחברות.</p>';
-$string['auth_ldapnotinstalled'] = 'לא ניתן להשתמש באימות LDAP. מודול ה-PHP LDAP איננו מותקן.';
+$string['auth_ldapnotinstalled'] = 'לא ניתן להשתמש באימות LDAP. רכיב ה-PHP LDAP איננו מותקן.';
 $string['auth_ldaptitle'] = 'השתמש בשרת LDAP';
 $string['auth_ntlmsso_enabled_key'] = 'אפשר';
 $string['auth_ntlmsso_subnet'] = 'אם מאופשר, הדבר ינסה SSO עם לקוחות ב-subnet הבא. תבנית: xxx.xxx.xxx.xxx/bitmask';
