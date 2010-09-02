@@ -3,7 +3,7 @@
 
 
 $string['access'] = 'נגישות';
-$string['accesshelp'] = 'נגישות - עזרה';
+$string['accesshelp'] = 'נגישות-עזרה';
 $string['accesskey'] = 'מקש גישה, $a';
 $string['accessstatement'] = 'הצהרת נגישות';
 $string['activitynext'] = 'הפעילות הבאה';
