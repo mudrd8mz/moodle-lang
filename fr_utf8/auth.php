@@ -141,7 +141,7 @@ $string['auth_ldap_bind_dn_key'] = 'DN (Distinguished Name)'; // Obsolete from 2
 $string['auth_ldap_bind_dn'] = 'Si vous souhaitez utiliser une connexion authentifiée au serveur LDAP pour chercher les utilisateurs, indiquez ici son nom de connexion. Quelque chose comme : « cn=ldapuser, o=Organisation, c=FR ».'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_ldap_bind_pw_key'] = 'Mot de passe'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_ldap_bind_pw'] = 'Mot de passe pour cette connexion'; // Obsolete from 2.0dev onwards, see MDL-19182
-$string['auth_ldap_bind_settings'] = 'Configuration du lien'; // Obsolete from 2.0dev onwards, see MDL-19182
+$string['auth_ldap_bind_settings'] = 'Configuration de la connexion'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_ldap_changepasswordurl_key'] = 'URL pour changement de mot de passe'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_ldap_contexts_key'] = 'Contextes'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_ldap_contexts'] = 'Liste des contextes de l\'annuaire LDAP, séparés par « ; », où les enregistrements des utilisateurs sont situés. Par exemple : « ou=Étudiants, o=Organisation, c=FR; ou=Enseignants, o=Organisation, c=FR ».'; // Obsolete from 2.0dev onwards, see MDL-19182
@@ -177,7 +177,7 @@ $string['auth_ldap_noconnect'] = 'Le module LDAP ne peut pas se connecter au ser
 $string['auth_ldap_noextension'] = 'Attention ! Le module LDAP ne semble pas être installé. Veuillez vous assurer qu\'il est bien installé et activé.'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_ldap_objectclass_key'] = 'Classe objet'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_ldap_objectclass'] = 'Le filtre utilisé pour rechercher/renommer des utilisateurs. On y mettra d\'habitude quelque chose comme objectClass=posixAccount. La valeur par défaut est objectClass=*, ce qui retournera tous les objets du serveur LDAP.'; // Obsolete from 2.0dev onwards, see MDL-19182
-$string['auth_ldap_opt_deref_key'] = 'Alias de déréférencement'; // Obsolete from 2.0dev onwards, see MDL-19182
+$string['auth_ldap_opt_deref_key'] = 'Déréférencement des alias'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_ldap_opt_deref'] = 'Détermine le traitement des alias durant la recherche. Veuillez sélectionner une des valeurs suivantes : « Non » (LDAP_DEREF_NEVER) ou « Oui » (LDAP_DEREF_ALWAYS)'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_ldap_passtype'] = 'Indiquer le format des mots de passe (nouveaux ou modifiés) dans le serveur LDAP.'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_ldap_passtype_key'] = 'Format de mot de passe'; // Obsolete from 2.0dev onwards, see MDL-19182

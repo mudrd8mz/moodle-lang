@@ -10,7 +10,7 @@ $string['auth_ldap_bind_dn_key'] = 'DN (Distinguished Name)';
 $string['auth_ldap_bind_dn'] = 'Si vous souhaitez utiliser une connexion authentifiée au serveur LDAP pour chercher les utilisateurs, indiquez ici son nom de connexion. Quelque chose comme : « cn=ldapuser, o=Organisation, c=FR ».';
 $string['auth_ldap_bind_pw_key'] = 'Mot de passe';
 $string['auth_ldap_bind_pw'] = 'Mot de passe pour cette connexion';
-$string['auth_ldap_bind_settings'] = 'Configuration du lien';
+$string['auth_ldap_bind_settings'] = 'Configuration de la connexion';
 $string['auth_ldap_changepasswordurl_key'] = 'URL pour changement de mot de passe';
 $string['auth_ldap_contexts_key'] = 'Contextes';
 $string['auth_ldap_contexts'] = 'Liste des contextes de l\'annuaire LDAP, séparés par « ; », où les enregistrements des utilisateurs sont situés. Par exemple : « ou=Étudiants, o=Organisation, c=FR; ou=Enseignants, o=Organisation, c=FR ».';
@@ -46,7 +46,7 @@ $string['auth_ldap_noconnect'] = 'Le module LDAP ne peut pas se connecter au ser
 $string['auth_ldap_noextension'] = 'Attention ! Le module LDAP ne semble pas être installé. Veuillez vous assurer qu\'il est bien installé et activé.';
 $string['auth_ldap_objectclass_key'] = 'Classe objet';
 $string['auth_ldap_objectclass'] = 'Le filtre utilisé pour rechercher/renommer des utilisateurs. On y mettra d\'habitude quelque chose comme objectClass=posixAccount. La valeur par défaut est objectClass=*, ce qui retournera tous les objets du serveur LDAP.';
-$string['auth_ldap_opt_deref_key'] = 'Alias de déréférencement';
+$string['auth_ldap_opt_deref_key'] = 'Déréférencement des alias';
 $string['auth_ldap_opt_deref'] = 'Détermine le traitement des alias durant la recherche. Veuillez sélectionner une des valeurs suivantes : « Non » (LDAP_DEREF_NEVER) ou « Oui » (LDAP_DEREF_ALWAYS)';
 $string['auth_ldap_passtype'] = 'Indiquer le format des mots de passe (nouveaux ou modifiés) dans le serveur LDAP.';
 $string['auth_ldap_passtype_key'] = 'Format de mot de passe';
