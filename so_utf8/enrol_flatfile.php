@@ -1,10 +1,8 @@
 <?PHP // $Id$ 
-      // enrol_flatfile.php - created with Moodle 1.5 (2005060201)
+      // enrol_flatfile.php - created with Moodle 1.9.8 (Build: 20100325) (2007101580)
+      // local modifications from http://www.laaca.com/Moodle
 
 
-$string['enrolname'] = 'Fayl siman';
-$string['filelockedmailsubject'] = 'Khalad muhiim ah: Faylka is-qoritaanka';
-$string['location'] = 'Faylku goobta u ku jiro';
-$string['mailusers'] = 'Ugu oggeysiiisticmaalayaasha email';
+$string['mailusers'] = 'Ugu oggeysii isticmaalayaasha email';
 
 ?>
