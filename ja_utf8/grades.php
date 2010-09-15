@@ -1,5 +1,5 @@
-<?PHP // $Id$
-      // grades.php - created with Moodle 2.0 dev (Build: 20100214) (2010020701)
+<?PHP // $Id$ 
+      // grades.php - created with Moodle 1.9.9+ (Build: 20100915) (2007101590)
 
 
 $string['activities'] = '活動';
@@ -71,6 +71,7 @@ $string['categoryedit'] = 'カテゴリの編集';
 $string['categoryname'] = 'カテゴリ名';
 $string['categorytotal'] = 'カテゴリ合計';
 $string['categorytotalfull'] = '$a->category 合計';
+$string['categorytotalname'] = 'カテゴリ合計名';
 $string['changedefaults'] = 'デフォルトを変更する';
 $string['changereportdefaults'] = 'レポートデフォルトを変更する';
 $string['chooseaction'] = '処理の選択 ...';
@@ -488,14 +489,14 @@ $string['settings'] = '設定';
 $string['setweights'] = '加重の設定';
 $string['showactivityicons'] = '活動アイコンを表示する';
 $string['showallhidden'] = 'すべての隠し評定項目';
-$string['showallstudents'] = 'すべての学生を表示';
+$string['showallstudents'] = 'すべての学生を表示する';
 $string['showaverages'] = '平均を表示する';
 $string['showcalculations'] = '計算を表示する';
 $string['showeyecons'] = '表示/非表示アイコンを表示する';
 $string['showfeedback'] = 'フィードバックを表示する';
 $string['showgroups'] = 'グループを表示する';
 $string['showhiddenitems'] = '隠し評定項目を表示する';
-$string['showhiddenuntilonly'] = '期限のある隠し評定項目のみ';
+$string['showhiddenuntilonly'] = '設定された日時まで評定項目を隠す';
 $string['showlocks'] = 'ロックを表示する';
 $string['shownohidden'] = '隠し評定項目なし';
 $string['shownooutcomes'] = 'アウトカムを隠す';
