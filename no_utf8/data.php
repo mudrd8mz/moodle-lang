@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9.7+ (Build: 20091216) (2007101570)
+      // data.php - created with Moodle 1.9.9+ (Build: 20100915) (2007101590)
 
 
 $string['action'] = 'Handling';
@@ -89,6 +89,7 @@ $string['entrysaved'] = 'Din oppføring er lagret';
 $string['errormustbeteacher'] = 'Du må være Lærer for å bruke denne siden!';
 $string['example'] = 'Eksempel på databasemodul';
 $string['excel'] = 'Excel';
+$string['expired'] = 'Beklager, denne aktiviteten ble stengt {$a} og er ikke lenger tilgjengelig';
 $string['export'] = 'Eksport';
 $string['exportaszip'] = 'Eksporter som zip';
 $string['exportdatabaserecords'] = 'Eksporter databaseposter';
@@ -182,6 +183,7 @@ $string['norecords'] = 'Ingen oppføringer i databasen';
 $string['nosingletemplate'] = 'Mal for enkeltvisning er ikke definert ennå';
 $string['notapproved'] = 'Oppføringen er ikke godkjent ennå.';
 $string['notinjectivemap'] = 'Ingen oppføringsoversikt';
+$string['notopenyet'] = 'Beklager, men dette aktiviteten er ikke tilgjengelig før {$a}';
 $string['number'] = 'Antall';
 $string['numberrssarticles'] = 'RSS-artikler';
 $string['numnotapproved'] = 'Venter';

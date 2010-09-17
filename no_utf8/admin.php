@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.9+ (Build: 20100818) (2007101590)
+      // admin.php - created with Moodle 1.9.9+ (Build: 20100915) (2007101590)
 
 
 $string['accessdenied'] = 'Ingen tilgang';
@@ -454,6 +454,7 @@ $string['incompatibleblocks'] = 'Inkompatible blokker';
 $string['install'] = 'Installer den valgte språkpakken';
 $string['installedlangs'] = 'Installer de valgte språkpakkene';
 $string['intcachemax'] = 'Max intern cache';
+$string['intlrecommended'] = 'Intl unntak benyttes til å forbedre den internasjonale støtten - som f.eks. sortering basert på landets regler.';
 $string['invalidsection'] = 'Ugyldig seksjon';
 $string['invaliduserchangeme'] = 'Brukernavn \"changeme\" er reservert -- du kan ikke opprette en konto med det.';
 $string['iplookup'] = 'IP-adresseoppslag';
