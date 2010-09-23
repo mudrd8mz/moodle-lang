@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.9+ (Build: 20100818) (2007101590)
+      // moodle.php - created with Moodle 1.9.9+ (Build: 20100915) (2007101590)
 
 
 $string['abouttobeinstalled'] = 'vil bli installert';
@@ -1117,7 +1117,7 @@ Prøv å gå videre til kurset om noen sekunder. Hvis problemene fortsetter kan 
 $string['paymentthanks'] = 'Takk for betalingen! Du er nå påmeldt kurset: >br/> \"$a\"';
 $string['pendingrequests'] = 'Forespørselen er under vurdering';
 $string['people'] = 'Deltakere';
-$string['periodending'] = 'Peridoen slutter ($a)';
+$string['periodending'] = 'Perioden slutter ($a)';
 $string['personal'] = 'Personlig';
 $string['personalprofile'] = 'Personlig profil';
 $string['phone'] = 'Telefon';
