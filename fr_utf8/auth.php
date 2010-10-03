@@ -22,13 +22,13 @@ $string['auth_cas_language_key'] = 'Langue'; // Obsolete from 2.0dev onwards, se
 $string['auth_cas_language'] = 'Langue choisie'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_cas_logincas'] = 'Accès par connexion sécurisée'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_cas_logoutcas_key'] = 'Déconnexion'; // Obsolete from 2.0dev onwards, see MDL-19182
-$string['auth_cas_logoutcas'] = 'Activez cette option si vous voulez vous déconnecter de CAS lors // Obsolete from 2.0dev onwards, see MDL-19182 de la déconnexion de Moodle';
+$string['auth_cas_logoutcas'] = 'Activez cette option si vous voulez vous déconnecter de CAS lors de la déconnexion de Moodle'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_cas_multiauth_key'] = 'Authentification multiple'; // Obsolete from 2.0dev onwards, see MDL-19182
-$string['auth_cas_multiauth'] = 'Activez cette option si vous voulez utilisez l\'authentification multiple (CAS // Obsolete from 2.0dev onwards, see MDL-19182 + d\'autres méthodes d\'authentification)';
+$string['auth_cas_multiauth'] = 'Activez cette option si vous voulez utilisez l\'authentification multiple (CAS + d\'autres méthodes d\'authentification)'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_cas_port_key'] = 'Port'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_cas_port'] = 'Port utilisé par le serveur CAS'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_cas_proxycas_key'] = 'Mode proxy'; // Obsolete from 2.0dev onwards, see MDL-19182
-$string['auth_cas_proxycas'] = 'Activez cette option si vous souhaitez vous connecter en mode p // Obsolete from 2.0dev onwards, see MDL-19182roxy CAS';
+$string['auth_cas_proxycas'] = 'Activez cette option si vous souhaitez vous connecter en mode proxy CAS'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_cas_server_settings'] = 'Configuration du serveur CAS'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_cas_text'] = 'Connexion sécurisée'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_cas_use_cas'] = 'Utiliser CAS'; // Obsolete from 2.0dev onwards, see MDL-19182
@@ -98,7 +98,7 @@ $string['auth_emailsettings'] = 'Réglages'; // Obsolete from 2.0dev onwards, se
 $string['auth_emailtitle'] = 'Auto-enregistrement par courriel'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_emailupdatemessage'] = 'Bonjour,
 
-Vous avez demandé la modification de votre adresse de courriel pour votre compte utilisateur sur $a->site. Veuillez cliquer sur l\'URL ci-dessous afin de confirmer la modification. // Obsolete from 2.0dev onwards, see MDL-19182
+Vous avez demandé la modification de votre adresse de courriel pour votre compte utilisateur sur $a->site. Veuillez cliquer sur l\'URL ci-dessous afin de confirmer la modification.
 
 $a->url'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_emailupdatetitle'] = 'Confirmation de modification de courriel sur $a->site'; // Obsolete from 2.0dev onwards, see MDL-19182
