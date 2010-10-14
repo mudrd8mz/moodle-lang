@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9.9+ (Build: 20100915) (2007101590)
+      // data.php - created with Moodle 1.9.9+ (Build: 20101013) (2007101590)
 
 
 $string['action'] = 'Handling';
@@ -77,8 +77,8 @@ $string['download'] = 'Last ned';
 $string['edit'] = 'Endre';
 $string['editcomment'] = 'Endre kommentar';
 $string['editentry'] = 'Endre oppføring';
-$string['editordisable'] = 'Slå av  editor';
-$string['editorenable'] = 'Aktivere editor';
+$string['editordisable'] = 'Slå av  tekstredigeringsverktøyet';
+$string['editorenable'] = 'Aktivere tekstredigeringsverktøyet';
 $string['emptyadd'] = 'Malen for \"Legg til post\" er tom, genererer et standard skjema...';
 $string['emptyaddform'] = 'Du har ikke fylt ut noen felter!';
 $string['entries'] = 'Oppføringer';

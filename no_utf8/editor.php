@@ -1,6 +1,8 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.9.1 (Build: 20080515) (2007101512)
-$string['about'] = 'Om denne HTML-editoren';
+      // editor.php - created with Moodle 1.9.9+ (Build: 20101013) (2007101590)
+
+
+$string['about'] = 'Om dette tekstredigeringsverktøyet';
 $string['absbottom'] = 'Absolutt nederst';
 $string['address'] = 'Adresse';
 $string['alertnoselectedtext'] = 'Du må velge tekst først!';
@@ -27,7 +29,7 @@ $string['createanchor'] = 'Opprett anker';
 $string['createfolder'] = 'Lag mappe';
 $string['createlink'] = 'Sett inn lenke';
 $string['cut'] = 'Klipp ut';
-$string['cutpastemozilla'] = 'Du kan desverre ikke bruke normale tastesnarveier (ikke en gang <i>Lim inn</i>-knappen) til å lime inn tekst i editoren på dette nettstedet nå. Dette skyldes en sikkerhetsegenskap som er bygget inn i noen versjoner av Mozilla og Firefox nettlesere. <br /><br />Det er tre kjente måter å komme rundt dette på som du kan forsøke:<br /> (1) Istedenfor å bruke CTRL-v, bruk SHIFT-Insert <br />(2) bruk menyen <i>Rediger->Lim inn</i> i nettleseren<br />(3)Endre preferansene i nettleseren din ved å editer filen user.js.<br /><br />Klikk OK-knappen nedenfor for mer hjelp, eller Avbryt for å vende tilbake til editoren.';
+$string['cutpastemozilla'] = 'Du kan dessverre ikke bruke normale tastesnarveier (ikke en gang <i>Lim inn</i>-knappen) til å lime inn tekst i tekstredigeringsverktøyet på dette nettstedet nå. Dette skyldes en sikkerhetsegenskap som er bygget inn i noen versjoner av Mozilla og Firefox nettlesere. <br /><br />Det er tre kjente måter å komme rundt dette på som du kan forsøke:<br /> (1) Istedenfor å bruke CTRL-v, bruk SHIFT-Insert <br />(2) bruk menyen <i>Rediger->Lim inn</i> i nettleseren<br />(3)Endre preferansene i nettleseren din ved å endre filen user.js.<br /><br />Klikk OK-knappen nedenfor for mer hjelp, eller Avbryt for å vende tilbake til tekstredigeringsverktøyet.';
 $string['delete'] = 'Slett';
 $string['enterurlfirst'] = 'Du må skrive inn en URL først';
 $string['filebrowser'] = 'Filbehandler';
@@ -36,7 +38,7 @@ $string['fontname'] = 'Fontnavn';
 $string['fontsize'] = 'Skriftstørrelse';
 $string['forecolor'] = 'Skriftfarge';
 $string['formatblock'] = 'Format';
-$string['fullscreen'] = 'Fullskjermseditor';
+$string['fullscreen'] = 'Fullskjerms tekstredigeringsverktøy';
 $string['heading'] = 'Overskrift';
 $string['height'] = 'Høyde';
 $string['hilitecolor'] = 'Bakgrunnsfarge';
@@ -71,7 +73,7 @@ $string['linktitle'] = 'Tittel';
 $string['linkurl'] = 'URL';
 $string['matchcase'] = 'Skill store og små bokstaver';
 $string['middle'] = 'Midten';
-$string['minimize'] = 'Minimer editor';
+$string['minimize'] = 'Minimer tekstredigeringsverktøyet';
 $string['move'] = 'Flytt';
 $string['multi'] = 'Multi';
 $string['mustenterurl'] = 'Du må skrive inn en URL';
@@ -88,7 +90,7 @@ $string['path'] = 'Søkesti';
 $string['percent'] = 'Prosent';
 $string['pixels'] = 'Piksler';
 $string['pleaseenteralt'] = 'Vennligst skriv inn en alternativ tekst';
-$string['popupeditor'] = 'Forstørr editoren';
+$string['popupeditor'] = 'Forstørr tekstredigeringsverktøyet';
 $string['preformatted'] = 'Preformatert';
 $string['preview'] = 'Forhåndsvis';
 $string['properties'] = 'Egenskaper';
@@ -105,7 +107,7 @@ $string['searchandreplace'] = 'Søk og erstatt';
 $string['searchnotfound'] = 'Søkestreng ikke funnet!';
 $string['selectcolor'] = 'Velg farge';
 $string['selection'] = 'Valg';
-$string['showhelp'] = 'Hjelp til å bruke HTML-editoren';
+$string['showhelp'] = 'Hjelp til å bruke tekstredigeringsverktøyet';
 $string['size'] = 'Størrelse';
 $string['spacing'] = 'Mellomrom';
 $string['strikethrough'] = 'Gjennomstreket';
@@ -124,4 +126,5 @@ $string['vertical'] = 'Vertikal';
 $string['width'] = 'Bredde';
 $string['wordclean'] = 'Rensk HTML fra Word';
 $string['zip'] = 'Zip';
+
 ?>
