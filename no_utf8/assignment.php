@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.9.6+ (Build: 20091104) (2007101560)
+      // assignment.php - created with Moodle 1.9.9+ (Build: 20101013) (2007101590)
 
 
 $string['allowdeleting'] = 'Tillat sletting';
@@ -121,6 +121,7 @@ $string['uploadfiletoobig'] = 'Beklager, filen er for stor (grensen er $a byte)'
 $string['uploadnofilefound'] = 'Ingen fil ble levert - er du sikker på at du valgte en å laste opp, eller er filen for stor?';
 $string['uploadnotregistered'] = '\'$a\' ble lastet opp riktig men leveringen kunne ikke registreres!';
 $string['uploadsuccess'] = 'Lastet opp \'$a\' uten problemer';
+$string['usernosubmit'] = 'Beklager, men du har ikke tillatelse til å foreta en innlevering.';
 $string['viewfeedback'] = 'Vis karakterer og tilbakemeldinger';
 $string['viewsubmissions'] = 'Vis $a leverte oppgaver';
 $string['yoursubmission'] = 'Din levering';

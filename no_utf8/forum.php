@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9.8+ (Build: 20100428) (2007101580)
+      // forum.php - created with Moodle 1.9.9+ (Build: 20101013) (2007101590)
 
 
 $string['addanewdiscussion'] = 'Skriv i dette forumet';
@@ -31,6 +31,7 @@ $string['blockperioddisabled'] = 'Ikke blokker';
 $string['bynameondate'] = 'av $a->name - $a->date';
 $string['cannotadddiscussion'] = 'Du må være medlem av en gruppe for å legge til ny diskusjon i dette forumet.';
 $string['cannotadddiscussionall'] = 'Du har ikke tillatelse til å legge til et nytt diskusjonsemne for alle deltakerne.';
+$string['cannotdeletepost'] = 'Du kan ikke slette dette innlegget!';
 $string['cannotviewpostyet'] = 'Du kan ikke lese andre studenters spørsmål i denne diskusjonen ennå fordi du ikke har lagt inn noe selv';
 $string['cleanreadtime'] = 'Tidspunkt for merking av gamle innlegg som lest';
 $string['configajaxrating'] = 'AJAX bedømming er en forbedring av brukergrensesnittet i forum. Dersom aktivert kan brukere bedømme foruminnlegg fortløpende uten å måtte rulle ned til bunnen av siden og klikke på \"Send inn mine siste bedømminger\"-knappen. Denne innstillingen krever at AJAX er aktivert på portalen og i brukerens profil.';

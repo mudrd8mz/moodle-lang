@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.9+ (Build: 20100915) (2007101590)
+      // admin.php - created with Moodle 1.9.9+ (Build: 20101013) (2007101590)
 
 
 $string['accessdenied'] = 'Ingen tilgang';
@@ -512,13 +512,15 @@ $string['mediapluginflv'] = 'Skru på filter for .flv-filer';
 $string['mediapluginmov'] = 'Skru på filter for .mov-filer';
 $string['mediapluginmp3'] = 'Skru på filter for .mp3-filer';
 $string['mediapluginmpg'] = 'Skru på filter for .mpg-filer';
+$string['mediapluginogg'] = 'Skru på filter for .ogg-filer';
+$string['mediapluginogv'] = 'Skru på filter for .ogv-filer';
 $string['mediapluginram'] = 'Skru på filter for .ram-filer';
 $string['mediapluginrm'] = 'Skru på filter for .rm-filer';
 $string['mediapluginrpm'] = 'Skru på filter for .rpm-filer';
 $string['mediapluginswf'] = 'Skru på filter for .swf-filer';
 $string['mediapluginswfnote'] = 'Som en standard sikkerhetsinnstilling, bør ikke vanlige brukere tillates å legge inn swf-filer embedded i en tekst.';
 $string['mediapluginwmv'] = 'Skru på filter for . wmv-filer';
-$string['mediapluginyoutube'] = 'Aktivér YouTube-filter';
+$string['mediapluginyoutube'] = 'Skru på filter for YouTube';
 $string['memcachedhosts'] = 'memcached hosts';
 $string['memcachedpconn'] = 'memcached use persistent connections';
 $string['messaging'] = 'Aktiviser meldingssystemet';
