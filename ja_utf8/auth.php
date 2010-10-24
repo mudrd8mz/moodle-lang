@@ -165,7 +165,7 @@ $string['auth_ldap_gracelogins_desc'] = 'LDAPの猶予ログインサポート�
 $string['auth_ldap_gracelogins_key'] = '猶予ログイン';
 $string['auth_ldap_groupecreators'] = 'メンバーがグループの作成を許可されているグループまたはコンテクストの一覧です。複数のグループは「;」で区切ってください。通常、「cn=teachers,ou=staff,o=myorg」のように指定します。';
 $string['auth_ldap_groupecreators_key'] = 'グループ作成者';
-$string['auth_ldap_host_url'] = 'LDAPホストのURIを「ldap://ldap.myorg.com/」または「ldaps://ldap.myorg.com/」のように明示してください。複数サーバのフェイルオーバーをサポートするには、「;」で区切ってください。';
+$string['auth_ldap_host_url'] = 'LDAPホストのURIを「ldap://ldap.myorg.com/」または「ldaps://ldap.myorg.com/」のように明示してください。複数サーバのフェイルオーバーをサポートするには、「;」で区切ってください。<br/><br/>注意: あなたがこの値を設定しない場合、MoodleはLDAPからユーザ情報を取得/更新することができません。しかし、あなたが下記で指定したフィールドのロックは配慮されます。';
 $string['auth_ldap_host_url_key'] = 'ホストURI';
 $string['auth_ldap_ldap_encoding'] = 'LDAPサーバで使用するエンコーディングを指定してください。ほとんどの場合はUTF-8ですが、MS AD v2ユーザデフォルトプラットフォームのエンコーディングはcp1252、cp1250等のようになります。';
 $string['auth_ldap_ldap_encoding_key'] = 'LDAPエンコーディング';
