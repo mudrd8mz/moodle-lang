@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9.9+ (Build: 20100728) (2007101590)
+      // scorm.php - created with Moodle 1.9.9+ (Build: 20101020) (2007101590)
 
 
 $string['activation'] = 'Aktivisering';
@@ -144,7 +144,7 @@ $string['scormloggingon'] = 'API logging er PÅ';
 $string['scormresponsedeleted'] = 'Slettede brukerforsøk';
 $string['scrollbars'] = 'Tillat å bla i vinduet (scrolling)';
 $string['sided'] = 'På venstre side';
-$string['skipview'] = 'Ikke vis innholdsoversikten';
+$string['skipview'] = 'Skjul innholdsoversikten';
 $string['skipviewdesc'] = 'Denne innstillingen bestemmer om en ikke skal bruke pakkens innholdsstruktur';
 $string['slashargs'] = 'ADVARSEL: Brytere (eks. /A) er slått av på dette nettstedet og det kan hende at enkelte ting ikke virker som det var tenkt!';
 $string['stagesize'] = 'Vindusstørrelse';
