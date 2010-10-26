@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.9 + (Build: 20080507) (2007101509)
+      // assignment.php - created with Moodle 1.9.10 (Build: 20101026) (2007101591)
 
 
 $string['allowdeleting'] = 'Povolit odstraňování';
@@ -119,6 +119,7 @@ $string['uploadfiletoobig'] = 'Je mi líto, ale tento soubor je příliš velký
 $string['uploadnofilefound'] = 'Soubor nenalezen! Určitě jste vybrali soubor k odevzdání?';
 $string['uploadnotregistered'] = '\'$a\' jsem načetl, ale odevzdání nebylo registrováno!';
 $string['uploadsuccess'] = '\'$a\' úspěšně odevzdán';
+$string['usernosubmit'] = 'Nemáte oprávnění odevzdávat vypracovaný úkol.';
 $string['viewfeedback'] = 'Zobrazit hodnocení vypracovaného úkolu';
 $string['viewsubmissions'] = 'Zobrazit $a odevzdaných úkolů';
 $string['yoursubmission'] = 'Váš odevzdaný úkol';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9.3+ (Build: 20090126) (2007101533.03)
+      // scorm.php - created with Moodle 1.9.10 (Build: 20101026) (2007101591)
 
 
 $string['activation'] = 'Aktivace';
@@ -46,6 +46,8 @@ $string['exitactivity'] = 'Opustit činnost';
 $string['expcoll'] = 'Rozvinout/Svinout';
 $string['external'] = 'Aktualizovat časování externích balíčků';
 $string['failed'] = 'Nedokončeno úspěšně';
+$string['finishscorm'] = 'Pokud jste skončili s prací s tímto materiálem, $a';
+$string['finishscormlinkname'] = 'klikněte sem pro návrat na stránku kurzu';
 $string['firstaccess'] = 'První přístup';
 $string['firstattempt'] = 'První pokus';
 $string['found'] = 'Manifest nalezen';
@@ -117,8 +119,7 @@ $string['packagefile'] = 'Nebyl určen soubor s balíčkem SCORM/AICC.';
 $string['passed'] = 'Splněno';
 $string['php5'] = 'PHP 5 (DOMXML nativní knihovna)';
 $string['popup'] = 'Nové okno';
-$string['popupblocked'] = 'Pokud se neobjeví nové okno, $a';
-$string['popupblockedlinkname'] = 'klikněte sem pro spuštění této činnosti';
+$string['popupblockmessage'] = 'Pokud se nové okno neobjeví, povolte otevírání nových oken ve vašem prohlížeči.';
 $string['popupmenu'] = 'Rozbalovací nabídka';
 $string['popupopen'] = 'Otevřít balíček v novém okně';
 $string['position_error'] = 'Značka $a->tag nemůže být potomkem značky $a->parent.';
@@ -176,5 +177,7 @@ $string['whatgrade'] = 'Známkování pokusů';
 $string['whatgradedesc'] = 'Jaká má být výchozí hodnota nastavení \"Známkování pokusů\"';
 $string['width'] = 'Šířka';
 $string['window'] = 'Okno';
+$string['popupblocked'] = 'Pokud se neobjeví nové okno, $a'; // ORPHANED
+$string['popupblockedlinkname'] = 'klikněte sem pro spuštění této činnosti'; // ORPHANED
 
 ?>

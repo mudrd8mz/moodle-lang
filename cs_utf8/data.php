@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9.6+ (Build: 20091027) (2007101560)
+      // data.php - created with Moodle 1.9.10 (Build: 20101026) (2007101591)
 
 
 $string['action'] = 'Akce';
@@ -89,6 +89,7 @@ $string['entrysaved'] = 'Záznam byl uložen';
 $string['errormustbeteacher'] = 'K této stránce mají přístup pouze učitelé!';
 $string['example'] = 'Příklad modulu Databáze';
 $string['excel'] = 'Excel';
+$string['expired'] = 'Tato činnost byla ukončena {$a} a není již nadále dostupná.';
 $string['export'] = 'Exportovat';
 $string['exportaszip'] = 'Exportovat jako ZIP';
 $string['exportdatabaserecords'] = 'Exportovat záznamy databáze';
@@ -182,6 +183,7 @@ $string['norecords'] = 'Nejsou k dispozici žádné záznamy';
 $string['nosingletemplate'] = 'Šablona pro jednotlivý záznam ještě není definována';
 $string['notapproved'] = 'Záznam není zatím schválen';
 $string['notinjectivemap'] = 'Není mapa vkládání';
+$string['notopenyet'] = 'Tato činnost nebude dostupná až do {$a}';
 $string['number'] = 'Číslo';
 $string['numberrssarticles'] = 'RSS zprávy';
 $string['numnotapproved'] = 'Ke schválení';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9.4+ (Build: 20090302) (2007101541)
+      // forum.php - created with Moodle 1.9.10 (Build: 20101026) (2007101591)
 
 
 $string['addanewdiscussion'] = 'Přidat nové téma diskuse';
@@ -31,6 +31,7 @@ $string['blockperioddisabled'] = 'Neblokovat';
 $string['bynameondate'] = 'autor $a->name - $a->date';
 $string['cannotadddiscussion'] = 'Abyste mohli přidávat diskuse do tohoto fóra, musíte být členy skupiny.';
 $string['cannotadddiscussionall'] = 'Nemáte oprávnění vkládat téma diskuse pro všechny účastníky.';
+$string['cannotdeletepost'] = 'Nemáte oprávnění odstranit tento příspěvek';
 $string['cannotviewpostyet'] = 'Nemůžete si prohlédnout otázky jiných studentů, protože jste ještě nevložili svůj příspěvek.';
 $string['cleanreadtime'] = 'Hodina označování přečtených příspěvků';
 $string['configajaxrating'] = 'Pokud povolíte hodnocení příspěvků pomocí AJAX, mohou uživatelé hodnotit příspěvky okamžitě bez nutnosti rolovat oknem, odesílat hodnocení pomocí tlačítka \"Uložit má poslední hodnocení\" a znovu načítat celou stránku. Tato funkce vyžaduje, aby byl na serveru povolen AJAX a aby jej měli ve svých profilech povolen i uživatelé, kteří chtějí tento způsob využít.';

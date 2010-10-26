@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.9+ (Build: 20100614) (2007101590)
+      // admin.php - created with Moodle 1.9.10 (Build: 20101026) (2007101591)
 
 
 $string['accessdenied'] = 'Přístup zamítnut';
@@ -450,6 +450,7 @@ $string['incompatibleblocks'] = 'Nekompatibilní bloky';
 $string['install'] = 'Instalovat vybrané jazykové balíčky';
 $string['installedlangs'] = 'Instalované jazykové balíčky';
 $string['intcachemax'] = 'Maximum interních záznamů';
+$string['intlrecommended'] = 'Rozšíření intl umožňuje lepší podporu lokalizace Moodle, např. při abecedním řazení dle jazykových pravidel';
 $string['invalidsection'] = 'Neplatná sekce';
 $string['invaliduserchangeme'] = 'Uživatelské jméno \'changeme\' je rezervováno -- nelze je použít pro vytvoření účtu.';
 $string['iplookup'] = 'Hledat IP adresu pomocí';
@@ -506,6 +507,8 @@ $string['mediapluginflv'] = 'Aktivovat filtr .flv';
 $string['mediapluginmov'] = 'Aktivovat filtr .mov';
 $string['mediapluginmp3'] = 'Aktivovat filtr .mp3';
 $string['mediapluginmpg'] = 'Aktivovat filtr .mpg';
+$string['mediapluginogg'] = 'Aktivovat filtr .ogg';
+$string['mediapluginogv'] = 'Aktivovat filtr .ogv';
 $string['mediapluginram'] = 'Aktivovat filtr .ram';
 $string['mediapluginrm'] = 'Aktivovat filtr .rm';
 $string['mediapluginrpm'] = 'Aktivovat filtr .rpm';
@@ -710,6 +713,7 @@ $string['smtppass'] = 'SMTP heslo';
 $string['smtpuser'] = 'SMTP uživatelské jméno';
 $string['soaprecommended'] = 'Instalace rozšíření SOAP je užitečné pro podporu webových služeb (web services) a pro některé přídavné moduly.';
 $string['spamcleaner'] = 'Nežádoucí obsah';
+$string['splrequired'] = 'Rozšíření PHP SPL je povinné.';
 $string['stats'] = 'Statistiky';
 $string['statscatdepth'] = 'Maximum rodičovských kategorií';
 $string['statsfirstrun'] = 'Maximální interval zpracování';

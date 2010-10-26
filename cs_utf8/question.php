@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9.6+ (Build: 20091124) (2007101563.03)
+      // question.php - created with Moodle 1.9.10 (Build: 20101026) (2007101591)
 
 
 $string['adminreport'] = 'Přehled možných problémů s vaší databází úloh.';
@@ -35,6 +35,8 @@ $string['errorprocessingresponses'] = 'Vyskytla se chyba při zpracování vaši
 $string['errorsavingcomment'] = 'Chyba při ukládání komentáře u otázky $a->name do databázi.';
 $string['errorupdatingattempt'] = 'Chyba při aktualizaci pokusu id $a->id v databázi.';
 $string['exportcategory'] = 'Exportovat kategorii';
+$string['filecantmovefrom'] = 'Soubory pro tyto testové úlohy nemohou být přesunuty, protože nemáte oprávnění odstraňovat soubory v místě, odkud úlohy přesouváte.';
+$string['filecantmoveto'] = 'Soubory pro tyto testové úlohy nemohou být přesunuty ani zkopírovány, protože nemáte oprávnění přidávat soubory do místa, kam úlohy přesouváte.';
 $string['filesareacourse'] = 'prostoru pro soubory v tomto kurzu';
 $string['filesareasite'] = 'prostoru pro soubory na titulní stránce';
 $string['filestomove'] = 'Přesunout / zkopírovat do $a?';

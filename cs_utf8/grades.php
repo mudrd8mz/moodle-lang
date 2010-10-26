@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9.8+ (Build: 20100402) (2007101580)
+      // grades.php - created with Moodle 1.9.10 (Build: 20101026) (2007101591)
 
 
 $string['activities'] = 'Činnosti';
@@ -71,6 +71,7 @@ $string['categoryedit'] = 'Upravit kategorii';
 $string['categoryname'] = 'Název kategorie';
 $string['categorytotal'] = 'Celkem v kategorii';
 $string['categorytotalfull'] = '$a->category - celkem';
+$string['categorytotalname'] = 'Název pro celkovou známku v kategorii';
 $string['changedefaults'] = 'Změnit výchozí hodnoty';
 $string['changereportdefaults'] = 'Změnit výchozí nastavení přehledu';
 $string['chooseaction'] = 'Vyberte akci ...';
