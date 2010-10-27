@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.9+ (Build: 20100915) (2007101590)
+      // moodle.php - created with Moodle 1.9.10 (Build: 20101025) (2007101591)
 
 
 $string['abouttobeinstalled'] = 'vil bli installert';
@@ -992,7 +992,7 @@ I de fleste e-postprogrammer vil det være en blå lenke som du kan klikke på. 
 Vennlig hilsen fra administrator på \'$a->sitename\',
 $a->signoff';
 $string['newusers'] = 'Nye brukere';
-$string['newwindow'] = 'Nytt vindu';
+$string['newwindow'] = 'nytt vindu';
 $string['next'] = 'Neste';
 $string['nextsection'] = 'Neste seksjon';
 $string['no'] = 'Nei';
