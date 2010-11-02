@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9.9+ (Build: 20101013) (2007101590)
+      // forum.php - created with Moodle 1.9.10 (Build: 20101027) (2007101591)
 
 
 $string['addanewdiscussion'] = 'Skriv i dette forumet';
@@ -124,7 +124,8 @@ $string['forumtype'] = 'Forumtype';
 $string['generalforum'] = 'Vanlig forum (Passer i de fleste sammenhenger)';
 $string['generalforums'] = 'Generelle forum';
 $string['inforum'] = 'i $a';
-$string['intronews'] = 'Her vil det komme nyheter og kunngjøringer.';
+$string['intronews'] = '<h1>Oppslagstavle</h1>
+Her finner du nyheter og meldinger fra kursansvarlige i dette kurset. Du får automatisk en e-post med alle meldinger herfra og du kan ikke reservere deg mot å få slike meldinger siden dette er eneste måte kursansvarlig kan nå deg på med viktige beskjeder selv om du ikke er logget inn hver dag.<p>Vær oppmerksom på at det eventuelt er andre forum i dette kurset som skal brukes for forespørsler fra deg til lærer eller medstudenter.</p>Det er uansett en god ide å kikke innom her hver gang du går inn i kurset - i tilfelle du ikke har fått lest meldingene som ble tilsendt på e-post.';
 $string['introsocial'] = 'Et åpent forum der du kan skrive om hva du vil';
 $string['introteacher'] = 'Et forum kun for lærere';
 $string['invalidrate'] = 'Ugyldig bedømming ($a)';
