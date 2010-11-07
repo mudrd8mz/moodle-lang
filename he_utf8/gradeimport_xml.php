@@ -10,8 +10,8 @@ $string['errincorrectgradeidnumber'] = 'שגיאה - מספר id \'$a\' מקוב
 $string['errincorrectidnumber'] = 'שגיאה - מספר id שגוי.';
 $string['errincorrectuseridnumber'] = 'שגיאה - מספר id \'$a\' מקובץ היבוא לא מותאם לאף משתמש.';
 $string['fileurl'] = 'קובץ URL מרוחק';
-$string['modulename'] = 'ייבא קובץ XML';
+$string['modulename'] = 'יבוא קובץ XML';
 $string['xml:publish'] = 'פרסם יבוא ציונים מ-XML';
-$string['xml:view'] = 'ייבא ציונים מ-XML';
+$string['xml:view'] = 'יבוא ציונים מ-XML';
 
 ?>

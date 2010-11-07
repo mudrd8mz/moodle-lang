@@ -92,6 +92,6 @@ $string['unpublished'] = 'לא פורסם';
 $string['upgradeproblemcategoryloop'] = 'בעיה הובחנה כאשר עודכנה קטגוריית שאלות. קיימת לולאה בעץ הקטגוריה. מספרי זיהוי הקטגוריה המושפעים הם $a.';
 $string['upgradeproblemcouldnotupdatecategory'] = 'לא ניתן היה לעדכן את קטגוריית השאלה $a->name ($a->id).';
 $string['upgradeproblemunknowncategory'] = 'בעיה הובחנה כאשר עודכנה קטגוריית שאלות. קטגוריית  $a->id מתייחסת לאב $a->parent אשר איננו קיים. האב שונה לתקן את המצב הנ\"ל.';
-$string['yourfileshoulddownload'] = 'קובץ הייצוא אמור להתחיל לרדת מייד. אם איננו יורד , אנא לחצו <a href=\"$a\">כאן </a>.';
+$string['yourfileshoulddownload'] = 'קובץ היצוא אמור להתחיל לרדת מייד. אם איננו יורד , אנא לחצו <a href=\"$a\">כאן </a>.';
 
 ?>

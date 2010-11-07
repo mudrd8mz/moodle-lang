@@ -159,7 +159,7 @@ $string['site:backup'] = 'גבה את הקורס';
 $string['site:config'] = 'שנה את הגדרות התצורה של האתר';
 $string['site:doanything'] = 'מורשה לעשות הכל';
 $string['site:doclinks'] = 'הראה קישורים למסמכים הנמצאים מחוץ לאתר';
-$string['site:import'] = 'ייבא לתוך קורס קורסים אחרים';
+$string['site:import'] = 'יבוא לתוך קורס קורסים אחרים';
 $string['site:langeditlocal'] = 'התאם את התרגום המקומי';
 $string['site:langeditmaster'] = 'ערוך את ערכות השפה הראשיות';
 $string['site:manageblocks'] = 'נהל את המשבצות ברמת האתר';
@@ -195,7 +195,7 @@ $string['userswithrole'] = 'כל המשתמשים עם תפקיד';
 $string['viewrole'] = 'ראה את פרטי התפקיד';
 $string['xuserswiththerole'] = 'משתמשים שממונים לתפקיד \"$a->role\": $a->number';
 $string['question:export'] = 'ייצא שאלות'; // ORPHANED
-$string['question:import'] = 'ייבא שאלות'; // ORPHANED
+$string['question:import'] = 'יבוא שאלות'; // ORPHANED
 $string['question:manage'] = 'נהל שאלות'; // ORPHANED
 
 ?>

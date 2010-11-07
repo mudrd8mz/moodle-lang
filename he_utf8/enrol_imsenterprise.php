@@ -12,7 +12,7 @@ $string['createnewusers'] = 'צור חשבונות משתמשים עבור מש�
 $string['cronfrequency'] = 'התדירות של העיבוד';
 $string['deleteusers'] = 'מחק חשבונות משתמשים כאשר מצוין לעשות כך בנתוני ה-IMS';
 $string['description'] = 'שיטה זו תחפש במיקום שתציין אחר מבנה קובץ טקסט מיוחד, ולאחר מכן תעבד אותו, כאשר היא תחזור על פעולות אלה שוב ושוב. הקובץ חייב לעקוב אחר <a href=\'../help.php?module=enrol/imsenterprise&file=formatoverview.html\' target=\'_blank\'>פירוט ההוראות של IMS Enterprise </a> ולהכיל אדם, קבוצה ומרכיבי חברות ב-XML.';
-$string['doitnow'] = 'בצא ייבוא IMS Enterprise ברגע זה';
+$string['doitnow'] = 'בצא יבוא IMS Enterprise ברגע זה';
 $string['enrolname'] = 'קובץ IMS Enterprise';
 $string['filelockedmail'] = 'לא ניתן היה למחוק באמצעות תהליך ה-cron את קובץ הטקסט בו אתה משתמש בשביל הרשמות המבוססות על קבצי IMS ($a). לרוב הדבר אומר שההיתרים עליו שגויים. 
  אנא תקן את ההיתרים כדי שמוודל יוכל למחוק את הקובץ הנל, אחרת, יכול להיות שהוא יעובד שוב ושוב.';
