@@ -88,7 +88,7 @@ $string['grade:unlock'] = 'הסר נעילת ציונים או פריטים';
 $string['grade:view'] = 'צפה בציונים שלך';
 $string['grade:viewall'] = 'צפה בציונים של משתמשים אחרים';
 $string['grade:viewhidden'] = 'צפה בציונים מוסתרים של';
-$string['inactiveformorethan'] = 'בטל פעילות עבור יותר מ $a->timeperiod';
+$string['inactiveformorethan'] = 'ביטול פעילות עבור יותר מ $a->timeperiod';
 $string['ingroup'] = 'בקבוצה \"$a->group\"';
 $string['inherit'] = 'לרשת';
 $string['legacy:admin'] = 'תפקיד מורש: מנהל';
@@ -194,7 +194,7 @@ $string['userhashiddenassignments'] = 'למשתמש זה תפקיד מוסתר �
 $string['userswithrole'] = 'כל המשתמשים עם תפקיד';
 $string['viewrole'] = 'ראה את פרטי התפקיד';
 $string['xuserswiththerole'] = 'משתמשים שממונים לתפקיד \"$a->role\": $a->number';
-$string['question:export'] = 'ייצא שאלות'; // ORPHANED
+$string['question:export'] = 'יצוא שאלות'; // ORPHANED
 $string['question:import'] = 'יבוא שאלות'; // ORPHANED
 $string['question:manage'] = 'נהל שאלות'; // ORPHANED
 
