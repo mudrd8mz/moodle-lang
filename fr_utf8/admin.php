@@ -809,7 +809,7 @@ $string['sitemaintenanceon'] = 'Votre site est actuellement en mode maintenance 
 $string['sitemaintenancewarning'] = 'Votre site est actuellement en mode de maintenance (seuls les administrateurs peuvent s\'y connecter). Pour revenir à un fonctionnement normal du site, veuillez <a href=\"maintenance.php\">désactiver le mode de maintenance</a>.';
 $string['sitemaintenancewarning2'] = 'Votre site est actuellement en mode de maintenance (seuls les administrateurs peuvent s\'y connecter). Pour revenir à un fonctionnement normal du site, veuillez <a href=\"$a\">désactiver le mode de maintenance</a>.';
 $string['sitepolicies'] = 'Règles site';
-$string['sitepolicy'] = 'URL du réglement de site';
+$string['sitepolicy'] = 'URL du règlement de site';
 $string['sitesectionhelp'] = 'Si cette option est activée, une section sera affichée sur la page d\'accueil du site.';
 //$string['skipuser'] = 'Sauter l\'utilisateur';
 $string['slasharguments'] = 'Utiliser les « slash arguments »';
