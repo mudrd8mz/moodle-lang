@@ -857,7 +857,7 @@ $a
 「--help」オプションを使用してください。'; // ORPHANED
 $string['cliupgradefinished'] = 'コマンドラインによるアップグレードが正常に完了しました。'; // ORPHANED
 $string['cliyesnoprompt'] = 'y (yes) または n (no) を入力してください。'; // ORPHANED
-$string['commonfiltersettings'] = '一般フィルタ設定'; // ORPHANED
+$string['commonfiltersettings'] = 'フィルタ共通設定'; // ORPHANED
 $string['condifmodeditdefaults'] = 'ここではあなたが新しい活動を作成する場合に使用される、活動設定フォームのデフォルト値を定義します。また、どの活動設定が「高度な設定」なのか設定することもできます。'; // ORPHANED
 $string['configallowswitch'] = 'ユーザが持つロールを基に、どのロールにスイッチできるか選択してください。このテーブルのエントリに加えてロールをスイッチできるようにするには、ユーザがmoodle/role:switchrolesケイパビリティを持つ必要があります。<br />moodle/course:viewケイパビリティを持ち、moodle/site:doanythingケイパビリティを持たないロールにのみスイッチすることができるため、このテーブルのいくつかのカラムは無効にされていることに留意してください。'; // ORPHANED
 $string['configallowthemechangeonurl'] = 'この設定を有効にした場合、MoodleのURIすべてに「theme={themename}&amp;sesskey={sesskey}」を追加することにより、テーマを変更することができます。'; // ORPHANED
