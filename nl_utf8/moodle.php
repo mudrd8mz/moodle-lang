@@ -1091,7 +1091,7 @@ $string['noticenewerbackup'] = 'Dit backupbestand is gemaakt met Moodle $a->back
 $string['notifications'] = 'Meldingen';
 $string['notify'] = 'Verwittigen';
 $string['notifyloginfailuresmessage'] = '$a->time, IP-adres: $a->ip, Gebruiker: $a->info';
-$string['notifyloginfailuresmessageend'] = 'Je kunt deze logs bekijken op $a/course/log.php?id=1&chooselog=1&modid=site_errors.';
+$string['notifyloginfailuresmessageend'] = 'Je kunt deze logs bekijken op $a/course/report/log/index.php?id=1&amp;chooselog=1&amp;modid=site_errors.';
 $string['notifyloginfailuresmessagestart'] = 'Hier is een lijst van mislukte aanmeldingen op $a sinds je laatste notificatie';
 $string['notifyloginfailuressubject'] = '$a::Notificatie van mislukte aanmeldingen';
 $string['notincluded'] = 'Niet ingevoegd';
