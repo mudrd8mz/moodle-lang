@@ -1,18 +1,13 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (Build: 20100108) (2010010601)
+      // chat.php - created with Moodle 1.9.10+ (Build: 20101117) (2007101591)
 
 
-$string['ajax'] = 'Ajaxバージョン';
 $string['autoscroll'] = 'オートスクロール';
 $string['beep'] = 'ビープ';
-$string['cantlogin'] = 'チャットルームに入室できませんでした!';
 $string['chat:chat'] = 'チャットルームにアクセスする';
 $string['chat:deletelog'] = 'チャットログを削除する';
-$string['chat:exportparticipatedsession'] = '参加チャットセッションをエクスポートする';
-$string['chat:exportsession'] = 'チャットセッションをエクスポートする';
 $string['chat:readlog'] = 'チャットログを表示する';
 $string['chat:talk'] = 'チャットで会話する';
-$string['chatadministration'] = 'チャット管理';
 $string['chatintro'] = 'イントロダクションテキスト';
 $string['chatname'] = 'チャットルーム名';
 $string['chatreport'] = 'チャットセッション';
@@ -39,8 +34,6 @@ $string['explainmethodnormal'] = 'これらの設定はchat_methodに「ノー�
 $string['generalconfig'] = '一般設定';
 $string['helpchatting'] = 'チャットヘルプ';
 $string['idle'] = 'アイドル';
-$string['inputarea'] = '入力エリア';
-$string['invalidid'] = 'チャットルームが見つかりませんでした!';
 $string['list_all_sessions'] = 'すべてのセッションを表示する';
 $string['list_complete_sessions'] = '完了したセッションのみ表示する';
 $string['listing_all_sessions'] = 'すべてのセッションを表示しています。';
@@ -57,14 +50,12 @@ $string['modulenameplural'] = 'チャット';
 $string['neverdeletemessages'] = 'メッセージを削除しない';
 $string['nextsession'] = '次のスケジュールセッション';
 $string['no_complete_sessions_found'] = '終了したセッションは見つかりませんでした。';
-$string['nochat'] = 'チャットが見つかりませんでした。';
 $string['noguests'] = 'ゲストはこのチャットを利用できません。';
 $string['nomessages'] = 'メッセージがありません。';
 $string['normalkeepalive'] = 'KeepAlive';
 $string['normalstream'] = 'Stream';
 $string['noscheduledsession'] = 'スケジュールセッションがありません。';
 $string['notallowenter'] = 'あなたはチャットルームへの入室を許可されていません。';
-$string['notlogged'] = 'ログインしていません!';
 $string['oldping'] = '切断タイムアウト';
 $string['pastchats'] = '過去のチャットセッション';
 $string['refreshroom'] = 'チャットルームをリフレッシュする';
@@ -74,23 +65,16 @@ $string['repeatdaily'] = '毎日同じ時間に';
 $string['repeatnone'] = '繰り返しなし - 指定した時間にのみ公開する';
 $string['repeattimes'] = 'セッションの繰り返し';
 $string['repeatweekly'] = '毎週同じ時間に';
-$string['saidto'] = '&gt;';
 $string['savemessages'] = 'セッションの保存期間';
 $string['seesession'] = 'このセッションを見る';
-$string['send'] = '送信';
-$string['sending'] = '送信中';
 $string['serverhost'] = 'サーバ名';
 $string['serverip'] = 'サーバIP';
 $string['servermax'] = '最大ユーザ';
 $string['serverport'] = 'サーバポート';
 $string['sessions'] = 'チャットセッション';
 $string['strftimemessage'] = '%%H:%%M';
-$string['studentseereports'] = 'すべての人が過去のセッションを見ることができる';
-$string['talk'] = '会話';
+$string['studentseereports'] = 'すべての人が過去のセッションを閲覧できる';
 $string['updatemethod'] = '更新方法';
-$string['updaterate'] = '更新レート:';
-$string['userlist'] = 'ユーザリスト';
 $string['viewreport'] = '過去のチャットセッションを表示する';
-$string['cantinsert'] = 'チャットメッセージを追加できませんでした!'; // ORPHANED
 
 ?>
