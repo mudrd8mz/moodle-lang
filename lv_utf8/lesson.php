@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.9.2+ (Build: 20080924) (2007101522)
+      // lesson.php - created with Moodle 1.9.10 (Build: 20101027) (2007101591)
 
 
 $string['accesscontrol'] = 'Piekļuves vadība';
@@ -219,7 +219,7 @@ $string['pleaseenteryouranswerinthebox'] = 'Lūdzu, ierakstiet atbildi lodziņā
 $string['pleasematchtheabovepairs'] = 'Lūdzu, norādiet atbilstošos pārus no iepriekš minētajiem.';
 $string['pointsearned'] = 'Iegūtie punkti';
 $string['postsuccess'] = 'Publicēts veiksmīgi';
-$string['practice'] = 'Praktiskā nodarbība';
+$string['practice'] = 'Treniņa nodarbība';
 $string['preview'] = 'Priekšskatījums';
 $string['previewlesson'] = 'Priekšskatīt $a';
 $string['previouspage'] = 'Iepriekšējā lapa';
