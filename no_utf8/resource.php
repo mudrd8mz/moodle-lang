@@ -1,10 +1,9 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9.5+ (Build: 20090930) (2007101551)
+      // resource.php - created with Moodle 1.9.10+ (Build: 20101124) (2007101591)
 
 
 $string['addresource'] = 'Ny ressurs';
 $string['affectedresources'] = 'Berørte ressurser';
-$string['allowlocalfiles'] = 'Tillat lokale filer';
 $string['autofilerename'] = 'Oppdater lenken hvis den endres';
 $string['back'] = 'Tilbake';
 $string['blockdeletingfile'] = 'Blokker sletting av avhengige filer';
@@ -13,7 +12,6 @@ $string['choose'] = 'Velg';
 $string['chooseafile'] = 'Velg eller last opp ei fil';
 $string['chooseparameter'] = 'Velg parameter';
 $string['clicktoopen'] = 'For å åpne dette dokumentet, klikk på denne lenken';
-$string['configallowlocalfiles'] = 'Når det lages en ny filressurs, tillates lenker til filer på et lokalt filsystem som f.eks. en CD eller harddisk. Dette kan være nyttig i en klasse hvor alle studentene har adgang til et felles nettverksdisk eller hvor filene på en CD må aksesseres. Bruk av denne egenskapen kan kreve endringer på nettleserens sikkerhetsinnstillinger.';
 $string['configautofilerenamesettings'] = 'Oppdater automatisk alle referanser til filer og mapper når navn endres i filbehandleren.';
 $string['configblockdeletingfilesettings'] = 'Blokker sletting av filer og mapper som som brukes av Ressurser. Vennligst merk deg at bilder og filer som det refereres til fra html ikke blir beskyttet.';
 $string['configdefaulturl'] = 'Denne verdien brukes til å forhåndsutfylle nettadressen når du lager en ny URL-basert ressurs.';
@@ -59,13 +57,7 @@ $string['keepnavigationvisibleno'] = 'Nei';
 $string['keepnavigationvisiblewarning'] = 'MERK: noen mediafiler kan finne på å ignorere denne innstillingen';
 $string['keepnavigationvisibleyesframe'] = 'Ja, med rammer';
 $string['keepnavigationvisibleyesobject'] = 'Ja, uten rammer';
-$string['localfile'] = 'Lokal fil';
-$string['localfilechoose'] = 'Velg ei lokal fil';
-$string['localfilehelp'] = 'hjelp til å vise lokale filer';
-$string['localfileinfo'] = '<p>Velg en fil lokalt på PC-en din. Filen vil ikke bli lastet opp i siten, men Moodle vil se etter denne filen på den enkelte brukers PC når de klikker på denne ressursen.</p><p>Dette er kjekt når du har sendt ut en CDROM med store mediefiler (f.eks. video) til studentene. Hver bruker kan legge inn en sti til CDROM-spilleren (eller andre steder), via <a href=\"$a\" target=\"_blank\">redigering av brukerprofilen</a>.</p>';
-$string['localfilepath'] = 'Når du skal legge inn en lokal sti for denne ressursen velger du en fil fra f.eks. en CDROM på din PC. Filen vil ikke bli lastet opp, men informasjon om hvordan Moodle en annen gang skal finne CDROM-stasjonen din blir lagret.';
-$string['localfileselect'] = 'Velg denne filbanen';
-$string['maindirectory'] = 'Hovedmappe';
+$string['maindirectory'] = 'Hele kursets filområde';
 $string['modulename'] = 'Ressurs';
 $string['modulenameplural'] = 'Ressurser';
 $string['navigationbuttons'] = 'Navigeringsknapper';
@@ -85,7 +77,6 @@ $string['newwidth'] = 'Standard vindusbredde (piksler)';
 $string['newwindow'] = 'Nytt vindu';
 $string['newwindowopen'] = 'Vis denne ressursen i et nytt vindu';
 $string['next'] = 'Neste';
-$string['notallowedlocalfileaccess'] = 'Adgang til lokale filer er for tiden sperret, så denne ressursen er ikke tilgjengelig.';
 $string['notdeployed'] = 'Ikke klargjort';
 $string['note'] = 'Notat';
 $string['notefile'] = 'Bruk <a href=\"$a\">filbehandleren</a>for å laste opp flere filer til kurset.';
@@ -135,5 +126,14 @@ $string['vol'] = 'Vol.';
 $string['warningblockingdelete'] = 'Advarsel: Slettingen er blokkert av en eksisterende ressurs. Du må enten redigere eksisterende ressurs eller be administrator oppheve sikkerhetsmekanismen i det globale ressursoppsettet.';
 $string['warningdisabledrename'] = 'Advarsel: Automatisk oppdatering av referanser til ressurser er koblet ut. Vennligst oppdater berørte ressurser manuelt, hvis nødvendig. Administrator kan også aktivere automatisk oppdatering i de globale ressursinnstillingene.';
 $string['websearchdefault'] = 'Standard websøk';
+$string['allowlocalfiles'] = 'Tillat lokale filer'; // ORPHANED
+$string['configallowlocalfiles'] = 'Når det lages en ny filressurs, tillates lenker til filer på et lokalt filsystem som f.eks. en CD eller harddisk. Dette kan være nyttig i en klasse hvor alle studentene har adgang til et felles nettverksdisk eller hvor filene på en CD må aksesseres. Bruk av denne egenskapen kan kreve endringer på nettleserens sikkerhetsinnstillinger.'; // ORPHANED
+$string['localfile'] = 'Lokal fil'; // ORPHANED
+$string['localfilechoose'] = 'Velg ei lokal fil'; // ORPHANED
+$string['localfilehelp'] = 'hjelp til å vise lokale filer'; // ORPHANED
+$string['localfileinfo'] = '<p>Velg en fil lokalt på PC-en din. Filen vil ikke bli lastet opp i siten, men Moodle vil se etter denne filen på den enkelte brukers PC når de klikker på denne ressursen.</p><p>Dette er kjekt når du har sendt ut en CDROM med store mediefiler (f.eks. video) til studentene. Hver bruker kan legge inn en sti til CDROM-spilleren (eller andre steder), via <a href=\"$a\" target=\"_blank\">redigering av brukerprofilen</a>.</p>'; // ORPHANED
+$string['localfilepath'] = 'Når du skal legge inn en lokal sti for denne ressursen velger du en fil fra f.eks. en CDROM på din PC. Filen vil ikke bli lastet opp, men informasjon om hvordan Moodle en annen gang skal finne CDROM-stasjonen din blir lagret.'; // ORPHANED
+$string['localfileselect'] = 'Velg denne filbanen'; // ORPHANED
+$string['notallowedlocalfileaccess'] = 'Adgang til lokale filer er for tiden sperret, så denne ressursen er ikke tilgjengelig.'; // ORPHANED
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.10 (Build: 20101025) (2007101591)
+      // moodle.php - created with Moodle 1.9.10+ (Build: 20101124) (2007101591)
 
 
 $string['abouttobeinstalled'] = 'vil bli installert';
@@ -603,7 +603,7 @@ $string['failedloginattemptsall'] = '$a->attempts mislykkede innlogginger for $a
 $string['feedback'] = 'Tilbakemelding';
 $string['file'] = 'Fil';
 $string['filemissing'] = '$a mangler';
-$string['files'] = 'Filer';
+$string['files'] = 'Kursfiler';
 $string['filesfolders'] = 'Filer/mapper';
 $string['filloutallfields'] = 'Vennligst fyll ut alle feltene i skjemaet';
 $string['findmorecourses'] = 'Finn flere kurs ...';
