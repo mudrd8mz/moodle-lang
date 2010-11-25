@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9.7+ (Build: 20100203) (2007101571.03)
+      // auth.php - created with Moodle 1.9.10+ (Build: 20101124) (2007101591)
 
 
 $string['CASform'] = 'Autentiseringsvalg';
@@ -15,6 +15,11 @@ $string['auth_cas_baseuri_key'] = 'Base-URL';
 $string['auth_cas_broken_password'] = 'Du kan ikke fortsette uten å endre passord, men det finnes ingen tilgjengelige sier for å endre det. Vær vennlig å kontakte din Moodle administrator.';
 $string['auth_cas_cantconnect'] = 'LDAP delen av CAS-modulen kan ikke koble til server: $a';
 $string['auth_cas_casversion'] = 'Versjon';
+$string['auth_cas_certificate_check'] = 'Sett denne til \"Ja\" hvis du ønsker å validere serversertifikatet';
+$string['auth_cas_certificate_check_key'] = 'Servervalidering';
+$string['auth_cas_certificate_path'] = 'Sti til CA-sertifikatfilen (PEM-format) for å validere serversertifikatet';
+$string['auth_cas_certificate_path_empty'] = 'Dersom du aktiverer servervalidering må du angi en sertifikatsti';
+$string['auth_cas_certificate_path_key'] = 'Sertifikatsti';
 $string['auth_cas_changepasswordurl'] = 'URL for passordbytte';
 $string['auth_cas_create_user'] = 'Slå på denne hvis du vil legge til CAS-autentiserte brukere i Moodle-databasen. Hvis ikke er det bare brukere som allerede finnes i Moodle-databasen som kan logge inn.';
 $string['auth_cas_create_user_key'] = 'Opprett bruker';
