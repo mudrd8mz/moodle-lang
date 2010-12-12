@@ -117,7 +117,7 @@ $string['file'] = 'קובץ';
 $string['filesnotgenerated'] = 'לא כל הקבצים חוללו: $a';
 $string['filtername'] = 'יצירת קישורים אוטומטיים לבסיס הנתונים';
 $string['footer'] = 'כותרת תחתונה';
-$string['forcelinkname'] = 'שם כפוי לקישור זה';
+$string['forcelinkname'] = 'מילה לתצוגה במקום כתובת הקישור';
 $string['foundnorecords'] = 'לא נמצאו רשומות (<a href=\"$a->reseturl\">איפוס מסננים</a>)';
 $string['foundrecords'] = 'נמצאו רשומות: $a->num/$a->max (<a href=\"$a->reseturl\">איפוס מסננים</a>)';
 $string['fromfile'] = 'יבוא מקובץ ZIP';
@@ -131,7 +131,7 @@ $string['headerrsstemplate'] = 'מגדיר את מראה הרשומות בהזנ
 $string['headersingletemplate'] = 'מגדיר את ממשק הדפדפן לרשומה יחידה';
 $string['importsuccess'] = 'ההגדרה שנקבעה מראש יושמה בהצלחה.';
 $string['insufficiententries'] = 'כדי שיהיה אפשרי לצפות את בסיס נתונים זה נדרשות רשומות נוספות';
-$string['intro'] = 'הקדמה';
+$string['intro'] = 'הנחייה לסטודנטים';
 $string['invalidfieldname'] = 'אנא בחר שם אחר לשדה זה';
 $string['invalidrate'] = 'דרוג מסד נתונים שגוי ($a)';
 $string['invalidurl'] = 'כתובת ה-URL (אינטרנט) שהזנת כרגע לא תקפה.';

@@ -16,7 +16,7 @@ $string['assignmentmail'] = '$a->teacher פרסם משוב על התרגיל ש�
 אתה יכול לראות את זה כנספח לתרגיל שהגשת:
 
 $a->url';
-$string['assignmentmailhtml'] = '$a->teacher שלח משוב על התרגיל שהגשת עבור \'<i>$a->assignment</i>\'<br /><br />
+$string['assignmentmailhtml'] = '$a->teacher שלח(ה) משוב על התרגיל שהגשת עבור \'<i>$a->assignment</i>\'<br /><br />
 
 אתה יכול לראות את זה כנספח ל<a href=\"$a->url\">מטלה שהגשת</a>.';
 $string['assignmentname'] = 'שם המטלה';
@@ -32,7 +32,7 @@ $string['confirmdeletefile'] = 'האם אתה בטוח לחלוטין שאתה �
 ?<br /><strong>$a</strong>';
 $string['deleteallsubmissions'] = 'מחק את כל ההגשות';
 $string['deletefilefailed'] = 'מחיקת הקובץ נכשלה';
-$string['description'] = 'תיאור';
+$string['description'] = 'הנחייה לסטודנטים';
 $string['draft'] = 'טיוטא';
 $string['duedate'] = 'עד לתאריך';
 $string['duedateno'] = 'אין תאריך הגשה';
@@ -70,7 +70,7 @@ $string['helpupload'] = '<p>סוג מטלה זה מאפשר לכל משתתף ל
 </p>';
 $string['helpuploadsingle'] = '<p>סוג תרגיל זה מאפשר לכל משתתף להעלות קובץ בודד, מכל סוג שהוא.</p> <p>הקובץ יכול להיות מסמך שנכתב במעבד תמלילים, תמונה,
 חבילת ארכיב מכווצת, או כל סוג קובץ אחר הנדרש ע\"י התרגיל.</p>';
-$string['hideintro'] = 'הסתר את התיאור לפני התאריך הזמין';
+$string['hideintro'] = 'הסתר את ה"הנחייה לסטודנטים" לפני התאריך הזמין';
 $string['itemstocount'] = 'ספירה';
 $string['late'] = '$a מאוחר';
 $string['maximumgrade'] = 'ציון מירבי';
