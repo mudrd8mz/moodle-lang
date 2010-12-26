@@ -1,6 +1,7 @@
 <?PHP // $Id$ 
       // grades.php - created with Moodle 1.9.8+ (Build: 20100407) (2007101580)
 
+
 $string['activities'] = 'פעילויות';
 $string['addcategory'] = 'הוסף קטגוריה';
 $string['addcategoryerror'] = 'לא היה ניתן להוסיף קטגוריה.';
@@ -249,7 +250,7 @@ $string['grademinhelp'] = 'הציון המיזערי המותר לפריט צי�
 $string['gradeoutcomeitem'] = 'פריט תוצאת הציון';
 $string['gradeoutcomes'] = 'מדדי־הערכה';
 $string['gradeoutcomescourses'] = 'מדדי־הערכה בקורס';
-$string['gradepass'] = 'ציון "עובר"';
+$string['gradepass'] = 'ציון \"עובר\"';
 $string['gradepasshelp'] = 'איזה ציון חייבים בכדי לעבור?';
 $string['gradepreferences'] = 'העדפות הציונים';
 $string['gradepreferenceshelp'] = 'עזרה - העדפות הציון';
