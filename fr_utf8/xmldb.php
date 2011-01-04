@@ -36,7 +36,7 @@ $string['createtable'] = 'Créer une table';
 $string['defaultincorrect'] = 'Valeur par défaut incorrecte';
 $string['delete_field'] = 'Supprimer le champ';
 $string['delete_index'] = 'Supprimer l\'index';
-$string['delete_key'] = 'Suprimer la clef';
+$string['delete_key'] = 'Supprimer la clef';
 $string['delete_sentence'] = 'Supprimer la phrase';
 $string['delete_statement'] = 'Supprimer l\'instruction';
 $string['delete_table'] = 'Supprimer la table';
@@ -118,7 +118,7 @@ $string['searchresults'] = 'Résultats de recherche';
 $string['selectaction'] = 'Choisir une action :';
 $string['selectdb'] = 'Sélectionner une base de données :';
 $string['selectfieldkeyindex'] = 'Choisir un champ/une clef/un index :';
-$string['selectonecommand'] = 'Veuillez sélectionner une action index dans la liste pour voir le code PHP';
+$string['selectonecommand'] = 'Veuillez sélectionner une action dans la liste pour voir le code PHP';
 $string['selectonefieldkeyindex'] = 'Veuillez sélectionner un champ/une clef/un index dans la liste pour voir le code PHP';
 $string['selecttable'] = 'Choisir une table :';
 $string['sentences'] = 'Phrases';
@@ -153,7 +153,7 @@ $string['wronglengthforenum'] = 'Longueur du champ énumération incorrecte';
 $string['wrongnumberoffieldsorvalues'] = 'Nombre incorrect de champs ou de valeurs dans la phrase';
 $string['wrongreservedwords'] = 'Mots réservés utilisés actuellement<br />(les noms des tables ne sont pas importants si vous utilisez \$CFG->prefix)';
 $string['yesmissingindexesfound'] = 'Des index manquants ont été trouvés dans votre base de données. Voici les détails et instructions SQL à exécuter avec votre interface SQL favorite pour les créer. N\'oubliez pas d\'effectuer une sauvegarde de la base de données avant de lancer ces commandes.<br /><br />Après les avoir exécutés, il vous est vivement recommandé de lancer cet utilitaire une nouvelle fois afin de vérifier qu\'il ne reste plus d\'index manquant.';
-$string['yeswrongdefaultsfound'] = 'Certaines valeurs par défaut incohérentes ont été trouvés dans votre base de données. Voici les détails et instructions SQL à exécuter avec votre interface SQL favorite pour les corriger. N\'oubliez pas d\'effectuer une sauvegarde de la base de données avant de lancer ces commandes.<br /><br />Après les avoir exécutés, il vous est vivement recommandé de lancer cet utilitaire une nouvelle fois afin de vérifier qu\'il ne reste plus de valeurs par défaut incohérentes.';
+$string['yeswrongdefaultsfound'] = 'Certaines valeurs par défaut incohérentes ont été trouvés dans votre base de données. Voici les détails et instructions SQL à exécuter avec votre interface SQL favorite pour les corriger. N\'oubliez pas d\'effectuer une sauvegarde de la base de données avant de lancer ces commandes.<br /><br />Après les avoir exécutées, il vous est vivement recommandé de lancer cet utilitaire une nouvelle fois afin de vérifier qu\'il ne reste plus de valeurs par défaut incohérentes.';
 $string['yeswrongintsfound'] = 'Des entiers incorrectement définis ont été trouvés dans votre base de données. Voici les détails et instructions SQL à exécuter avec votre interface SQL favorite pour les créer. N\'oubliez pas d\'effectuer une sauvegarde de la base de données avant de lancer ces commandes.<br /><br />Après les avoir exécutés, il vous est vivement recommandé de lancer cet utilitaire une nouvelle fois afin de vérifier qu\'il ne reste plus d\'entiers incorrectement définis.';
 
 ?>
