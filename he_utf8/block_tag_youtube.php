@@ -2,7 +2,7 @@
       // block_tag_youtube.php - created with Moodle 1.9.8+ (Build: 20100407) (2007101580)
 
 
-$string['anycategory'] = 'כל קטדוריה';
+$string['anycategory'] = 'כל קטגוריה';
 $string['autosvehicles'] = 'מכוניות   וכלי רכב';
 $string['blockname'] = '\"יוטיוב\"';
 $string['category'] = 'קטגוריה';
