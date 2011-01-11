@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.9+ (Build: 20101013) (2007101590)
+      // admin.php - created with Moodle 1.9.10+ (Build: 20110105) (2007101591)
 
 
 $string['accessdenied'] = 'Ingen tilgang';
@@ -591,6 +591,7 @@ $string['performance'] = 'Ytelse';
 $string['pgcluster'] = 'PostgreSQL klynge';
 $string['pgclusterdescription'] = 'PostgreSQL versjons/cluster parametre for bruk ved kommandolinjen. Dersom du har bare en PostgreSQL på systemet ditt, eller ikke er helt sikker på hva dette er, la feltet stå tomt.';
 $string['php50restricted'] = 'PHP 5.0.x har en rekke kjente feil. Vennligst oppgrader til versjon 5.1 eller nedgrader til 4.3.x eller 4.4.x';
+$string['php533warning'] = 'PHP 5.3.3 og nyere er anbefalt';
 $string['phpfloatproblem'] = 'Oppdaget uventet problem i behandlingen av PHP flytnummer - $a';
 $string['pleaserefreshregistration'] = 'Nettstedet ditt er registrert hos moodle.org, vær vennlig å oppdater registreringen hvis det har vært store endringer i antall brukere, kurs e.l lignende. Siste oppdatering ble gjort $a';
 $string['pleaseregister'] = 'Registrer nettstedet ditt for å fjerne denne knappen';
