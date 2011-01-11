@@ -760,10 +760,10 @@ $string['updateaccounts'] = 'Oppdater eksisterende konti';
 $string['updatecomponent'] = 'Oppdater komponent';
 $string['updatelangs'] = 'Oppdater alle lokale språkpakker';
 $string['updatetimezones'] = 'Oppdater tidssoner';
-$string['upgrade197notice'] = '<p>Moodle 1.9.7 inneholder en rekke sikkerhetsfikser for håndtering av brukerpassord og sikkerhetskopier. Disse fiksene beskytter brukerinformasjonen på installasjonen din. 
+$string['upgrade197notice'] = '<p>Fra Moodle 1.9.7 er det lagt til en rekke sikkerhetsfikser for håndtering av brukerpassord og sikkerhetskopier. Disse fiksene beskytter brukerinformasjonen på installasjonen din. 
 Som et resultat av oppgraderingen kan noen innstillinger og tillatelser knyttet til sikkerhetskopiering være endret.<br />
 Vennligst se nærmere på <a href=\'http://docs.moodle.org/en/Moodle_1.9.7_release_notes\' target=\'_blank\'>Moodle 1.9.7 dokumentasjonen</a> for mer infomasjon.</p>';
-$string['upgrade197noticesubject'] = 'Moodle 1.9.7 oppgradingen - sikkerhetskommentarer';
+$string['upgrade197noticesubject'] = 'Moodle 1.9.7 eller nyere-oppgradingen: Sikkerhetskommentarer';
 $string['upgrade197salt'] = 'Vi anbefaler også sterkt at du legger inn en passord-krypteringsfrase for å effektivt redusere risikoen for tyveri av passord.<br />
 Vennligst se nærmere på <a href=\"$a\" target=\"_blank\">dokumentasjonen</a> for alle detaljer om hvordan du gjør dette.';
 $string['upgradeforumread'] = 'En ny egenskap har blitt lagt til i Moodle 1.5 for å spore leste/uleste foruminnlegg.<br />For å bruke denne funksjonaliteten må du <a href=\"$a\">oppdatere tabellene dine</a>.';
