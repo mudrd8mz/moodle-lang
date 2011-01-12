@@ -4,7 +4,7 @@
 
 $string['addgroupstogrouping'] = 'הוסף קבוצות לאוסף הקבוצות';
 $string['addgroupstogroupings'] = 'הוסף/הסר קבוצות';
-$string['adduserstogroup'] = 'הוסף משתמשים לקבוצה';
+$string['adduserstogroup'] = 'הוספה והסרת משתתפים מקבוצה';
 $string['allocateby'] = 'הקצאת חברי קבוצה';
 $string['anygrouping'] = '[כל אוסף קבוצות]';
 $string['autocreategroups'] = 'יצירת קבוצות אוטומטית';
