@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9.10 (Build: 20101026) (2007101591)
+      // forum.php - created with Moodle 1.9.10+ (Build: 20110112) (2007101591)
 
 
 $string['addanewdiscussion'] = 'Přidat nové téma diskuse';
@@ -48,6 +48,8 @@ $string['configreplytouser'] = 'Když je příspěvek odesílán odběratelům, 
 $string['configshortpost'] = 'Příspěvek kratší než tato vložená hodnota (HTML kód se nepočítá) je považován za krátký.';
 $string['configtrackreadposts'] = 'Zvolte \'Ano\', chcete-li pro každého uživatele zaznamenávat stav příspěvků přečteno/nepřečteno.';
 $string['configusermarksread'] = 'Při \'Ano\' si musí uživatelé sami označit příspěvek jako přečtený. Při \'Ne\' se příspěvek automaticky označí jako přečtený po zobrazení uživateli.';
+$string['confirmsubscribe'] = 'Skutečně si přejete odebírat příspěvky z fóra \"{$a}\" e-mailem?';
+$string['confirmunsubscribe'] = 'Skutečně si přejete zrušit odebírání příspěvků z fóra \"{$a}\" e-mailem?';
 $string['couldnotadd'] = 'Neznámá chyba! Nemohu přidat váš příspěvek.';
 $string['couldnotdeleteratings'] = 'Již ohodnocený příspěvek nemůže být odstraněn.';
 $string['couldnotdeletereplies'] = 'Příspěvek, na který již někdo odpověděl, nemůže být odstraněn.';

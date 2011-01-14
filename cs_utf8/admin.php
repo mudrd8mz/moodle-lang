@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.10 (Build: 20101026) (2007101591)
+      // admin.php - created with Moodle 1.9.10+ (Build: 20110112) (2007101591)
 
 
 $string['accessdenied'] = 'Přístup zamítnut';
@@ -587,6 +587,7 @@ $string['performance'] = 'Výkonnost';
 $string['pgcluster'] = 'PostgreSQL cluster';
 $string['pgclusterdescription'] = 'Parametry PostgreSQL version/cluster pro operace prováděné z příkazové řádky. Pokud provozujete pouze jednu instanci PostgreSQL, nebo pokud si nejste jisti, ponechte pole prázdné.';
 $string['php50restricted'] = 'V PHP 5.0.x bylo nalezeno množství chyb; přejděte buď na vyšší verzi 5.1.x, nebo na nižší verzi 4.3.x či 4.4.x.';
+$string['php533warning'] = 'Doporučená je verze PHP 5.3.3 nebo vyšší';
 $string['phpfloatproblem'] = 'Byl zjištěn neočekávaný problém ve způsobu zpracování čísel s plovoucí desetinnou čárkou ve vašem PHP - $a';
 $string['pleaserefreshregistration'] = 'Vaše stránka byla zaregistrována na moodle.org. Zvažte prosím aktualizaci vaší registrace, jestliže na vašich stránkách dojde k významnějším změnám. Vaše registrace byla naposledy aktualizována: $a';
 $string['pleaseregister'] = 'Chcete-li se zbavit tohoto tlačítka, zaregistrujte svou instalaci Moodlu';

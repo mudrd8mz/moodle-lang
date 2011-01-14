@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9.7+ (Build: 20100114) (2007101571.01)
+      // auth.php - created with Moodle 1.9.10+ (Build: 20110112) (2007101591)
 
 
 $string['CASform'] = 'Volba autentizace';
@@ -14,6 +14,11 @@ $string['auth_cas_baseuri_key'] = 'Základní URI';
 $string['auth_cas_broken_password'] = 'Nemůžete pokračovat dál bez změny hesla, ale stránka pro jeho změnu není k dispozici. Kontaktujte správce Vašeho eLearningu Moodle.';
 $string['auth_cas_cantconnect'] = 'LDAP část  modulu CAS se nemůže připojit k serveru: $a';
 $string['auth_cas_casversion'] = 'Verze';
+$string['auth_cas_certificate_check'] = 'Zda se má validovat certifikát serveru';
+$string['auth_cas_certificate_check_key'] = 'Ověřování serveru';
+$string['auth_cas_certificate_path'] = 'Cestu k souboru, který obsahuje řetěz CA (ve formátu PEM) k ověření certifikátu serveru';
+$string['auth_cas_certificate_path_empty'] = 'Pokud zapnete Ověřování serveru, je třeba zadat certifikační cestu';
+$string['auth_cas_certificate_path_key'] = 'Certifikační cesta';
 $string['auth_cas_changepasswordurl'] = 'URL pro změnu hesla';
 $string['auth_cas_create_user'] = 'Zapněte tuto volbu, chcete-li vkládat uživatele ověřené pomocí CAS do vaší databáze uživatelů Moodlu. V opačném případě se budou moci přihlásit pouze uživatelé, kteří již mají záznam v databázi Moodlu.';
 $string['auth_cas_create_user_key'] = 'Vytvořit uživatele';
