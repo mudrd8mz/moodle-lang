@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.10+ (Build: 20101124) (2007101591)
+      // moodle.php - created with Moodle 1.9.10+ (Build: 20110105) (2007101591)
 
 
 $string['abouttobeinstalled'] = 'vil bli installert';
@@ -1045,7 +1045,7 @@ $string['noteuserschangednonetocourse'] = 'OBS: Brukerkontoene må også gjenopp
 $string['nothingnew'] = 'Ingenting nytt siden sist du var her';
 $string['nothingtodisplay'] = 'Ingenting å vise';
 $string['notice'] = 'Merknad';
-$string['noticenewerbackup'] = 'Denne sikkerhetskopien er laget med Moodle $a->backuprelease ($a->backupversion) og den er nyere enn den versjonen av Moodle du har installert, \$a-<serverrelease ($a->serverversion). Siden nye moduler ikke alltid kan brukes på eldre versjoner, kan dette føre til problemer.';
+$string['noticenewerbackup'] = 'Denne sikkerhetskopien er laget med Moodle $a->backuprelease ($a->backupversion) og den er nyere enn den versjonen av Moodle du har installert, $a->serverrelease ($a->serverversion). Siden nye moduler ikke alltid kan brukes på eldre versjoner, kan dette føre til problemer.';
 $string['notifications'] = 'Meldinger';
 $string['notify'] = 'OBS';
 $string['notifyloginfailuresmessage'] = '$a->time, IP: $a->ip, Bruker: $a->info';
