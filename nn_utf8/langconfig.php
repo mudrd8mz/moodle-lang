@@ -10,6 +10,7 @@ $string['locale'] = 'nn_NO.UTF-8';
 $string['localewin'] = 'Norwegian-Nynorsk_Norway.1252';
 $string['localewincharset'] = 'WINDOWS-1252';
 $string['oldcharset'] = 'ISO-8859-1';
+$string['parentlanguage'] = 'no_utf8';
 $string['strftimedate'] = '%%d %%B %%Y';
 $string['strftimedateshort'] = '%%d %%B';
 $string['strftimedatetime'] = '%%d %%B %%Y, %%H:%%M';
