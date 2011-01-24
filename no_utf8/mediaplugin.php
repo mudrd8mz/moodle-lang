@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mediaplugin.php - created with Moodle 1.9.9+ (Build: 20101013) (2007101590)
+      // mediaplugin.php - created with Moodle 1.9.10+ (Build: 20110119) (2007101591)
 
 
 $string['filtername'] = 'Plugin for multimedia';
@@ -8,6 +8,9 @@ $string['flashvideo'] = 'Flash video';
 $string['mp3audio'] = 'MP3 lyd';
 $string['oggaudio'] = 'OGG lyd';
 $string['ogvvideo'] = 'OGV video';
-$string['unsupportedplugins'] = '(Nettleseren din støtter ikke denne filtypen. ({$a})';
+$string['quicktime'] = 'Quicktime';
+$string['realaudio'] = 'Real lyd';
+$string['unsupportedplugins'] = '(Nettleseren din støtter ikke denne filtypen. {$a})';
+$string['wmpvideo'] = 'WMP video';
 
 ?>

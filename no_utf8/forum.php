@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9.10 (Build: 20101027) (2007101591)
+      // forum.php - created with Moodle 1.9.10+ (Build: 20110119) (2007101591)
 
 
 $string['addanewdiscussion'] = 'Skriv i dette forumet';
@@ -48,6 +48,8 @@ $string['configreplytouser'] = 'Når et innlegg i et forum er sendt ut, skal det
 $string['configshortpost'] = 'Alle innlegg under denne lengden (ikke inkludert HTML) blir regnet som korte.';
 $string['configtrackreadposts'] = 'Sett til \'ja\' hvis du ønsker å spore lest/ulest for hver bruker.';
 $string['configusermarksread'] = 'Hvis \'ja\', må brukeren manuelt merke et innlegg som lest. Hvis \'nei\', blir innlegget merket som lest når det blir sett.';
+$string['confirmsubscribe'] = 'Ønsker du virkelig å abbonnere på forumet  \'{$a}\'?';
+$string['confirmunsubscribe'] = 'Ønsker du virkelig å si opp abbonnementet på forumet  \'{$a}\'?';
 $string['couldnotadd'] = 'Kunne ikke legge ut innlegget ditt pga. en ukjent feil';
 $string['couldnotdeleteratings'] = 'Beklager, innlegget kan ikke slettes siden det allerede er gitt poeng/karakter';
 $string['couldnotdeletereplies'] = 'Beklager, innlegget kan ikke slettes siden noen allerede har svart på det';
