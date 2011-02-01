@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9.10+ (Build: 20101124) (2007101591)
+      // auth.php - created with Moodle 1.9.10+ (Build: 20110119) (2007101591)
 
 
 $string['CASform'] = 'Autentiseringsvalg';
@@ -60,7 +60,7 @@ $string['auth_dbdebugauthdbhelp'] = 'Feilsøk ADOdb forbindelsen til ekstern dat
 $string['auth_dbdeleteuser'] = 'Slettet bruker $a[0] id $a[1]';
 $string['auth_dbdeleteusererror'] = 'Feil ved sletting av bruker $a';
 $string['auth_dbdescription'] = 'Denne metoden bruker en ekstern database for å kontrollere om et gittt brukernavn og passord er gyldig. Hvis kontoen er ny, kan oplysninger fra andre felter også kopieres inn til Moodle.';
-$string['auth_dbextencoding'] = 'Ekster db koding';
+$string['auth_dbextencoding'] = 'Ekstern db-koding';
 $string['auth_dbextencodinghelp'] = 'Koding brukt i ekstern database';
 $string['auth_dbextrafields'] = 'Disse feltene er valgfrie. Du kan velge å forhåndsutfylle noen brukerfelter i Moodle fra <b>den eksterne databasen</b> som du skriver her.<p> Hvis du ikke skriver noe her, vil standardverdierne bli brukt.<p> I alle tilfeller vil brukeren være i stand til å endre disse feltene når de er innlogget.';
 $string['auth_dbfieldpass'] = 'Navn på feltet som inneholder passord';
