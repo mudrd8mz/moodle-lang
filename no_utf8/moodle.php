@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.10+ (Build: 20110105) (2007101591)
+      // moodle.php - created with Moodle 1.9.11 (Build: 20110221) (2007101591.02)
 
 
 $string['abouttobeinstalled'] = 'vil bli installert';
@@ -361,7 +361,7 @@ $string['currentlyselectedusers'] = 'Valgte brukere';
 $string['currentpicture'] = 'Bildet du bruker nå';
 $string['currentrelease'] = 'Informasjon om denne versjonen av Moodle';
 $string['currentversion'] = 'Gjeldende versjon';
-$string['databasechecking'] = 'Oppgraderer Moodledatabsen fra versjon $a->oldversion til $a->newversion...';
+$string['databasechecking'] = 'Oppgraderer Moodles database fra versjon $a->oldversion til $a->newversion...';
 $string['databaseperformance'] = 'Databaseytelse';
 $string['databasesetup'] = 'Setter opp database';
 $string['databasesuccess'] = 'Databasen ble oppgradert';

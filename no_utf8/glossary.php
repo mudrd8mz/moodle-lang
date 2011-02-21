@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9.5+ (Build: 20090826) (2007101550)
+      // glossary.php - created with Moodle 1.9.11 (Build: 20110221) (2007101591.02)
 
 
 $string['addcomment'] = 'Legg til kommentar';
@@ -12,6 +12,7 @@ $string['allowcomments'] = 'Tillat kommentarer til oppføringer';
 $string['allowduplicatedentries'] = 'Tillat duplikate oppføringer';
 $string['allowprintview'] = 'Tillat utskriftsvisning';
 $string['allowratings'] = 'Tillat vurdering av oppføringer';
+$string['andmorenewentries'] = 'og {$a} flere nye oppføringer.';
 $string['answer'] = 'Svar';
 $string['approve'] = 'Godkjenn';
 $string['areyousuredelete'] = 'Er du sikker på at du vil slette denne oppføringen?';
