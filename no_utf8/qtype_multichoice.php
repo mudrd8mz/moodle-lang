@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 1.9.5+ (Build: 20090909) (2007101551)
+      // qtype_multichoice.php - created with Moodle 1.9.11 (Build: 20110221) (2007101591.02)
 
 
 $string['addingmultichoice'] = 'Legger til et flervalgsspørsmål';
 $string['addmorechoiceblanks'] = 'Sett inn {no} ekstra svaralternativer';
 $string['answerhowmany'] = 'Ett eller flere mulige svaralternativer?';
-$string['answernumbering'] = 'Antall valg?';
+$string['answernumbering'] = 'Nummerering av svarene?';
 $string['answernumbering123'] = '1., 2., 3., ...';
 $string['answernumberingABCD'] = 'A., B., C., ..';
 $string['answernumberingabc'] = 'a., b., c., ..';
