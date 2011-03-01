@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (Build: 20091014) (2009100605)
+      // assignment.php - created with Moodle 1.9.11 (Build: 20110221) (2007101591.02)
 
 
 $string['allowdeleting'] = 'Consenti ripensamenti';
@@ -7,12 +7,9 @@ $string['allowmaxfiles'] = 'Numero massimo di file da inviare';
 $string['allownotes'] = 'Consenti annotazioni';
 $string['allowresubmit'] = 'Consenti consegne ripetute';
 $string['alreadygraded'] = 'Il tuo compito è già stato valutato e non è prevista la riconsegna.';
-$string['assignment:exportownsubmission'] = 'Esportare la propria consegna';
-$string['assignment:exportsubmission'] = 'Esportare consegna';
 $string['assignment:grade'] = 'Valutare compito';
 $string['assignment:submit'] = 'Consegnare compito';
 $string['assignment:view'] = 'Visualizzare compito';
-$string['assignmentadministration'] = 'Gestione Compito';
 $string['assignmentdetails'] = 'Dettagli compito';
 $string['assignmentmail'] = '$a->teacher ha commentato/valutato il tuo compito \'<i>$a->assignment</i>\'.
 
@@ -25,14 +22,12 @@ $string['assignmentname'] = 'Titolo del compito';
 $string['assignmenttype'] = 'Tipo di compito';
 $string['availabledate'] = 'Inizio consegne';
 $string['cannotdeletefiles'] = 'Si è verificato un errore e i file non possono essere eliminati';
-$string['cannotviewassignment'] = 'Non puoi visualizzare questo compito';
 $string['comment'] = 'Commento';
 $string['commentinline'] = 'Commento in linea';
 $string['configitemstocount'] = 'Tipo di elementi da conteggiare nei compiti online.';
 $string['configmaxbytes'] = 'Dimensione massima per tutti i compiti del sito (soggetta a limiti del corso e ad altre impostazioni locali)';
 $string['configshowrecentsubmissions'] = 'Consente a tutti di visualizzare la notifica delle consegne nei report dell\'attività recente.';
 $string['confirmdeletefile'] = 'Sei sicuro di voler eliminare questo file?<br/><strong>$a</strong>';
-$string['coursemisconf'] = 'Il corso è mal configurato';
 $string['deleteallsubmissions'] = 'Elimina tutte le consegne';
 $string['deletefilefailed'] = 'Eliminazione del file non riuscita.';
 $string['description'] = 'Descrizione';
@@ -72,21 +67,15 @@ $string['helpupload'] = '<p>Questo tipo di compito permette ai partecipanti di c
 <p>Le consegne di compiti di questo tipo, devono essere esplicitamente dichiarate \"completate\" dai partecipanti. Il docente può controllare in ogni momento lo stato delle consegne. I compiti non completati sono indicati come Bozze. Il docente può inoltre riportare allo stato di Bozza qualsiasi compito che non sia stato ancora valutato.</p>';
 $string['helpuploadsingle'] = '<p>Questo tipo di compito permette ai partecipanti di consegnare un file, in qualunque formato.</p><p>Il file può essere un documento di testo, un\'immagine, un sito web compresso, o qualunque cosa venga richiesto loro di consegnare.</p>';
 $string['hideintro'] = 'Nascondi la descrizione fino alla data di Inizio consegne';
-$string['invalidassignment'] = 'compito non valido';
-$string['invalidid'] = 'ID compito non valido';
-$string['invalidtype'] = 'Tipo di compito non valido';
-$string['invaliduserid'] = 'ID utente non valido';
 $string['itemstocount'] = 'Conteggio';
 $string['late'] = '$a in ritardo';
 $string['maximumgrade'] = 'Voto massimo';
 $string['maximumsize'] = 'Dimensione massima';
-$string['maxpublishstate'] = 'Visibilità max. del blog post prima della data di consegna';
 $string['modulename'] = 'Compito';
 $string['modulenameplural'] = 'Compiti';
 $string['newsubmissions'] = 'Compiti consegnati';
 $string['noassignments'] = 'Non ci sono ancora compiti';
 $string['noattempts'] = 'Ancora nessuna consegna per questo compito';
-$string['noblogs'] = 'Non hai blog post da consegnare!';
 $string['nofiles'] = 'Nessun file consegnato';
 $string['nofilesyet'] = 'Nessun file ancora consegnato';
 $string['nomoresubmissions'] = 'Non sono consentite ulteriori consegne.';
@@ -105,7 +94,6 @@ $string['quickgrade'] = 'Abilita valutazione rapida';
 $string['responsefiles'] = 'File di replica';
 $string['reviewed'] = 'Rivisto';
 $string['saveallfeedback'] = 'Salva tutte le mie risposte';
-$string['selectblog'] = 'Seleziona il blog post che desideri consegnare';
 $string['sendformarking'] = 'Segnala il completamento della consegna';
 $string['showrecentsubmissions'] = 'Visualizza consegne recenti';
 $string['submission'] = 'Consegna';
@@ -120,7 +108,6 @@ $string['submitformarking'] = 'Consegna finale per valutazione';
 $string['submitted'] = 'Consegnato';
 $string['submittedfiles'] = 'File consegnati';
 $string['trackdrafts'] = 'Abilita Segnalazione consegna completata';
-$string['typeblog'] = 'Blog post';
 $string['typeoffline'] = 'Compito Offline';
 $string['typeonline'] = 'Compito Online';
 $string['typeupload'] = 'Consegna multipla';
@@ -135,11 +122,25 @@ $string['uploadfiletoobig'] = 'Attenzione, il file è troppo grande (il limite �
 $string['uploadnofilefound'] = 'Non è stato trovato nessun file - sei sicuro di averne selezionato da caricare sul server?';
 $string['uploadnotregistered'] = '\'$a\' è stato trasferito ma la registrazione della consegna non è avvenuta!';
 $string['uploadsuccess'] = 'Caricamento di \'$a\' avvenuto con successo';
-$string['usermisconf'] = 'L\'utente è mal configurato';
+$string['usernosubmit'] = 'Spiacente, non hai il privilegio di consegnare compiti.';
 $string['viewfeedback'] = 'Vedi valutazioni del compito e relativo commento';
-$string['viewmysubmission'] = 'Visualizza le mie consegne';
 $string['viewsubmissions'] = 'Vedi $a compiti consegnati';
 $string['yoursubmission'] = 'La tua consegna';
+$string['assignment:exportownsubmission'] = 'Esportare la propria consegna'; // ORPHANED
+$string['assignment:exportsubmission'] = 'Esportare consegna'; // ORPHANED
+$string['assignmentadministration'] = 'Gestione Compito'; // ORPHANED
+$string['cannotviewassignment'] = 'Non puoi visualizzare questo compito'; // ORPHANED
+$string['coursemisconf'] = 'Il corso è mal configurato'; // ORPHANED
+$string['invalidassignment'] = 'compito non valido'; // ORPHANED
+$string['invalidid'] = 'ID compito non valido'; // ORPHANED
+$string['invalidtype'] = 'Tipo di compito non valido'; // ORPHANED
+$string['invaliduserid'] = 'ID utente non valido'; // ORPHANED
+$string['maxpublishstate'] = 'Visibilità max. del blog post prima della data di consegna'; // ORPHANED
+$string['noblogs'] = 'Non hai blog post da consegnare!'; // ORPHANED
+$string['selectblog'] = 'Seleziona il blog post che desideri consegnare'; // ORPHANED
+$string['typeblog'] = 'Blog post'; // ORPHANED
+$string['usermisconf'] = 'L\'utente è mal configurato'; // ORPHANED
+$string['viewmysubmission'] = 'Visualizza le mie consegne'; // ORPHANED
 $string['cannotinsertempty'] = 'La consegna non può essere vuota'; // ORPHANED
 
 ?>

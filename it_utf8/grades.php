@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20100212) (2010020701)
+      // grades.php - created with Moodle 1.9.11 (Build: 20110221) (2007101591.02)
 
 
 $string['activities'] = 'Attività';
@@ -71,6 +71,7 @@ $string['categoryedit'] = 'Modifica categoria';
 $string['categoryname'] = 'Nome categoria';
 $string['categorytotal'] = 'Totale categoria';
 $string['categorytotalfull'] = 'Totale $a->category';
+$string['categorytotalname'] = 'Nome del totale di categoria';
 $string['changedefaults'] = 'Cambia default';
 $string['changereportdefaults'] = 'Cambia default dei report';
 $string['chooseaction'] = 'Scegli un\'azione ...';
@@ -180,11 +181,6 @@ $string['errornocategorisedid'] = 'Non si può avere un id senza categoria!';
 $string['errornocourse'] = 'Non è stato possibile ottenere informazioni sul corso';
 $string['errorreprintheadersnonnumeric'] = 'Inserito un valore non numerico per E\' stato inserito un valore non numerico per la ristampa delle intestazione ristampe dei titoli';
 $string['errorsavegrade'] = 'Non è stato possibile salvare il voto.';
-$string['errorupdatinggradecategoryaggregateonlygraded'] = 'Errore durante l\'aggiornamento dell\'impostazione \"Aggrega solo i voti ricevuti\" nella categoria ID $a->id';
-$string['errorupdatinggradecategoryaggregateoutcomes'] = 'Errore durante l\'aggiornamento dell\'impostazione \"Aggrega gli obiettivi\" nella categoria ID $a->id';
-$string['errorupdatinggradecategoryaggregatesubcats'] = 'Errore durante l\'aggiornamento dell\'impostazione \"Aggrega le sotto categorie\" nella categoria ID $a->id';
-$string['errorupdatinggradecategoryaggregation'] = 'Errore durante l\'aggiornamento del tipo di aggregazione nella categoria ID $a->id';
-$string['errorupdatinggradeitemaggregationcoef'] = 'Errore durante l\'aggiornamento del coefficiente di aggregazione (peso o credito extra) nella categoria ID $a->id';
 $string['exceptions'] = 'Eccezioni';
 $string['excluded'] = 'Escluso';
 $string['excludedhelp'] = 'Se -Escluso- è attivo, questo voto sarà escluso da tutte le aggregazioni di voti effettuate da elementi o categorie gerarchicamente superiori.';
@@ -395,12 +391,10 @@ $string['nonweightedpct'] = '%% non pesata';
 $string['nooutcome'] = 'Nessun obiettivo';
 $string['nooutcomes'] = 'Gli elementi obiettivo devono essere collegati ad obiettivi di corso, ma non ci sono obiettivi in questo corso. Volete aggiungerne uno?';
 $string['nopublish'] = 'Non pubblicare';
-$string['norolesdefined'] = 'Non ci sono ruoli definiti in Amministrazione > Valutazioni > Impostazioni Generali > Ruoli riportati nel registro';
 $string['noscales'] = 'Gli obiettivi devono essere collegati ad una scala presente nel corso oppure ad una scala standard. Non ci sono scale disponibili, volete aggiungerne una?';
 $string['noselectedcategories'] = 'nessuna categoria selezionata.';
 $string['noselecteditems'] = 'nessun elemento selezionato.';
 $string['notteachererror'] = 'È necessario essere docente per utilizzare questa caratteristica.';
-$string['nousersloaded'] = 'Nessun utente caricato';
 $string['numberofgrades'] = 'Numero di valutazioni';
 $string['onascaleof'] = 'su una scala da $a->grademin a $a->grademax';
 $string['operations'] = 'Operazioni';
@@ -479,7 +473,6 @@ $string['respectingcurrentdata'] = 'configurazione corrente inalterata';
 $string['rowpreviewnum'] = 'Righe di anteprima';
 $string['savechanges'] = 'Salva modifiche';
 $string['savepreferences'] = 'Salva Preferenze';
-$string['scaleconfirmdelete'] = 'Sei sicuro di eliminare la scala \"$a\"?';
 $string['scaledpct'] = 'Scalatura %%';
 $string['scaleidhelp'] = 'La scala cui questo $a è collegato.';
 $string['scalestandardhelp'] = 'Una scala si definisce standard se è utilizzabile in tutto il sito ed in tutti i corsi.';
@@ -585,5 +578,13 @@ $string['writinggradebookinfo'] = 'Scrittura delle impostazioni del registro';
 $string['xml'] = 'XML';
 $string['yes'] = 'Si';
 $string['yourgrade'] = 'La tua valutazione';
+$string['errorupdatinggradecategoryaggregateonlygraded'] = 'Errore durante l\'aggiornamento dell\'impostazione \"Aggrega solo i voti ricevuti\" nella categoria ID $a->id'; // ORPHANED
+$string['errorupdatinggradecategoryaggregateoutcomes'] = 'Errore durante l\'aggiornamento dell\'impostazione \"Aggrega gli obiettivi\" nella categoria ID $a->id'; // ORPHANED
+$string['errorupdatinggradecategoryaggregatesubcats'] = 'Errore durante l\'aggiornamento dell\'impostazione \"Aggrega le sotto categorie\" nella categoria ID $a->id'; // ORPHANED
+$string['errorupdatinggradecategoryaggregation'] = 'Errore durante l\'aggiornamento del tipo di aggregazione nella categoria ID $a->id'; // ORPHANED
+$string['errorupdatinggradeitemaggregationcoef'] = 'Errore durante l\'aggiornamento del coefficiente di aggregazione (peso o credito extra) nella categoria ID $a->id'; // ORPHANED
+$string['norolesdefined'] = 'Non ci sono ruoli definiti in Amministrazione > Valutazioni > Impostazioni Generali > Ruoli riportati nel registro'; // ORPHANED
+$string['nousersloaded'] = 'Nessun utente caricato'; // ORPHANED
+$string['scaleconfirmdelete'] = 'Sei sicuro di eliminare la scala \"$a\"?'; // ORPHANED
 
 ?>

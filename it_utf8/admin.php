@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.8 (Build: 20100325) (2007101580)
+      // admin.php - created with Moodle 1.9.11 (Build: 20110221) (2007101591.02)
 
 
 $string['accessdenied'] = 'Accesso negato';
@@ -84,6 +84,7 @@ $string['configclamfailureonupload'] = 'Se hai configurato Clam antivirus per es
 In ogni caso, gli Amministratori verranno avvisati se Clam antivirus dovesse andare in errore.
 
 Se scegli \'Considera i file infetti\' e per qualche motivo Clam antivirus dovesse andare in errore (spesso avviene se il valore di pathtoclam è errato), TUTTI i files trasferiti saranno spostati nell\'area di quarantena o eliminati. Si consiglia di impostare questa variabile con molta attenzione!';
+$string['configconvertformat'] = 'Se sono disponibili <i>latex</i>, <i>dvips</i> and <i>convert</i>, le immagini saranno create nel formato sepcificato. In mancanza, verrà usato mimetTeX che creerà immagini GIF.';
 $string['configcookiehttponly'] = 'Abilita le caratteristiche del PHP 5.2.0. I browser verranno obbligati ad inviare cookie solo tramite protocollo http, in modo da non consentire l\'accesso ai cookie da linguaggi di scripting. Non tutti i browser supportano questa caratteristica che potrebbe non essere compatibile con l\'attuale codice. Questa impostazione aiuta a prevenire alcuni tipi di attacchi XSS.';
 $string['configcookiesecure'] = 'Se il server accetta solamente connessioni https, allora è opportuno abilitare l\'invio di cookie sicuri. Se abilitate questa impostazione, accertatevi che il server web non accetti connessioni http://, oppure impostate un reindirizzamento permanente al protocollo https://. Nel caso in cui l\'indirizzo specificato per <em>wwwroot</em> nella config.php non contenga https://, questa impostazione sarà automaticamente disabilitata.';
 $string['configcountry'] = 'Il Paese che comparirà per default nelle pagine di creazione di un nuovo account utente. Se non impostate un Paese di default, il campo diventerà a a compilazione obbligatoria.';
@@ -296,6 +297,7 @@ Se specificato, questo programma si occuperà  di creare archivi di files compre
 $string['confirmation'] = 'Conferma';
 $string['confirmed'] = 'Confermato';
 $string['confirminstall'] = 'Si sta per installare il language pack ($a), siete sicuri?';
+$string['convertformat'] = 'formato di output <i>convert</i>';
 $string['cookiehttponly'] = 'Solo cookies http';
 $string['cookiesecure'] = 'Solo cookies sicuri';
 $string['country'] = 'Paese default';
@@ -473,6 +475,7 @@ $string['incompatibleblocks'] = 'Blocchi non compatibili';
 $string['install'] = 'Installa i Language Pack selezionati';
 $string['installedlangs'] = 'Language Pack installati';
 $string['intcachemax'] = 'Int. cache max';
+$string['intlrecommended'] = 'L\'estensione Intl è utilizzata per migliorare il supporto alla internazionalizzaizone, come l\'ordinamento.';
 $string['invalidsection'] = 'Sezione non valida';
 $string['invaliduserchangeme'] = 'Il nome utente \"changeme\" è riservato - non è possibile creare utenti con quel nome utente.';
 $string['iplookup'] = 'Ricerca indirizzo IP';
@@ -530,6 +533,8 @@ $string['mediapluginflv'] = 'Abilita filtro .flv';
 $string['mediapluginmov'] = 'Abilita filtro .mov';
 $string['mediapluginmp3'] = 'Abilita filtro .mp3';
 $string['mediapluginmpg'] = 'Abilita filtro .mpg';
+$string['mediapluginogg'] = 'Abilita filtro .ogg';
+$string['mediapluginogv'] = 'Abilita filtro .ogv';
 $string['mediapluginram'] = 'Abilita filtro .ram';
 $string['mediapluginrm'] = 'Abilita filtro .rm';
 $string['mediapluginrpm'] = 'Abilita filtro .rpm';
@@ -606,6 +611,7 @@ $string['performance'] = 'Prestazioni';
 $string['pgcluster'] = 'Cluster PostgreSQL';
 $string['pgclusterdescription'] = '<pre>Parametro per le operazioni a linea di comando della versione/cluster di PostgreSQL. Se avete solo un postgresql sul vostro sistema o non siete sicuri di cosa sia questo, lasciatelo vuoto.</pre>';
 $string['php50restricted'] = 'PHP 5.0.x ha diversi problemi conosciuti, si prega di aggiornare alla versione 5.1.x o tornare alle versioni 4.3.x o 4.4.x';
+$string['php533warning'] = 'Si raccomanda l\'udo di PHP 5.3.3 o superiore';
 $string['phpfloatproblem'] = 'E\' stato rilevato un problema inatteso durante l\'utilizzo di numeri a virgola mobile tramite PHP - $a';
 $string['pleaserefreshregistration'] = 'Questo sito è stato registrato con moodle.org. Ricorda di aggiornare la registrazione se sono state apportate modifiche significative dall\'ultimo aggiornamento, avvenuto il $a';
 $string['pleaseregister'] = 'Registrando il vostro sito questo pulsante verrà  rimosso';
@@ -732,6 +738,7 @@ $string['smtppass'] = 'SMTP password';
 $string['smtpuser'] = 'SMTP username';
 $string['soaprecommended'] = 'L\'estensione opzionale SOAP è utile per i Web service ed acluni moduli contrib.';
 $string['spamcleaner'] = 'Spam cleaner';
+$string['splrequired'] = 'E\' necessaria l\'estensione PHP SPL';
 $string['stats'] = 'Statistiche';
 $string['statscatdepth'] = 'Num. massimo categorie genitrici';
 $string['statsfirstrun'] = 'Intervallo massimo di elaborazione';
