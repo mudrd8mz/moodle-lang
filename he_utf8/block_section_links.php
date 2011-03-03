@@ -2,7 +2,7 @@
       // block_section_links.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
-$string['blockname'] = 'קישורי קטעים';
+$string['blockname'] = 'קישורים ליחידות ההוראה';
 $string['incby1'] = 'הגדלה ב';
 $string['incby2'] = 'הגדלה תחלופתית ב';
 $string['incbydesc1'] = 'זהו הערך, החלק גדל בכל זמן שקישור החלק מוצג ומתחיל מ1.';
