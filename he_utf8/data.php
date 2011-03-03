@@ -3,11 +3,11 @@
 
 
 $string['action'] = 'פעולה';
-$string['add'] = 'הוסף רשומה';
+$string['add'] = 'הוספת רשומה';
 $string['addafield'] = 'הוסף שדה';
 $string['addcomment'] = 'הוסף הערה';
 $string['addentries'] = 'הוסף רשומות';
-$string['addtemplate'] = 'הוסף תבנית';
+$string['addtemplate'] = 'תבנית הוספת רשומה';
 $string['advancedsearch'] = 'חיפוש מורחב';
 $string['allowcomments'] = 'אפשר הערות תלמידים?';
 $string['allowratings'] = 'ניתן לדרג רשומות?';
