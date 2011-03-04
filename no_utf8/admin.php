@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.10+ (Build: 20110105) (2007101591)
+      // admin.php - created with Moodle 1.9.11 (Build: 20110221) (2007101591.02)
 
 
 $string['accessdenied'] = 'Ingen tilgang';
@@ -102,12 +102,12 @@ $string['configdefaultallowedmodules'] = 'Hvilke moduler skal være tillatt som 
 $string['configdefaultcourseroleid'] = 'Brukere som meldes inn i et kurs vil som standard bli tildelt denne rollen.';
 $string['configdefaultrequestcategory'] = 'Kursønsker fra brukere vil automatisk bli plassert i denne kategorien.';
 $string['configdefaultrequestedcategory'] = 'Standard kategori forespurte kurs skal legges i hvis de godkjennes.';
-$string['configdefaultuserroleid'] = 'Alle innloggede brukere vil få tildelt mulighetene i den rollen du setter opp her, på site-nivå, I TILLEGG til enhver annen rolle de måtte ha blitt tildelt. Standard er GJEST. Merk at dette ikke vil konflikte med andre roller en bruker har, den bare sikrer at alle brukere kan gjøre noe nyttig på site-nivå. (F.eks. lese i forum, ressurser osv)';
+$string['configdefaultuserroleid'] = 'Alle innloggede brukere vil få tildelt mulighetene i den rollen du setter opp her, på portal-nivå, I TILLEGG til enhver annen rolle de måtte ha blitt tildelt. Standard er GJEST. Merk at dette ikke vil konflikte med andre roller en bruker har, den bare sikrer at alle brukere kan gjøre noe nyttig på portal-nivå. (F.eks. lese i forum, ressurser osv)';
 $string['configdeleteincompleteusers'] = 'Etter denne perioden vil ikke fullførte kontoer bli slettet.';
 $string['configdeleteunconfirmed'] = 'Hvis du bruker autentisering via epost, er dette den perioden hvor svar fra brukerne aksepteres. Etter denne perioden vil gamle ubekreftede konti slettes.';
 $string['configdenyemailaddresses'] = 'For å avvise adresser fra spesielle domener, lister du dem på samme måte her. Alle andre domener vil godkjennes. Eks. <strong>hotmail.com yahoo.co.uk</strong>';
 $string['configdigestmailtime'] = 'Brukere som velger å få epost tilsendt i en samlesending vil få den en gang daglig. Denne settingen kontrollerer når på dagen samlesendingen vil bli sendt ut (neste gang cron kjører etter dette tidspunktet vil sende den ut).';
-$string['configdisablecourseajax'] = 'Ikke bruk AJAX når du redigerer hovedsidene på siten.';
+$string['configdisablecourseajax'] = 'Ikke bruk AJAX når du redigerer hovedsidene på portalen.';
 $string['configdisableuserimages'] = 'Slå av muligheten for at brukerne selv kan laste opp bilde av seg selv.';
 $string['configdisplayloginfailures'] = 'Dette vil vise informasjon om tidligere mislykkede innlogginger til utvalgte brukere.';
 $string['configdocroot'] = 'Definerer stien til Moodle dokumenter. Du kan forandre denne hvis du ønsker å ha din egen tilpassede dokumentasjon på nettet. Men hvis du gjør det, sørg for at stiene i din dokumentasjon følger samme format som den på http://docs.moodle.org.';
@@ -116,14 +116,14 @@ $string['configeditordictionary'] = 'Denne verdien blir benyttet hvis aspell ikk
 $string['configeditorfontlist'] = 'Velg de fontene som skal være tilgjengelige i tekstredigingsverktøyet.';
 $string['configemailchangeconfirmation'] = 'Tving brukeren til å gjenta e-postadressen når den endres.';
 $string['configemoticons'] = 'Endre koden på venstre side som hører til navnet på emoticon til høyre. For å legge til nye emoticons, legg til en kode og et navn og legg til et bilde som heter navn.gif i /pix/s.';
-$string['configenableajax'] = 'Denne innstillingen lar deg kontrollere bruken av AJAX (avansert klient/server teknologi via javascript) på hele siten. Med denne innstillingen aktivert kan fortsatt den enkelte bruker slå av AJAX i egen profil. Som standard er AJAX inaktiv for alle.';
+$string['configenableajax'] = 'Denne innstillingen lar deg kontrollere bruken av AJAX (avansert klient/server teknologi via javascript) på hele portalen. Med denne innstillingen aktivert kan fortsatt den enkelte bruker slå av AJAX i egen profil. Som standard er AJAX inaktiv for alle.';
 $string['configenablecalendarexport'] = 'Slå på eksportering/abonnering på kalendre.';
 $string['configenablecourserequests'] = 'Dette vil tillate at alle brukere kan be om at et kurs skal opprettes.';
 $string['configenableglobalsearch'] = 'Denne innstillingen aktiverer globalt tekstsøk i ressurser og aktiviteter. Den er ikke kompatibel med PHP 4.';
 $string['configenablegroupings'] = 'Denne innstillingen slår på hoved- og undergrupper.';
 $string['configenablehtmlpurifier'] = 'Bruk HTML Purifier istedet for KSES for å rense usikret tekst. HTML Purifier blir fortløpende utviklet og skal være sikrere, men er mer ressurskrevende. Du kan forvente mindre forskjeller i htmlkoden. Vær oppmerksom på at EMBED og OBJECT tagger ikke kan slås på, MathML tagger og tagger fra gamle språk er ikke støttet.';
-$string['configenablerssfeeds'] = 'Dette vil aktivisere RSS for hele siten. For å få øye på endringen må RSS slås på i hver enkelt modul også. Gå derfor til Modul-innstillingene i Admin-menyen og aktiver modulene.';
-$string['configenablerssfeedsdisabled'] = 'Denne er ikke tilgjengelig siden RSS er inaktiv på denne siten. For å aktivisere RSS må du gå til Admin; Variabler.';
+$string['configenablerssfeeds'] = 'Dette vil aktivisere RSS for hele portalen. For å få øye på endringen må RSS slås på i hver enkelt modul også. Gå derfor til Modul-innstillingene i Admin-menyen og aktiver modulene.';
+$string['configenablerssfeedsdisabled'] = 'Denne er ikke tilgjengelig siden RSS er inaktiv på denne portalen. For å aktivisere RSS må du gå til Admin; Variabler.';
 $string['configenablerssfeedsdisabled2'] = 'RSS strøm er slått av på servernivå. Du behøver å slå dem på først i Server/RSS.';
 $string['configenablesafebrowserintegration'] = 'Dette legger til valget \"Krever sikker eksamensnettleser\" til feltet for nettlesersikkerhet i Quiz-innstillingene. Gå til <a href=\"http://www.safeexambrowser.org/\" target=\"_blank\">http://www.safeexambrowser.org/</a> for mer informasjon.';
 $string['configenablestats'] = 'Hvis du velger \'ja\' her, vil Moodles cronjobb prosessere loggene og samle statistikk. Avhengig av mengden trafikk på nettstedet, kan dette ta litt tid. Hvis du tillater det, vil du kunne se interessante grafer og statistikk om hvert av kursene dine eller på basis av hele nettstedet.';
@@ -168,14 +168,14 @@ $string['configlangdir'] = 'De fleste språk skrives fra venstre-til-høyre, men
 $string['configlanglist'] = 'La denne stå tom hvis du vil at brukerne skal velge fritt fra installerte språk i Moodle. Du kan også avgrense valgmulighetene ved å legge inn språk-kodene for ønskede språk. Eks: en,es_es,fr,it,no';
 $string['configlangmenu'] = 'Bestem om språkmenyen skal vises på hovedsiden, login-siden etc. Brukeren vil likevel kunne angi ønsket språk i sin egen profil.';
 $string['configlatinexcelexport'] = 'Velg kodesett for Excel-eksporter';
-$string['configlocale'] = 'Angi datoformat for hele siten. Dette vil overstyre både format og språk for alle installerte språkpakker. (Kalenderdatoer påvirkes ikke) Du må ha  disse lokale datoinnstillingene installert i operativsystemet. I de fleste tilfeller anbefaler vi  at du lar feltet stå blankt.';
+$string['configlocale'] = 'Angi datoformat for hele portalen. Dette vil overstyre både format og språk for alle installerte språkpakker. (Kalenderdatoer påvirkes ikke) Du må ha  disse lokale datoinnstillingene installert i operativsystemet. I de fleste tilfeller anbefaler vi  at du lar feltet stå blankt.';
 $string['configloginhttps'] = 'Aktiviserer du dette vil Moodle bruke en sikker https-forbindelse for login-prosessen, og deretter vende tilbake til normal http-protokoll. (Raskere)
-ADVARSEL! Denne innstillingen KREVER at https er aktivisert på webserveren. Er den ikke det vil du bli utestengt fra din egen site.';
+ADVARSEL! Denne innstillingen KREVER at https er aktivisert på webserveren. Er den ikke det vil du bli utestengt fra din egen portal.';
 $string['configloglifetime'] = 'Dette spesifiserer hvor lang tid du ønsker å bevare logger om brukeraktivitet. Logger som er eldre enn dette blir automatisk slettet. Det er best å beholde logger så lenge som mulig, i tilfelle du trenger dem, men hvis du har en veldig travel tjener og opplever problemer med ytelsen, bør du vurdere å senke levetiden til loggene.';
 $string['configlongtimenosee'] = 'Dersom brukere ikke har vært innlogget på lenge, kan de automatisk meldes ut av kurs. Denne innstillingen bestemmer grenseverdien for slik automatisk utmelding.';
 $string['configlookahead'] = 'Dager inn i fremtiden';
 $string['configmailnewline'] = 'Tegn for ny linje i mailbeskjeder. CRLF skal brukes ifølge RFC 822bis, noen epostservere bruker automatisk konvertering fra LF til CRLF, andre gjør feil konvertering fra CRLF til CRCRLF, andre igjen avviser epost med bare LF (qmail foreksempel). Prøv å endre denne innstillingen hvis du opplever problemer med epost som ikke blir levert eller doble blanke linjer.';
-$string['configmaxbytes'] = 'Denne innstillingen bestemmer største tillate filstørrelse (ved opplasting) for hele siten. Innstillingen er begrenset av PHP-innstillingen \"post_max_size\" og \"upload_max_filesize\", og Apaches \"LimitRequestBody\". Her settes største tillatte filstørrelse som kan velges på kurs eller modulnivå.';
+$string['configmaxbytes'] = 'Denne innstillingen bestemmer største tillate filstørrelse (ved opplasting) for hele portalen. Innstillingen er begrenset av PHP-innstillingen \"post_max_size\" og \"upload_max_filesize\", og Apaches \"LimitRequestBody\". Her settes største tillatte filstørrelse som kan velges på kurs eller modulnivå.';
 $string['configmaxeditingtime'] = 'Dette spesifiserer hvor lang tid folk har til å endre på innlegg til forum, kommentarer til glossar osv. Vanligvis vil 30 min være en god verdi.';
 $string['configmaxevents'] = 'Begivenheter inn i fremtiden';
 $string['configmemcachedhosts'] = 'For memcached. Kommaseparerte lister hos verter som kjører memcached-tjenesten. Bruk IP-adresser for å unngå DNS ventetid. memcached oppfører seg ikke pent hvis du legger til eller fjerner verter når du kjører setup.';
@@ -249,7 +249,7 @@ $string['configsmtphosts'] = 'Oppgi fullt navn for en eller flere lokale smtp-se
 $string['configsmtpmaxbulk'] = 'Antall beskjeder sent per SMTP-sesjon. Å gruppere beskjeder kan gi økt hastigheten på epostsending. Verdier på mindre enn to tvinger at en ny SMTP-sesjon blir startet for hver epost som sendes.';
 $string['configsmtpuser'] = 'Dersom du har oppgitt en SMTP-server over, og serveren krever godkjenning, må du skrive inn brukernavn og passord her.';
 $string['configstartwday'] = 'Uken starter på';
-$string['configstatscatdepth'] = 'Statistikk-koden bruker forenklet kursinnrulleringslogikk, overstyringer er ignorert og det finnes et maks antall verifiserte overkurs-kategorier. Tallet 0 betyr at en finner direkte rollehavere på sitenivå og kursnivå, 1 betyr at en også finner rollehavere i overnivå av kurs etc. Høyere tall resulterer i større ressursbruk på databasen når en behandler statistikk.';
+$string['configstatscatdepth'] = 'Statistikk-koden bruker forenklet kursinnrulleringslogikk, overstyringer er ignorert og det finnes et maks antall verifiserte overkurs-kategorier. Tallet 0 betyr at en finner direkte rollehavere på portalnivå og kursnivå, 1 betyr at en også finner rollehavere i overnivå av kurs etc. Høyere tall resulterer i større ressursbruk på databasen når en behandler statistikk.';
 $string['configstatsfirstrun'] = 'Dette setter hvor langt tilbake i tid loggene skal bearbeides <b>første gangen</b> cron kjører statistikk-rutinene. Hvis du har mye trafikk og leier et webhotell (som ofte deler maskinvare med mange andre) er det neppe en god ide å sette for langt tilbake i tid.';
 $string['configstatsmaxruntime'] = 'Statistikk-kjøringen kan være svært prosessorintensiv, så bruk en kombinasjon av dette feltet og det neste for å spesifisere hvor lenge en skal holde på.';
 $string['configstatsmaxruntime2'] = 'Statistikkbehandling kan være ganske intensiv, oppgi maxtid en kan bruke for å samle en dags statistikk. Max. antall dager som kan behandles i en cronkjøring er 3.';
@@ -258,7 +258,7 @@ $string['configstatsruntimedays'] = 'Spesifiser maks antall dager som skal prose
 $string['configstatsruntimestart'] = 'På hvilket <b>klokkeslett</b> skal cron starte statistikk-kjøringen?';
 $string['configstatsuserthreshold'] = 'Dersom du skriver inn et tall forskjellig fra null, eller et bokstavverdi her, vil kurs med færre deltakere enn oppgitt her bli ignorert fra ranking-lista over mest populære kurs.';
 $string['configstripalltitletags'] = 'Fjern haken her hvis du vil tillate HTML-tagger i aktivitets- og ressursnavn.';
-$string['configsupportemail'] = 'Epostadressen vil bli publisert til brukere av denne siten i tillegg til epost til den som står for generell hjelp (for eksempel, når brukerne lager egne konti). Hvis feltet er blankt vil ikke noen sånn hjelpsom epostadresse bli oppgitt.';
+$string['configsupportemail'] = 'Epostadressen vil bli publisert til brukere av denne portalen i tillegg til epost til den som står for generell hjelp (for eksempel, når brukerne lager egne konti). Hvis feltet er blankt vil ikke noen sånn hjelpsom epostadresse bli oppgitt.';
 $string['configsupportname'] = 'Dette er navnet på en person eller enhet som tilbyr generell hjelp via supportepost eller hjemmeside.';
 $string['configsupportpage'] = 'Denne webadressen vil bli publisert til brukere av siden som den adressen de må gå til hvis de trenger generell hjelp (for eksempel når nye brukere vil lage egne konti). Hvis adressen er tom vil ingen lenke bli gitt';
 $string['configteacherassignteachers'] = 'Skal vanlige lærere få tillatelse til å tildele lærer-rettigheter i kursene de selv underviser i? (Dersom NEI, vil det bare være kursopprettere og administratorer som kan gjøre dette)';
@@ -266,7 +266,7 @@ $string['configthemelist'] = 'La denne stå tom dersom du ønsker at alle gyldig
 Eksempelvis: standard,orangewhite';
 $string['configtimezone'] = 'Du kan sette standard tidssone her. Dette er kun STANDARD tidssone for å vise datoer - hver bruker kan overstyre denne ved å sette sin egen i profilen. \"Tjenertid\" her vil sette Moodles standard til tjenermaskinens systeminnstilling, men \"Tjenertid\" i brukerens profil vil gjøre denne tidssoneinnstillingen til brukerens standard. Cron-jobber som avhenger av en tid  på dagen for å kjøre, vil bruke denne tidssonen.';
 $string['configunzip'] = 'Indiker hvor ditt unzip-program finnes (kun Unix - valgfritt). Hvis det spesifiseres, vil dette brukes for å pakke opp zip arkiv på tjeneren. Hvis du lar den stå tom, vil Moodle bruke interne rutiner.';
-$string['configusetags'] = 'Skal tagfunksjonalitet på hele siten slås på?';
+$string['configusetags'] = 'Skal taggfunksjonalitet på hele portalen slås på?';
 $string['configvariables'] = 'Innstillinger';
 $string['configverifychangedemail'] = 'Aktiverer verifisering av e-postadressen når den endres - og sjekker mot innstillingene for tillate/sperrede e-postdomener. Hvis deaktivert vil domenesjekken bare bli utført for nye brukere.';
 $string['configvisiblecourses'] = 'Vis kurs fra skjulte kategorier';
@@ -302,7 +302,7 @@ $string['curlrecommended'] = 'Vi anbefaler sterkt at Curl-biblioteket legges til
 $string['customcheck'] = 'A';
 $string['datarootsecurityerror'] = '<p><strong>SIKKERHETSADVARSEL!</strong></p><p>Rotkatalogen for dine Moodledata er plassert feil og er fritt tilgjengelig fra web. Dette betyr at alle dine private filer er tilgjengelige for hvem som helst, og du må regne med at hackere vil bruke informasjonen her til å finne svakheter i brukernavn/passord og skaffe seg uautorisert tilgang til din installasjon!</p>
 <p>Du <em>må</em> flytte moodledata-katalogen ($a) til et annet sted UTENFOR webområdet og oppdatere <code>\$CFG->dataroot</code> innstillingen i config.php tilsvarende.</p>';
-$string['datarootsecuritywarning'] = 'Site-oppsettet ditt er kanskje ikke sikkert nok. Vennligst sjekk at dataroot katalogen ($a) ikke er direkte tilgjengelig via web.';
+$string['datarootsecuritywarning'] = 'Portal-oppsettet ditt er kanskje ikke sikkert nok. Vennligst sjekk at dataroot katalogen ($a) ikke er direkte tilgjengelig via web.';
 $string['dbmigrate'] = 'Moodle databasemigrering';
 $string['dbmigrateconnecerror'] = 'Kunne ikke koble opp til databasen som er spesifisert.';
 $string['dbmigrateencodingerror'] = 'Databasen oppgitt har tegnsett $a i stedet for det påkrevde UNICODE/UTF-8.</br>Vennligst oppgi en annen database.';
@@ -442,7 +442,7 @@ $string['htmleditor'] = 'Tekstredigeringsverktøy';
 $string['htmlsettings'] = 'HTML-innstillinger';
 $string['http'] = 'HTTP';
 $string['httpsecurity'] = 'HTTP sikkerhet';
-$string['iconvrecommended'] = 'Installering av ICONV-biblioteket er sterkt anbefalt for å forbedre ytelsen, spesielt hvis siten din støtter ikke-latinske språk.';
+$string['iconvrecommended'] = 'Installering av ICONV-biblioteket er sterkt anbefalt for å forbedre ytelsen, spesielt hvis portalen din støtter ikke-latinske språk.';
 $string['iconvrequired'] = 'Et nødvendig PHP-tillegg: ICONV mangler.';
 $string['ignore'] = 'Ignorér';
 $string['importlangreminder'] = 'Databasemigrasjonen starter nå. Du blir nødt til å <b>legge inn på nytt/b> for at oppgraderingen skal aktiviseres. Vennligst innstaller Unicode-språkpakker fra moodle.org (via språk i admin-menyen), straks migrasjonsprosessen er ferdig.';
@@ -489,7 +489,7 @@ $string['langupdatecomplete'] = 'Oppgradering av språkpakke avsluttet';
 $string['latexpreamble'] = 'LaTeX innledning';
 $string['latexsettings'] = 'LaTeX oversettingsinnstillinger';
 $string['latinexcelexport'] = 'Excel tegnsett';
-$string['localetext'] = 'Datoformat for siten';
+$string['localetext'] = 'Datoformat for portalen';
 $string['localstringcustomization'] = 'Lokale språk filer';
 $string['location'] = 'Sted';
 $string['locationsettings'] = 'Innstillinger for sted';
@@ -543,11 +543,11 @@ $string['multilangforceold'] = 'Tving gammel multilangsyntaks: &lt;span&gt; uten
 $string['multilangupgrade'] = 'Flerspråklig oppgradering';
 $string['multilangupgradeinfo'] = 'The multilang filter syntax was changed in 1.8, &lt;lang&gt; tag is not supported any more. <br /><br />Example: &lt;span lang=\"en\" class=\"multilang\">Hello!&lt;/span&gt;&lt;span lang=\"es\" class=\"multilang\">Hola!&lt;/span&gt;<br /><br /><strong>Do you want to upgrade the syntax in all existing texts now?</strong>';
 $string['multilangupgradenotice'] = 'Din Moodle ser ut til å bruke en foreldet flerspråklig syntaks, en  <a href=\"multilangupgrade.php\">oppgradering</a>  anbefales.';
-$string['mustenablestats'] = 'Statistikk er ikke aktivisert ennå på denne siten.';
+$string['mustenablestats'] = 'Statistikk er ikke aktivisert ennå på denne portalen.';
 $string['mycoursesperpage'] = 'Maks antall kurs som skal vises pr.side på brukerens kursoversikt';
 $string['mymoodle'] = 'Min Moodle';
 $string['mymoodleredirect'] = 'Vanlige brukere får \"Min Moodle\" som hovedside';
-$string['mysql416bypassed'] = 'Likevel, dersom Moodle-siten bare bruker iso-8859-1 (latin, KAN du likevel bruke din installerte MySQL 4.1.12 (eller høyere).';
+$string['mysql416bypassed'] = 'Likevel, dersom Moodle-portalen bare bruker iso-8859-1 (latin, KAN du likevel bruke din installerte MySQL 4.1.12 (eller høyere).';
 $string['mysql416required'] = 'MySQL 4.1.16 er minstekravet for Moodle 1.6.x, hvis vi skal garantere at alle data skal kunne konverteres til UTF-8 i fremtiden.';
 $string['nobookmarksforuser'] = 'Du har ingen bokmerker';
 $string['nochanges'] = 'Ingen endringer';
@@ -668,15 +668,15 @@ $string['requiredtemplate'] = 'Nødvendig. Du kan bruke malsyntaks her (%%l = et
 $string['restrictbydefault'] = 'Begrens som standard tilgang til modulene';
 $string['restrictmodulesfor'] = 'Begrens tilgang til moduler for';
 $string['reverseproxy'] = 'Revers proxy';
-$string['riskconfig'] = 'Brukeren kan endre site-oppsettet og hvordan det oppfører seg!';
+$string['riskconfig'] = 'Brukeren kan endre portal-oppsettet og hvordan det oppfører seg!';
 $string['riskconfigshort'] = 'Risiko ved innstillingene';
 $string['riskmanagetrust'] = 'Brukere kan endre sikkerhetsinnstillinger på andre brukere';
-$string['riskmanagetrustshort'] = 'Administrere sikre siter';
+$string['riskmanagetrustshort'] = 'Administrere sikre portaler';
 $string['riskpersonal'] = 'Brukere kan få tilgang til privat informasjon hos andre brukere.';
 $string['riskpersonalshort'] = 'Risiko for privat info';
-$string['riskspam'] = 'Brukere kan sende spam til site-brukere eller andre';
+$string['riskspam'] = 'Brukere kan sende spam til portal-brukere eller andre';
 $string['riskspamshort'] = 'Risiko for spam';
-$string['riskxss'] = 'Brukere kan legge til filer og tekst som tillater skripting mellom siter.';
+$string['riskxss'] = 'Brukere kan legge til filer og tekst som tillater skripting mellom portaler.';
 $string['riskxssshort'] = 'XSS risiko';
 $string['rowpreviewnum'] = 'Forrige rad';
 $string['rssglobaldisabled'] = 'Slå av på servernivå';
@@ -707,9 +707,9 @@ $string['sitemaintenancemode'] = 'Vedlikeholdsmodus';
 $string['sitemaintenanceoff'] = 'Vedlikeholdsmodus er slått av, og nettstedet fungerer normalt igjen';
 $string['sitemaintenanceon'] = 'Nettstedet er i vedlikeholdsmodus(bare administratorer kan logge inn eller bruke nettstedet)';
 $string['sitemaintenancewarning'] = 'Dette nettstedet er i vedlikeholdsmodus for øyeblikket (kun administratorer kan logge inn). For å kunne returnere til normal operasjon, må du <a href=\"maintenance.php\">slå av vedlikeholdsmodus</a>.';
-$string['sitepolicies'] = 'Site regler';
-$string['sitepolicy'] = 'Site regler URL';
-$string['sitesectionhelp'] = 'Dersom valgt, vil en emneseksjon vises på førstesiden til siten.';
+$string['sitepolicies'] = 'Portalregler';
+$string['sitepolicy'] = 'Portalregler URL';
+$string['sitesectionhelp'] = 'Dersom valgt, vil en emneseksjon vises på førstesiden til portalen.';
 $string['slasharguments'] = 'Bruk slash argumenter';
 $string['smartpix'] = 'Smart PIX søk';
 $string['smtphosts'] = 'SMTP-server';
@@ -752,7 +752,7 @@ $string['unattendedoperation'] = 'Automatisk installasjon';
 $string['unbookmarkthispage'] = 'Fjern bokmerket for denne siden';
 $string['unicoderecommended'] = 'Vi anbefaler at alle dine data lagres i UNICODE (UTF-8). Nye installasjoner bør gjøres til Unicode-databaser. Dersom du oppgraderer bør du kjøre UTF-8 migrasjonsrutinen i admin-menyen.';
 $string['unicoderequired'] = 'Det er påkrevd at du lagrer alle data i Unicode format(UTF-8).Nye installasjoner må gjøres til Unicode-databaser. Dersom du oppgraderer må etterpå du kjøre UTF-8 migrasjonsrutinen i admin-menyen.';
-$string['unicodeupgradenotice'] = 'I Moodle 1.6 migrerte vi alle språk til UNICODE. For å fullføre oppgraderingen for denne siten må du konvertere alle dataene i databasen til Unicode (UTF-8) ved hjelp av vårt migrasjonsskript. <a href=\"utfdbmigrate.php\">Klikk her for å kjøre migrasjonsskriptet nå</a>!';
+$string['unicodeupgradenotice'] = 'I Moodle 1.6 migrerte vi alle språk til UNICODE. For å fullføre oppgraderingen for denne portalen må du konvertere alle dataene i databasen til Unicode (UTF-8) ved hjelp av vårt migrasjonsskript. <a href=\"utfdbmigrate.php\">Klikk her for å kjøre migrasjonsskriptet nå</a>!';
 $string['uninstall'] = 'Avinstaller valgte språkpakke';
 $string['uninstallconfirm'] = 'Du er i ferd med å avinstallere språkpakken $a. Er du sikker på at det er det du vil?';
 $string['unsupported'] = 'Ikke støttet';
@@ -767,7 +767,7 @@ $string['upgrade197noticesubject'] = 'Moodle 1.9.7 eller nyere-oppgradingen: Sik
 $string['upgrade197salt'] = 'Vi anbefaler også sterkt at du legger inn en passord-krypteringsfrase for å effektivt redusere risikoen for tyveri av passord.<br />
 Vennligst se nærmere på <a href=\"$a\" target=\"_blank\">dokumentasjonen</a> for alle detaljer om hvordan du gjør dette.';
 $string['upgradeforumread'] = 'En ny egenskap har blitt lagt til i Moodle 1.5 for å spore leste/uleste foruminnlegg.<br />For å bruke denne funksjonaliteten må du <a href=\"$a\">oppdatere tabellene dine</a>.';
-$string['upgradeforumreadinfo'] = 'En ny funksjon for sporing av leste/uleste foruminnlegg ble lagt til i Moodle 1.5. For å ta i bruk denne funksjonen må du oppdatere tabellene med all sporingsinfo fra eksisterende innlegg. Avhengig av størrelsen på din site kan dette ta lang tid (timer) og belaste databasen kraftig, så det er best du gjør dette i en stille periode. Likevel; Siten vil fungere som normalt og brukerne blir ikke berørt. Når du starter prosessen må du la den gå ferdig.(Ikke lukk nettleservinduet). Dersom du likevel skulle lukke nettleseren din, ikke bekymre deg - du kan starte på nytt. <br /><br />Ønsker du å starte oppgraderingen nå?';
+$string['upgradeforumreadinfo'] = 'En ny funksjon for sporing av leste/uleste foruminnlegg ble lagt til i Moodle 1.5. For å ta i bruk denne funksjonen må du oppdatere tabellene med all sporingsinfo fra eksisterende innlegg. Avhengig av størrelsen på din portal kan dette ta lang tid (timer) og belaste databasen kraftig, så det er best du gjør dette i en stille periode. Likevel; Portalen vil fungere som normalt og brukerne blir ikke berørt. Når du starter prosessen må du la den gå ferdig.(Ikke lukk nettleservinduet). Dersom du likevel skulle lukke nettleseren din, ikke bekymre deg - du kan starte på nytt. <br /><br />Ønsker du å starte oppgraderingen nå?';
 $string['upgradelogs'] = 'For full funksjonalitet må de gamle loggene oppgraderes. <a href=\"$a\">Mer informasjon</a>';
 $string['upgradelogsinfo'] = 'Det er nylige endringer i måten loggene lagres. For å kunne se alle gamle logger sortert etter aktivitet må de gamle loggene oppgraderes. Dette kan ta lang tid avhengig av din side (flere timer) og det kan kreve store ressurser fra databasen for større nettsteder. Når du har startet denne prosessen bør du la den fullføre (med å ha nettleservinduet åpent). Og - siden vil fungere fint for andre brukere mens loggene oppgraderes.<br /><br />Vil du oppgradere loggene nå?';
 $string['upgradesettings'] = 'Nye innstillinger';
