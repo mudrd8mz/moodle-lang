@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.9.7+ (Build: 20091223) (2007101570)
+      // lesson.php - created with Moodle 1.9.11+ (Build: 20110303) (2007101591.02)
 
 
 $string['accesscontrol'] = 'Tilgangskontroll';
@@ -7,18 +7,18 @@ $string['actionaftercorrectanswer'] = 'Handling etter riktig svar';
 $string['actions'] = 'Handlinger';
 $string['activitylink'] = 'Lenke til en aktivitet';
 $string['activitylinkname'] = 'Gå til: $a';
-$string['addabranchtable'] = 'Legg til menyside';
+$string['addabranchtable'] = 'Legg til innholdside';
 $string['addanendofbranch'] = 'Legg til avslutning';
 $string['addaquestionpage'] = 'Legg til spørsmålside';
 $string['addaquestionpagehere'] = 'Legg til spørsmålsside her';
 $string['addcluster'] = 'Legg til klynge';
-$string['addedabranchtable'] = 'La til side med oversiktstabell';
+$string['addedabranchtable'] = 'La til innholdsside';
 $string['addedanendofbranch'] = 'La til delavslutning';
 $string['addedaquestionpage'] = 'La til spørsmålside';
 $string['addedcluster'] = 'La til klynge';
 $string['addedendofcluster'] = 'La til klyngeavslutning';
 $string['addendofcluster'] = 'Legg til klyngeavslutning';
-$string['addpage'] = 'Legg til side';
+$string['addpage'] = 'Legg til en side';
 $string['anchortitle'] = 'Begynnelsen på hovedinnholdet';
 $string['and'] = 'OG';
 $string['answer'] = 'Svaralternativ';
@@ -31,7 +31,7 @@ $string['attemptsdeleted'] = 'Slettede forsøk';
 $string['attemptsremaining'] = 'Du har $a forsøk igjen';
 $string['available'] = 'Tilgjengelig fra';
 $string['averagescore'] = 'Gjennomsnittspoengsum';
-$string['averagetime'] = 'Gjenomsnittstid';
+$string['averagetime'] = 'Gjennomsnittstid';
 $string['branchtable'] = 'Oversiktstabell';
 $string['cancel'] = 'Avbryt';
 $string['canretake'] = '$a kan forsøke på nytt';
