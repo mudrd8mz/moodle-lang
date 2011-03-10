@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.11 (Build: 20110221) (2007101591.02)
+      // admin.php - created with Moodle 1.9.11+ (Build: 20110303) (2007101591.02)
 
 
 $string['accessdenied'] = 'Ingen tilgang';
@@ -189,7 +189,7 @@ $string['configminpasswordupper'] = 'Passordene må ha minst så mange store bok
 $string['configmycoursesperpage'] = 'Maks antall kurs som skal vises pr.side på brukerens kursoversikt';
 $string['configmymoodleredirect'] = 'Innstillingen sender alle ikke-administratorer til en egendefinert hovedside etter innlogging. (Min Moodle-startside)';
 $string['confignodefaultuserrolelists'] = 'Denne innstillingen hindrer at alle brukerne returneres fra databasen etter utdaterte søk som get_course_user o.l., for hovedkurset hvis standard rolle har tilgang til dette. Kryss av her hvis du opplever ytelsesendringer.';
-$string['confignonmetacoursesyncroleids'] = 'By default all enrolments from child courses are synchronised to metacourses. Roles that are selected here will not be included in the synchronisation process.';
+$string['confignonmetacoursesyncroleids'] = 'Som standard blir alle rolletildelinger fra underkurset synkronisert med metakurset. Roller du velger her vil IKKE bli synkronisert.';
 $string['confignoreplyaddress'] = 'E-post blir noen ganger sent på vegne av en bruker (ved forum-innlegg etc). E-postadressen du oppgir her vil bli benyttet som FRA-adresse i de tilfeller hvor mottakerne IKKE skal svare på e-posten. Denne FRA-adressen brukes også på de brukerne som har reservert seg mot visning av egen e-postadresse.';
 $string['confignotifyloginfailures'] = 'Dersom mislykkede login er logget, kan et e-postvarsel sendes ut. Hvem skal ha disse e-postene?';
 $string['confignotifyloginthreshold'] = 'Dersom varsling om mislykkede login er aktivisert, hvor mange mislykkede forsøk fra en bruker eller IP-adresse er det bryet verdt å varsle om?';
