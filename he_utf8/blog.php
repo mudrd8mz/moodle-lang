@@ -4,7 +4,7 @@
 
 $string['addnewentry'] = 'הוסף רשומה חדשה';
 $string['backupblogshelp'] = 'אם מאופשר, בלוגים יכללו בגיבויים האוטומטים של האתר';
-$string['blockmenutitle'] = 'תפריט בלוג אישי';
+$string['blockmenutitle'] = 'ניהול בלוג אישי';
 $string['blocktagstitle'] = 'תגי בלוג';
 $string['blocktitle'] = 'כותרת תגי הבלוג';
 $string['blog'] = 'בלוג אישי';
