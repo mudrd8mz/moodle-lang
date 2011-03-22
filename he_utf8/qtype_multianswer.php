@@ -5,7 +5,7 @@
 $string['addingmultianswer'] = 'הוספת תשובות משובצות (Cloze)';
 $string['correctanswer'] = 'תשובה נכונה';
 $string['correctanswerandfeedback'] = 'תשובה נכונה ומשוב';
-$string['decodeverifyquestiontext'] = 'פיענוח ואימות שאלת טקסט';
+$string['decodeverifyquestiontext'] = 'פיענוח ואימות תחביר טקסט השאלה';
 $string['editingmultianswer'] = 'עריכת תשובות משובצות  (Cloze)';
 $string['layout'] = 'מערך';
 $string['layouthorizontal'] = 'שורה מאוזנת של כפתורי בחירה';

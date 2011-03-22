@@ -1009,7 +1009,7 @@ $string['nothingnew'] = 'אין חדש מאז התחברותך האחרונה';
 $string['nothingtodisplay'] = 'אין כלום להציג';
 $string['notice'] = 'לתשומת לב';
 $string['noticenewerbackup'] = 'קובץ גיבוי זה נוצר עם Moodle $a->backuprelease ($a->backupversion) וזוהי גירסה חדשה יותר מאשר הגירסה הנוכחית המותקנת אצלך ב-Moodle $a->serverrelease $a->serverversion). דבר זה יכול לגרום לחוסר עקביות מפני שתאימות אחורנית של קבצי גיבוי לא מובטחת.';
-$string['notifications'] = 'הודעות ועדכונים';
+$string['notifications'] = 'עדכונים והודעות';
 $string['notify'] = 'להודיע';
 $string['notifyloginfailuresmessage'] = '$a->time, IP: $a->ip, משתמש: $a->info';
 $string['notifyloginfailuresmessageend'] = 'תוכל לעיין ביומני מעקב אלו ב: $a/course/log.php?id=1&chooselog=1&modid=site_errors';
