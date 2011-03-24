@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9.7+ (Build: 20100203) (2007101571.03)
+      // role.php - created with Moodle 1.9.11+ (Build: 20110323) (2007101591.02)
 
 
 $string['addrole'] = 'Legg til ny rolle';
@@ -16,7 +16,7 @@ $string['blog:create'] = 'Lag nye blogginnlegg';
 $string['blog:manageentries'] = 'Rediger og administrer innlegg';
 $string['blog:manageofficialtags'] = 'Administrer offisielle tagger';
 $string['blog:managepersonaltags'] = 'Administrer personlige tagger';
-$string['blog:view'] = 'Se logginnlegg';
+$string['blog:view'] = 'Se blogginnlegg';
 $string['calendar:manageentries'] = 'Administrer alle kalenderinnlegg';
 $string['calendar:managegroupentries'] = 'Administrer oppføringer i gruppekalenderen';
 $string['calendar:manageownentries'] = 'Administrer egne kalenderinnlegg';

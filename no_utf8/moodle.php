@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.11 (Build: 20110221) (2007101591.02)
+      // moodle.php - created with Moodle 1.9.11+ (Build: 20110323) (2007101591.02)
 
 
 $string['abouttobeinstalled'] = 'vil bli installert';
@@ -801,7 +801,7 @@ $string['langltr'] = 'Skriftretning fra venstre til høyre';
 $string['langrtl'] = 'Skriftretning fra høyre til venstre';
 $string['language'] = 'Språk';
 $string['languagegood'] = 'Denne språkpakken er oppdatert!   :-)';
-$string['lastaccess'] = 'Sist tilgang';
+$string['lastaccess'] = 'Siste tilgang';
 $string['lastedited'] = 'Sist redigert';
 $string['lastlogin'] = 'Siste innlogging';
 $string['lastmodified'] = 'Sist endret';
