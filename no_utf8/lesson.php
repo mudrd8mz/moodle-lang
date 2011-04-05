@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.9.11+ (Build: 20110303) (2007101591.02)
+      // lesson.php - created with Moodle 1.9.11+ (Build: 20110330) (2007101591.02)
 
 
 $string['accesscontrol'] = 'Tilgangskontroll';
@@ -213,7 +213,7 @@ $string['pages'] = 'Sider';
 $string['pagetitle'] = 'Sidens tittel';
 $string['password'] = 'Passord';
 $string['passwordprotectedlesson'] = '$a er en passordbeskyttet leksjon';
-$string['pleasecheckoneanswer'] = 'Vennligst velg et svar';
+$string['pleasecheckoneanswer'] = 'Sjekk svaret';
 $string['pleasecheckoneormoreanswers'] = 'Vennligst velg ett eller flere svar';
 $string['pleaseenteryouranswerinthebox'] = 'Send svaret';
 $string['pleasematchtheabovepairs'] = 'Vennligst finn parene som passer ovenfor';
