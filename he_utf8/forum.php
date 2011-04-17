@@ -194,7 +194,7 @@ $string['postadded'] = '<p>הודעתך נוספה בהצלחה.</p>
 <p>יש לך $a כדי לערוך את הודעתך במידה ותרצה לבצע שינויים.</p>';
 $string['postaddedsuccess'] = 'פרסום הודעתך התווסף בהצלחה.';
 $string['postaddedtimeleft'] = 'יש לך $a לערוך את ההודעה.';
-$string['postincontext'] = 'צפה בהודעה זו בהקשר שלה';
+$string['postincontext'] = 'צפה בהקשר של הודעה זו';
 $string['postmailinfo'] = 'זהו העתק של הודעה שפורסמה באתר $a.
 
 להוספת תגובה דרך האתר, אנא לחץ על קישור זה:';
