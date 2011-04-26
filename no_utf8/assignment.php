@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.9.9+ (Build: 20101013) (2007101590)
+      // assignment.php - created with Moodle 1.9.11+ (Build: 20110420) (2007101591.02)
 
 
 $string['allowdeleting'] = 'Tillat sletting';
@@ -111,7 +111,7 @@ $string['typeoffline'] = 'Frakoplet aktivitet';
 $string['typeonline'] = 'Online tekst';
 $string['typeupload'] = 'Last opp flere filer';
 $string['typeuploadsingle'] = 'Last opp fil';
-$string['unfinalize'] = 'Tilbakestilt som kladd';
+$string['unfinalize'] = 'Tilbakestill som kladd';
 $string['unfinalizeerror'] = 'En feil oppsto slik at innleveringen ikke kunne gjøres om til kladd igjen';
 $string['uploadbadname'] = 'Filnavnet inneholdt ugyldige tegn og filen kunne derfor ikke lastes opp';
 $string['uploadedfiles'] = 'Opplastede filer';
