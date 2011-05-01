@@ -3,7 +3,7 @@
 $string['add_item'] = 'Ajouter une question';
 $string['add_items'] = 'Ajouter des questions';
 $string['add_pagebreak'] = 'Ajouter un saut de page';
-$string['adjustment'] = 'Mise en page';
+$string['adjustment'] = 'Disposition des options';
 $string['after_submit'] = 'Après l\'envoi';
 $string['analysis'] = 'Analyse';
 $string['anonymous_edit'] = 'Enregistrer les noms d\'utilisateur';
