@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9.11+ (Build: 20110323) (2007101591.02)
+      // role.php - created with Moodle 1.9.12+ (Build: 20110518) (2007101591.03)
 
 
 $string['addrole'] = 'Legg til ny rolle';
@@ -122,7 +122,7 @@ $string['prevent'] = 'Forhindre';
 $string['prohibit'] = 'Nekt';
 $string['question:add'] = 'Legg til nytt spørsmål';
 $string['question:config'] = 'Konfigurer spørsmålstyper';
-$string['question:editall'] = 'Endre ale spørsmålene';
+$string['question:editall'] = 'Endre alle spørsmålene';
 $string['question:editmine'] = 'Endre dine egne spørsmål';
 $string['question:managecategory'] = 'Administrer spørsmålskategori';
 $string['question:moveall'] = 'Flytt alle spørsmålene';
