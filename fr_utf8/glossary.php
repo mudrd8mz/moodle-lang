@@ -11,6 +11,7 @@ $string['allowcomments'] = 'Autoriser les commentaires';
 $string['allowduplicatedentries'] = 'Autoriser les doublons';
 $string['allowprintview'] = 'Autoriser l\'affichage pour impression';
 $string['allowratings'] = 'Autoriser l\'évaluation des articles';
+$string['andmorenewentries'] = 'et {$a} nouveaux articles.';
 $string['answer'] = 'Réponse';
 $string['approve'] = 'Approuver';
 $string['areaintro'] = 'Descriptif du glossaire'; // Obsolete as of 2.0dev
