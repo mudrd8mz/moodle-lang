@@ -43,7 +43,7 @@ $string['reuseifpossible'] = 'עשה שימוש חוזר בערך הקודם, א
 $string['sharedwildcard'] = 'תו כללי משותף';
 $string['sharedwildcards'] = 'תוים כלליים משותפים';
 $string['uniform'] = 'אחידה';
-$string['updatedatasetparam'] = 'עדכן את הפרמטרים של מערכי הנתונים';
+$string['updatedatasetparam'] = 'עדכון המשתנים של מערכי הנתונים';
 $string['youmustaddatleastoneitem'] = 'עלייך להוסיף לפחות פריט אחד השייך למערך הנתונים לפני שתוכל לשמור את השאלה הזו.';
 
 ?>
