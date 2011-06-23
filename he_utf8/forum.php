@@ -199,9 +199,9 @@ $string['postmailinfo'] = 'זהו העתק של הודעה שפורסמה באת
 
 להוספת תגובה דרך האתר, אנא לחץ על קישור זה:';
 $string['postmailnow'] = '<p>הודעה זו תישלח באופן מיידי לכל המנויים בפורום.</p>';
-$string['postrating1'] = 'לרוב ידיעה נבדלת';
-$string['postrating2'] = 'נבדלת ומחוברת';
-$string['postrating3'] = 'לרוב ידיעה מחוברת';
+$string['postrating1'] = 'לרוב מבוסס היגיון';
+$string['postrating2'] = 'היגיון ורגש';
+$string['postrating3'] = 'לרוב מבוסס רגש';
 $string['posts'] = 'הודעות';
 $string['posttoforum'] = 'שלח הודעה לפורום';
 $string['postupdated'] = 'ההודעה שלך עודכנה';
