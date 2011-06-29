@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.11+ (Build: 20110323) (2007101591.02)
+      // moodle.php - created with Moodle 1.9.12+ (Build: 20110525) (2007101591.03)
 
 
 $string['abouttobeinstalled'] = 'vil bli installert';
@@ -1088,7 +1088,7 @@ $string['parentcoursenotfound'] = 'Overordnet kurs ble ikke funnet.';
 $string['parentcoursenotmetacourse'] = 'Overordnet kurs er ikke et metakurs.';
 $string['parentfolder'] = 'Overordnet mappe';
 $string['parentlanguage'] = 'Overordnet reservespråk';
-$string['participants'] = 'Deltagere';
+$string['participants'] = 'Deltakere';
 $string['participationratio'] = 'Forberedelsesforholdstall';
 $string['participationreport'] = 'Deltakerrapport';
 $string['password'] = 'Passord';

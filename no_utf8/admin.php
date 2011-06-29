@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.11+ (Build: 20110303) (2007101591.02)
+      // admin.php - created with Moodle 1.9.12+ (Build: 20110525) (2007101591.03)
 
 
 $string['accessdenied'] = 'Ingen tilgang';
@@ -69,7 +69,7 @@ $string['configallowuserblockhiding'] = 'Vil du at brukerne skal kunne skjule/vi
 $string['configallowusermailcharset'] = 'Hvis du tillater dette, vil alle brukere på nettstedet kunne spesifisere sitt eget karaktersett for bruk i epost.';
 $string['configallowuserswitchrolestheycantassign'] = 'Som standard kreves det moodle/role:assign for at brukere skal få bytte roller i et kurs. Aktiverer du denne fravikes dette kravet og listeboksen for bytte av rolle vises. Vi anbefaler at \"Tillat å tildele roller\" ikke settes slik at en bruker kan skifte til en overordnet rolle med flere rettigheter enn de allerede har.';
 $string['configallowuserthemes'] = 'Hvis du tillater dette, kan brukerne velge sitt eget design (utseende). Brukerdesign overstyrer portaldesign (men ikke kursdesign).';
-$string['configallusersaresitestudents'] = 'Skal alle brukere betraktes som studenter i forhold til aktiviteter på forsiden til nettstedet? Hvis du svarer \'JA\', vil alle aksepterte brukerkonti tillates å delta som student i disse aktivitetene. Hvis du svarer \'NEI\', kan bare brukere som allerede er deltagere i minst ett kurs delta i disse aktiviteter. Kun administratorer og spesielt tilordnede lærere kan fungere som lærere for disse forsideaktivitetene.';
+$string['configallusersaresitestudents'] = 'Skal alle brukere betraktes som studenter i forhold til aktiviteter på forsiden til nettstedet? Hvis du svarer \'JA\', vil alle aksepterte brukerkonti tillates å delta som student i disse aktivitetene. Hvis du svarer \'NEI\', kan bare brukere som allerede er deltakere i minst ett kurs delta i disse aktiviteter. Kun administratorer og spesielt tilordnede lærere kan fungere som lærere for disse forsideaktivitetene.';
 $string['configauthenticationplugins'] = 'Vennligst velg autentiseringsmetoder du vil bruke i stigende rekkefølge. Egenregistrering vil skje via metoden valgt under \"Registering\" (vanligvis e-post).';
 $string['configautolang'] = 'Detekter standardspråk fra nettleseren, hvis standardspråk for portalen er deaktivert.';
 $string['configautologinguests'] = 'Skal besøkende automatisk logges inn som gjester når de går til et kurs med gjestetilgang?';
