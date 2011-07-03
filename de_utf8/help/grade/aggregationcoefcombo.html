@@ -1,0 +1,25 @@
+<h2>Zusatzpunkte</h2>
+<h3>werden zur Gesamtbewertung hinzugefügt</h3>
+<p>Falls die 'Summe der Bewertungen' als Bewertungsmuster verwandt wird, kann ein Bewertungseintrag als Extrapunkt für die Bewertungskategorie verwandt werden. 
+ This means that the grade item's maximum grade will not be added to the category total's maximum grade, but the item's grade will. Beispiel:</p>
+
+<ul>
+    <li>Wert 1 ist bewertet mit 0-100</li>
+    <li>Wert 2 ist bewertet mit 0-75</li>
+    <li>Für Wert 1 wurde als  "Zusatzpunkte" aktiviert, Für Wert 2 gilt dies nicht.</li>
+    <li>Beide Werte gehören zur Kategorie 1, "Summe der Bewertungen" ist aktiviert</li>
+    <li>Kategorie 1 Summe wird mit 0-75 bewertet</li>
+    <li>Ein Teilnehmer erhält nun die Bewertung 20 für Wert 1 und 70 für Wert 2</li>
+    <li>Die Gesamtbewertung für Kategorie 1 ist nun 75/75 (20+70 = 90, wobei Wert 1 nur als Zusatzpunkte verwandt wird)</li>
+</ul>
+<h2>For Weighted Mean of Grades (extra credit)</h2>
+<p>A value greater than 0 treats this grade item's grades as Extra credit during aggregation. The number is a factor by which the grade value will be multiplied before it is added to the sum of all grades, but the item itself will not be counted in the division. For example:</p>
+
+<ul>
+    <li>Wert 1 ist bewertet mit 0-100 und der Wert für "Extrapunktet" ist auf 2 gesetzt.</li>
+    <li>Wert 2 ist bewertet mit 0-100 und der Wert für "Extrapunkte" steht auf 0.0000</li>
+    <li>Wert 3 ist bewertet mit 0-100 und der Wert für "Extrapunkte" steht auf 0.0000</li>
+    <li>Alle 3 Werte gehören zur Kategorie 1, mit der Einstellung "Mittelwert (mit Extrapunkten)" als Berechnungsstrategi</li>
+    <li>Ein Teilnehmer erhält die Bewertung 20 für Wert 1, 40 für Wert 2 und 70 für Wert 3</li>
+    <li>Das Bewertungsergebnis in Kategorie 1 ist 95/100 da 20*2 + (40 + 70)/2 = 95</li>
+</ul>
