@@ -697,7 +697,7 @@ $string['sitemaintenanceon'] = 'מצב תחזוקה מופעל כרגע באתר
 $string['sitemaintenancewarning'] = 'מצב תחזוקה מופעל כרגע באתר (רק מנהלים יכולים להתחבר לאתר). להחזרת האתר למצבו הרגיל, <a href=\"maintenance.php\">בטל את מצב התחזוקה</a>.';
 $string['sitepolicies'] = 'מדיניות האתר';
 $string['sitepolicy'] = 'ה-URL שמצביע על מדיניות האתר';
-$string['sitesectionhelp'] = 'אם תבחר, חלק הנושא יוצג בעמוד הראשי של האתר';
+$string['sitesectionhelp'] = 'אם נבחר, ניתן יהיה להוסיף משאב ופעילות בעמוד הראשי של האתר';
 $string['slasharguments'] = 'השתמש בארגומנטי לוכסנים';
 $string['smartpix'] = 'חיפוש Smart pix';
 $string['smtphosts'] = 'שרתי SMTP';
