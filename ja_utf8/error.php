@@ -380,7 +380,7 @@ $string['prefixtoolong'] = '<p>エラー: データベーステーブル接頭�
 $string['processingstops'] = 'ここで処理が停止します。残りのレコードは無視されました。';
 $string['refoundto'] = '払戻し可能額: $a';
 $string['refoundtoorigi'] = '注文金額の払戻し: $a';
-$string['remotedownloaderror'] = 'あなたのサーバへのコンポーネントのダウンロードに失敗しました。プロクシ設定を確認してください。PHP cURL拡張モジュールの使用を強くお勧めします。<br /><br /><a href=\"$a->url\">$a->url</a>ファイルを手動でダウンロードした後、あなたのサーバの「$a->dest」にコピーおよび解凍してください。';
+$string['remotedownloaderror'] = 'あなたのサーバへのコンポーネントのダウンロードに失敗しました。プロクシ設定を確認してください。PHP cURL拡張モジュールの使用を強くお勧めします。<br /><br /><a href=\"$a->url\">$a->url</a>ファイルを手動でダウンロードした後、あなたのサーバの「 $a->dest 」にコピーおよび解凍してください。';
 $string['remotedownloadnotallowed'] = 'あなたのサーバにコンポーネントをダウンロードすることができません (allow_url_fopen が無効)。<br /><br /><a href=\"$a->url\">$a->url</a> ファイルを手動でダウンロードして、サーバの「 $a->dest 」にコピーした後、解凍してください。';
 $string['reportnotavailable'] = 'このタイプのレポートはサイトコースのみで利用できます。';
 $string['restorechecksumfailed'] = 'あなたのセッションに保存されているリストア情報に問題が生じました。あなたのPHPメモリ/DBパッケージサイズ制限を確認してください。リストアを停止しました。';
