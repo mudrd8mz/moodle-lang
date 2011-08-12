@@ -18,11 +18,15 @@ Nicolas Martignoni <nicolas%martignoni.net>
   Gestion, coordination et contrôle de qualité de la traduction en français
   Facilitateur de l'espace « Moodle en français » (http://moodle.org/course/view.php?id=20)
   Gestion de la documentation en français de Moodle (http://docs.moodle.org/fr/)
-  
+
 Séverin Terrier <severin.terrier%univ-tlse1.fr>
   Relecture et découverte de fautes de frappes
   Facilitateur de l'espace « Moodle en français »
   Gestion de la documentation en français de Moodle
+
+Éric Bugnet <eric.bugnet%ecolelamache.org>
+  Gros travail sur les chaînes de la nouvelle version des tests et questions (Moodle 2.0)
+  Module HotPotatoes (Moodle 2.0)
 
 Thomas Poinsot <thomas.poinsot%free.fr>
   Traduction de fr_utf8/help/quiz/analysisoptions.html
@@ -85,7 +89,7 @@ Valéry Frémaux <vf%eisti.fr>
   Traduction de fr_utf8/help/workshop/ungradedassessments.html
   Traduction de fr_utf8/help/workshop/usepassword.html
   Traduction de fr_utf8/help/wiki
-  
+
 Didier Rambeau <didier.rambeau%bbs.afpa.fr>
   Traduction de fr_utf8/help/questionnaire
   Traduction de fr_utf8/help/resource/deploy.html
@@ -98,7 +102,7 @@ Didier Rambeau <didier.rambeau%bbs.afpa.fr>
   Traduction de fr_utf8/help/grade/letter.html
   Traduction de fr_utf8/help/grade/preferences.html
   Traduction de fr_utf8/help/grade/weight.html
-  
+
 Stéphane Wattier <stephane.wattier%gmail.com>
   Traduction de fr_utf8/help/blockip.html
   Traduction de fr_utf8/help/localfiltersettings.html
@@ -112,22 +116,22 @@ Stéphane Wattier <stephane.wattier%gmail.com>
   Traduction de fr_utf8/help/completion/completionlocked.html
   Traduction de fr_utf8/help/completion/completionusegrade.html
   Traduction de fr_utf8/help/completion/completionview.html
-  
+
 Étienne Rozé <etienne.roze%medecine.uhp-nancy.fr>
   Traduction de fr_utf8/help/blog/index.html
   Traduction de fr_utf8/help/blog/publish_state.html
   Traduction de fr_utf8/help/grade/teacher.html
-  
+
 Nicolas Galante <nicolas.galante%grenoble-em.com>
   Traduction de fr_utf8/help/grade/student.html
-  
+
 Joseph Rézeau <moodle%rezeau.org>
   Relecture et découverte de fautes de frappes
   Traduction de fr_utf8/help/qtype_multianswer/multianswer.html
 
 Jean-François Nadeau <nadeau.jf%videotron.ca>
   Adaptations à de nombreux fichiers de fr_utf8/help
-  
+
 Sébastien Namèche <sebastien%nameche.fr>
   Premières contributions à la traduction. Grâce à Sébastien, le français a été,
   après l'anglais, la première langue dans laquelle Moodle a été proposé !
