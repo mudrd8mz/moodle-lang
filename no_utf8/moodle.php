@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.12+ (Build: 20110525) (2007101591.03)
+      // moodle.php - created with Moodle 1.9.13+ (Build: 20110916) (2007101591.05)
 
 
 $string['abouttobeinstalled'] = 'vil bli installert';
@@ -446,7 +446,7 @@ $string['edhelpfontlist'] = 'Angi fontene som brukes i rullemenyen ved tekst- og
 $string['edhelpfontsize'] = 'Standard fontstørrelse bestemmer størrelsen på en font. <br />Gyldige verdier er for eksempel: medium, large, smaller, larger, 10pt, 11px.';
 $string['edit'] = 'Rediger $a';
 $string['editcategorysettings'] = 'Rediger kategori-innstillinger';
-$string['editcategorythis'] = 'Rediger denne kategorien';
+$string['editcategorythis'] = 'Endre kategorinavn og beskrivelse';
 $string['editcoursesettings'] = 'Rediger kursinnstillinger';
 $string['editfiles'] = 'Rediger filer';
 $string['editgroupprofile'] = 'Rediger gruppeprofil';
@@ -468,7 +468,7 @@ $string['editorshortcutkeys'] = 'Editor snarveier';
 $string['editremoteprofile'] = 'Endre ekstern profil';
 $string['editsummary'] = 'Rediger overskrift';
 $string['editthisactivity'] = 'Rediger denne aktiviteten';
-$string['editthiscategory'] = 'Rediger denne kategorien';
+$string['editthiscategory'] = 'Endre kategorinavn og beskrivelse';
 $string['edituser'] = 'Rediger brukerkontoer';
 $string['email'] = 'E-postadresse';
 $string['emailactive'] = 'E-post aktivert';
@@ -1326,7 +1326,7 @@ $string['since'] = 'Siden';
 $string['sincelast'] = 'siden siste innlogging';
 $string['site'] = 'Nettsted';
 $string['sitedefault'] = 'Nettstedstandard';
-$string['siteerrors'] = 'Nettstedfeil';
+$string['siteerrors'] = 'Mislykkede innlogginger';
 $string['sitefiles'] = 'Nettstedfiler';
 $string['sitefilesused'] = 'Nettstedsfiler brukt i dette kurset';
 $string['sitelogs'] = 'Logger for nettstedet';

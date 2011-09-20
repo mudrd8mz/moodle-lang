@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.9.11+ (Build: 20110420) (2007101591.02)
+      // assignment.php - created with Moodle 1.9.13+ (Build: 20110916) (2007101591.05)
 
 
 $string['allowdeleting'] = 'Tillat sletting';
@@ -77,7 +77,7 @@ $string['noassignments'] = 'Det foreligger ingen oppgaver ennå';
 $string['noattempts'] = 'Det har ikke vært gjort noen forsøk på denne oppgaven ennå.';
 $string['nofiles'] = 'Ingen filer ble sendt';
 $string['nofilesyet'] = 'Ingen filer er lastet opp til siden ennå';
-$string['nomoresubmissions'] = 'Ingen flere innleveringer er tillatt';
+$string['nomoresubmissions'] = 'Innlevering ikke lenger tillatt';
 $string['nosubmitusers'] = 'Ingen brukere med tillatelse til å sende inn denne oppgaven ble funnet.';
 $string['notavailableyet'] = 'Beklager, denne innleveringen er ikke tilgjengelig ennå.<br/>Instrukser for innleveringen vil vises på datoen som er oppgitt under.';
 $string['notes'] = 'Notater';

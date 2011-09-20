@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9.11 (Build: 20110221) (2007101591.02)
+      // glossary.php - created with Moodle 1.9.13+ (Build: 20110916) (2007101591.05)
 
 
 $string['addcomment'] = 'Legg til kommentar';
@@ -142,7 +142,7 @@ $string['importentries'] = 'Importer oppføringer';
 $string['importentriesfromxml'] = 'Importer oppføringer fra XML-fil';
 $string['includegroupbreaks'] = 'Inkluder gruppebrudd';
 $string['invalidrate'] = 'Ugyldig ordbokrate ($a)';
-$string['isglobal'] = 'Skal denne ordboken være tilgjengelig for andre klasser?';
+$string['isglobal'] = 'Skal denne ordboken være tilgjengelig for andre kurs?';
 $string['letter'] = 'letter';
 $string['linkcategory'] = 'Lag lenker til denne kategorien automatisk';
 $string['linking'] = 'Autolenking';

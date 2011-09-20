@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.12+ (Build: 20110525) (2007101591.03)
+      // admin.php - created with Moodle 1.9.13+ (Build: 20110916) (2007101591.05)
 
 
 $string['accessdenied'] = 'Ingen tilgang';
@@ -469,14 +469,14 @@ $string['langcache'] = 'Hurtiglagre språkmenyen';
 $string['langedit'] = 'Endre oversettelsen';
 $string['langimport'] = 'Importverktøy for språkpakker';
 $string['langimportdisabled'] = 'Funksjonen for språkpakkeimport er deaktivert. Du må derfor oppdatere språkpakkene manuelt på fil-nivå.';
-$string['langimportsuccess'] = 'Oppgradering av språkpakken var vellykket';
+$string['langimportsuccess'] = 'Installasjonen av språkpakken var vellykket.';
 $string['langlist'] = 'Språk på språkmenyen';
 $string['langlocalpackage'] = 'Lokale modifikasjoner';
 $string['langmasterenglish'] = 'Engelsk hovedpakke';
 $string['langmasterpackage'] = 'Hovedspråkpakke';
 $string['langmenu'] = 'Vis språkmenyen';
 $string['langnoeditenglish'] = 'Kan ikke overskrive den engelske språkpakken. Vennligst endre språkmappen for å lage lokale endringer';
-$string['langpackinstalled'] = 'Språkpakken $a ble suksessfullt installert';
+$string['langpackinstalled'] = 'Installasjonen av språkpakken $a var vellykket.';
 $string['langpackmaintaining'] = 'Språkpakkevedlikehold';
 $string['langpackremoved'] = 'Språkpakken ble avinnstallert';
 $string['langpacks'] = 'Språkpakker';
