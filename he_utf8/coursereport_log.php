@@ -3,8 +3,8 @@
 
 
 $string['log:view'] = 'הצג יומני מעקב הקורס';
-$string['log:viewlive'] = 'הצג יומני מעקב חיים';
+$string['log:viewlive'] = 'הצג יומני מעקב בזמן אמת';
 $string['log:viewtoday'] = 'הצג יומני מעקב מהיום';
-$string['loglive'] = 'יומני מעקב חיים';
+$string['loglive'] = 'יומני מעקב בזמן אמת';
 
 ?>
