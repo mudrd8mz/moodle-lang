@@ -7,26 +7,26 @@ $string['allowmaxfiles'] = 'Maksimalt antall opplastede filer';
 $string['allownotes'] = 'Tillatt kommentarer';
 $string['allowresubmit'] = 'Tillat ny innlevering';
 $string['alreadygraded'] = 'Oppgaven din har allerede fått karakter og ny innlevering er ikke tillatt.';
-$string['assignment:grade'] = 'Oppgave med karakterer';
-$string['assignment:submit'] = 'Send inn oppgavesvaret';
-$string['assignment:view'] = 'Se på oppgave';
+$string['assignment:grade'] = 'Karakter på oppgaven';
+$string['assignment:submit'] = 'Send oppgaven';
+$string['assignment:view'] = 'Vis oppgaven';
 $string['assignmentdetails'] = 'Oppgavedetaljer';
 $string['assignmentmail'] = '$a->teacher har sendt en tilbakemelding på din
-innlevering \'$a->assignment\'. Du kan lese tilbakemeldingen her: $a->url
+oppgaveinnlevering \'$a->assignment\'. Du kan lese tilbakemeldingen her: $a->url
 
 Du kan se tilbakemeldingen her:
 
 $a->url';
 $string['assignmentmailhtml'] = '$a->teacher har sendt en tilbakemelding på din
-innlevering \'<i>$a->assignment</i>\'<br /><br />
+oppgaveinnlevering \'<i>$a->assignment</i>\'<br /><br />
 Du kan se tilbakemeldingen <a href=\"$a->url\">her:</a>.';
-$string['assignmentname'] = 'Oppgavenavn';
+$string['assignmentname'] = 'Oppgaveinnleveringens navn';
 $string['assignmenttype'] = 'Oppgavetype';
 $string['availabledate'] = 'Tilgjengelig fra';
 $string['cannotdeletefiles'] = 'En feil oppstod og filen kunne ikke slettes.';
 $string['comment'] = 'Kommentar';
 $string['commentinline'] = 'Kommenter i tekst';
-$string['configitemstocount'] = 'Egenskaper ved elementer som skal telles med ved studentinnleveringer via nett.';
+$string['configitemstocount'] = 'Egenskaper ved elementer som skal telles med ved online oppgavebesvarelser.';
 $string['configmaxbytes'] = 'Standard maksimum oppgavestørrelse for alle oppgavene på sidene (overordnet klassenes grenser og andre lokale innstillinger)';
 $string['configshowrecentsubmissions'] = 'Alle kan se merknader til innleveringer i de siste aktivitetsrapporter.';
 $string['confirmdeletefile'] = 'Er du HELT SIKKER på at du vil slette denne filen?<br /><strong>$a</strong>';
@@ -43,7 +43,7 @@ $string['emailteachermail'] = '$a->username har oppdatert sin oppgaveinnlevering
 
 Den er tilgjengelig her: 
 $a->url';
-$string['emailteachermailhtml'] = '$a->username har oppdatert sin innlevering av oppgave 
+$string['emailteachermailhtml'] = '$a->username har oppdatert sin oppgaveinnlevering  
 for <i>\'$a->assignment\'</i><br /><br />
 Den er <a href=\"$a->url\">tilgjengelig på nettstedet</a>.';
 $string['emailteachers'] = 'Epostvarsel til lærere';
@@ -64,14 +64,14 @@ $string['helponline'] = '<p>Denne oppgavetypen spør brukerne om å editere en t
 $string['helpupload'] = '<p>Denne oppgavetypen tillater hver deltaker å laste opp en eller flere filer av hvilken som helst type.</p>
 <p>Det kan være et Word-dokument, bilder, et komprimert nettsted,eller hva som helst du ber dem om å levere inn.</p>
 <p>Denne typen tillater deg å laste opp flere svarfiler av hvilken som helst type.</p>';
-$string['helpuploadsingle'] = '<p>Denne type innlevering lar hver deltaker laste opp en enkelt fil av hvilken som helst type.</p><p>Dette kan være et Word-dokument, et bilde, et komprimert nettsted, eller hva som helst du ellers måtte be dem om å levere inn.</p>';
+$string['helpuploadsingle'] = '<p>Denne oppgavetypen lar hver deltaker laste opp en enkelt fil av hvilket som helst format.</p><p>Dette kan være et Word-dokument, et bilde, et komprimert nettsted, eller hva som helst du ellers måtte be dem om å levere inn.</p>';
 $string['hideintro'] = 'Skjul beskrivelsen før tilgjengeligdato';
 $string['itemstocount'] = 'Tell';
 $string['late'] = '$a for sent';
 $string['maximumgrade'] = 'Maks karakter/poeng';
 $string['maximumsize'] = 'Maks filstørrelse';
-$string['modulename'] = 'Innlevering';
-$string['modulenameplural'] = 'Innlevering';
+$string['modulename'] = 'Oppgave';
+$string['modulenameplural'] = 'Oppgaver';
 $string['newsubmissions'] = 'Leverte oppgaver';
 $string['noassignments'] = 'Det foreligger ingen oppgaver ennå';
 $string['noattempts'] = 'Det har ikke vært gjort noen forsøk på denne oppgaven ennå.';
@@ -79,7 +79,7 @@ $string['nofiles'] = 'Ingen filer ble sendt';
 $string['nofilesyet'] = 'Ingen filer er lastet opp til siden ennå';
 $string['nomoresubmissions'] = 'Innlevering ikke lenger tillatt';
 $string['nosubmitusers'] = 'Ingen brukere med tillatelse til å sende inn denne oppgaven ble funnet.';
-$string['notavailableyet'] = 'Beklager, denne innleveringen er ikke tilgjengelig ennå.<br/>Instrukser for innleveringen vil vises på datoen som er oppgitt under.';
+$string['notavailableyet'] = 'Beklager, denne oppgaven er ikke tilgjengelig ennå.<br/>Instrukser for oppgaveinnleveringen vil vises på datoen som er oppgitt under.';
 $string['notes'] = 'Notater';
 $string['notesempty'] = 'Ingen notater';
 $string['notesupdateerror'] = 'Feil ved oppdatering av notatet';
@@ -102,8 +102,8 @@ $string['submissions'] = 'Leveringer';
 $string['submissionsaved'] = 'Dine endringer er lagret';
 $string['submissionsnotgraded'] = '$a innleveringer ikke karaktersatt';
 $string['submitassignment'] = 'Lever din oppgave med nettskjemaet nedenfor';
-$string['submitedformarking'] = 'Innleveringen er allerede under behandling av lærer og kan ikke oppdateres';
-$string['submitformarking'] = 'Endelig innlevering for vurdering';
+$string['submitedformarking'] = 'Besvarelsen er levert';
+$string['submitformarking'] = 'Endelig innlevering for oppgavevurdering';
 $string['submitted'] = 'Levert';
 $string['submittedfiles'] = 'Leverte filer';
 $string['trackdrafts'] = 'Slå på Send til karaktersetting';
@@ -121,7 +121,7 @@ $string['uploadfiletoobig'] = 'Beklager, filen er for stor (grensen er $a byte)'
 $string['uploadnofilefound'] = 'Ingen fil ble levert - er du sikker på at du valgte en å laste opp, eller er filen for stor?';
 $string['uploadnotregistered'] = '\'$a\' ble lastet opp riktig men leveringen kunne ikke registreres!';
 $string['uploadsuccess'] = 'Lastet opp \'$a\' uten problemer';
-$string['usernosubmit'] = 'Beklager, men du har ikke tillatelse til å foreta en innlevering.';
+$string['usernosubmit'] = 'Beklager, men du har ikke tillatelse til å foreta en oppgaveinnlevering.';
 $string['viewfeedback'] = 'Vis karakterer og tilbakemeldinger';
 $string['viewsubmissions'] = 'Vis $a leverte oppgaver';
 $string['yoursubmission'] = 'Din levering';
