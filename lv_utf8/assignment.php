@@ -16,7 +16,7 @@ $string['assignmentmail'] = 'Pasniedzējs $a->teacher ir publicējis atsauksmes 
 Tās ir pievienotas jūsu iesniegtajam uzdevumam:
 
     $a->url';
-$string['assignmentmailhtml'] = 'Pasniedzējs $a->teacher ir publicējis atsauksmes par jūsu iesniegto uzdevumu <i>$a->assignment</i>”.<br /><br />
+$string['assignmentmailhtml'] = 'Pasniedzējs $a->teacher ir publicējis atsauksmes par jūsu iesniegto uzdevumu “<i>$a->assignment</i>”.<br /><br />
 Tās ir pievienotas jūsu iesniegtajam uzdevumam <a href=\"$a->url\"></a>.';
 $string['assignmentname'] = 'Uzdevuma nosaukums';
 $string['assignmenttype'] = 'Uzdevuma tips';
