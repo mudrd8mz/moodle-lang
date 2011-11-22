@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.9.8 (Build: 20100325) (2007101580)
+      // assignment.php - created with Moodle 1.9.14 (Build: 20111010) (2007101591.06)
 
 
 $string['allowdeleting'] = 'Atļaut dzēšanu';
@@ -17,7 +17,7 @@ Tās ir pievienotas jūsu iesniegtajam uzdevumam:
 
     $a->url';
 $string['assignmentmailhtml'] = 'Pasniedzējs $a->teacher ir publicējis atsauksmes par jūsu iesniegto uzdevumu <i>$a->assignment</i>”.<br /><br />
-Tās ir pievienots jūsu iesniegtajam uzdevumam <a href=\"$a->url\"></a>.';
+Tās ir pievienotas jūsu iesniegtajam uzdevumam <a href=\"$a->url\"></a>.';
 $string['assignmentname'] = 'Uzdevuma nosaukums';
 $string['assignmenttype'] = 'Uzdevuma tips';
 $string['availabledate'] = 'Pieejams no';
@@ -122,6 +122,7 @@ $string['uploadfiletoobig'] = 'Atvainojiet, bet šis fails ir pārāk liels (ier
 $string['uploadnofilefound'] = 'Neviens fails netika atrasts — vai tiešām izvēlējāties augšupielādējamo failu?';
 $string['uploadnotregistered'] = '“{$a}” augšupielāde izdevās, bet iesniegtais materiāls netika reģistrēts!';
 $string['uploadsuccess'] = '“{$a}” sekmīgi augšupielādēts';
+$string['usernosubmit'] = 'Atvainojiet, bet jums nav atļauts iesniegt uzdevumu.';
 $string['viewfeedback'] = 'Skatīt uzdevumu vērtējumus un atsauksmes';
 $string['viewsubmissions'] = 'Skatīt $a iesniegtos uzdevumus';
 $string['yoursubmission'] = 'Jūsu iesniegtais materiāls';
