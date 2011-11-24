@@ -5,6 +5,11 @@ $Id$
                            K ČESKÉMU PŘEKLADU MOODLE
 ********************************************************************************
 
+UPOZORNĚNÍ
+
+Tento balíček je určen pro verze Moodle 1.x a není již nadále udržován. Překlad
+Moodle od verze 2.0 probíhá přes webové rozhraní na http://lang.moodle.org
+
 AUTOŘI PŘEKLADU
 
 David Mudrák (david.mudrak@pedf.cuni.cz)
