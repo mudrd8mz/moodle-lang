@@ -44,8 +44,8 @@ $string['confirmdeletefield'] = 'אתה עומד למחוק את השדה הזה
 $string['confirmdeleterecord'] = 'האם אתה בטוח שאתה רוצה למחוק את הרשומה הזו?';
 $string['csstemplate'] = 'תבנית CSS';
 $string['csvfailed'] = 'לא ניתן לקרוא את מידע השורה מקובץ CSV';
-$string['csvfile'] = 'קובץ CVS';
-$string['csvimport'] = 'יבוא קובץ CVS';
+$string['csvfile'] = 'קובץ CSV';
+$string['csvimport'] = 'יבוא קובץ CSV';
 $string['csvwithselecteddelimiter'] = '<acronym title=\"Comma Separated Values\">CSV</acronym >רשימת נתונים המופרדים ב:';
 $string['data:approve'] = 'אשר את הרשומות המאושרות';
 $string['data:comment'] = 'כתוב הערות';

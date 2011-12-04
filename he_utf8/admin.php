@@ -287,7 +287,7 @@ $string['cronerrorclionly'] = 'מצטערים, גישת האינטרנט לדף 
 $string['cronerrorpassword'] = 'מצטערים, לא סיפקת סיסמה ברת-תוקף לדף זה';
 $string['cronremotepassword'] = 'סיסמת Cron לגישה מרחוק';
 $string['cronwarning'] = 'התסריט (<a href=\"cron.php\">cron.php maintenance script</a> ) לא רץ במשך 24 השעות האחרונות.';
-$string['csvdelimiter'] = 'תוחם CVS';
+$string['csvdelimiter'] = 'תוחם CSV';
 $string['ctyperecommended'] = 'התקנת ההרחבה האופציונלית ctype PHP ממולצת ביותר בכדי לשפר את ביצועי האתר, במיוחד אם האתר תומך בשפות לא-לטניות.';
 $string['ctyperequired'] = 'הרחבת ה-ctype PHP כעת נדרשת ע\"י Moodle, כדי לשפר את ביצועי האתר ולהציע תאימות רב-לשונית.';
 $string['curlrecommended'] = 'התקנת ספריית Curl, האופציונלית, מומלצת ביותר בכדי לאפשר ל-Moodle את פונקציונליות Moodle Networking';
@@ -800,7 +800,7 @@ $string['uubulkall'] = 'כל המשתמשים';
 $string['uubulknew'] = 'משתמשים חדשים';
 $string['uubulkupdated'] = 'משתמשים מעודכנים';
 $string['uucoursedefaultrole'] = 'תפקיד ברירת מחדל הקורס';
-$string['uucsvline'] = 'שורת ה-CVS';
+$string['uucsvline'] = 'שורת ה-CSV';
 $string['uunoemailduplicates'] = 'מנע כפילויות בכתובות הדוא\"ל';
 $string['uuoptype'] = 'סוג העלאה';
 $string['uuoptype_addinc'] = 'הוסף הכל, הוסף מונה עבור שמות משתמש אם צריך';

@@ -56,7 +56,7 @@ $string['approvedreview'] = 'סקירה מאושרת';
 $string['authcaptured'] = 'אושר , נלכד';
 $string['authcode'] = 'קוד אישור';
 $string['authorize:managepayments'] = 'נהל תשלומים';
-$string['authorize:uploadcsv'] = 'העלה קובץ CVS';
+$string['authorize:uploadcsv'] = 'העלה קובץ CSV';
 $string['authorizedpendingcapture'] = 'לכידה מאושרת  מחכה להכרעה';
 $string['avsa'] = 'הכתובת תואמת (רחוב), המיקוד לא';
 $string['avsb'] = 'לא סופקו נתוני כתובת';
@@ -131,7 +131,7 @@ $string['paymentmanagement'] = 'ניהול תשלום';
 $string['paymentmethod'] = 'שיטת תשלום';
 $string['paymentpending'] = 'התשלום שלך עבור קורס זה מחכה להכרעה עם מספר ההזמנה הזה:  $a->orderid. ראה <a href=\'$a->url\'>פרטי הזמנה</a>.';
 $string['pendingecheckemail'] = 'מנהל יקר, 
-כרגע ישנן $a->count המחאות דיגיטליות שמחכות להכרעה, ועליך להעלות קובץ CVS כדי לרשום את המשתמשים לקורס. 
+כרגע ישנן $a->count המחאות דיגיטליות שמחכות להכרעה, ועליך להעלות קובץ CSV כדי לרשום את המשתמשים לקורס. 
 
 לחץ על הקישור וקרא את קובץ העזרה שנמצא בעמוד:
 $a->url';
@@ -189,7 +189,7 @@ $string['testwarning'] = 'נראה שלכידה, ביטול, החזרת הכסף
 $string['transid'] = 'מספר הזהות של העיסקה';
 $string['underreview'] = 'תחת סקירה';
 $string['unenrolstudent'] = 'הוצא את הסטודנט מרשימת הקורס?';
-$string['uploadcsv'] = 'העלה קובץ CVS';
+$string['uploadcsv'] = 'העלה קובץ CSV';
 $string['usingccmethod'] = 'הירשם באמצעות <a href=\"$a->url\"><strong>כרטיס אשראי </strong></a>';
 $string['usingecheckmethod'] = 'הירשם באמצעות <a href=\"$a->url\"><strong>המחאה דיגיטליתk</strong></a>';
 $string['void'] = 'חסר תוקף';
