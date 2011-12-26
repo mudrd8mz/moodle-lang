@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9.7+ (Build: 20100120) (2007101571.01)
+      // mnet.php - created with Moodle 1.9.15+ (Build: 20111223) (2007101591.08)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (egensignert)';
@@ -132,6 +132,7 @@ $string['notBASE64'] = 'Strengen er ikke i Base64 format. Er derfor ingen gyldig
 $string['notPEM'] = 'Nøkkelen er ikke i PEM format. Dette vil ikke fungere...';
 $string['not_in_range'] = 'IP-adressen &nbsp;<code>$a</code>&nbsp; representerer ingen gyldig vert.';
 $string['notpermittedtojump'] = 'Du har ikke tillatelse til å starte en fjernsesjon fra denne Moodle-serveren.';
+$string['notpermittedtojumpas'] = 'Du kan ikke starte en fjernsesjon når du er innlogget som en annen bruker.';
 $string['notpermittedtoland'] = 'Du har ikke tillatelse til å starte en fjernsesjon.';
 $string['off'] = 'Av';
 $string['on'] = 'På';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.13+ (Build: 20110916) (2007101591.05)
+      // admin.php - created with Moodle 1.9.15+ (Build: 20111223) (2007101591.08)
 
 
 $string['accessdenied'] = 'Ingen tilgang';
@@ -495,6 +495,8 @@ $string['location'] = 'Sted';
 $string['locationsettings'] = 'Innstillinger for sted';
 $string['log'] = 'Logger';
 $string['loginhttps'] = 'Bruk HTTPS ved innlogging';
+$string['loginpasswordautocomplete'] = 'Forhindre autofullføring i innloggingsblokken.';
+$string['loginpasswordautocomplete_help'] = 'Når denne er av vil brukere kunne lagre passord i nettleseren. Aktiverer du innstillingen vil portalen din ikke lenger følge XHTML streng validering';
 $string['loglifetime'] = 'Behold loggene i';
 $string['longtimenosee'] = 'Meld ut brukere fra kurset etter';
 $string['longtimewarning'] = '<b>Vær tålmodig, denne prosessen kan ta noe tid.</b>';

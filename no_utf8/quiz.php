@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9.9+ (Build: 20100915) (2007101590)
+      // quiz.php - created with Moodle 1.9.15+ (Build: 20111223) (2007101591.08)
 
 
 $string['1day'] = '1 dag';
@@ -543,10 +543,10 @@ $string['shownoattempts'] = 'Vis studenter uten forsøk';
 $string['shownoattemptsonly'] = 'Vis kun studenter uten forsøk';
 $string['showquestiontext'] = 'Vis spørsmålstekst i spørsmålslista';
 $string['showteacherattempts'] = 'Vis lærernes forsøk';
-$string['shuffle'] = 'Stokk om';
+$string['shuffle'] = 'Stokk';
 $string['shuffleanswers'] = 'Stokk svarene';
 $string['shufflequestions'] = 'Stokk spørsmålene';
-$string['shufflewithin'] = 'Stokk innen spørsmål';
+$string['shufflewithin'] = 'Stokk svaralternativene';
 $string['significantfigures'] = 'med $a';
 $string['significantfiguresformat'] = 'gjeldende siffer';
 $string['singleanswer'] = 'Velg ett svar.';

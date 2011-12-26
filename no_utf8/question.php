@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9.9+ (Build: 20100818) (2007101590)
+      // question.php - created with Moodle 1.9.15+ (Build: 20111223) (2007101591.08)
 
 
 $string['adminreport'] = 'Rapport over mulige problemer i din spørsmålsdatabase.';
@@ -17,7 +17,7 @@ $string['cwrqpfs'] = 'Tilfeldige spørsmål som velges fra underkategorier.';
 $string['cwrqpfsinfo'] = '<p>Ved oppgradering til Moodle 1.9 vil vi dele spørsmålskategoriene i flere kontekster. Noen spørsmålskategorier og spørsmål på siten din vil kanskje få endret delingsstatus. Dette er nødvendig i de sjeldne tilfeller hvor ett eller flere tilfeldige spørsmål i en test er satt opp til å trekkes fra en miks av delte og private kategorier (som er tilfelle her). Dette skjer når et tilfeldig spørsmål er satt til å hentes fra underkategorier med både delt og privat status.</p>
 <p>De følgende kategoriene vil få status endret til det samme som overordnet kategori. Dette innvirker ikke på eksisterende tester før de evt. opprettes på nytt.</p>';
 $string['cwrqpfsnoprob'] = 'Ingen spørsmålskategorier på din site berøres av oppgraderingen.';
-$string['defaultfor'] = 'Standard for $a';
+$string['defaultfor'] = 'Standardkategori for $a';
 $string['defaultinfofor'] = 'Standard kategori for spørsmål delt i konteksten \'$a\'.';
 $string['deletecoursecategorywithquestions'] = 'Det finnes spørsmål i spørsmålsbanken koblet til denne kurskategorien. Hvis du fortsetter vil disse bli slettet. Hvis du ønsker å flytte dem først, vær vennlig å bruk spørsmålsbankbildet.';
 $string['donothing'] = 'Ikke kopier eller flytt filer eller endre lenker.';

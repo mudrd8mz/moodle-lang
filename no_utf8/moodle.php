@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.13+ (Build: 20110916) (2007101591.05)
+      // moodle.php - created with Moodle 1.9.15+ (Build: 20111223) (2007101591.08)
 
 
 $string['abouttobeinstalled'] = 'vil bli installert';
@@ -496,6 +496,7 @@ $string['emaildisable'] = 'Denne e-postadressen er koblet ut';
 $string['emaildisableclick'] = 'Klikk her for å hindre all epost i å bli sendt til denne adressen.';
 $string['emaildisplay'] = 'E-postvisning';
 $string['emaildisplaycourse'] = 'Kun medstudenter og -lærere kan se min e-postadresse';
+$string['emaildisplayhidden'] = 'E-post skjult';
 $string['emaildisplayno'] = 'Skjul min e-postadresse for alle';
 $string['emaildisplayyes'] = 'La alle se min e-postadresse';
 $string['emailenable'] = 'Denne e-postadressen er i bruk';

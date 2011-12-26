@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.9.11+ (Build: 20110330) (2007101591.02)
+      // lesson.php - created with Moodle 1.9.15+ (Build: 20111223) (2007101591.08)
 
 
 $string['accesscontrol'] = 'Tilgangskontroll';
@@ -9,8 +9,8 @@ $string['activitylink'] = 'Lenke til en aktivitet';
 $string['activitylinkname'] = 'Gå til: $a';
 $string['addabranchtable'] = 'Legg til innholdside';
 $string['addanendofbranch'] = 'Legg til avslutning';
-$string['addaquestionpage'] = 'Legg til spørsmålside';
-$string['addaquestionpagehere'] = 'Legg til spørsmålsside her';
+$string['addaquestionpage'] = 'Lagre siden';
+$string['addaquestionpagehere'] = 'Legg til spørsmålsside';
 $string['addcluster'] = 'Legg til klynge';
 $string['addedabranchtable'] = 'La til innholdsside';
 $string['addedanendofbranch'] = 'La til delavslutning';
