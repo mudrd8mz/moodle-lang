@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20100118) (2010011400)
+      // auth.php - created with Moodle 1.9.16 (Build: 20120109) (2007101591.1)
 
 
 $string['CASform'] = '認証選択';
@@ -14,6 +14,11 @@ $string['auth_cas_baseuri_key'] = 'ベースURI';
 $string['auth_cas_broken_password'] = 'あなたのパスワードを変更せずに進むことはできませんが、利用できるパスワード変更ページがありません。あなたのMoodle管理者にご連絡ください。';
 $string['auth_cas_cantconnect'] = 'CASモジュールのLDAPがサーバに接続できません: $a';
 $string['auth_cas_casversion'] = 'バージョン';
+$string['auth_cas_certificate_check'] = 'あなたがサーバ証明書を認証したい場合、「Yes」を選択してください。';
+$string['auth_cas_certificate_check_key'] = 'サーバ認証';
+$string['auth_cas_certificate_path'] = 'サーバ証明書を認証するためのCAチェーンファイル (PEMフォーマット) のパスです。';
+$string['auth_cas_certificate_path_empty'] = 'あなたがサーバ妥当性を有効にした場合、証明書パスを指定する必要があります。';
+$string['auth_cas_certificate_path_key'] = '証明書パス';
 $string['auth_cas_changepasswordurl'] = 'パスワード変更URI';
 $string['auth_cas_create_user'] = 'MoodleデータベースにCAS認証済みユーザを追加したい場合、「Yes」を選択してください。「No」を選択した場合、Moodleデータベースに登録されているユーザのみログインできます。';
 $string['auth_cas_create_user_key'] = 'ユーザを作成する';
@@ -318,7 +323,6 @@ $string['chooseauthmethod'] = '認証方法の選択:';
 $string['createpasswordifneeded'] = '必要に応じてパスワードを作成する';
 $string['enterthenumbersyouhear'] = 'あなたに聞こえる数字を入力してください';
 $string['enterthewordsabove'] = '上記の言葉を入力してください。';
-$string['errormaxconsecutiveidentchars'] = 'パスワードには最大 $a 文字の連続した同一文字を使用する必要があります。';
 $string['errorminpassworddigits'] = 'パスワードには少なくとも半角 $a 文字の数字を使用する必要があります。';
 $string['errorminpasswordlength'] = 'パスワードには少なくとも半角 $a 文字使用する必要があります。';
 $string['errorminpasswordlower'] = 'パスワードには少なくとも半角 $a 文字の小文字を使用する必要があります。';
@@ -364,11 +368,6 @@ $string['shib_no_attributes_error'] = 'あなたはShibbolethによりユーザ�
 $string['shib_not_all_attributes_error'] = 'あなたの場合、存在していないShibboleth属性をMoodleが必要としているようです。属性は次のとおりです: $a<br />このサーバの管理者またはアイデンティティプロバイダにご連絡ください。';
 $string['shib_not_set_up_error'] = 'Shibboleth環境変数がこのページに存在していないため、Shibboleth認証が正しく設定されていないようです。Shibboleth認証の設定に関するさらなる情報は<a href=\"README.txt\">README</a>を参照、またはこのMoodleをインストールした管理者に連絡してください。';
 $string['showguestlogin'] = 'あなたはログインページのゲストログインボタンを表示または非表示にできます。';
-$string['sso_idp_description'] = 'このサービスを公開することで、あなたのユーザは再度ログインせずに $a のMoodleサイトを散策することができます。<ul><li><em>従属関係</em>: あなたは $a のSSO (サービスプロバイダ) サービスに<strong>登録</strong>する必要があります。</li></ul><br />このサービスに登録することで、$a からの認証済みユーザは再度ログインせずにあなたのサイトにアクセスできます。<ul><li><em>従属関係</em>: あなたは $a にSSO (サービスプロバイダ) サービスを<strong>公開</strong>する必要があります。</li></ul><br />';
-$string['sso_idp_name'] = 'SSO (アイデンティティプロバイダ)';
-$string['sso_mnet_login_refused'] = 'ユーザ名 $a[0] は$a[1] からのログインを許可されていません。';
-$string['sso_sp_description'] = 'このサービスを公開することで、$a からの認証済みユーザは再度ログインせずにあなたのサイトにアクセスできます。<ul><li><em>従属関係</em>: あなたは $a のSSO (アイデンティティプロバイダ) サービスに<strong>登録</strong>する必要があります。</li></ul><br />このサービスに登録することで、あなたのユーザは再度ログインせずに $a のMoodleサイトを散策することができます。<ul><li><em>従属関係</em>: あなたは $a にSSO (アイデンティティプロバイダ) サービスを<strong>公開</strong>する必要があります。</li></ul><br />';
-$string['sso_sp_name'] = 'SSO (サービスプロバイダ)';
 $string['stdchangepassword'] = '標準パスワード変更ページを使用する';
 $string['stdchangepassword_expl'] = '外部認証システムがMoodleにパスワードの変更を許可する場合、この設定を「Yes」にしてください。この設定は「パスワード変更URI」をオーバーライドします。';
 $string['stdchangepassword_explldap'] = '注意: LDAPサーバがリモートの場合、SSL暗号化トンネル (ldaps://) の使用をお勧めします。';
@@ -378,8 +377,14 @@ $string['update_never'] = 'しない';
 $string['update_oncreate'] = '作成時';
 $string['update_onlogin'] = '毎回ログイン時';
 $string['update_onupdate'] = '更新時';
-$string['user_activatenotsupportusertype'] = 'auth: ldap user_activate() は選択したユーザタイプをサポートしていません: $a';
-$string['user_disablenotsupportusertype'] = 'auth: ldap user_disable() は選択したユーザタイプをまだサポートしていません。';
+$string['errormaxconsecutiveidentchars'] = 'パスワードには最大 $a 文字の連続した同一文字を使用する必要があります。'; // ORPHANED
+$string['sso_idp_description'] = 'このサービスを公開することで、あなたのユーザは再度ログインせずに $a のMoodleサイトを散策することができます。<ul><li><em>従属関係</em>: あなたは $a のSSO (サービスプロバイダ) サービスに<strong>登録</strong>する必要があります。</li></ul><br />このサービスに登録することで、$a からの認証済みユーザは再度ログインせずにあなたのサイトにアクセスできます。<ul><li><em>従属関係</em>: あなたは $a にSSO (サービスプロバイダ) サービスを<strong>公開</strong>する必要があります。</li></ul><br />'; // ORPHANED
+$string['sso_idp_name'] = 'SSO (アイデンティティプロバイダ)'; // ORPHANED
+$string['sso_mnet_login_refused'] = 'ユーザ名 $a[0] は$a[1] からのログインを許可されていません。'; // ORPHANED
+$string['sso_sp_description'] = 'このサービスを公開することで、$a からの認証済みユーザは再度ログインせずにあなたのサイトにアクセスできます。<ul><li><em>従属関係</em>: あなたは $a のSSO (アイデンティティプロバイダ) サービスに<strong>登録</strong>する必要があります。</li></ul><br />このサービスに登録することで、あなたのユーザは再度ログインせずに $a のMoodleサイトを散策することができます。<ul><li><em>従属関係</em>: あなたは $a にSSO (アイデンティティプロバイダ) サービスを<strong>公開</strong>する必要があります。</li></ul><br />'; // ORPHANED
+$string['sso_sp_name'] = 'SSO (サービスプロバイダ)'; // ORPHANED
+$string['user_activatenotsupportusertype'] = 'auth: ldap user_activate() は選択したユーザタイプをサポートしていません: $a'; // ORPHANED
+$string['user_disablenotsupportusertype'] = 'auth: ldap user_disable() は選択したユーザタイプをまだサポートしていません。'; // ORPHANED
 $string['auth_dbrevive'] = 'レビューユーザ $a[0] ID $a[1]'; // ORPHANED
 
 ?>

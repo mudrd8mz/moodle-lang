@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.9+ (Build: 20101013) (2007101590)
+      // admin.php - created with Moodle 1.9.16 (Build: 20120109) (2007101591.1)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -398,6 +398,8 @@ $string['filtersettings'] = 'フィルタ設定';
 $string['filtersettingsgeneral'] = '一般フィルタ設定';
 $string['filteruploadedfiles'] = 'アップロードファイルをフィルタする';
 $string['forcelogin'] = 'ユーザのログインを強制する';
+$string['forceloginforprofileimage'] = 'ユーザ閲覧時にユーザのログインを強制する';
+$string['forceloginforprofileimage_help'] = 'この設定を有効にした場合、ユーザプロファイル写真の閲覧時にユーザはログインする必要があります。また、すべての通知メールにおいて、デフォルトのユーザ写真が使用されます。';
 $string['forceloginforprofiles'] = 'プロファイル閲覧時にユーザのログインを強制する';
 $string['forcetimezone'] = 'デフォルトタイムゾーンを強制する';
 $string['framename'] = 'フレーム名';
@@ -492,6 +494,8 @@ $string['location'] = 'ロケーション';
 $string['locationsettings'] = 'ロケーション設定';
 $string['log'] = 'ログ';
 $string['loginhttps'] = 'ログインにHTTPSを使用する';
+$string['loginpasswordautocomplete'] = 'ログインフォームのパスワード自動補完を防ぎます。';
+$string['loginpasswordautocomplete_help'] = 'このオプションを無効にした場合、ユーザのブラウザにパスワードが保存されてしまいます。このオプションを有効にした場合、あなたのサイトはXHTMLの厳密な妥当性検査ルールに従わないことになります。';
 $string['loglifetime'] = 'ログの保存期間';
 $string['longtimenosee'] = 'コースからユーザを登録抹消する日数';
 $string['longtimewarning'] = '<b>この処理には長時間がかかりますので注意してください。</b>';
@@ -587,6 +591,7 @@ $string['performance'] = 'パフォーマンス';
 $string['pgcluster'] = 'PostgreSQLクラスタ';
 $string['pgclusterdescription'] = 'コマンドライン処理のためのPostgreSQLバージョン/クラスタパラメータです。あなたのシステムに1つのPostgreSQLのみある場合、またはこの設定が分からない場合は空白にしてください。';
 $string['php50restricted'] = 'PHP 5.0.x には数多くの既知の問題があります。5.1.x にアップグレードするか、4.3.x または 4.4.x にダウングレードしてください。';
+$string['php533warning'] = 'PHP 5.3.3およびそれ以上のバージョンを推奨します。';
 $string['phpfloatproblem'] = 'PHP浮動数の処理に予想外の問題が発見されました - $a';
 $string['pleaserefreshregistration'] = 'あなたのサイトがmoodle.orgに登録されました。最終更新日 $a 以降、サイトに大幅な変更があった場合、登録内容の更新をお考えください。';
 $string['pleaseregister'] = 'このボタンを消すにはあなたのサイトを登録してください。';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.9+ (Build: 20100915) (2007101590)
+      // moodle.php - created with Moodle 1.9.16 (Build: 20120109) (2007101591.1)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -502,6 +502,7 @@ $string['emaildisable'] = 'このメールアドレスは無効です';
 $string['emaildisableclick'] = 'このメールアドレスにメールが送信されないようにする';
 $string['emaildisplay'] = 'メール公開';
 $string['emaildisplaycourse'] = '同じコースのメンバーにだけ私のメールアドレスを公開します';
+$string['emaildisplayhidden'] = 'Eメール非表示';
 $string['emaildisplayno'] = 'すべてのユーザから私のメールアドレスを隠します';
 $string['emaildisplayyes'] = 'すべてのユーザに私のメールアドレスを公開します';
 $string['emailenable'] = 'このメールアドレスは有効です';
