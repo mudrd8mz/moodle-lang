@@ -13,6 +13,6 @@ $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
 $string['thislanguage'] = 'Français - Canada';
 $string['thislanguageint'] = 'French - Canada';
-$string['thousandssep'] = ' '; // thousands separator, for some languages it is '.' or '\''
+$string['thousandssep'] = ' '; // thousands separator, for some languages it is '.' or '\''
 
 ?>

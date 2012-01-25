@@ -26,6 +26,7 @@ $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
 $string['thislanguage'] = 'Français';
 $string['thislanguageint'] = 'French';
-$string['thousandssep'] = ' '; // thousands separator, for some languages it is '.' or '\''
+// $string['thousandssep'] = '&#8239;'; // No-break thin space, UTF U+202F
+$string['thousandssep'] = ' '; // thousands separator, for some languages it is '.' or '\''
 
 ?>
