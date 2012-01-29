@@ -1,25 +1,23 @@
-<?PHP // $Id$ 
-      // bulkusers.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
+<?php
 
-
-$string['addall'] = 'Alle verfügbaren Nutzer/innen hinzufügen';
-$string['addsel'] = 'Ausgewählte verfügbare Nutzer/innen hinzufügen';
-$string['allfilteredusers'] = 'Alle gefilterten Nutzer/innen ($a->count/$a->total)';
-$string['allselectedusers'] = 'Alle ausgewählten Nutzer/innen ($a->count/$a->total)';
-$string['allusers'] = 'Alle Nutzer/innen';
+$string['addall'] = 'Alle hinzufügen';
+$string['addsel'] = 'Markierte hinzufügen';
+$string['allfilteredusers'] = 'Alle gefundenen ($a->count/$a->total)';
+$string['allselectedusers'] = 'Alle ausgewählten ($a->count/$a->total)';
+$string['allusers'] = 'Alle ($a)';
 $string['available'] = 'Verfügbar';
-$string['confirmmessage'] = 'Möchten Sie wirklich einen Nachricht an alle diese Nutzer/innen senden?<br />$a';
-$string['nofilteredusers'] = 'Keine Nutzer/innen gefunden (0/$a)';
-$string['noselectedusers'] = 'Keine Nutzer/innen ausgewählt';
-$string['removeall'] = 'Alle Nutzer/innen entfernen';
-$string['removesel'] = 'Ausgewählte Nutzer/innen entfernen';
+$string['confirmmessage'] = 'Möchten Sie wirklich eine Nachricht an diese Nutzer/innen senden?<br />$a';
+$string['nofilteredusers'] = 'Keine gefunden (0/$a)';
+$string['noselectedusers'] = 'Keine ausgewählt';
+$string['removeall'] = 'Alle entfernen';
+$string['removesel'] = 'Markierte entfernen';
 $string['selected'] = 'Ausgewählt';
-$string['selectedlist'] = 'Liste ausgewählter Nutzer/innen...';
-$string['usersfound'] = 'Gefundene Nutzer/innen: $a.';
-$string['usersinlist'] = 'Gelistete Nutzer/innen';
-$string['usersselected'] = 'Ausgewählte Nutzer/innen: $a.';
-$string['deleteall'] = 'Alle Nutzer/innen löschen'; // ORPHANED
-$string['deletesel'] = 'Ausgewählte Nutzer/innen löschen'; // ORPHANED
+$string['selectedlist'] = 'Nutzerauswahl...';
+$string['usersfound'] = 'Gefunden: $a.';
+$string['usersinlist'] = 'Nutzerliste (Bulk)';
+$string['usersselected'] = 'Ausgewählt: $a.';
+$string['deleteall'] = 'Alle löschen'; // ORPHANED
+$string['deletesel'] = 'Ausgewählte löschen'; // ORPHANED
 $string['action'] = 'Aktion'; // ORPHANED
 $string['filtered'] = 'Gefiltert'; // ORPHANED
 
