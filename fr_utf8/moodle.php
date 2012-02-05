@@ -730,7 +730,7 @@ ultérieure choisie par vous).
 Ce programme est distribué car potentiellement utile, mais
 SANS AUCUNE GARANTIE, ni explicite ni implicite, y compris les
 garanties de commercialisation ou d\'adaptation dans un but
-spécifique. 
+spécifique.
 
 Pour plus de détails, reportez-vous à la page d\'information sur la
 Licence Moodle : http://docs.moodle.org/fr/Licence';
@@ -1373,7 +1373,7 @@ $string['secondstotime432000'] = '5 jours';
 $string['secondstotime518400'] = '6 jours';
 $string['secondstotime604800'] = '1 semaine';
 $string['secretalreadyused'] = 'Le lien de confirmation du changement de mot de passe a déjà été utilisé. Le mot de passe n\'a pas été modifié.';
-$string['secs'] = 'secs';
+$string['secs'] = 'sec';
 $string['section'] = 'Section';
 $string['sections'] = 'Sections';
 $string['seealsostats'] = 'Voir aussi les statistiques';
