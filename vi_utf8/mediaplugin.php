@@ -1,5 +1,9 @@
 <?php /// $Id$
 
-$string['filtername'] = "Các chương trình bổ sung hỗ trợ đa phương tiện";
+
+$string['filtername'] = 'Plugin đa phương tiện';
+$string['flashanimation'] = 'Ảnh động flash';
+$string['flashvideo'] = 'Video flash';
+$string['mp3audio'] = 'Âm thanh MP3';
 
 ?>

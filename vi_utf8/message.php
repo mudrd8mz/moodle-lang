@@ -1,6 +1,8 @@
-<?php  // $Id$
+<?PHP // $Id$ 
+      // message.php - created with Moodle 1.9.7 (Build: 20091126) (2007101570)
+      // local modifications from http://localhost/moodle197
 
-$string['addcontact'] = 'Add contact';
+$string['addcontact'] = 'Đưa thêm một liên lạc';
 $string['addsomecontacts'] = 'Để gửi thông điệp tới ai đó, hoặc đưa thêm một shortcut cho họ trong trang này, sử dụng <a href=\"$a\">tab tìm kiếm</a> ở trên.';
 $string['addsomecontactsincoming'] = 'Các thông điệp này từ những người không trong danh sách liên hệ của bạn. Để đưa họ vào danh sách, nhấn chuột vào icon \"Đưa thêm liên hệ\"  gần tên của họ.';
 $string['ago'] = '$a trước đó';
@@ -62,6 +64,68 @@ $string['unreadmessages'] = '$a các thông điệp không đọc';
 $string['userisblockingyou'] = 'Người dùng này đã chặn bạn gửi thông điệp tới';
 $string['userisblockingyounoncontact'] = 'Người dùng này chỉ chấp nhận các liên hệ từ những người được liệt kê như là các liên hệ, và bạn không có trong danh sách đó.';
 $string['userssearchresults'] = 'Kết quả tìm kiếm: $a người dùng được tìm thấy';
-
+$string['addcontact'] = 'Thêm bạn liên lạc';
+$string['addsomecontacts'] = 'Để gửi tin nhắn cho người khác, hoặc thêm thông tin cá nhân của họ vào trang này, hãy dùng <a href=\"$a\">thẻ tìm kiếm</a> ở trên.';
+$string['addsomecontactsincoming'] = 'Người gửi tin nhắn này không nằm trong danh sách liên lạc của bạn. Để đưa họ vào danh sách liên lạc, nhấn nút \"Thêm bạn liên lạc\" ngay bên cạnh tên của họ.';
+$string['ago'] = 'cách đây $a';
+$string['allmine'] = 'Toàn bộ tin nhắn gửi cho tôi hay do tôi gửi';
+$string['allstudents'] = 'Toàn bộ tin nhắn giữa học viên trong khoá học';
+$string['allusers'] = 'Toàn bộ tin nhắn từ mọi thành viên';
+$string['backupmessageshelp'] = 'Nếu chọn, tin nhắn nhanh cũng sẽ được đưa vào bản sao lưu tự động của hệ thống.';
+$string['beepnewmessage'] = 'Báo hiệu bằng tiếng bíp khi có tin nhắn đến (có thể đòi hỏi chức năng đọc âm thanh, như Quicktime, trong trình duyệt của bạn)';
+$string['blockcontact'] = 'Chặn liên lạc';
+$string['blockedmessages'] = '$a tin nhắn do thành viên bị chặn liên lạc gửi đến';
+$string['blocknoncontacts'] = 'Chặn mọi tin nhắn mới từ những người không nằm trong danh sách bạn liên lạc của tôi';
+$string['contactlistempty'] = 'Danh sách bạn liên lạc chưa có ai';
+$string['contacts'] = 'Bạn liên lạc';
+$string['deletemessagesdays'] = 'Số ngày trước khi tự động xoá tin nhắn cũ';
+$string['discussion'] = 'Trao đổi';
+$string['emailmessages'] = 'Gửi tin nhắn qua điện thư khi tôi không truy cập';
+$string['emailtagline'] = 'Thư này là bản sao tin nhắn gửi cho bạn tại \"$a\"';
+$string['emptysearchstring'] = 'Bạn cần cho biết tiêu chí tìm kiếm';
+$string['formorethan'] = 'Từ hơn';
+$string['includeblockedusers'] = 'Gồm cả thành viên bị chặn liên lạc';
+$string['incomingcontacts'] = 'Tin nhắn đến ($a)';
+$string['keywords'] = 'Từ khoá';
+$string['keywordssearchresults'] = 'Kết quả tìm kiếm: tìm thấy $a tin nhắn';
+$string['mailsent'] = 'Tin nhắn của bạn đã được gửi qua điện thư';
+$string['maxmessages'] = 'Số tin nhắn nhiều nhất hiển thị trong lịch sử trao đổi';
+$string['message'] = 'Tin nhắn';
+$string['messagehistory'] = 'Lịch sử tin nhắn';
+$string['messages'] = 'Tin nhắn';
+$string['messaging'] = 'Gửi tin nhắn';
+$string['messagingdisabled'] = 'Hệ thống hiện không cho phép gửi tin nhắn, thay vào đó là gửi điện thư.';
+$string['mycontacts'] = 'Bạn liên lạc';
+$string['newonlymsg'] = 'Chỉ hiển thị tin mới';
+$string['noframesjs'] = 'Phiên bản không dùng khung và JavaScript';
+$string['nomessages'] = 'Không có tin nhắn đang chờ';
+$string['nomessagesfound'] = 'Không tìm thấy tin nhắn nào';
+$string['nosearchresults'] = 'Không có kết quả nào phù hợp';
+$string['offlinecontacts'] = 'Bạn liên lạc đang ngoại tuyến ($a)';
+$string['online'] = 'Trực tuyến';
+$string['onlinecontacts'] = 'Bạn liên lạc đang trực tuyến ($a)';
+$string['onlyfromme'] = 'Chỉ tin nhắn do tôi gửi';
+$string['onlymycourses'] = 'Chỉ tin nhắn trong khoá học của tôi';
+$string['onlytome'] = 'Chỉ tin nhắn gửi cho tôi';
+$string['pagerefreshes'] = 'Trang này được tự động tải lại sau mỗi $a giây';
+$string['readmessages'] = '$a tin đã đọc';
+$string['removecontact'] = 'Bỏ bạn liên lạc';
+$string['savemysettings'] = 'Lưu thiết lập';
+$string['searchforperson'] = 'Tìm người';
+$string['searchmessages'] = 'Tìm tin nhắn';
+$string['sendmessage'] = 'Gửi tin nhắn';
+$string['sendmessageto'] = 'Gửi tin nhắn tới $a';
+$string['sendmessagetopopup'] = 'Gửi tin nhắn tới $a - cửa sổ mới';
+$string['settings'] = 'Thiết lập';
+$string['settingssaved'] = 'Đã lưu thiết lập';
+$string['showmessagewindow'] = 'Tự động mở cửa sổ tin nhắn khi tôi có tin mới (trình duyệt của bạn cần phải bỏ chế độ chặn cửa sổ bung cho website này)';
+$string['strftimedaydatetime'] = '%%%%A, %%%%d %%%%B %%%%Y, %%%%H:%%%%M';
+$string['timenosee'] = 'Phút kể từ lần truy cập gần nhất của tôi';
+$string['timesent'] = 'Giờ gửi';
+$string['unblockcontact'] = 'Thôi chặn liên lạc';
+$string['unreadmessages'] = '$a tin chưa đọc';
+$string['userisblockingyou'] = 'Thành viên này đã chặn tin nhắn do bạn gửi.';
+$string['userisblockingyounoncontact'] = 'Thành viên này chỉ nhận tin nhắn từ thành viên nằm trong danh sách bạn liên lạc của họ, và hiện nay bạn không nằm trong danh sách đó.';
+$string['userssearchresults'] = 'Kết quả tìm kiếm: tìm thấy $a thành viên';
 
 ?>

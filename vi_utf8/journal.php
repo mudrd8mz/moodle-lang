@@ -1,39 +1,36 @@
-<?php // $Id$ 
-      // journal.php - created with Moodle 1.2 + (2004032100)
+<?PHP // $Id$ 
+      // journal.php - created with Moodle 1.9.7 (Build: 20091126) (2007101570)
+      // local modifications from http://localhost/moodle197
 
 
-$string['alwaysopen'] = 'Luôn luôn mở ';
-$string['blankentry'] = 'Mục để trống ';
-$string['daysavailable'] = 'Số ngày có hiệu lực';
-$string['editingended'] = 'Soạn thảo vừa mới kết thúc ';
-$string['editingends'] = 'Soạn thảo kết thúc';
-$string['entries'] = 'Các mục';
-$string['feedbackupdated'] = 'Thông tin phản hồi được cập nhật đối với $a mục';
-$string['journalmail'] = '$a->teacher vừa gửi một số thông tin phản hồi cho bạn 
-journal entry for \'$a->journal\'
+$string['editingended'] = 'Đã hết thời hạn chỉnh sửa';
+$string['editingends'] = 'Hạn chót chỉnh sửa';
+$string['entries'] = 'Bài viết';
+$string['feedbackupdated'] = 'Đã cập nhật nhận xét về $a bài viết';
+$string['journalmail'] = '$a->teacher vừa viết nhận xét cho bài viết của bạn trong \'$a->journal\'
 
-Bạn có thể nhìn thấy nó được thêm vào mục nhật ký của bạn:
+Bạn có thể xem ở phần kèm theo bài viết nhật kí của mình tại địa chỉ:
 
     $a->url';
-$string['journalmailhtml'] = '$a->teacher vừa gửi một số thông tin phản hồi tới mục nhật kí của bạn
- cho \'<i>$a->journal</i>\'<br /><br />
-Bạn có thể nhìn thấy nó  được bổ sung vào <a href=\"$a->url\">mục nhật ký</a>.';
-$string['journalname'] = 'Tên sổ nhật ký ';
-$string['journalquestion'] = 'Nội dung nhật ký';
-$string['journalrating1'] = 'Không thoả đáng';
-$string['journalrating2'] = 'Thoả đáng';
-$string['journalrating3'] = 'Nổi bật';
-$string['modulename'] = ' Sổ nhật ký';
-$string['modulenameplural'] = 'Sổ nhật ký';
-$string['newjournalentries'] = 'Các mục nhật ký mới';
-$string['noentry'] = 'Không có mục nào';
-$string['noratinggiven'] = 'Không đưa ra phân loại ';
-$string['notopenuntil'] = 'Nhật ký này vẫn chưa được mở ';
-$string['notstarted'] = 'Bạn chưa bắt đầu nhật ký này ';
-$string['overallrating'] = 'Sự phân loại toàn diện ';
-$string['rate'] = 'Xếp loại';
-$string['saveallfeedback'] = 'Cất tất cả các thông tin phản hồi';
-$string['startoredit'] = 'Bắt đầu hoặc soạn thảo mục nhật ký của tôi';
-$string['viewallentries'] = 'Xem $a mục nhật ký ';
+$string['journalmailhtml'] = '$a->teacher vừa viết nhận xét cho bài viết của bạn trong \'<i>$a->journal</i>\'<br /><br />
+Bạn có thể xem ở phần kèm theo <a href=\"$a->url\">bài viết nhật kí</a> của mình.';
+$string['journalname'] = 'Tên nhật kí';
+$string['journalquestion'] = 'Chủ đề của nhật kí';
+$string['journalrating1'] = 'Không đạt';
+$string['journalrating2'] = 'Đạt';
+$string['journalrating3'] = 'Xuất sắc';
+$string['mailsubject'] = 'Nhận xét về nhật kí';
+$string['modulename'] = 'Nhật kí';
+$string['modulenameplural'] = 'Nhật kí';
+$string['newjournalentries'] = 'Bài viết nhật kí mới';
+$string['noentry'] = 'Không có bài viết nào';
+$string['noratinggiven'] = 'Chưa có đánh giá';
+$string['notopenuntil'] = 'Nhật kí này chỉ được mở từ';
+$string['notstarted'] = 'Bạn chưa viết gì trong nhật kí này';
+$string['overallrating'] = 'Đánh giá tổng thể';
+$string['rate'] = 'Đánh giá';
+$string['saveallfeedback'] = 'Lưu tất cả các nhận xét của tôi';
+$string['startoredit'] = 'Bắt đầu viết hoặc sửa nhật kí của tôi';
+$string['viewallentries'] = 'Xem $a bài viết nhật kí';
 
 ?>

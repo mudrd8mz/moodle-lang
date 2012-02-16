@@ -1,0 +1,95 @@
+<?PHP // $Id$ 
+      // question.php - created with Moodle 1.9.7 (Build: 20091126) (2007101570)
+      // local modifications from http://localhost/moodle197
+
+
+$string['adminreport'] = 'Báo cáo về các vấn đề có thể xảy ra trong ngân hàng câu hỏi của bạn.';
+$string['broken'] = 'Đây là một liên kết \"đứt đoạn\". Địa chỉ đích của nó không còn tồn tại.';
+$string['byandon'] = 'của <em>$a->user</em> lúc <em>$a->time</em>';
+$string['categorycurrent'] = 'Mục hiện tại';
+$string['categorycurrentuse'] = 'Dùng mục này';
+$string['categorydoesnotexist'] = 'Không có mục này.';
+$string['categorymoveto'] = 'Lưu vào trong mục';
+$string['changepublishstatuscat'] = 'Quyền chia sẻ của <a href=\"$a->caturl\">mục câu hỏi \"$a->name\"</a> trong khoá học \"$a->coursename\" sẽ được đổi từ <strong>$a->changefrom sang $a->changeto</strong>.';
+$string['copy'] = 'Chép từ $a và đổi đường liên kết';
+$string['created'] = 'Tạo ra';
+$string['createdmodifiedheader'] = 'Tạo ra/Lưu lại';
+$string['cwrqpfs'] = 'Chọn câu hỏi ngẫu nhiên từ phụ mục';
+$string['cwrqpfsinfo'] = '<p>Trong quá trình nâng cấp lên Moodle 1.9, các mục câu hỏi sẽ được chia ra theo ngữ cảnh khác nhau. Một số mục và câu hỏi trên hệ thống của bạn sẽ có sự thay đổi về quyền chia sẻ. Điều này là cần thiết trong một số ít trường hợp, khi một hay vài câu hỏi ngẫu nhiên trong một bài kiểm tra được chọn từ cả các mục có và không có chia sẻ (như trên hệ thống này). Vấn đề này còn gặp phải khi chọn câu hỏi ngẫu nhiên từ phụ mục, và phụ mục có quyền chia sẻ khác với mục cấp trên.</p>
+<p>Những mục câu hỏi sau, với các câu hỏi được chọn ngẫu nhiên từ mục cấp trên, sẽ được thay đổi quyền chia sẻ cho giống với mục cấp trên khi nâng cấp lên Moodle 1.9. Các mục dưới đây sẽ có sự thay đổi như vậy. Các câu hỏi có liên quan vẫn tiếp tục hoạt động bình thường trong tất cả các bài kiểm tra đã có, cho đến khi nào bạn xoá khỏi các bài kiểm tra đó.</p>';
+$string['cwrqpfsnoprob'] = 'Không có mục câu hỏi nào trên hệ thống này rơi vào trường hợp \"Chọn câu hỏi ngẫu nhiên từ phụ mục\" cả.';
+$string['defaultfor'] = 'Mặc định cho $a';
+$string['defaultinfofor'] = 'Mục mặc định cho câu hỏi chia sẻ trong phạm vi \"$a\".';
+$string['deletecoursecategorywithquestions'] = 'Ngân hàng câu hỏi trong mục này có dữ liệu. Nếu bạn tiếp tục, các câu hỏi sẽ bị xoá hết. Nếu muốn bảo lưu câu hỏi, hãy chuyển qua mục khác bằng các công cụ quản lí trong ngân hàng câu hỏi của bạn.';
+$string['donothing'] = 'Không chép/chuyển chỗ tập tin hay đổi đường liên kết.';
+$string['editingcategory'] = 'Biên soạn mục câu hỏi';
+$string['editingquestion'] = 'Biên soạn câu hỏi';
+$string['editthiscategory'] = 'Sửa mục này';
+$string['erroraccessingcontext'] = 'Không thể vào trong phạm vi này';
+$string['errordeletingquestionsfromcategory'] = 'Lỗi khi xoá câu hỏi trong mục $a.';
+$string['errorfilecannotbecopied'] = 'Không thể chép tập tin $a.';
+$string['errorfilecannotbemoved'] = 'Không thể chuyển chỗ tập tin $a.';
+$string['errorfileschanged'] = 'Lỗi: một số tập tin được dẫn liên kết trong câu hỏi đã bị thay đổi kể từ khi mở biểu mẫu.';
+$string['errormanualgradeoutofrange'] = 'Trong câu hỏi $a->name, mức điểm $a->grade không thuộc khoảng từ 0 đến $a->maxgrade. Điểm số và nhận xét sẽ không được lưu lại.';
+$string['errormovingquestions'] = 'Lỗi khi chuyển chỗ câu hỏi có số hiệu $a.';
+$string['errorprocessingresponses'] = 'Có lỗi xảy ra khi xử lí các câu trả lời của bạn.';
+$string['errorsavingcomment'] = 'Lỗi khi lưu lời nhận xét cho câu hỏi $a->name vào cơ sở dữ liệu.';
+$string['errorupdatingattempt'] = 'Lỗi khi cập nhật lượt làm bài $a->id vào cơ sở dữ liệu.';
+$string['exportcategory'] = 'Xuất mục câu hỏi';
+$string['filesareacourse'] = 'nơi lưu tập tin của khoá học';
+$string['filesareasite'] = 'nơi lưu tập tin toàn hệ thống';
+$string['filestomove'] = 'Chép/Chuyển chỗ tập tin đến $a?';
+$string['fractionsnomax'] = 'Nên cho một phương án trả lời mức điểm 100%% để có thể đạt được điểm tối đa trong câu hỏi này.';
+$string['getcategoryfromfile'] = 'Xác định mục theo tập tin';
+$string['getcontextfromfile'] = 'Xác định phạm vi theo tập tin';
+$string['ignorebroken'] = 'Bỏ qua liên kết đứt đoạn';
+$string['invalidcontextinhasanyquestions'] = 'Phạm vi không hợp lệ được chuyển thành question_context_has_any_questions.';
+$string['linkedfiledoesntexist'] = 'Tập tin được dẫn liên kết $a không tồn tại';
+$string['makechildof'] = 'Chuyển thành bậc dưới của \"$a\".';
+$string['maketoplevelitem'] = 'Chuyển lên bậc cao nhất';
+$string['missingimportantcode'] = 'Kiểu câu hỏi này còn thiếu mã quan trọng sau: $a.';
+$string['modified'] = 'Lưu lần cuối';
+$string['move'] = 'Chuyển khỏi $a và đổi đường liên kết';
+$string['movecategory'] = 'Chuyển chỗ mục câu hỏi';
+$string['movedquestionsandcategories'] = 'Mục và câu hỏi được chuyển từ $a->oldplace đến $a->newplace.';
+$string['movelinksonly'] = 'Chỉ thay đổi đích đến của đường liên kết, không chép hay chuyển chỗ tập tin.';
+$string['moveq'] = 'Chuyển chỗ câu hỏi';
+$string['moveqtoanothercontext'] = 'Chuyển câu hỏi qua phạm vi khác.';
+$string['movingcategory'] = 'Chuyển chỗ mục câu hỏi';
+$string['movingcategoryandfiles'] = 'Bạn có chắc chắn muốn chuyển chỗ mục câu hỏi {$a->name} cùng với toàn bộ phụ mục về phạm vi \"{$a->contextto}\" hay không?<br />Có {$a->urlcount} tập tin được dẫn liên kết từ các câu hỏi ở {$a->fromareaname}. Bạn có muốn chép hay chuyển chỗ tập tin sang {$a->toareaname} hay không?';
+$string['movingcategorynofiles'] = 'Bạn có muốn chuyển chỗ mục câu hỏi \"{$a->name}\" và toàn bộ phụ mục sang phạm vi \"{$a->contextto}\"?';
+$string['movingquestions'] = 'Chuyển chỗ câu hỏi và tập tin';
+$string['movingquestionsandfiles'] = 'Bạn có chắc chắn muốn chuyển chỗ câu hỏi {$a->questions} sang phạm vi <strong>\"{$a->tocontext}\"</strong> hay không?<br />Có <strong>{$a->urlcount} tập tin</strong> được dẫn liên kết từ câu hỏi ở {$a->fromareaname}. Bạn có muốn chép hay chuyển chỗ chúng sang {$a->toareaname}?';
+$string['movingquestionsnofiles'] = 'Bạn có chắc chắn muốn chuyển chỗ câu hỏi {$a->questions} sang phạm vi <strong>\"{$a->tocontext}\"</strong> hay không?<br /><strong>Không có tập tin nào</strong> được dẫn liên kết từ câu hỏi ở {$a->fromareaname}.';
+$string['needtochoosecat'] = 'Bạn cần phải chọn một mục để chuyển chỗ câu hỏi, hoặc nhấn nút \'Huỷ bỏ\'.';
+$string['nopermissionadd'] = 'Bạn không có quyền thêm câu hỏi vào đây.';
+$string['nopermissionmove'] = 'Bạn không có quyền đổi chỗ câu hỏi ra khỏi đây. Bạn cần phải lưu câu hỏi vào mục này, hoặc lưu thành câu hỏi mới.';
+$string['noprobs'] = 'Không có vấn đề gì trong ngân hàng câu hỏi của bạn cả.';
+$string['notenoughdatatoeditaquestion'] = 'Thiếu số hiệu câu hỏi, số hiệu mục câu hỏi và kiểu câu hỏi.';
+$string['notenoughdatatomovequestions'] = 'Bạn cần phải cho biết số hiệu câu hỏi mà bạn muốn chuyển chỗ.';
+$string['permissionedit'] = 'Sửa câu hỏi này';
+$string['permissionmove'] = 'Chuyển chỗ câu hỏi này';
+$string['permissionsaveasnew'] = 'Lưu thành một câu hỏi mới';
+$string['permissionto'] = 'Bạn có quyền:';
+$string['published'] = 'chia sẻ';
+$string['questionaffected'] = '<a href=\"$a->qurl\">Câu hỏi \"$a->name\" ($a->qtype)</a> nằm trong mục này, nhưng cũng đang được sử dụng trong một <a href=\"$a->qurl\">bài kiểm tra \"$a->quizname\"</a> thuộc khoá học \"$a->coursename\".';
+$string['questionbank'] = 'Ngân hàng câu hỏi';
+$string['questioncategory'] = 'Mục câu hỏi';
+$string['questioncatsfor'] = 'Mục câu hỏi của \'$a\'';
+$string['questiondoesnotexist'] = 'Câu hỏi này không tồn tại';
+$string['questionsmovedto'] = 'Đã chuyển câu hỏi còn sử dụng đến \"$a\" trong chuyên mục khoá học bậc trên.';
+$string['questionsrescuedfrom'] = 'Câu hỏi được lưu trong phạm vi $a.';
+$string['questionsrescuedfrominfo'] = 'các câu hỏi này (một số có thể bị ẩn) đã được lưu khi xoá bỏ phạm vi $a, vì chúng vẫn còn được sử dụng trong một số bài kiểm tra hay hoạt động.';
+$string['questionuse'] = 'Dùng câu hỏi trong hoạt động này';
+$string['shareincontext'] = 'Chia sẻ trong phạm vi $a';
+$string['tofilecategory'] = 'Ghi mục câu hỏi vào tập tin';
+$string['tofilecontext'] = 'Ghi phạm vi vào tập tin';
+$string['unknown'] = 'Không biết';
+$string['unknownquestiontype'] = 'Kiểu câu hỏi nhận diện được: $a.';
+$string['unpublished'] = 'không chia sẻ';
+$string['upgradeproblemcategoryloop'] = 'Có lỗi xảy ra khi cập nhật mục câu hỏi. Cây thư mục có chỗ bị trùng lặp, ở vị trí có số hiệu $a.';
+$string['upgradeproblemcouldnotupdatecategory'] = 'Không thể cập nhật mục câu hỏi $a->name ($a->id).';
+$string['upgradeproblemunknowncategory'] = 'Có lỗi xảy ra khi cập nhật mục câu hỏi. Mục $a->id được gán vào thư mục cấp trên $a->parent, nhưng thư mục này không tồn tại. Cần đổi lại thư mục cấp trên cho chính xác.';
+$string['yourfileshoulddownload'] = 'Tập tin xuất dữ liệu của bạn sẽ được tải xuống ngay. Nếu không thấy xuất hiện tập tin đó, xin vui lòng <a href=\"$a\">nhấn vào đây</a>.';
+
+?>

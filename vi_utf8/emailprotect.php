@@ -3,6 +3,6 @@
       // local modifications from http://localhost/online
 
 
-$string['filtername'] = 'Bảo vệ thư điện tử';
+$string['filtername'] = 'Bảo vệ điện thư';
 
 ?>

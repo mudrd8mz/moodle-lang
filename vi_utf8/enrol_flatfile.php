@@ -2,21 +2,31 @@
 
 $string['enrolname'] = 'File đơn giản';
 
-$string['description'] = 'Phương pháp này sẽ lặp lại việc kiểm tra và xử lý một file văn bản được định dạng đặc biệt trong vị trí mà bạn chỉ ra. File có thể giống như sau: 
+$string['description'] = 'Phương pháp này cho phép định kì kiểm tra nội dung một tập tin văn bản có định dạng đặc biệt, đặt tại một thư mục do bạn xác định. Đây là một tập tin CSV (dấu phẩy ngăn cách) với 4 hoặc 6 trường thông tin trên mỗi dòng, bao gồm:
 <pre>
-   add, student, 5, CF101
-   add, teacher, 6, CF101
-   add, teacheredit, 7, CF101
-   del, student, 8, CF101
-   del, student, 17, CF101
-   add, student, 21, CF101, 1091115000, 1091215000
+* hành động, vai trò, số hiệu (thành viên), số hiệu (khoá học) [, ngày bắt đầu, ngày kết thúc]
+trong đó:
+* hành động = add | del
+* vai trò = student | teacher | teacheredit
+* số hiệu (thành viên) = trường idnumber trong bảng dữ liệu thành viên (KHÔNG phải trường id)
+* số hiệu (khoá học) = trường idnumber trong bảng dữ liệu khoá học (KHÔNG phải trường id)
+* ngày bắt đầu = thời điểm bắt đầu (tính bằng giây kể từ ngày 01/01/1970 lúc 0 h UTC) - tuỳ ý
+* ngày kết thúc = thời điểm kết thúc (tính bằng giây kể từ ngày 01/01/1970 lúc 0 h UTC) - tuỳ ý
 </pre>
-';
-
-$string['filelockedmailsubject'] = 'Lỗi quan trọng: File được kết nạp';
-$string['filelockedmail'] = 'File văn bản bạn đang sử dụng đối với các kết nạp dựa trên file ($a) không thể được xoá bởi by the cron process.  This usually means the permissions are wrong on it.  Please fix the permissions so that Moodle can delete the file, otherwise it might be processed repeatedly.';
-$string['location'] = 'Vị trí File';
-$string['mailusers'] = 'Thông báo cho những người sử dụng qua Email';
-$string['mailadmin'] = 'Thông báo cho người quản trị qua Email';
+Ví dụ có thể tương tự như sau:
+<pre>
+add, student, 5, CF101
+add, teacher, 6, CF101
+add, teacheredit, 7, CF101
+del, student, 8, CF101
+del, student, 17, CF101
+add, student, 21, CF101, 1091115000, 1091215000
+</pre>';
+$string['enrolname'] = 'Tập tin đơn giản';
+$string['filelockedmail'] = 'Cron không thể xoá tập tin bạn đang dùng để cho phép ghi danh từ tập tin ($a). Đây thường là do lỗi phân quyền không chính xác. Xin vui lòng sửa lại phân quyền để Moodle có thể xoá tập tin này. Nếu không, việc ghi danh sẽ bị trùng lắp nhiều lần.';
+$string['filelockedmailsubject'] = 'Lỗi quan trọng: tập tin ghi danh';
+$string['location'] = 'Nơi lưu tập tin';
+$string['mailadmin'] = 'Thông báo cho quản trị viên qua điện thư';
+$string['mailusers'] = 'Thông báo cho thành viên qua điện thư';
 
 ?>

@@ -3,7 +3,9 @@
       // local modifications from http://vnslearning.com/online
 
 
-$string['configtitle'] = 'Tên khối';
-$string['leaveblanktohide'] = 'Để trống để giấu tên khối';
+$string['configcontent'] = 'Nội dung';
+$string['html'] = 'HTML';
+$string['leaveblanktohide'] = 'Chừa trống để ẩn tên khối';
+$string['newhtmlblock'] = '(khối HTML mới)';
 
 ?>

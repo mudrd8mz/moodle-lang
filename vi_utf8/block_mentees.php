@@ -5,7 +5,6 @@
 
 $string['blockname'] = 'Kèm riêng';
 $string['configtitle'] = 'Tên khối';
-$string['leaveblanktohide'] = 'Để trống để ẩn tiêu đề';
+$string['leaveblanktohide'] = 'Chừa trống để ẩn tên khối';
 $string['newmenteesblock'] = '(khối \"Kèm riêng\" mới)';
-
 ?>

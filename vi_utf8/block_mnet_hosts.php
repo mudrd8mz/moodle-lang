@@ -3,7 +3,7 @@
       // local modifications from http://vnslearning.com/online
 
 
-$string['mnet_hosts'] = 'Máy chủ Mạng lưới';
+$string['mnet_hosts'] = 'Máy chủ mạng lưới';
 $string['server'] = 'Máy chủ';
 
 ?>
