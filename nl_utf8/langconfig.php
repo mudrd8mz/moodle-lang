@@ -23,4 +23,5 @@ $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
 $string['thislanguage'] = 'Nederlands';
 $string['thislanguageint'] = 'Dutch';
+$string['thousandssep'] = '.';
 ?>
