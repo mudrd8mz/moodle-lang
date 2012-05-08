@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.9.9+ (Build: 20101013) (2007101590)
+      // assignment.php - created with Moodle 1.9.17+ (Build: 20120427) (2007101591.15)
 
 
 $string['allowdeleting'] = '削除を許可する';
@@ -29,7 +29,7 @@ $string['configshowrecentsubmissions'] = 'すべてのユーザが課題提出�
 $string['confirmdeletefile'] = '本当にこのファイルを完全に削除してもよろしいですか?<br /><strong>$a</strong>';
 $string['deleteallsubmissions'] = 'すべての提出課題を削除する';
 $string['deletefilefailed'] = 'ファイルの削除が失敗しました。';
-$string['description'] = '詳細';
+$string['description'] = '課題説明';
 $string['draft'] = '下書き';
 $string['duedate'] = '終了日時';
 $string['duedateno'] = '提出期限なし';
