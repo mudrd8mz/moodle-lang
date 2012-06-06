@@ -74,7 +74,7 @@ $string['auth_ldapnotinstalled'] = 'Impossible d\'utiliser l\'authentification L
 $string['auth_ldaptitle'] = 'Serveur LDAP';
 $string['auth_ntlmsso'] = 'SSO NTLM';
 $string['auth_ntlmsso_enabled_key'] = 'Activer';
-$string['auth_ntlmsso_enabled'] = 'Sélectionner Oui pour authentifier les utilisateurs via un domaine NTLM. <strong>Remarque :</strong> pour fonctionner, cette méthode d\'authentification requiert d\'autres réglages sur votre serveur. Voir <a href=\"http://docs.moodle.org/fr/Authentification_NTLM\">http://docs.moodle.org/fr/Authentification_NTLM</a>';
+$string['auth_ntlmsso_enabled'] = 'Sélectionner Oui pour authentifier les utilisateurs via un domaine NTLM. <strong>Remarque :</strong> pour fonctionner, cette méthode d\'authentification requiert d\'autres réglages sur votre serveur. Voir <a href=\"http://docs.moodle.org/19/fr/Authentification_NTLM\">http://docs.moodle.org/19/fr/Authentification_NTLM</a>';
 $string['auth_ntlmsso_ie_fastpath'] = 'Sélectionner Oui pour activer le chemin rapide NTLM SSO (saute certaines étapes et ne fonctionne qu\'avec le navigateur Internet Explorer).';
 $string['auth_ntlmsso_ie_fastpath_key'] = 'Chemin rapide NTLM SSO';
 $string['auth_ntlmsso_subnet_key'] = 'Sous-réseau';

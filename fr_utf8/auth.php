@@ -231,7 +231,7 @@ $string['auth_nonedescription'] = 'Les utilisateurs peuvent s\'enregistrer et cr
 $string['auth_nonetitle'] = 'Pas d\'authentification'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_ntlmsso'] = 'SSO NTLM'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_ntlmsso_enabled_key'] = 'Activer'; // Obsolete from 2.0dev onwards, see MDL-19182
-$string['auth_ntlmsso_enabled'] = 'Sélectionner Oui pour authentifier les utilisateurs via un domaine NTLM. <strong>Remarque :</strong> pour fonctionner, cette méthode d\'authentification requiert d\'autres réglages sur votre serveur. Voir <a href=\"http://docs.moodle.org/fr/Authentification_NTLM\">http://docs.moodle.org/fr/Authentification_NTLM</a>'; // Obsolete from 2.0dev onwards, see MDL-19182
+$string['auth_ntlmsso_enabled'] = 'Sélectionner Oui pour authentifier les utilisateurs via un domaine NTLM. <strong>Remarque :</strong> pour fonctionner, cette méthode d\'authentification requiert d\'autres réglages sur votre serveur. Voir <a href=\"http://docs.moodle.org/19/fr/Authentification_NTLM\">http://docs.moodle.org/19/fr/Authentification_NTLM</a>'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_ntlmsso_ie_fastpath'] = 'Sélectionner Oui pour activer le chemin rapide NTLM SSO (saute certaines étapes et ne fonctionne qu\'avec le navigateur Internet Explorer).'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_ntlmsso_ie_fastpath_key'] = 'Chemin rapide NTLM SSO'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_ntlmsso_subnet_key'] = 'Sous-réseau'; // Obsolete from 2.0dev onwards, see MDL-19182
