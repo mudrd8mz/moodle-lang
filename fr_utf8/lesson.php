@@ -1,4 +1,4 @@
-<?php // $Id$ 
+<?php // $Id$
 
 $string['accesscontrol'] = 'Autorisations d\'accès';
 $string['actionaftercorrectanswer'] = 'Action après réponse correcte';
@@ -246,7 +246,7 @@ $string['password'] = 'Mot de passe';
 $string['passwordprotectedlesson'] = '$a est une leçon protégée par mot de passe.';
 $string['pleasecheckoneanswer'] = 'Valider la réponse choisie';
 $string['pleasecheckoneormoreanswers'] = 'Valider la ou les réponses choisies';
-$string['pleaseenteryouranswerinthebox'] = 'Valider la réponse';
+$string['pleaseenteryouranswerinthebox'] = 'Veuillez saisir votre réponse dans le champ';
 $string['pleasematchtheabovepairs'] = 'Valider les appariements choisis';
 $string['pointsearned'] = 'Points reçus';
 $string['postprocesserror'] = 'Erreur lors du post-traitement !';

@@ -1,4 +1,4 @@
-<?php // $Id$ 
+<?php // $Id$
 
 $string['addanewdiscussion'] = 'Ajouter un nouveau sujet de discussion';
 $string['addanewquestion'] = 'Ajouter une nouvelle question';
@@ -159,7 +159,7 @@ $string['forum:viewsubscribers'] = 'Voir les abonnés';
 $string['forumadministration'] = 'Administration forum';
 $string['forumauthorhidden'] = 'Auteur (masqué)';
 $string['forumblockingalmosttoomanyposts'] = 'Vous approchez du nombre maximal de messages autorisés. Vous avez écrit $a->numposts durant les derniers $a->blockperiod. La limite est de $a->blockafter messages.';
-$string['forumbodyhidden'] = 'Vous ne pouvez pas voir ce message, probablement parce que vous n\'avez pas encore participé à cette discussion.';
+$string['forumbodyhidden'] = 'Vous ne pouvez pas voir ce message, probablement parce que vous n\'avez pas encore participé à cette discussion ou que la durée maximale de modification n\'a pas encore passé.';
 $string['forumintro'] = 'Introduction au forum';
 $string['forumname'] = 'Nom du forum';
 $string['forumposts'] = 'Messages du forum';

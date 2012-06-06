@@ -1,4 +1,4 @@
-<?php // $Id$ 
+<?php // $Id$
 
 $string['adminprimarynoedit'] = 'Le compte de l\'administrateur principal ne peut pas être modifié par les autres administrateurs';
 $string['authnotexisting'] = 'Le plugin d\'autorisation n\'existe pas';
@@ -119,7 +119,7 @@ $string['cannotsaveagreement'] = 'Impossible d\'enregistrer votre accord';
 $string['cannotsaveblock'] = 'Erreur lors de l\'enregistrement de la configuration du bloc';
 $string['cannotsavechoice'] = 'Impossible d\'enregistrer votre choix';
 $string['cannotsavecomment'] = 'Impossible d\'enregistrer le commentaire';
-$string['cannotsaveconfig'] = 'Problème lors de l\'enregistrement de la configuration « {$a->name} » sur « {$a->value} » pour le plugin « {$a->plugin} »'; // Obsolete from 2.0dev onwards, see MDL-18293 
+$string['cannotsaveconfig'] = 'Problème lors de l\'enregistrement de la configuration « {$a->name} » sur « {$a->value} » pour le plugin « {$a->plugin} »'; // Obsolete from 2.0dev onwards, see MDL-18293
 $string['cannotsavedata'] = 'Impossible d\'enregistrer les données';
 $string['cannotsavefile'] = 'Impossible d\'enregistrer le fichier « {$a} »';
 $string['cannotsavemd5file'] = 'Enregistrement du fichier md5 impossible';
@@ -138,15 +138,15 @@ $string['cannotunassigncap'] = 'Impossible de retirer l\'attribution de la capac
 $string['cannotunassignrolefrom'] = 'Impossible de retirer l\'attribution du rôle d\'identifiant $a pour cet utilisateur';
 $string['cannotunzipfile'] = 'Décompression du fichier ZIP impossible';
 $string['cannotupdateblock'] = 'Impossible de mettre à jour l\'enregistrement $a dans la table des blocs !';
-$string['cannotupdatecategory'] = 'Impossible de modifier la catégorie ($a)'; // Obsolete from 2.0dev onwards, see MDL-18293 
+$string['cannotupdatecategory'] = 'Impossible de modifier la catégorie ($a)'; // Obsolete from 2.0dev onwards, see MDL-18293
 $string['cannotupdatechoice'] = 'Impossible de modifier votre choix en raison d\'une erreur de la base de données';
 $string['cannotupdatecm'] = 'Impossible de modifier le module de cours avec la section correcte'; // Obsolete from 2.0dev onwards, see MDL-18293
-$string['cannotupdatecomment'] = 'Impossible de modifier ce commentaire'; // Obsolete from 2.0dev onwards, see MDL-18293 
-$string['cannotupdatecoursemodule'] = 'Impossible de modifier le module de cours'; // Obsolete from 2.0dev onwards, see MDL-18293 
+$string['cannotupdatecomment'] = 'Impossible de modifier ce commentaire'; // Obsolete from 2.0dev onwards, see MDL-18293
+$string['cannotupdatecoursemodule'] = 'Impossible de modifier le module de cours'; // Obsolete from 2.0dev onwards, see MDL-18293
 $string['cannotupdatecustomprofile'] = 'Erreur lors de la suppression de profil personnalisé'; // Obsolete from 2.0dev onwards, see MDL-18293
-$string['cannotupdatefield'] = 'Erreur lors de la modification du champ'; // Obsolete from 2.0dev onwards, see MDL-18293 
+$string['cannotupdatefield'] = 'Erreur lors de la modification du champ'; // Obsolete from 2.0dev onwards, see MDL-18293
 $string['cannotupdategroup'] = 'Erreur lors de la modification du groupe'; // Obsolete from 2.0dev onwards, see MDL-18293
-$string['cannotupdatelevel'] = 'Impossible de modifier le niveau de retrait de ce module de cours'; // Obsolete from 2.0dev onwards, see MDL-18293 
+$string['cannotupdatelevel'] = 'Impossible de modifier le niveau de retrait de ce module de cours'; // Obsolete from 2.0dev onwards, see MDL-18293
 $string['cannotupdatemod'] = 'Impossible de modifier $a';
 $string['cannotupdatemodcap'] = 'Impossible de modifier les capacités {$a} !'; // Obsolete from 2.0dev onwards, see MDL-18293
 $string['cannotupdatepasswordonextauth'] = 'Échec de la modification du mot de passe dans la source d\'authentification externe : $a. Consultez les historiques du serveur pour plus de détails';
@@ -163,8 +163,8 @@ $string['cannotupdatesummary'] = 'Impossible de modifier le résumé !'; // Obs
 $string['cannotupdateuser'] = 'Échec de la modification de l\'utilisateur';
 $string['cannotupdateusermsgpref'] = 'Échec de la modification des réglages de messagerie de l\'utilisateur';
 $string['cannotupdateuseronexauth'] = 'Échec de la modification des données de l\'utilisateur dans la source d\'authentification externe : $a. Consultez les historiques du serveur pour plus de détails';
-$string['cannotupgradeblock'] = 'La mise à jour des blocs système a échoué : impossible de mettre à jour la version dans la table config'; // Obsolete from 2.0dev onwards, see MDL-18293 
-$string['cannotupgradecaps'] = 'Problèmes lors de la mise à jour des capacités centrales du système des rôles'; // Obsolete from 2.0dev onwards, see MDL-18293 
+$string['cannotupgradeblock'] = 'La mise à jour des blocs système a échoué : impossible de mettre à jour la version dans la table config'; // Obsolete from 2.0dev onwards, see MDL-18293
+$string['cannotupgradecaps'] = 'Problèmes lors de la mise à jour des capacités centrales du système des rôles'; // Obsolete from 2.0dev onwards, see MDL-18293
 $string['cannotuploadfile'] = 'Erreur de traitement du fichier déposé';
 $string['cannotuseadmin'] = 'Vous devez être administrateur pour utiliser cette page';
 $string['cannotuseadminadminorteacher'] = 'Vous devez être enseignant ou administrateur pour utiliser cette page';
@@ -535,5 +535,6 @@ $string['wwwrootslash'] = 'La variable \$CFG->wwwroot est définie incorrectemen
 $string['xmldberror'] = 'Erreur XMLDB !';
 $string['youcannotdeletecategory'] = 'Vous ne pouvez pas supprimer la catégorie « {$a} », parce que vous ne pouvez ni supprimer son contenu, ni le déplacer ailleurs.';
 $string['younotteacher'] = 'Vous n\'êtes pas enseignant !';
+$string['zipfileserror'] = 'Impossible de créer le fichier ZIP';
 
 ?>

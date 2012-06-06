@@ -1,4 +1,4 @@
-<?php // $Id$ 
+<?php // $Id$
 
 $string['accesCAS'] = 'Utilisateurs CAS'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['accesNOCAS'] = 'Autres utilisateurs'; // Obsolete from 2.0dev onwards, see MDL-19182
@@ -97,7 +97,7 @@ $string['auth_emaildescription'] = 'La confirmation par courriel est la méthode
 $string['auth_emailnoemail'] = 'La tentative de vous envoyer un courriel a échoué !'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_emailnoinsert'] = 'Impossible d\'ajouter votre enregistrement à la base de données !'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_emailnowexists'] = 'L\'adresse de courriel que vous tentez d\'utiliser pour votre profil est déjà attribuée à un autre utilisateur. Votre demande de modification de courriel est donc annulée, mais vous pouvez réessayer avec une adresse différente.'; // Obsolete from 2.0dev onwards, see MDL-19182
-$string['auth_emailrecaptcha'] = 'Ajoute une confirmation visuelle ou audio aux éléments du formulaire de la page d\'enregistrement pour les utilisateurs s\'enregistrant eux-mêmes avec confirmation par courriel. Ceci permet de protéger votre site contre les spammeurs et contribue en même temps à une cause valable. Voir http://recaptcha.net/learnmore.html pour plus de détails.<br /><em>L\'extension cURL de PHP est requise.</em>'; // Obsolete from 2.0dev onwards, see MDL-19182
+$string['auth_emailrecaptcha'] = 'Ajoute une confirmation visuelle ou audio aux éléments du formulaire de la page d\'enregistrement pour les utilisateurs s\'enregistrant eux-mêmes avec confirmation par courriel. Ceci permet de protéger votre site contre les spammeurs et contribue en même temps à une cause valable. Voir http://www.google.com/recaptcha/learnmore.html pour plus de détails.<br /><em>L\'extension cURL de PHP est requise.</em>'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_emailrecaptcha_key'] = 'Activer reCAPTCHA'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_emailsettings'] = 'Réglages'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_emailtitle'] = 'Auto-enregistrement par courriel'; // Obsolete from 2.0dev onwards, see MDL-19182
@@ -235,7 +235,7 @@ $string['auth_ntlmsso_enabled'] = 'Sélectionner Oui pour authentifier les utili
 $string['auth_ntlmsso_ie_fastpath'] = 'Sélectionner Oui pour activer le chemin rapide NTLM SSO (saute certaines étapes et ne fonctionne qu\'avec le navigateur Internet Explorer).'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_ntlmsso_ie_fastpath_key'] = 'Chemin rapide NTLM SSO'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_ntlmsso_subnet_key'] = 'Sous-réseau'; // Obsolete from 2.0dev onwards, see MDL-19182
-$string['auth_ntlmsso_subnet'] = 'L\'activation de ce paramètre n\'utilisera le SSO NTLM que pour des clients de ce sous-réseau. Format : xxx.xxx.xxx.xxx/masque'; // Obsolete from 2.0dev onwards, see MDL-19182
+$string['auth_ntlmsso_subnet'] = 'L\'activation de ce paramètre n\'utilisera le SSO NTLM que pour des clients de ce sous-réseau. Format : xxx.xxx.xxx.xxx/masque. Séparez de multiples sous-réseaux avec des virgules.'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_outofnewemailupdateattempts'] = 'Le nombre de tentatives permises pour modifier votre adresse de courriel est dépassé. Votre demande de modification a été annulée.'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_pamdescription'] = 'Cette méthode utilise PAM pour accéder aux noms d\'utilisateurs natifs sur ce serveur. Pour utiliser ce module, vous devrez installer le logiciel <a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\">PHP4 PAM Authentication</a>.'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_pamtitle'] = 'PAM (Modules d\'authentification installables)'; // Obsolete from 2.0dev onwards, see MDL-19182
@@ -274,7 +274,7 @@ $string['auth_remove_keep'] = 'Conserver comme utilisateur interne';
 $string['auth_remove_suspend'] = 'Désactiver l\'utilisateur interne';
 $string['auth_remove_delete'] = 'Supprimer complètement l\'utilisateur interne';
 $string['auth_shib_changepasswordurl'] = 'URL pour changement de mot de passe'; // Obsolete from 2.0dev onwards, see MDL-19182
-$string['auth_shib_convert_data_description'] = 'Vous pouvez utiliser cette API pour modifier les données fournies par Shibboleth. Lisez le fichier <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a> pour d\'autres instructions.'; // Obsolete from 2.0dev onwards, see MDL-19182
+$string['auth_shib_convert_data_description'] = 'Vous pouvez utiliser cette API pour modifier les données fournies par Shibboleth. Lisez le fichier <a href=\"../auth/shibboleth/README.txt\">README</a> pour d\'autres instructions.'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_shib_convert_data_warning'] = 'Le fichier n\'existe pas ou n\'est pas accessible en lecture par le serveur web !'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_shib_convert_data'] = 'API de modification de données'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['auth_shib_instructions_help'] = 'Veuillez indiquer ici les instructions expliquant le fonctionnement de Shibboleth à vos utilisateurs. Ces instructions seront affichées sur la page de connexion, dans la zone adéquate. Le texte doit contenir un lien vers « <b>$a</b> » que les utilisateurs doivent cliquer pour se connecter à Moodle.'; // Obsolete from 2.0dev onwards, see MDL-19182

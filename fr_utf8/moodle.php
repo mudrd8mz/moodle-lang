@@ -525,6 +525,7 @@ $string['emaildisable'] = 'Cette adresse de courriel est désactivée';
 $string['emaildisableclick'] = 'Cliquez ici pour désactiver l\'envoi de courriels à cette adresse';
 $string['emaildisplay'] = 'Affichage de l\'adresse de courriel';
 $string['emaildisplaycourse'] = 'Seuls les membres du cours sont autorisés à voir mon adresse de courriel';
+$string['emaildisplayhidden'] = 'Adresse de courriel cachée';
 $string['emaildisplayno'] = 'Cacher à tous mon adresse de courriel';
 $string['emaildisplayyes'] = 'Autoriser tout le monde à voir mon adresse de courriel';
 $string['emailenable'] = 'Cette adresse de courriel est activée';
