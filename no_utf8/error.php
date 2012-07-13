@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9.5+ (Build: 20091007) (2007101553)
+      // error.php - created with Moodle 1.9.19+ (Build: 20120712) (2007101592.01)
 
 
 $string['adminprimarynoedit'] = 'Hovedadministratoren kan ikke redigeres av andre';
@@ -140,5 +140,6 @@ $string['wrongdestpath'] = 'Gal resultatmappe';
 $string['wrongsourcebase'] = 'Galt ZIP-filnavn.';
 $string['wrongzipfilename'] = 'Galt ZIP-filnavn.';
 $string['youcannotdeletecategory'] = 'Du kan ikke slette kategorien \'$a\' fordi du hverken kan slette innholdet eller flytte det andre steder.';
+$string['zipfileserror'] = 'Kan ikke opprette zip-fil';
 
 ?>

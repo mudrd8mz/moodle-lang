@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.15+ (Build: 20111223) (2007101591.08)
+      // admin.php - created with Moodle 1.9.19+ (Build: 20120712) (2007101592.01)
 
 
 $string['accessdenied'] = 'Ingen tilgang';
@@ -400,6 +400,8 @@ $string['filtersettings'] = 'Filterinnstillinger';
 $string['filtersettingsgeneral'] = 'Generelle filterinnstillinger';
 $string['filteruploadedfiles'] = 'Filtrer opplastede filer';
 $string['forcelogin'] = 'Krev at brukeren logger inn';
+$string['forceloginforprofileimage'] = 'Krev at brukere logger inn for å se profilbilder';
+$string['forceloginforprofileimage_help'] = 'Dersom aktivert, må brukere logge inn for å se profilbilder. Standard profilbilde vil bli brukt i alle utgående meldinger.';
 $string['forceloginforprofiles'] = 'Krev at brukere logger inn før de får se profiler.';
 $string['forcetimezone'] = 'Overstyr standard tidssone';
 $string['framename'] = 'Frame-navn';
